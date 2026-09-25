@@ -1,0 +1,122 @@
+"""Download and parse every inspection's PDF and web page, and every
+establishment's permit page, for the rows in data/raw/listing.jsonl.
+
+Raw downloads are cached under $FRISCO_CACHE (default ./.cache) so the run is
+resumable. Parsed output goes to data/raw/:
+
+  inspections_parsed.jsonl  one record per inspection: listing row, parsed PDF,
+                            parsed web page, and any fetch/parse errors
+  permits_parsed.jsonl      one record per establishment (permit page)
+
+Usage: python scrape_details.py [--workers 4] [--parse-workers N] [--limit N]
+"""
+
+import argparse
+import json
+import os
+import sys
+import traceback
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+import client
+from parse_html import parse_inspection_html, parse_permit_html
+from parse_pdf import parse_pdf
+
+RAW = Path(__file__).parent / "data" / "raw"
+
+
+def download(kind, key):
+    try:
+        if kind == "pdf":
+            client.get_inspection_pdf_path(key)
+        elif kind == "html":
+            client.get_inspection_html(key)
+        else:
+            client.get_permit_html(key)
+        return kind, key, None
+    except Exception as e:  # recorded, not fatal: the run reports every failure
+        return kind, key, str(e)
+
+
+def parse_one(row, cache):
+    os.environ["FRISCO_CACHE"] = cache
+    iid = row["inspectionID"]
+    rec = {"inspection_id": iid, "listing": row, "pdf": None, "html": None, "errors": []}
+    pdf_path = Path(cache) / "pdf" / f"{iid}.pdf"
+    html_path = Path(cache) / "html" / f"{iid}.html"
+    try:
+        rec["pdf"] = parse_pdf(pdf_path)
+    except Exception as e:
+        rec["errors"].append(f"pdf: {type(e).__name__}: {e}")
+        rec["errors"].append(traceback.format_exc(limit=3))
+    try:
+        rec["html"] = parse_inspection_html(html_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        rec["errors"].append(f"html: {type(e).__name__}: {e}")
+    return rec
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--parse-workers", type=int, default=os.cpu_count() or 2)
+    ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--skip-download", action="store_true")
+    args = ap.parse_args()
+
+    rows = [json.loads(l) for l in open(RAW / "listing.jsonl", encoding="utf-8")]
+    if args.limit:
+        rows = rows[: args.limit]
+    permits = sorted({r["permitID"] for r in rows})
+    cache = str(client.cache_dir())
+
+    if not args.skip_download:
+        jobs = (
+            [("pdf", r["inspectionID"]) for r in rows]
+            + [("html", r["inspectionID"]) for r in rows]
+            + [("permit", p) for p in permits]
+        )
+        failures = []
+        with ThreadPoolExecutor(args.workers) as ex:
+            futs = [ex.submit(download, k, key) for k, key in jobs]
+            for n, f in enumerate(as_completed(futs), 1):
+                kind, key, err = f.result()
+                if err:
+                    failures.append((kind, key, err))
+                if n % 250 == 0:
+                    print(f"downloaded {n}/{len(jobs)} ({len(failures)} failed)", file=sys.stderr)
+        print(f"downloads done: {len(jobs)} jobs, {len(failures)} failed", file=sys.stderr)
+        for f in failures:
+            print("FAILED", *f, file=sys.stderr)
+
+    out = RAW / "inspections_parsed.jsonl"
+    n_err = 0
+    with ProcessPoolExecutor(args.parse_workers) as ex, open(out, "w", encoding="utf-8") as fh:
+        futs = {ex.submit(parse_one, r, cache): r["inspectionID"] for r in rows}
+        recs = []
+        for n, f in enumerate(as_completed(futs), 1):
+            rec = f.result()
+            n_err += bool(rec["errors"])
+            recs.append(rec)
+            if n % 250 == 0:
+                print(f"parsed {n}/{len(rows)} ({n_err} with errors)", file=sys.stderr)
+        recs.sort(key=lambda r: (r["listing"]["inspectionDate"], r["inspection_id"]))
+        for rec in recs:
+            fh.write(json.dumps(rec, ensure_ascii=False, sort_keys=True) + "\n")
+    print(f"parsed {len(rows)} inspections, {n_err} with errors -> {out}", file=sys.stderr)
+
+    with open(RAW / "permits_parsed.jsonl", "w", encoding="utf-8") as fh:
+        for p in permits:
+            path = Path(cache) / "permit" / f"{p}.html"
+            rec = {"permit_id": p, "page": None, "error": None}
+            try:
+                rec["page"] = parse_permit_html(path.read_text(encoding="utf-8"))
+            except Exception as e:
+                rec["error"] = f"{type(e).__name__}: {e}"
+            fh.write(json.dumps(rec, ensure_ascii=False, sort_keys=True) + "\n")
+    print(f"parsed {len(permits)} permit pages", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()
