@@ -21,7 +21,8 @@ routine inspections and 8 are reinspections. Scores run from 0 (perfect,
 
 A fact-checked write-up of what the data shows (category gaps, inspector
 consistency, closures, and what the public portal leaves out) is published at
-<https://claude.ai/artifact/J397BgwjvekwC8C92wivqG>. Each finding was produced
+<https://claude.ai/artifact/J397BgwjvekwC8C92wivqG>, and as a printable report in
+[`Frisco_Inspection_Findings.pdf`](Frisco_Inspection_Findings.pdf). Each finding was produced
 by one analyst and independently recomputed by a separate fact-checker who
 also opened the cited PDFs. The numbers can be reproduced with the scripts in
 `analysis/`:
@@ -29,7 +30,7 @@ also opened the cited PDFs. The numbers can be reproduced with the scripts in
 | File | What it reproduces |
 |---|---|
 | `analysis/category_gap.py` (+ `common.py`) | scores by the city's food-type label, establishment-level means with bootstrap CIs, models with inspector / permit type / risk / chain / month controls, groceries |
-| `analysis/inspectors_and_public_view.py` | same-restaurant comparison before and after the three inspectors who started in Jul–Aug 2026, monthly means, per-inspector summary, Priority-violation rates, what the web page omits, failed inspections hidden from the browse list, the employee-health-policy citations |
+| `analysis/inspectors_and_public_view.py` | same-restaurant comparison before and after the three inspectors whose first published inspections are from Jul–Aug 2026, monthly means, per-inspector summary, Priority-violation rates, what the web page omits, failed inspections that drop out of the browse list, the employee-health-policy citations |
 | `analysis/closures_reviewed.csv` | every report whose text mentions a closure, suspension or reopening, read and classified by hand (closed / lifted during the visit / reopened / threatened / not about a closure), with the quote and a link to the PDF |
 
 ```bash

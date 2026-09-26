@@ -114,11 +114,13 @@ for _, h in hidden.iterrows():
     print(f"  {h.establishment_name}: {h.score} on {h.inspection_date} -> list shows {shown_row.score} ({shown_row.inspection_date})")
 
 # --- 7. Missing employee-health policy, three ways ----------------------------
-code = V.code_normalized.fillna("").str.contains(r"3-301\.11\(E\)\(3\)", regex=True)
-hp = V[code & V.inspection_id.isin(R.inspection_id)]
+# Item 15 entries citing 3-301.11(E)(2) or (E)(3), or naming the policy with no citation.
+code = V.code_normalized.fillna("").str.contains(r"3-301\.11\(E\)\((?:2|3)\)", regex=True)
+words = V.comments.fillna("").str.contains("health policy", case=False)
+hp = V[(V.item_number == 15) & (code | words) & V.inspection_id.isin(R.inspection_id)]
 scored = hp[hp.status == "OUT"].drop_duplicates("inspection_id")
 warned = hp[hp.status == "OUT-W"].drop_duplicates("inspection_id")
-print("\n[7] Missing written employee-health policy (citation 3-301.11(E)(3)), restaurant inspections")
+print("\n[7] Missing written employee-health policy (item 15, citation 3-301.11(E)), restaurant inspections")
 print("  scored as a 3-point violation:", len(scored), scored.inspector.value_counts().to_dict())
 print("  written as a 0-point warning: ", len(warned), warned.inspector.value_counts().to_dict())
 none = R[~R.inspector.isin(set(hp.inspector))]
