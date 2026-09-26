@@ -17,6 +17,28 @@ kitchens (21), concession stands (17) and mobile vendors (2). 3,158 are
 routine inspections and 8 are reinspections. Scores run from 0 (perfect,
 47.7% of inspections) upward; the median is 1 and the mean 3.4.
 
+## Findings
+
+A fact-checked write-up of what the data shows (category gaps, inspector
+consistency, closures, and what the public portal leaves out) is published at
+<https://claude.ai/artifact/J397BgwjvekwC8C92wivqG>. Each finding was produced
+by one analyst and independently recomputed by a separate fact-checker who
+also opened the cited PDFs. The numbers can be reproduced with the scripts in
+`analysis/`:
+
+| File | What it reproduces |
+|---|---|
+| `analysis/category_gap.py` (+ `common.py`) | scores by the city's food-type label, establishment-level means with bootstrap CIs, models with inspector / permit type / risk / chain / month controls, groceries |
+| `analysis/inspectors_and_public_view.py` | same-restaurant comparison before and after the three inspectors who started in Jul–Aug 2026, monthly means, per-inspector summary, Priority-violation rates, what the web page omits, failed inspections hidden from the browse list, the employee-health-policy citations |
+| `analysis/closures_reviewed.csv` | every report whose text mentions a closure, suspension or reopening, read and classified by hand (closed / lifted during the visit / reopened / threatened / not about a closure), with the quote and a link to the PDF |
+
+```bash
+cd frisco_inspections/analysis
+pip install pandas statsmodels
+python category_gap.py
+python inspectors_and_public_view.py
+```
+
 ## What's in `data/`
 
 | File | One row per | Notes |
@@ -236,8 +258,10 @@ it found no parser errors, only the source quirks listed below.
 * **"Restaurant" needs a definition.** `permit_category` groups the portal's
   permit types. "Food establishment" is the closest to "restaurant" but also
   covers coffee shops, bars, convenience stores and institutional kitchens
-  (see `food_type`). Schools, child care centers and groceries score far
-  lower as a group and pull averages down.
+  (see `food_type`). Schools and child care centers score near zero as a
+  group and pull averages down. Grocery permits, by contrast, average more
+  demerits than food establishments (about 6.6 vs 3.5 per establishment),
+  driven by independent and specialty markets with kitchens.
 * One food inspection of a hotel bistro (Courtyard by Marriott, 2026-06-09)
   is filed under the hotel's pool permit (`permit_category` = "Pool permit").
 * `inspection_date` is a calendar date. The API stores it as midnight UTC;
