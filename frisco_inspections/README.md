@@ -148,8 +148,12 @@ mentioning a closure). "Latest" orders same-day inspections by time in.
    predicts from the daily pass (in the final run, the weekly windows hid
    __WEEKLY_HIDDEN__ earlier same-week inspections, all accounted for).
 2. **Details.** For every inspection, `scrape_details.py` downloads the
-   inspection PDF ("View Original Inspection PDF") and the inspection's web
-   page, and for every establishment its permit page.
+   inspection PDF ("View Original Inspection PDF"), and for every
+   establishment its permit page. The inspection's web page, which is only
+   used to cross-check the PDF, is fetched for a fixed random sample of
+   inspections (`--web-sample 0.12`, chosen by a hash of the inspection ID)
+   to keep the load on the city's server down; the PDFs are generated on
+   demand and take several seconds each to render.
 3. **Parsing.** `parse_pdf.py` reads the PDF. Page 1 is an image of the state
    form with the values printed on top of it; each value is identified by its
    position on the form, and the demerit points are read from next to each
@@ -231,7 +235,7 @@ cd frisco_inspections
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 python scrape_listing.py --start 2025-01-01      # ~15 min
-python scrape_details.py                          # ~1-2 h; resumable (cache in ./.cache)
+python scrape_details.py --web-sample 0.12       # ~2 h; resumable (cache in ./.cache)
 python build.py
 gzip -f data/raw/inspections_parsed.jsonl
 ```

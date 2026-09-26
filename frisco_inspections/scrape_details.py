@@ -80,11 +80,18 @@ def parse_one(row, cache):
             rec["html"] = parse_inspection_html(html_path.read_text(encoding="utf-8"))
         except Exception as e:
             rec["errors"].append(f"html: {type(e).__name__}: {e}")
-    else:
-        rec["errors"].append("html: not downloaded")
+    # A web page that wasn't fetched (see --web-sample) is simply not
+    # cross-checked; only a failed parse is an error.
     memo.parent.mkdir(parents=True, exist_ok=True)
     memo.write_text(json.dumps({"stamp": stamp, "rec": rec}, ensure_ascii=False), encoding="utf-8")
     return rec
+
+
+def in_web_sample(inspection_id, rate):
+    """Deterministic sample: the same inspections are chosen on every run."""
+    if rate >= 1:
+        return True
+    return int(hashlib.sha1(inspection_id.encode()).hexdigest()[:8], 16) / 0xFFFFFFFF < rate
 
 
 def run_downloads(jobs, workers):
@@ -163,6 +170,11 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--skip-download", action="store_true")
     ap.add_argument("--download-only", action="store_true")
+    ap.add_argument(
+        "--web-sample", type=float, default=1.0,
+        help="fraction of inspection web pages to fetch for cross-checking (the PDF "
+        "is the data source; the web page is only compared against it)",
+    )
     args = ap.parse_args()
 
     rows = [json.loads(l) for l in open(RAW / "listing.jsonl", encoding="utf-8")]
@@ -176,7 +188,7 @@ def main():
         run_downloads(
             [("pdf", r["inspectionID"]) for r in rows]
             + [("permit", p) for p in permits]
-            + [("html", r["inspectionID"]) for r in rows],
+            + [("html", r["inspectionID"]) for r in rows if in_web_sample(r["inspectionID"], args.web_sample)],
             args.workers,
         )
 
@@ -189,6 +201,7 @@ def main():
     extra = rows_from_permit_pages(rows, permit_recs)
     print(f"{len(extra)} inspections on permit pages missing from the listing", file=sys.stderr)
     if extra and not args.skip_download:
+        # Backfilled inspections always get their web page checked.
         run_downloads(
             [("pdf", r["inspectionID"]) for r in extra] + [("html", r["inspectionID"]) for r in extra],
             args.workers,

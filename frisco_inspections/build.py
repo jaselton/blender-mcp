@@ -454,6 +454,7 @@ def build():
             "violation_entries": len(violations),
             "measurements": len(measurements),
             "permit_pages": len(permits),
+            "web_pages_cross_checked": sum(r["html"] is not None for r in recs),
         },
         "check_failures": {k: len(v) for k, v in sorted(checks.items())},
         "details": {k: v for k, v in sorted(checks.items())},
