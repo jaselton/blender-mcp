@@ -83,6 +83,11 @@ def load_raw(name):
         return pd.DataFrame(json.load(fh))
 
 
-def to_local(ms):
-    """ArcGIS epoch milliseconds to America/Chicago timestamps."""
-    return pd.to_datetime(ms, unit="ms", utc=True).dt.tz_convert(TZ)
+def wall_clock(ms):
+    """The layer's epoch-millisecond dates to naive local clock times.
+
+    The city stores McKinney wall-clock times as if they were UTC: the stored
+    time equals the "Time in" printed on the matching report in 3,097 of
+    3,100 cases, so no time-zone conversion is applied.
+    """
+    return pd.to_datetime(ms, unit="ms")

@@ -1,0 +1,48 @@
+item_number,column,title,category,form_points
+1,temp_cooling_time,Proper cooling time and temperature,Priority,3
+2,temp_cold_holding,Proper cold holding temperature (41°F/45°F),Priority,3
+3,temp_hot_holding,Proper hot holding temperature (135°F),Priority,3
+4,temp_cooking_time,Proper cooking time and temperature,Priority,3
+5,reheating_procedure,Proper reheating procedure for hot holding (165°F in 2 hours),Priority,3
+6,time_as_health_control,Time as a public health control; procedures and records,Priority,3
+7,approved_source,"Food and ice obtained from approved source; food in good condition, safe and unadulterated",Priority,3
+8,food_received_at_temp,Food received at proper temperature,Priority,3
+9,food_separated_protected,"Food separated and protected during preparation, storage, display and tasting",Priority,3
+10,food_surfaces_returnables,Food contact surfaces and returnables cleaned and sanitized,Priority,3
+11,condition_of,"Proper disposition of returned, previously served or reconditioned food",Priority,3
+12,knowledge_and_reporting,"Management and food employees: knowledge, responsibilities and reporting",Priority,3
+13,proper_restriction_exclusion,"Proper use of restriction and exclusion; no discharge from eyes, nose and mouth",Priority,3
+14,hands_clean_washed,Hands cleaned and properly washed; gloves used properly,Priority,3
+15,no_bare_hands,"No bare hand contact with ready-to-eat foods, or approved alternate method followed",Priority,3
+16,pastuerized_foods,Pasteurized foods used; prohibited food not offered,Priority,3
+17,food_additives,Food additives approved and properly stored; washing fruits and vegetables,Priority,3
+18,toxic_substances,"Toxic substances properly identified, stored and used",Priority,3
+19,approved_water_source,Water from approved source; plumbing installed; proper backflow device,Priority,3
+20,approved_sewage,Approved sewage/wastewater disposal system,Priority,3
+21,certified_food_manager,"Person in charge present, demonstration of knowledge / certified food manager",Priority Foundation,2
+22,food_handler_cards,Food handler; no unauthorized persons,Priority Foundation,2
+23,available_hot_cold_water,"Hot and cold water available; adequate pressure, safe",Priority Foundation,2
+24,available_records,Required records available; packaged food labeled,Priority Foundation,2
+25,compliance_with_variance,"Compliance with variance, specialized process and HACCP plan",Priority Foundation,2
+26,consumer_advisories,Posting of consumer advisories; allergen label,Priority Foundation,2
+27,proper_cooling_method,Proper cooling method used; equipment adequate to maintain product temperature,Priority Foundation,2
+28,proper_date_marking,Proper date marking and disposition,Priority Foundation,2
+29,thermometers_accurate,"Thermometers provided, accurate and calibrated; chemical/thermal test strips",Priority Foundation,2
+30,food_establishment_permit,Food establishment permit (current and valid),Priority Foundation,2
+31,handwashing_facilities,"Adequate handwashing facilities: accessible, properly supplied, used",Priority Foundation,2
+32,cleanable_surfaces,"Food and non-food contact surfaces cleanable, properly designed, constructed and used",Priority Foundation,2
+33,warewashing_facilities,"Warewashing facilities installed, maintained, used; service sink provided",Priority Foundation,2
+34,no_insect_contamination,"No evidence of insect contamination, rodents or other animals",Core,1
+35,personal_cleanliness,"Personal cleanliness; eating, drinking or tobacco use",Core,1
+36,wiping_cloths,Wiping cloths properly used and stored,Core,1
+37,environmental_contamination,Environmental contamination,Core,1
+38,approved_thawing,Approved thawing method,Core,1
+39,utensils_and_linens,"Utensils, equipment and linens properly used, stored, dried and handled",Core,1
+40,single_service_use,Single-service and single-use articles properly stored and used,Core,1
+41,original_container_labeling,Original container labeling (bulk food),Core,1
+42,nonfood_surfaces_clean,Non-food contact surfaces clean,Core,1
+43,adequate_ventilation_lighting,Adequate ventilation and lighting; designated areas used,Core,1
+44,garbage_and_refuse,Garbage and refuse properly disposed; facilities maintained,Core,1
+45,physical_facilities_maintained,"Physical facilities installed, maintained and clean",Core,1
+46,toilet_facilities,"Toilet facilities properly constructed, supplied and clean",Core,1
+47,other_violations,Other violations,Core,1
