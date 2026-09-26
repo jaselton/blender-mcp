@@ -12,6 +12,7 @@ Usage: python scrape_details.py [--workers 4] [--parse-workers N] [--limit N]
 """
 
 import argparse
+import hashlib
 import json
 import os
 import sys
@@ -39,21 +40,44 @@ def download(kind, key):
         return kind, key, str(e)
 
 
+HERE = Path(__file__).parent
+# Parsed results are cached per inspection, keyed by the parser source, so a
+# re-run only re-parses when the parser changes or a file was re-downloaded.
+PARSER_VERSION = hashlib.sha1(
+    b"".join((HERE / f).read_bytes() for f in ("parse_pdf.py", "parse_html.py"))
+).hexdigest()[:12]
+
+
 def parse_one(row, cache):
-    os.environ["FRISCO_CACHE"] = cache
     iid = row["inspectionID"]
-    rec = {"inspection_id": iid, "listing": row, "pdf": None, "html": None, "errors": []}
     pdf_path = Path(cache) / "pdf" / f"{iid}.pdf"
     html_path = Path(cache) / "html" / f"{iid}.html"
-    try:
-        rec["pdf"] = parse_pdf(pdf_path)
-    except Exception as e:
-        rec["errors"].append(f"pdf: {type(e).__name__}: {e}")
-        rec["errors"].append(traceback.format_exc(limit=3))
-    try:
-        rec["html"] = parse_inspection_html(html_path.read_text(encoding="utf-8"))
-    except Exception as e:
-        rec["errors"].append(f"html: {type(e).__name__}: {e}")
+    memo = Path(cache) / "parsed" / PARSER_VERSION / f"{iid}.json"
+    stamp = [p.stat().st_mtime if p.exists() else None for p in (pdf_path, html_path)]
+    if memo.exists():
+        saved = json.loads(memo.read_text(encoding="utf-8"))
+        if saved["stamp"] == stamp:
+            saved["rec"]["listing"] = row
+            return saved["rec"]
+
+    rec = {"inspection_id": iid, "listing": row, "pdf": None, "html": None, "errors": []}
+    if pdf_path.exists():
+        try:
+            rec["pdf"] = parse_pdf(pdf_path)
+        except Exception as e:
+            rec["errors"].append(f"pdf: {type(e).__name__}: {e}")
+            rec["errors"].append(traceback.format_exc(limit=3))
+    else:
+        rec["errors"].append("pdf: not downloaded")
+    if html_path.exists():
+        try:
+            rec["html"] = parse_inspection_html(html_path.read_text(encoding="utf-8"))
+        except Exception as e:
+            rec["errors"].append(f"html: {type(e).__name__}: {e}")
+    else:
+        rec["errors"].append("html: not downloaded")
+    memo.parent.mkdir(parents=True, exist_ok=True)
+    memo.write_text(json.dumps({"stamp": stamp, "rec": rec}, ensure_ascii=False), encoding="utf-8")
     return rec
 
 
@@ -63,6 +87,7 @@ def main():
     ap.add_argument("--parse-workers", type=int, default=os.cpu_count() or 2)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--skip-download", action="store_true")
+    ap.add_argument("--download-only", action="store_true")
     args = ap.parse_args()
 
     rows = [json.loads(l) for l in open(RAW / "listing.jsonl", encoding="utf-8")]
@@ -72,10 +97,11 @@ def main():
     cache = str(client.cache_dir())
 
     if not args.skip_download:
+        # PDFs are the primary source; permit and web pages are cross-checks.
         jobs = (
             [("pdf", r["inspectionID"]) for r in rows]
-            + [("html", r["inspectionID"]) for r in rows]
             + [("permit", p) for p in permits]
+            + [("html", r["inspectionID"]) for r in rows]
         )
         failures = []
         with ThreadPoolExecutor(args.workers) as ex:
@@ -89,6 +115,9 @@ def main():
         print(f"downloads done: {len(jobs)} jobs, {len(failures)} failed", file=sys.stderr)
         for f in failures:
             print("FAILED", *f, file=sys.stderr)
+
+    if args.download_only:
+        return
 
     out = RAW / "inspections_parsed.jsonl"
     n_err = 0

@@ -90,9 +90,11 @@ def build():
         iid = rec["inspection_id"]
         P = rec["pdf"]
         H = rec["html"]
-        if rec["errors"] or P is None:
-            checks["parse_errors"].append({"id": iid, "errors": rec["errors"][:1]})
+        if P is None:
+            checks["pdf_missing_or_unparsed"].append({"id": iid, "errors": rec["errors"][:1]})
             continue
+        if rec["errors"]:
+            checks["web_page_missing_or_unparsed"].append({"id": iid, "errors": rec["errors"][:1]})
         hdr = P["header"]
         pts = {int(k): v for k, v in P["points_by_item"].items()}
         vio = P["violations"]
@@ -134,8 +136,7 @@ def build():
                 if b["comments"] and norm(b["comments"]) not in pdf_comments:
                     checks["web_comment_not_found_in_pdf"].append(
                         {"id": iid, "item": b["item_number"], "web": b["comments"][:120]})
-        else:
-            checks["web_page_missing"].append({"id": iid})
+
 
         # --- rows ---------------------------------------------------------
         for n, p in pts.items():

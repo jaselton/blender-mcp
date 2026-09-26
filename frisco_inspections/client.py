@@ -64,7 +64,7 @@ class _Throttle:
                 self.ok_streak = 0
 
 
-throttle = _Throttle(float(os.environ.get("FRISCO_MIN_INTERVAL", "0.4")))
+throttle = _Throttle(float(os.environ.get("FRISCO_MIN_INTERVAL", "0.8")))
 
 
 def _session():
@@ -73,6 +73,13 @@ def _session():
         s.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
         _local.session = s
     return _local.session
+
+
+def _reset_session():
+    s = getattr(_local, "session", None)
+    if s is not None:
+        s.close()
+        del _local.session
 
 
 def cache_dir():
@@ -94,14 +101,17 @@ def _request(method, url, *, retries=8, **kw):
                 r.raise_for_status()
             err = f"HTTP {r.status_code}"
             if r.status_code in (403, 429):
+                # Blocked by the site's rate limiter: slow the whole process
+                # down, wait out the block, and start a fresh connection.
                 throttle.blocked()
-                delay = max(delay, 15.0)
+                _reset_session()
+                delay = max(delay, 60.0)
         except requests.RequestException as e:
             err = str(e)
         if attempt == retries - 1:
             raise RuntimeError(f"{method} {url} failed after {retries} tries: {err}")
         time.sleep(delay + random.random() * 5)
-        delay = min(delay * 2, 120)
+        delay = min(delay * 2, 300)
 
 
 def search_inspections(date_range, start=0, purpose="", foodtype=""):
