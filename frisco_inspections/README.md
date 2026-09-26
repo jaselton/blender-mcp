@@ -50,7 +50,70 @@ confirmed from the point values printed on every PDF (see `items.csv`).
   in the PDF but **are not shown on the portal's web page** for the
   inspection.
 
-__DICTIONARY__
+## Data dictionary
+
+### `inspections.csv`
+
+| Column | Meaning |
+|---|---|
+| `inspection_id` | The portal's ID for the inspection |
+| `inspection_date` | Date of the inspection |
+| `time_in`, `time_out` | As printed on the report; `time_in_24h`, `time_out_24h` are the same in 24-hour form |
+| `purpose` | `Routine` or `Reinspection` |
+| `inspection_type` | Always "Retail Food Establishment" |
+| `score` | Official demerit score (higher is worse; 0 is perfect) |
+| `printed_points_total` | Sum of the points printed next to each item on the form (usually equals `score`; see caveats) |
+| `violation_entries` | Violation blocks on the report (an item can have several) |
+| `scored_violation_entries` / `warning_entries` | Entries with status `OUT` / `OUT-W` |
+| `items_out` | Distinct form items marked `OUT` |
+| `priority_items_out`, `priority_foundation_items_out`, `core_items_out` | `items_out` split by category |
+| `repeat_entries`, `corrected_on_site_entries` | Entries the inspector marked Repeat / Corrected On Site |
+| `form_repeat_count`, `form_cos_count` | The "R" and "COS" boxes printed on the form |
+| `followup_required` | The form's Followup box (YES/NO) |
+| `risk_category` | Risk category on the form (1–3) |
+| `general_comment` | The inspector's general comment on the report |
+| `listing_comment` | The comment field returned by the portal's listing API (often the same note) |
+| `closure_mentioned`, `closure_text` | Keyword screen for closures / suspensions / reopenings (see caveats) |
+| `inspector`, `inspector_email` | City inspector who signed the report |
+| `person_in_charge`, `person_in_charge_title` | Establishment employee who received the report |
+| `establishment_name`, `permit_id`, `permit_number` | Establishment and its permit (`permit_number` as printed, e.g. H16-0584) |
+| `permit_type`, `permit_category` | The portal's permit type, and a grouping of it (see caveats) |
+| `program`, `food_type` | Portal program ("Health"; one "Swim") and the city's food-type label |
+| `address`, `city`, `zip`, `location_key` | Location; `location_key` normalizes address + suite + ZIP |
+| `owner_name` | Permit holder as printed on the report |
+| `measurements`, `pdf_pages` | Count of readings; pages in the PDF |
+| `found_via` | `listing`, or `permit_page` for an inspection the listing API hid (see "How the data was collected") |
+| `pdf_url`, `web_url` | The city's report PDF and web page for the inspection |
+
+### `violations.csv`
+
+One row per violation block on a report, in report order (`seq`). Carries
+the inspection's date, establishment, permit, purpose and score, plus:
+
+| Column | Meaning |
+|---|---|
+| `item_number`, `item_title` | Item on the Texas form (1–47) |
+| `item_category` | Priority / Priority Foundation / Core |
+| `status` | `OUT` (scored) or `OUT-W` (warning, 0 points) |
+| `item_points` | Points printed for that item on the form (the item is scored once even if it has several entries) |
+| `corrected_on_site`, `repeat` | Flags from the report's "Type" line |
+| `correct_by_date` | Deadline the inspector set, if any |
+| `comments` | The inspector's narrative |
+| `code`, `code_text` | Food-code citation(s) and rule text; several are joined with " \| ". A leading `*` marks a priority citation. Blank when the report shows none. |
+| `code_is_priority_marked` | Any citation starts with `*` |
+
+### `measurements.csv`
+
+`item`, `location`, `value`, `unit` for each temperature or sanitizer
+reading ("Measured Observations").
+
+### `establishments.csv`
+
+One row per permit: name, address, `location_key`, permit type/category,
+food type, owner, and roll-ups of its inspections (count, routine vs.
+reinspection, first/latest date, latest / max / mean routine score, total
+violation entries, priority items out, repeat entries, inspections
+mentioning a closure). "Latest" orders same-day inspections by time in.
 
 ## How the data was collected
 
@@ -110,7 +173,56 @@ __CHECKS__
 
 ## Caveats for reporting
 
-__CAVEATS__
+* **Coverage starts June 23, 2025.** The portal holds nothing earlier (a
+  query for 1900-01-01 through 2025-06-22 returns no rows), even though many
+  permits are older. Earlier history has to be requested from the city.
+* **Only routine inspections, plus a handful of reinspections, are
+  published.** Every row is a "Retail Food Establishment" inspection. There
+  are no complaint investigations, foodborne-illness investigations, pool
+  inspections, temporary-event or pre-opening inspections.
+* **Reinspections and reopenings are mostly missing.** Only __N_REINSPECT__
+  inspections are labelled "Reinspection". Several establishments that were
+  closed or told a follow-up was needed have no later record. Don't compute
+  reinspection rates or time-to-reopen from this data; ask the city for its
+  closure and follow-up records.
+* **Closures are free text.** There is no closure field. `closure_mentioned`
+  flags inspections whose general comment or listing comment mentions
+  closing, ceasing operations, suspension or reopening (or whose violation
+  narrative mentions closure, ceasing or suspension); `closure_text` shows
+  the matching passage. It is a keyword screen: read each flagged report
+  before calling it a closure.
+* **The official score sometimes differs from the points printed on the
+  form** (`score` vs. `printed_points_total`; __N_SCORE_DIFF__ inspections).
+  In the cases examined, a consumer-advisory warning (item 26, `OUT-W`,
+  printed 0) was still counted as 2 points. `score` is the city's published
+  figure.
+* **Establishments vs. permits.** `permit_id` identifies a permit, and a
+  business that changes hands usually gets a new one, which splits its
+  history. `location_key` (normalized address + suite + ZIP) groups permits
+  at the same spot; check `owner_name` before treating two permits as one
+  business.
+* **"Restaurant" needs a definition.** `permit_category` groups the portal's
+  permit types. "Food establishment" is the closest to "restaurant" but also
+  covers coffee shops, bars, convenience stores and institutional kitchens
+  (see `food_type`). Schools, child care centers and groceries score far
+  lower as a group and pull averages down.
+* One food inspection of a hotel bistro (Courtyard by Marriott, 2026-06-09)
+  is filed under the hotel's pool permit (`permit_category` = "Pool permit").
+* `inspection_date` is a calendar date. The API stores it as midnight UTC;
+  converting it to Central time would move every inspection to the evening
+  before.
+* Inspection volume dips in June–August 2026 (about 140–160 a month against
+  175–280 in other full months), and a few weekdays (e.g. Jan. 26–29, 2026)
+  have no inspections. The daily and weekly passes agree, so this is what
+  the portal holds; ask the city before reading it as a trend.
+* **Portal quirks worth knowing if you check records by hand:**
+  - The browse list shows only each establishment's latest inspection in the
+    chosen date range (see "How the data was collected"), so a failed
+    inspection followed by a reinspection disappears from it.
+  - The browse list's "Reinspection" filter sends the value "Follow-Up",
+    which matches nothing; it always returns no results.
+  - An inspection's web page omits `OUT-W` warnings and shows only the first
+    comment for each item number. The PDF is the full record.
 
 ## Re-running
 

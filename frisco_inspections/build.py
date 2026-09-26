@@ -51,6 +51,70 @@ def clean_city(s):
     return s.title() if s else ""
 
 
+# Permit types as the portal labels them, grouped for analysis. "Food
+# establishment" (tiers I-III by menu complexity, plus REST) is the closest
+# thing to "restaurant"; it also includes coffee shops, bars, convenience
+# stores and institutional kitchens, so filter on food_type too if needed.
+PERMIT_CATEGORIES = {
+    "Food Establishment I": "Food establishment",
+    "Food Establishment II": "Food establishment",
+    "Food Establishment III": "Food establishment",
+    "REST": "Food establishment",
+    "Grocery Store I": "Grocery",
+    "Grocery Store II": "Grocery",
+    "Grocery Store III": "Grocery",
+    "School and City": "School or city facility",
+    "DAYC": "Child care",
+    "HLTD": "Health care / long-term care",
+    "CONC": "Concession stand",
+    "FOOD TRUCK 12": "Mobile",
+    "MOBILEVNDR": "Mobile",
+    "SWSEMI": "Pool permit (food inspection filed under it)",
+}
+
+# Closures are recorded only as free text. The general comment (PDF) and
+# the listing comment are searched for these words; violation narratives,
+# which often say things like "keep lids closed", are searched only for the
+# unambiguous ones. Every flagged record should be read before publication.
+CLOSURE_ANY = re.compile(
+    r"\b(clos(e|ed|ure|ing)|cease[sd]?|suspen(d|ded|sion)|shut\s*down|re-?\s*open(ed|ing)?)\b", re.I)
+CLOSURE_STRICT = re.compile(r"\b(closure|cease[sd]?|suspen(d|ded|sion)|shut\s*down)\b", re.I)
+
+
+def closure_snippets(general, listing, violation_comments):
+    out = []
+    for label, text, rx in (
+        [("general comment", general, CLOSURE_ANY), ("listing comment", listing, CLOSURE_ANY)]
+        + [("violation", c, CLOSURE_STRICT) for c in violation_comments]
+    ):
+        for m in rx.finditer(text or ""):
+            a, b = max(0, m.start() - 70), min(len(text), m.end() + 70)
+            out.append(f"[{label}] ...{text[a:b].strip()}...")
+            break
+    return out
+
+
+def time24(s):
+    try:
+        return dt.datetime.strptime((s or "").strip(), "%I:%M %p").strftime("%H:%M")
+    except ValueError:
+        return ""
+
+
+def norm_name(s):
+    return re.sub(r"\s+", " ", (s or "")).strip().upper()
+
+
+def location_key(address, zip_code):
+    """Street address + suite, normalized, so re-permitted businesses at the
+    same spot can be grouped (permit IDs change when ownership changes)."""
+    a = norm_name(address)
+    a = re.sub(r"[.,#]", " ", a)
+    a = re.sub(r"\b(SUITE|STE|UNIT)\b", " ", a)
+    a = re.sub(r"\s+", " ", a).strip()
+    return f"{a} | {(zip_code or '').strip()[:5]}"
+
+
 def mdy_to_iso(s):
     try:
         return dt.datetime.strptime(s.strip(), "%m/%d/%Y").date().isoformat()
@@ -156,11 +220,17 @@ def build():
             item_titles[v["item_number"]][v["item_title"]] += 1
 
         out_items = {v["item_number"] for v in vio if v["status"] == "OUT"}
+        closure = closure_snippets(P["general_comment"], L.get("comments"), [v["comments"] for v in vio])
+        if hdr["time_in"] and hdr["time_out"] and time24(hdr["time_out"]) < time24(hdr["time_in"]):
+            checks["source_time_out_before_time_in"].append(
+                {"id": iid, "time_in": hdr["time_in"], "time_out": hdr["time_out"]})
         row = {
             "inspection_id": iid,
             "inspection_date": date,
             "time_in": hdr["time_in"],
             "time_out": hdr["time_out"],
+            "time_in_24h": time24(hdr["time_in"]),
+            "time_out_24h": time24(hdr["time_out"]),
             "purpose": L["purpose"],
             "inspection_type": L["inspectionType"],
             "score": L["score"],
@@ -180,6 +250,8 @@ def build():
             "risk_category": hdr["risk_category"],
             "general_comment": P["general_comment"],
             "listing_comment": (L.get("comments") or "").strip(),
+            "closure_mentioned": bool(closure),
+            "closure_text": " || ".join(closure),
             "inspector": hdr["inspector"],
             "inspector_email": hdr["inspector_email"],
             "person_in_charge": hdr["person_in_charge"],
@@ -188,11 +260,14 @@ def build():
             "permit_id": L["permitID"],
             "permit_number": hdr["permit_number"],
             "permit_type": (L["permitType"] or "").strip(),
+            "permit_category": PERMIT_CATEGORIES.get((L["permitType"] or "").strip(), "Other"),
             "program": L["programName"],
             "food_type": food_types.get(L.get("food_type_managerID") or "", ""),
             "address": " ".join(x for x in [L["addressLine1"], L["addressLine2"]] if x),
             "city": clean_city(L["city"]) or clean_city(hdr["city"]),
             "zip": (L["zip"] or hdr["zip"] or "").strip(),
+            "location_key": location_key(" ".join(x for x in [L["addressLine1"], L["addressLine2"]] if x),
+                                         L["zip"] or hdr["zip"]),
             "owner_name": hdr["owner_name"],
             "measurements": len(P["measurements"]),
             "pdf_pages": P["pdf_pages"],
@@ -259,7 +334,8 @@ def build():
     # --- establishments ------------------------------------------------------
     establishments = []
     for pid, rows in by_permit.items():
-        rows.sort(key=lambda r: r["inspection_date"])
+        # Same-day inspections: order by time in, then routine before reinspection.
+        rows.sort(key=lambda r: (r["inspection_date"], r["time_in_24h"], r["purpose"] != "Routine"))
         last = rows[-1]
         routine = [r for r in rows if r["purpose"] == "Routine"]
         establishments.append({
@@ -268,7 +344,9 @@ def build():
             "address": last["address"],
             "city": last["city"],
             "zip": last["zip"],
+            "location_key": last["location_key"],
             "permit_type": last["permit_type"],
+            "permit_category": last["permit_category"],
             "food_type": last["food_type"],
             "owner_name": last["owner_name"],
             "inspections": len(rows),
@@ -283,6 +361,7 @@ def build():
             "total_scored_violation_entries": sum(r["scored_violation_entries"] for r in rows),
             "total_priority_items_out": sum(r["priority_items_out"] for r in rows),
             "total_repeat_entries": sum(r["repeat_entries"] for r in rows),
+            "inspections_mentioning_closure": sum(r["closure_mentioned"] for r in rows),
             "permit_page_url": permit_url(pid),
         })
     establishments.sort(key=lambda r: r["establishment_name"])
@@ -324,10 +403,15 @@ def build():
             "permit_pages": len(permits),
         },
         "check_failures": {k: len(v) for k, v in sorted(checks.items())},
-        "details": {k: v[:50] for k, v in sorted(checks.items())},
+        "details": {k: v for k, v in sorted(checks.items())},
     }
     (OUT / "validation.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n")
     print(json.dumps({k: summary[k] for k in ("counts", "check_failures")}, indent=2))
+    if checks.get("pdf_missing_or_unparsed"):
+        # Those inspections are not in the CSVs; don't let that pass quietly.
+        print(f"ERROR: {len(checks['pdf_missing_or_unparsed'])} inspections have no parsed PDF "
+              "and are missing from the CSVs", file=sys.stderr)
+        sys.exit(2)
 
 
 if __name__ == "__main__":

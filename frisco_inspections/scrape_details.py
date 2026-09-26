@@ -28,14 +28,19 @@ from parse_pdf import parse_pdf
 RAW = Path(__file__).parent / "data" / "raw"
 
 
-def download(kind, key):
+def listing_scraped_at():
+    meta = json.loads((RAW / "listing_meta.json").read_text())
+    return dt.datetime.fromisoformat(meta["scraped_at"]).timestamp()
+
+
+def download(kind, key, stale_before=None):
     try:
         if kind == "pdf":
             client.get_inspection_pdf_path(key)
         elif kind == "html":
             client.get_inspection_html(key)
         else:
-            client.get_permit_html(key)
+            client.get_permit_html(key, stale_before=stale_before)
         return kind, key, None
     except Exception as e:  # recorded, not fatal: the run reports every failure
         return kind, key, str(e)
@@ -84,8 +89,9 @@ def parse_one(row, cache):
 
 def run_downloads(jobs, workers):
     failures = []
+    stale_before = listing_scraped_at()
     with ThreadPoolExecutor(workers) as ex:
-        futs = [ex.submit(download, k, key) for k, key in jobs]
+        futs = [ex.submit(download, k, key, stale_before) for k, key in jobs]
         for n, f in enumerate(as_completed(futs), 1):
             kind, key, err = f.result()
             if err:

@@ -147,8 +147,12 @@ def search_inspections(date_range, start=0, purpose="", foodtype="", sort=None):
     return data
 
 
-def _cached_get(url, path, binary=False):
-    if path.exists() and path.stat().st_size > 0:
+def _cached_get(url, path, binary=False, stale_before=None):
+    """GET url, caching the body at path. A cached copy older than
+    stale_before (a Unix timestamp) is fetched again."""
+    if path.exists() and path.stat().st_size > 0 and (
+        stale_before is None or path.stat().st_mtime >= stale_before
+    ):
         return path.read_bytes() if binary else path.read_text(encoding="utf-8")
     r = _request("GET", url)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -191,8 +195,12 @@ def get_inspection_pdf_path(inspection_id):
     return path
 
 
-def get_permit_html(permit_id):
-    return _cached_get(permit_url(permit_id), cache_dir() / "permit" / f"{permit_id}.html")
+def get_permit_html(permit_id, stale_before=None):
+    # Permit pages list an establishment's full history, which grows; callers
+    # pass the listing's scrape time so each run sees the current history.
+    return _cached_get(
+        permit_url(permit_id), cache_dir() / "permit" / f"{permit_id}.html", stale_before=stale_before
+    )
 
 
 def get_food_types():
