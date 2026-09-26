@@ -101,6 +101,39 @@ def time24(s):
         return ""
 
 
+def time_flags(tin, tout):
+    """(duration in minutes or "", suspect?) for printed times in/out. Many
+    reports have AM/PM entry errors (e.g. in 09:45 PM, out 10:30 AM)."""
+    a, b = time24(tin), time24(tout)
+    if not a or not b:
+        return "", bool(a or b)
+    mins = (int(b[:2]) * 60 + int(b[3:])) - (int(a[:2]) * 60 + int(a[3:]))
+    suspect = mins <= 0 or mins > 360 or not ("05:00" <= a <= "21:00")
+    return ("" if suspect else mins), suspect
+
+
+NUM_RE = re.compile(r"-?\d+(?:\.\d+)?")
+
+
+def reading_number(item, value):
+    """Numeric reading and where it came from. Inspectors sometimes type the
+    reading into the Item field ('rice 150f') and leave Measurement blank."""
+    m = NUM_RE.search(value or "")
+    if m:
+        return float(m.group()), "value"
+    if not (value or "").strip():
+        m = NUM_RE.search(item or "")
+        if m:
+            return float(m.group()), "item_text"
+    return "", ""
+
+
+def normalize_code(code):
+    c = re.sub(r"\s+", "", code or "")
+    c = re.sub(r"^(\*?\d)\.(\d{3}\.)", r"\1-\2", c)  # '4.101.15' -> '4-101.15'
+    return c
+
+
 def norm_name(s):
     return re.sub(r"\s+", " ", (s or "")).strip().upper()
 
@@ -221,6 +254,12 @@ def build():
 
         out_items = {v["item_number"] for v in vio if v["status"] == "OUT"}
         closure = closure_snippets(P["general_comment"], L.get("comments"), [v["comments"] for v in vio])
+        duration, times_suspect = time_flags(hdr["time_in"], hdr["time_out"])
+        for v in vio:
+            for other in vio:
+                t = other["item_title"]
+                if len(t) > 15 and (t in v["comments"] or any(t in c["code_text"] for c in v["codes"])):
+                    checks["item_title_inside_narrative"].append({"id": iid, "item": v["item_number"], "title": t})
         if hdr["time_in"] and hdr["time_out"] and time24(hdr["time_out"]) < time24(hdr["time_in"]):
             checks["source_time_out_before_time_in"].append(
                 {"id": iid, "time_in": hdr["time_in"], "time_out": hdr["time_out"]})
@@ -231,6 +270,8 @@ def build():
             "time_out": hdr["time_out"],
             "time_in_24h": time24(hdr["time_in"]),
             "time_out_24h": time24(hdr["time_out"]),
+            "duration_minutes": duration,
+            "times_suspect": times_suspect,
             "purpose": L["purpose"],
             "inspection_type": L["inspectionType"],
             "score": L["score"],
@@ -269,6 +310,7 @@ def build():
             "location_key": location_key(" ".join(x for x in [L["addressLine1"], L["addressLine2"]] if x),
                                          L["zip"] or hdr["zip"]),
             "owner_name": hdr["owner_name"],
+            "owner_name_truncated": hdr.get("owner_name_truncated", False),
             "measurements": len(P["measurements"]),
             "pdf_pages": P["pdf_pages"],
             "found_via": found_via,
@@ -277,8 +319,14 @@ def build():
         }
         inspections.append(row)
 
+        counted = set()
         for seq, v in enumerate(vio, 1):
             codes = v["codes"]
+            # An item is scored once per inspection however many entries it
+            # has; flag the entry whose item_points make up the total.
+            counts = v["status"] == "OUT" and v["item_number"] not in counted
+            if counts:
+                counted.add(v["item_number"])
             violations.append({
                 "inspection_id": iid,
                 "inspection_date": date,
@@ -293,17 +341,20 @@ def build():
                 "item_category": item_category(v["item_number"]),
                 "status": v["status"],
                 "item_points": pts.get(v["item_number"]),
+                "counts_toward_score": counts,
                 "corrected_on_site": v["corrected_on_site"],
                 "repeat": v["repeat"],
                 "correct_by_date": mdy_to_iso(v["correct_by_date"]) if v["correct_by_date"] else "",
                 "comments": v["comments"],
                 "code": " | ".join(c["code"] for c in codes),
+                "code_normalized": " | ".join(normalize_code(c["code"]) for c in codes),
                 "code_is_priority_marked": any(c["code"].startswith("*") for c in codes),
                 "code_text": " | ".join(c["code_text"] for c in codes),
                 "inspector": hdr["inspector"],
                 "pdf_url": pdf_url(iid),
             })
         for seq, m in enumerate(P["measurements"], 1):
+            num, num_from = reading_number(m["item"], m["value"])
             measurements.append({
                 "inspection_id": iid,
                 "inspection_date": date,
@@ -313,6 +364,8 @@ def build():
                 "location": m["location"],
                 "value": m["value"],
                 "unit": m["unit"],
+                "value_number": num,
+                "value_number_from": num_from,
             })
 
     # --- permit pages vs listing ----------------------------------------------

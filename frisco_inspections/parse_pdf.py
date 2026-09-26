@@ -51,7 +51,6 @@ HEADER_FIELDS = [
     ("street", "Physical address", 65, 327),
     ("city", "Physical address", 557, 327),
     ("zip", "Physical address", 826, 327),
-    ("phone", "phone", 968, 327),
     ("person_in_charge", "Inspector sign", 883, 1983),
     ("person_in_charge_title", "OWNERName", 1304, 2008),
     ("inspector", "Inspector sign", 882, 2036),
@@ -99,6 +98,7 @@ def parse_header(page):
             slots[key] = min(cands, key=lambda l: abs(l["x0"] - x) + abs(l["top"] - top))
 
     header = {k: None for k, *_ in HEADER_FIELDS}
+    header["owner_name_truncated"] = header["establishment_name_truncated"] = False
     used = set()
     for key, label in slots.items():
         best = None
@@ -112,7 +112,11 @@ def parse_header(page):
                     best = (abs(dx) + abs(dy), i)
         if best:
             used.add(best[1])
-            header[key] = values[best[1]]["text"].strip()
+            raw = values[best[1]]["text"]
+            header[key] = raw.strip()
+            if key in ("owner_name", "establishment_name"):
+                # The form cuts long values off; the cut leaves a trailing space.
+                header[key + "_truncated"] = raw != raw.rstrip()
 
     unplaced = [
         v["text"] for i, v in enumerate(values)
@@ -165,6 +169,62 @@ def _body_lines(pdf):
     return out
 
 
+# Item titles as printed on the violation pages (items not yet seen in any
+# report are absent). Item headers are normally bold, but the PDF sometimes
+# drops bold on the first line after a page break, so a non-bold "NN. Title"
+# line also counts as a header when its title matches the known one.
+KNOWN_TITLES = {
+    1: 'Proper cooling time and temperature',
+    2: 'Proper Cold Holding temperature(41°F/ 45°F)',
+    3: 'Proper Hot Holding temperature(135°F)',
+    5: 'Proper reheating procedure for hot holding (165°F in 2 Hours)',
+    6: 'Time as a Public Health Control; procedures & records',
+    7: 'Food and ice obtained from approved source; Food in good condition, safe, and unadulterated; parasite destruction',
+    8: 'Food Received at proper temperature',
+    9: 'Food Separated & protected, prevented during food preparation, storage, display, and tasting',
+    10: 'Food contact surfaces and Returnables; Cleaned and Sanitized (ppm/temp)',
+    11: 'Proper disposition of returned, previously served or reconditioned',
+    12: 'Management, food employees and conditional employees; knowledge, responsibilities, and reporting',
+    14: 'Hands cleaned and properly washed/ Gloves used properly',
+    15: 'No bare hand contact with ready to eat foods or approved alternate method properly followed',
+    18: 'Toxic substances properly identified, stored and used',
+    19: 'Water from approved source; Plumbing installed; proper backflow device',
+    20: 'Approved Sewage/Wastewater Disposal System, proper disposal',
+    21: 'Person in charge present, demonstration of knowledge, and perform duties/ Certified Food Manager (CFM)',
+    22: 'Food Handler/ no unauthorized persons/ personnel',
+    23: 'Hot and Cold Water available; adequate pressure, safe',
+    24: 'Required records available (shellstock tags; parasite destruction); Packaged Food labeled',
+    25: 'Compliance with Variance, Specialized Process, and HACCP plan; Variance obtained for specialized processing methods; manufacturer instructions',
+    26: 'Posting of Consumer Advisories; raw or under cooked foods (Disclosure/Reminder/Buffet Plate)/ Allergen Label',
+    27: 'Proper cooling method used; Equipment Adequate to Maintain Product Temperature',
+    28: 'Proper Date Marking and disposition',
+    29: 'Thermometers provided, accurate, and calibrated; Chemical/ Thermal test strips',
+    30: 'Food Establishment Permit (Current & Valid)',
+    31: 'Adequate handwashing facilities: Accessible and properly supplied, used',
+    32: 'Food and Non-food Contact surfaces cleanable, properly designed, constructed, and used',
+    33: 'Warewashing Facilities; installed, maintained, used/ Service sink or curb cleaning facility provided',
+    34: 'No Evidence of Insect contamination, rodent/other animals',
+    35: 'Personal Cleanliness/eating, drinking or tobacco use',
+    36: 'Wiping Cloths; properly used and stored',
+    37: 'Environmental contamination',
+    38: 'Approved thawing method',
+    39: 'Utensils, equipment, & linens; properly used, stored, dried, & handled/ In use utensils; properly used',
+    40: 'Single-service & single-use articles; properly stored and used',
+    41: 'Original container labeling (Bulk Food)',
+    42: 'Non-Food Contact surfaces clean',
+    43: 'Adequate ventilation and lighting; designated areas used',
+    44: 'Garbage and Refuse properly disposed; facilities maintained',
+    45: 'Physical facilities installed, maintained, & clean (floors, walls, ceilings)',
+    46: 'Toilet Facilities; properly constructed, supplied, and clean Adequate # of restrooms',
+    47: 'Other Violations',
+}
+
+
+def _is_known_title(item, title):
+    known = KNOWN_TITLES.get(item)
+    return bool(known) and title.strip()[:30].lower() == known[:30].lower()
+
+
 MEASURE_RE = re.compile(
     r"^Item:\s*(?P<item>.*?)\s+Location:\s*(?P<location>.*?)\s+"
     r"Measurement:\s*(?P<value>.*?)\s+Temperature Type:\s*(?P<unit>.*)$"
@@ -196,7 +256,7 @@ def parse_body(lines):
                 general.append(rest)
             continue
         m = HEADER_RE.match(text)
-        if bold and m:
+        if m and (bold or _is_known_title(int(m.group(1)), m.group(2))):
             cur = {
                 "item_number": int(m.group(1)),
                 "item_title": m.group(2).strip(),
