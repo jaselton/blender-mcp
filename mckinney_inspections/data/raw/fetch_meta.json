@@ -1,0 +1,35 @@
+{
+ "service": "https://maps.mckinneytexas.org/mckinney/rest/services/MapServices/FoodPermitsAndInspections/MapServer",
+ "fetched_at": "2026-09-26T21:12:54Z",
+ "layers": {
+  "permits": {
+   "layer": 0,
+   "rows": 723
+  },
+  "mobile_temporary": {
+   "layer": 1,
+   "rows": 0
+  },
+  "trades_day_farmers_market": {
+   "layer": 2,
+   "rows": 10
+  },
+  "schools_daycares": {
+   "layer": 3,
+   "rows": 28
+  },
+  "inspections": {
+   "layer": 4,
+   "rows": 16676
+  },
+  "attachments": {
+   "layer": 5,
+   "rows": 3522
+  }
+ },
+ "attachments": {
+  "files": 3522,
+  "cached": 0,
+  "downloaded": 3522
+ }
+}
