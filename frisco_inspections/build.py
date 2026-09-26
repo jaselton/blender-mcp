@@ -96,6 +96,9 @@ def build():
         if rec["errors"]:
             checks["web_page_missing_or_unparsed"].append({"id": iid, "errors": rec["errors"][:1]})
         hdr = P["header"]
+        found_via = L.get("_source", "listing")
+        if found_via != "listing":
+            checks["found_only_on_permit_page"].append({"id": iid, "permit": L["permitID"]})
         pts = {int(k): v for k, v in P["points_by_item"].items()}
         vio = P["violations"]
         date = L["inspectionDate"][:10]
@@ -185,6 +188,7 @@ def build():
             "owner_name": hdr["owner_name"],
             "measurements": len(P["measurements"]),
             "pdf_pages": P["pdf_pages"],
+            "found_via": found_via,
             "pdf_url": pdf_url(iid),
             "web_url": inspection_url(iid),
         }
@@ -229,7 +233,7 @@ def build():
             })
 
     # --- permit pages vs listing ----------------------------------------------
-    listed = {r["inspection_id"] for r in recs}
+    listed = {r["inspection_id"] for r in recs}  # includes permit-page backfills
     by_permit = defaultdict(list)
     for r in inspections:
         by_permit[r["permit_id"]].append(r)

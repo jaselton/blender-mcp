@@ -2,8 +2,15 @@
 
 The API caps each query at 225 rows, so the listing is walked one day at a
 time (Frisco logs roughly 10-25 inspections per day), then walked again in
-7-day windows as an independent cross-check. Both passes must return the same
-set of inspection IDs or the script exits non-zero.
+7-day windows as an independent cross-check.
+
+The API returns only the most recent inspection per establishment within the
+queried date range. A one-day window therefore still shows every inspection
+unless an establishment was inspected twice on the same day (the permit
+pages, fetched by scrape_details.py, catch that case); a 7-day window hides
+an establishment's earlier inspections that week. The weekly pass must return
+exactly the inspections that rule predicts from the daily pass, or the script
+exits non-zero.
 
 Usage: python scrape_listing.py [--start 2015-01-01] [--end YYYY-MM-DD]
 """
@@ -133,11 +140,30 @@ def main():
         if prev != r:
             print(f"WARNING: row differs between passes: {r['inspectionID']}", file=sys.stderr)
 
-    ok = set(day_ids) == set(week_ids)
+    # The API returns only each establishment's most recent inspection within
+    # the queried date range, so a 7-day window omits an establishment's
+    # earlier inspections from that week. The weekly pass must match exactly
+    # what that rule predicts from the daily pass.
+    expected_week = set()
+    for wa, wb in week_wins:
+        latest = {}
+        for r in day_rows:
+            if wa.isoformat() <= r["inspectionDate"][:10] <= wb.isoformat():
+                key = (r["inspectionDate"], r["timein"] or "")
+                if r["permitID"] not in latest or key > latest[r["permitID"]][0]:
+                    latest[r["permitID"]] = (key, r["inspectionID"])
+        expected_week |= {iid for _, iid in latest.values()}
+    hidden_by_rule = set(day_ids) - expected_week
+    ok = set(week_ids) == expected_week
+    print(
+        f"weekly pass hides {len(hidden_by_rule)} earlier same-week inspections of an "
+        f"establishment, as the latest-per-establishment rule predicts",
+        file=sys.stderr,
+    )
     if not ok:
         print(
-            f"MISMATCH: only-daily={sorted(set(day_ids) - set(week_ids))[:20]} "
-            f"only-weekly={sorted(set(week_ids) - set(day_ids))[:20]}",
+            f"MISMATCH: expected-not-returned={sorted(expected_week - set(week_ids))[:20]} "
+            f"returned-not-expected={sorted(set(week_ids) - expected_week)[:20]}",
             file=sys.stderr,
         )
 
@@ -155,6 +181,7 @@ def main():
         "rows": len(rows),
         "daily_pass_rows": len(day_rows),
         "weekly_pass_rows": len(week_rows),
+        "weekly_rows_hidden_by_latest_per_establishment_rule": len(hidden_by_rule),
         "passes_match": ok,
     }
     (OUT / "listing_meta.json").write_text(json.dumps(meta, indent=2) + "\n")

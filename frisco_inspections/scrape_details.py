@@ -12,6 +12,7 @@ Usage: python scrape_details.py [--workers 4] [--parse-workers N] [--limit N]
 """
 
 import argparse
+import datetime as dt
 import hashlib
 import json
 import os
@@ -81,6 +82,74 @@ def parse_one(row, cache):
     return rec
 
 
+def run_downloads(jobs, workers):
+    failures = []
+    with ThreadPoolExecutor(workers) as ex:
+        futs = [ex.submit(download, k, key) for k, key in jobs]
+        for n, f in enumerate(as_completed(futs), 1):
+            kind, key, err = f.result()
+            if err:
+                failures.append((kind, key, err))
+            if n % 250 == 0:
+                print(f"downloaded {n}/{len(jobs)} ({len(failures)} failed)", file=sys.stderr)
+    print(f"downloads done: {len(jobs)} jobs, {len(failures)} failed", file=sys.stderr)
+    for f in failures:
+        print("FAILED", *f, file=sys.stderr)
+
+
+def rows_from_permit_pages(rows, permit_recs):
+    """Listing-shaped rows for inspections that appear on a permit page but not
+    in the listing.
+
+    The listing API returns only an establishment's latest inspection in the
+    queried range, so two inspections of one establishment on the same day
+    would leave one out of even a one-day query. Establishment fields are
+    copied from that permit's listing rows; inspection fields come from the
+    permit page (and are checked against the PDF in build.py).
+    """
+    listed = {r["inspectionID"] for r in rows}
+    by_permit = {}
+    for r in rows:
+        by_permit.setdefault(r["permitID"], r)
+    extra = []
+    for prec in permit_recs:
+        page = prec.get("page") or {}
+        for insp in page.get("inspections", []):
+            iid = insp["inspection_id"]
+            if not iid or iid in listed:
+                continue
+            base = dict(by_permit[prec["permit_id"]])
+            itype, _, purpose = (insp["type_purpose"] or "").partition(" | ")
+            date = dt.datetime.strptime(insp["date_text"], "%B %d, %Y").date()
+            score = (insp["score"] or "").strip()
+            base.update({
+                "inspectionID": iid,
+                "inspectionDate": f"{date.isoformat()}T00:00:00.000Z",
+                "inspectionType": itype.strip(),
+                "purpose": purpose.strip(),
+                "score": int(score) if score.isdigit() else None,
+                "comments": "",
+                "timein": None,
+                "_source": "permit_page",
+            })
+            extra.append(base)
+            listed.add(iid)
+    return extra
+
+
+def parse_permits(permits, cache):
+    recs = []
+    for p in permits:
+        path = Path(cache) / "permit" / f"{p}.html"
+        rec = {"permit_id": p, "page": None, "error": None}
+        try:
+            rec["page"] = parse_permit_html(path.read_text(encoding="utf-8"))
+        except Exception as e:
+            rec["error"] = f"{type(e).__name__}: {e}"
+        recs.append(rec)
+    return recs
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--workers", type=int, default=4)
@@ -98,23 +167,27 @@ def main():
 
     if not args.skip_download:
         # PDFs are the primary source; permit and web pages are cross-checks.
-        jobs = (
+        run_downloads(
             [("pdf", r["inspectionID"]) for r in rows]
             + [("permit", p) for p in permits]
-            + [("html", r["inspectionID"]) for r in rows]
+            + [("html", r["inspectionID"]) for r in rows],
+            args.workers,
         )
-        failures = []
-        with ThreadPoolExecutor(args.workers) as ex:
-            futs = [ex.submit(download, k, key) for k, key in jobs]
-            for n, f in enumerate(as_completed(futs), 1):
-                kind, key, err = f.result()
-                if err:
-                    failures.append((kind, key, err))
-                if n % 250 == 0:
-                    print(f"downloaded {n}/{len(jobs)} ({len(failures)} failed)", file=sys.stderr)
-        print(f"downloads done: {len(jobs)} jobs, {len(failures)} failed", file=sys.stderr)
-        for f in failures:
-            print("FAILED", *f, file=sys.stderr)
+
+    permit_recs = parse_permits(permits, cache)
+    with open(RAW / "permits_parsed.jsonl", "w", encoding="utf-8") as fh:
+        for rec in permit_recs:
+            fh.write(json.dumps(rec, ensure_ascii=False, sort_keys=True) + "\n")
+    print(f"parsed {len(permits)} permit pages", file=sys.stderr)
+
+    extra = rows_from_permit_pages(rows, permit_recs)
+    print(f"{len(extra)} inspections on permit pages missing from the listing", file=sys.stderr)
+    if extra and not args.skip_download:
+        run_downloads(
+            [("pdf", r["inspectionID"]) for r in extra] + [("html", r["inspectionID"]) for r in extra],
+            args.workers,
+        )
+    rows = rows + extra
 
     if args.download_only:
         return
@@ -134,17 +207,6 @@ def main():
         for rec in recs:
             fh.write(json.dumps(rec, ensure_ascii=False, sort_keys=True) + "\n")
     print(f"parsed {len(rows)} inspections, {n_err} with errors -> {out}", file=sys.stderr)
-
-    with open(RAW / "permits_parsed.jsonl", "w", encoding="utf-8") as fh:
-        for p in permits:
-            path = Path(cache) / "permit" / f"{p}.html"
-            rec = {"permit_id": p, "page": None, "error": None}
-            try:
-                rec["page"] = parse_permit_html(path.read_text(encoding="utf-8"))
-            except Exception as e:
-                rec["error"] = f"{type(e).__name__}: {e}"
-            fh.write(json.dumps(rec, ensure_ascii=False, sort_keys=True) + "\n")
-    print(f"parsed {len(permits)} permit pages", file=sys.stderr)
 
 
 if __name__ == "__main__":

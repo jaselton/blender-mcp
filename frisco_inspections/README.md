@@ -66,8 +66,24 @@ __DICTIONARY__
    "Load More Results" list has the same flaw.** The scraper therefore reads
    each day under several sort orders (default, name A–Z and Z–A, score up
    and down) until the set of inspection IDs it has seen equals the row
-   count the API reports. The whole walk is then repeated in 7-day windows,
-   and the two passes must produce the identical set of inspections.
+   count the API reports.
+
+   The API also returns **only each establishment's most recent inspection
+   within the date range being browsed.** In the portal, which defaults to
+   January 1 through today, a restaurant that failed an inspection and was
+   reinspected a few days later shows up only with its reinspection; the
+   failed inspection is visible only on the establishment's own page. (Chalo
+   India's 46-point inspection on 2026-03-27, for example, is replaced in the
+   browse list by its 18-point reinspection three days later.) A one-day
+   window still shows every inspection unless an establishment was inspected
+   twice on the same day, so the scraper also reads every establishment's
+   permit page, which lists its full history, and fetches any inspection
+   found there but not in the listing (`found_via = permit_page`).
+
+   As a cross-check, the whole walk is repeated in 7-day windows. That pass
+   must return exactly the inspections the latest-per-establishment rule
+   predicts from the daily pass (in the final run, the weekly windows hid
+   __WEEKLY_HIDDEN__ earlier same-week inspections, all accounted for).
 2. **Details.** For every inspection, `scrape_details.py` downloads the
    inspection PDF ("View Original Inspection PDF") and the inspection's web
    page, and for every establishment its permit page.
