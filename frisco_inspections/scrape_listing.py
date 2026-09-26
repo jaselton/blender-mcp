@@ -20,34 +20,50 @@ from client import MAX_START, PAGE_SIZE, get_food_types, search_inspections
 OUT = Path(__file__).parent / "data" / "raw"
 
 
-def fetch_window(first, last, max_attempts=40):
+# Sort orders used to read each window. The API's default order is by date
+# only, and when rows tie on date its offset pages are not consistent with
+# each other: some rows never appear on any page and others appear twice,
+# identically on every re-read (2025-08-26 has 26 inspections, but paging the
+# default order only ever returns 25 distinct ones). Reading the same window
+# sorted by other columns surfaces the rows the default order hides.
+SORTS = [
+    None,
+    {"field": "establishmentName", "direction": "asc"},
+    {"field": "establishmentName", "direction": "desc"},
+    {"field": "score", "direction": "asc"},
+    {"field": "score", "direction": "desc"},
+]
+
+
+def fetch_window(first, last, max_rounds=4):
     """All rows in [first, last]; raises if the window hits the API's cap.
 
-    The API sorts by date only, so rows sharing a date come back in a
-    different order on each request and offset paging can skip some while
-    repeating others. The number of rows per window is stable, though, so the
-    pages are re-read until the union of inspection IDs reaches that count.
+    The number of rows in a window is stable, so the window is re-read under
+    different sort orders until the union of inspection IDs reaches it.
     """
     rng = f"{first.isoformat()} to {last.isoformat()}"
     by_id = {}
     totals = set()
-    for _ in range(max_attempts):
-        total = 0
-        for start in range(0, MAX_START + 1, PAGE_SIZE):
-            page = search_inspections(rng, start=start)
-            total += len(page)
-            for r in page:
-                by_id[r["inspectionID"]] = r
-            if len(page) < PAGE_SIZE:
-                break
-        else:
-            raise RuntimeError(f"window {rng} returned the maximum {total} rows; shrink it")
-        totals.add(total)
-        if len(totals) > 1:
-            raise RuntimeError(f"window {rng} row count changed between reads: {sorted(totals)}")
-        if len(by_id) == total:
-            return list(by_id.values())
-    raise RuntimeError(f"window {rng}: only {len(by_id)} of {total} rows after {max_attempts} reads")
+    for _ in range(max_rounds):
+        for sort in SORTS:
+            total = 0
+            for start in range(0, MAX_START + 1, PAGE_SIZE):
+                page = search_inspections(rng, start=start, sort=sort)
+                total += len(page)
+                for r in page:
+                    by_id[r["inspectionID"]] = r
+                if len(page) < PAGE_SIZE:
+                    break
+            else:
+                raise RuntimeError(f"window {rng} returned the maximum {total} rows; shrink it")
+            totals.add(total)
+            if len(totals) > 1:
+                raise RuntimeError(f"window {rng} row count changed between reads: {sorted(totals)}")
+            if len(by_id) == total:
+                return list(by_id.values())
+            if len(by_id) > total:
+                raise RuntimeError(f"window {rng}: {len(by_id)} distinct rows but API reports {total}")
+    raise RuntimeError(f"window {rng}: only {len(by_id)} of {total} rows after {max_rounds} rounds")
 
 
 def windows(first, last, days):

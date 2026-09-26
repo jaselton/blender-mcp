@@ -114,8 +114,12 @@ def _request(method, url, *, retries=8, **kw):
         delay = min(delay * 2, 300)
 
 
-def search_inspections(date_range, start=0, purpose="", foodtype=""):
-    """One page of the public listing. date_range is 'YYYY-MM-DD to YYYY-MM-DD'."""
+def search_inspections(date_range, start=0, purpose="", foodtype="", sort=None):
+    """One page of the public listing. date_range is 'YYYY-MM-DD to YYYY-MM-DD'.
+
+    sort is {"field": ..., "direction": "asc"|"desc"}; the default order is
+    by inspection date only.
+    """
     body = {
         "data": {
             "path": JURISDICTION,
@@ -127,7 +131,7 @@ def search_inspections(date_range, start=0, purpose="", foodtype=""):
             "searchStr": "",
             "lat": 0,
             "lng": 0,
-            "sort": {},
+            "sort": sort or {},
         },
         "task": "searchInspections",
     }

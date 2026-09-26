@@ -58,12 +58,16 @@ __DICTIONARY__
    (`POST /` with `task: "searchInspections"`). The API returns at most 25
    rows per call and refuses offsets past 200, so no single query can return
    more than 225 rows. `scrape_listing.py` therefore walks the calendar one
-   day at a time. The API sorts only by date, so rows that share a date come
-   back in a different order on each request and plain offset paging skips
-   some rows while repeating others; the scraper re-reads each day until the
-   set of inspection IDs it has seen equals the row count the API reports.
-   The whole walk is then repeated in 7-day windows, and the two passes must
-   produce the identical set of inspections.
+   day at a time. By default the API sorts only by date, and when
+   inspections share a date its pages are inconsistent with each other:
+   paging through a day can repeat one inspection and never show another,
+   the same way on every try (on 2025-08-26 the API reports 26 inspections
+   but default paging only ever returns 25 distinct ones). **The portal's own
+   "Load More Results" list has the same flaw.** The scraper therefore reads
+   each day under several sort orders (default, name A–Z and Z–A, score up
+   and down) until the set of inspection IDs it has seen equals the row
+   count the API reports. The whole walk is then repeated in 7-day windows,
+   and the two passes must produce the identical set of inspections.
 2. **Details.** For every inspection, `scrape_details.py` downloads the
    inspection PDF ("View Original Inspection PDF") and the inspection's web
    page, and for every establishment its permit page.
