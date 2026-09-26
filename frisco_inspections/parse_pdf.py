@@ -31,7 +31,8 @@ BODY_SIZE = 20
 
 # Page-1 header fields: (output key, label text, label x0, label top). Labels
 # repeat ("Time In" is used for both time in and time out), so each field is
-# pinned to where its label sits on the form.
+# pinned to where its label sits on the form. A label given as "A|B" accepts
+# either text (the template has varied: "License Name" / "Establishment Name").
 HEADER_FIELDS = [
     ("page_number", "pa", 1521, 152),
     ("page_count", "pa", 1583, 152),
@@ -45,7 +46,7 @@ HEADER_FIELDS = [
     ("score", "score", 1499, 255),
     ("cos_count", "COS", 1347, 261),
     ("owner_name", "OWNERName", 605, 270),
-    ("establishment_name", "License Name", 66, 271),
+    ("establishment_name", "License Name|Establishment Name", 66, 271),
     ("followup_required", "Followup", 1381, 302),
     ("street", "Physical address", 65, 327),
     ("city", "Physical address", 557, 327),
@@ -92,7 +93,7 @@ def parse_header(page):
     for key, text, x, top in HEADER_FIELDS:
         cands = [
             l for l in labels
-            if l["text"].strip() == text and abs(l["x0"] - x) < 40 and abs(l["top"] - top) < 25
+            if l["text"].strip() in text.split("|") and abs(l["x0"] - x) < 40 and abs(l["top"] - top) < 25
         ]
         if cands:
             slots[key] = min(cands, key=lambda l: abs(l["x0"] - x) + abs(l["top"] - top))
@@ -174,7 +175,7 @@ CODE_RE = re.compile(r"^Violation Code\s*-\s*(.*)$")
 
 
 def parse_body(lines):
-    measurements, general, violations, warnings = [], [], [], []
+    raw_measurements, general, violations, warnings = [], [], [], []
     section = None  # measurements | general | violation
     cur = None
     field = None
@@ -231,19 +232,27 @@ def parse_body(lines):
             else:
                 raise ParseError(f"unexpected line in violation {cur['item_number']}: {text!r}")
         elif section == "measurements":
-            mm = MEASURE_RE.match(text.strip())
-            if mm:
-                measurements.append({k: v.strip() for k, v in mm.groupdict().items()})
-            elif measurements:
-                # Wrapped measurement line: glue onto the previous one.
-                measurements[-1]["unit"] += " " + text.strip()
-                warnings.append(f"wrapped measurement line: {text.strip()!r}")
+            # Each reading starts with "Item:"; a long one wraps onto the
+            # following line(s), so lines are joined until the next "Item:".
+            if text.strip().startswith("Item:"):
+                raw_measurements.append(text.strip())
+            elif raw_measurements:
+                raw_measurements[-1] += " " + text.strip()
             else:
                 raise ParseError(f"unexpected measurement line: {text!r}")
         elif section == "general":
             general.append(text.strip())
         else:
             raise ParseError(f"text before any section: {text!r}")
+
+    measurements = []
+    for raw in raw_measurements:
+        mm = MEASURE_RE.match(raw)
+        if mm:
+            measurements.append({k: v.strip() for k, v in mm.groupdict().items()})
+        else:
+            warnings.append(f"unparsed measurement: {raw!r}")
+            measurements.append({"item": raw, "location": "", "value": "", "unit": ""})
 
     out = []
     for v in violations:

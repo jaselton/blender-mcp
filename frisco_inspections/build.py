@@ -108,12 +108,19 @@ def build():
             checks["pdf_parse_warnings"].append({"id": iid, "warnings": P["parse_warnings"]})
         if str(L["score"]) != (hdr["score"] or ""):
             checks["score_listing_vs_pdf_header"].append({"id": iid, "listing": L["score"], "pdf": hdr["score"]})
+        # Source quirk, not a parse error: the official score (listing and PDF
+        # header agree) occasionally differs from the points printed on the
+        # form, e.g. a consumer-advisory warning (item 26, OUT-W, printed 0)
+        # still counted as 2 points. Reported per inspection.
         if sum(pts.values()) != L["score"]:
-            checks["score_listing_vs_sum_of_item_points"].append(
-                {"id": iid, "listing": L["score"], "sum_points": sum(pts.values())})
-        if sorted(pts) != sorted({v["item_number"] for v in vio}):
-            checks["items_scored_vs_items_with_violation_text"].append(
-                {"id": iid, "scored": sorted(pts), "with_text": sorted({v["item_number"] for v in vio})})
+            checks["source_official_score_differs_from_printed_points"].append({
+                "id": iid, "official": L["score"], "printed_points": sum(pts.values()),
+                "warning_items": sorted({v["item_number"] for v in vio if v["status"] == "OUT-W"})})
+        text_items = {v["item_number"] for v in vio}
+        if set(pts) - text_items:
+            # A point value with no violation block would mean a block was missed.
+            checks["points_printed_for_item_without_violation_text"].append(
+                {"id": iid, "items": sorted(set(pts) - text_items)})
         if mdy_to_iso(hdr["date"]) != date:
             checks["date_listing_vs_pdf"].append({"id": iid, "listing": date, "pdf": hdr["date"]})
         for v in vio:
@@ -122,9 +129,9 @@ def build():
                 # An item can carry both OUT and OUT-W entries; points then
                 # come from the OUT entry.
                 if not any(x["item_number"] == v["item_number"] and x["status"] == "OUT" for x in vio):
-                    checks["warning_item_with_points"].append({"id": iid, "item": v["item_number"], "points": p})
+                    checks["source_warning_item_with_points"].append({"id": iid, "item": v["item_number"], "points": p})
             if v["status"] == "OUT" and not p:
-                checks["out_item_without_points"].append({"id": iid, "item": v["item_number"], "points": p})
+                checks["source_out_item_without_points"].append({"id": iid, "item": v["item_number"], "points": p})
             if v["status"] not in ("OUT", "OUT-W"):
                 checks["unexpected_status"].append({"id": iid, "item": v["item_number"], "status": v["status"]})
         if H is not None:
@@ -157,6 +164,7 @@ def build():
             "purpose": L["purpose"],
             "inspection_type": L["inspectionType"],
             "score": L["score"],
+            "printed_points_total": sum(pts.values()),
             "violation_entries": len(vio),
             "scored_violation_entries": sum(v["status"] == "OUT" for v in vio),
             "warning_entries": sum(v["status"] == "OUT-W" for v in vio),
