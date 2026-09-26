@@ -36,6 +36,21 @@ found relative to their labels instead.
   printed names under the signatures are Helvetica; the inspector's name is
   under "Inspected by:".
 
+Versions: the form's wording and layout are the same on every report
+(2017-2026). Reports from 2017 to 2021 print OUT in black, use randomly
+tagged font subsets and have no "Permit Expiration Date" line; later ones
+print OUT in red. Some older reports put the signature names lower, and 31
+(school and market permits) print only the house number as the page-2 address.
+
+Self-checks recorded in "checks" (all 3,134 reports pass the first three):
+the printed score equals the form points (3/2/1) of the items marked OUT or
+COS; the "Number of Repeat Violations" equals the "*" marks; the "Number of
+Violations COS" equals the COS marks. Page 2's header is compared with
+page 1's, and the items cited in the free text with the items marked OUT.
+
+The attachment's REL_OBJECTID is NOT a reliable link to the permit (most are
+off by one to three OBJECTIDs); use the permit number printed on the report.
+
 The other 388 attachments (CONTENT_TYPE "UNKNOWNMSG") are Outlook .msg files
 (OLE compound files); `parse_msg` reads their subject, sender, date, body and
 attachment list with a minimal compound-file reader.
@@ -63,9 +78,8 @@ def form_points(n):
     return 3 if n <= 20 else 2 if n <= 33 else 1
 
 
-# Which items sit in which grid column of page 1.
+# Items printed in the left grid column of page 1 (the rest are on the right).
 LEFT_ITEMS = set(range(1, 12)) | set(range(21, 27)) | set(range(34, 41))
-RIGHT_ITEMS = set(range(1, 48)) - LEFT_ITEMS
 
 STATUS_WORDS = {"IN", "OUT", "COS", "NO", "NA"}
 
@@ -264,8 +278,6 @@ def parse_grid(words, comp, warnings):
         m = re.match(r"\s*(\d{1,2})\.\s*", w["text"])
         if m:
             heads.append((int(m.group(1)), w))
-    # The two title columns: the x0 shared by the item-number words.
-    xs = sorted({round(w["x0"]) for _, w in heads})
     cols = {}
     for n, w in heads:
         side = "L" if w["x0"] < 300 else "R"
@@ -292,7 +304,6 @@ def parse_grid(words, comp, warnings):
             nxt = lst[i + 1][0] if i + 1 < len(lst) else 10_000
             tw = [w for w in title_words if abs(w["x0"] - x) < 3 and top - 1 <= w["top"] < nxt - 1]
             items[n]["title"] = " ".join(_join(tw))
-            items[n]["title_bottom"] = max(w["bottom"] for w in tw)
 
     # Column bands, relative to the title x of each column.
     #   status: from the grid's left edge to ~4pt before the title;
