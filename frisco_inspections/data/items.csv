@@ -1,0 +1,45 @@
+item_number,item_title,item_category,points_when_out,violation_entries
+1,Proper cooling time and temperature,Priority,3,14
+2,Proper Cold Holding temperature(41°F/ 45°F),Priority,3,227
+3,Proper Hot Holding temperature(135°F),Priority,3,98
+5,Proper reheating procedure for hot holding (165°F in 2 Hours),Priority,3,7
+6,Time as a Public Health Control; procedures & records,Priority,3,149
+7,"Food and ice obtained from approved source; Food in good condition, safe, and unadulterated; parasite destruction",Priority,3,59
+8,Food Received at proper temperature,Priority,3,5
+9,"Food Separated & protected, prevented during food preparation, storage, display, and tasting",Priority,3,303
+10,Food contact surfaces and Returnables; Cleaned and Sanitized (ppm/temp),Priority,3,467
+11,"Proper disposition of returned, previously served or reconditioned",Priority,3,12
+12,"Management, food employees and conditional employees; knowledge, responsibilities, and reporting",Priority,3,3
+14,Hands cleaned and properly washed/ Gloves used properly,Priority,3,67
+15,No bare hand contact with ready to eat foods or approved alternate method properly followed,Priority,3,150
+16,Pasteurized foods used; prohibited food not offered Pasteurized eggs used when required,Priority,3,1
+18,"Toxic substances properly identified, stored and used",Priority,3,412
+19,Water from approved source; Plumbing installed; proper backflow device,Priority,3,28
+20,"Approved Sewage/Wastewater Disposal System, proper disposal",Priority,3,5
+21,"Person in charge present, demonstration of knowledge, and perform duties/ Certified Food Manager (CFM)",Priority Foundation,2,319
+22,Food Handler/ no unauthorized persons/ personnel,Priority Foundation,2,220
+23,"Hot and Cold Water available; adequate pressure, safe",Priority Foundation,2,57
+24,Required records available (shellstock tags; parasite destruction); Packaged Food labeled,Priority Foundation,2,16
+25,"Compliance with Variance, Specialized Process, and HACCP plan; Variance obtained for specialized processing methods; manufacturer instructions",Priority Foundation,2,59
+26,Posting of Consumer Advisories; raw or under cooked foods (Disclosure/Reminder/Buffet Plate)/ Allergen Label,Priority Foundation,2,31
+27,Proper cooling method used; Equipment Adequate to Maintain Product Temperature,Priority Foundation,2,100
+28,Proper Date Marking and disposition,Priority Foundation,2,200
+29,"Thermometers provided, accurate, and calibrated; Chemical/ Thermal test strips",Priority Foundation,2,281
+30,Food Establishment Permit (Current & Valid),Priority Foundation,2,102
+31,"Adequate handwashing facilities: Accessible and properly supplied, used",Priority Foundation,2,686
+32,"Food and Non-food Contact surfaces cleanable, properly designed, constructed, and used",Priority Foundation,2,164
+33,"Warewashing Facilities; installed, maintained, used/ Service sink or curb cleaning facility provided",Priority Foundation,2,71
+34,"No Evidence of Insect contamination, rodent/other animals",Core,1,212
+35,"Personal Cleanliness/eating, drinking or tobacco use",Core,1,241
+36,Wiping Cloths; properly used and stored,Core,1,116
+37,Environmental contamination,Core,1,399
+38,Approved thawing method,Core,1,100
+39,"Utensils, equipment, & linens; properly used, stored, dried, & handled/ In use utensils; properly used",Core,1,395
+40,Single-service & single-use articles; properly stored and used,Core,1,101
+41,Original container labeling (Bulk Food),Core,1,273
+42,Non-Food Contact surfaces clean,Core,1,369
+43,Adequate ventilation and lighting; designated areas used,Core,1,179
+44,Garbage and Refuse properly disposed; facilities maintained,Core,1,49
+45,"Physical facilities installed, maintained, & clean (floors, walls, ceilings)",Core,1,478
+46,"Toilet Facilities; properly constructed, supplied, and clean Adequate # of restrooms",Core,1,128
+47,Other Violations,Core,1,1157

@@ -5,7 +5,17 @@ division has published on its public portal,
 <https://inspections.myhealthdepartment.com/frisco>, scraped, parsed, and
 cross-checked for reporting.
 
-__SUMMARY__
+**3,166 inspections of 1,387 establishments** (permits), dated June 23,
+2025 through Sept. 24, 2026 — everything the portal holds — with **8,510
+violation entries** and 23,130 temperature and sanitizer readings, parsed
+from the city's official inspection-report PDFs. Scraped Sept. 26, 2026.
+
+2,541 of the inspections are of "food establishments" (restaurants, cafes,
+bars, convenience stores and similar); the rest are schools and city
+facilities (246), child care centers (191), groceries (147), health-care
+kitchens (21), concession stands (17) and mobile vendors (2). 3,158 are
+routine inspections and 8 are reinspections. Scores run from 0 (perfect,
+47.7% of inspections) upward; the median is 1 and the mean 3.4.
 
 ## What's in `data/`
 
@@ -146,7 +156,7 @@ mentioning a closure). "Latest" orders same-day inspections by time in.
    As a cross-check, the whole walk is repeated in 7-day windows. That pass
    must return exactly the inspections the latest-per-establishment rule
    predicts from the daily pass (in the final run, the weekly windows hid
-   __WEEKLY_HIDDEN__ earlier same-week inspections, all accounted for).
+   8 earlier same-week inspections, all accounted for).
 2. **Details.** For every inspection, `scrape_details.py` downloads the
    inspection PDF ("View Original Inspection PDF"), and for every
    establishment its permit page. The inspection's web page, which is only
@@ -173,7 +183,25 @@ down automatically if it is blocked).
 `build.py` compares independent sources for every inspection and writes the
 results to `validation.json`:
 
-__CHECKS__
+| Check | What it compares | Result (final run) |
+|---|---|---|
+| Listing passes | daily vs. 7-day windows, under the latest-per-establishment rule | match; weekly windows hid exactly the 8 predicted inspections |
+| Score | listing API score vs. score printed on the PDF | 0 mismatches in 3,166 |
+| Points | official score vs. sum of per-item points on the PDF | 5 differ (source quirk; see caveats) |
+| Items | items with printed points vs. violation blocks | every scored item has a violation block |
+| Weights | points printed for each item vs. its category (3/2/1) | consistent for all 44 items that appear (items 4, 13 and 17 are never cited) |
+| Date | listing date vs. PDF date | 0 mismatches |
+| Narratives | no item title appears inside a violation narrative or citation (a sign of two blocks run together) | 0 |
+| Web page | score, OUT items and every comment on the inspection's web page vs. the PDF (371 sampled inspections) | 0 mismatches |
+| Permit pages | every inspection on every establishment's permit page vs. the listing, both ways | 0 missing after 6 hidden inspections were recovered from permit pages |
+| Times | time out before time in | 68 reports (AM/PM entry errors in the source; `times_suspect`) |
+
+In addition, five independent reviewers read 50 inspection PDFs by eye
+(chosen to cover the highest scores, the longest reports, warnings, repeat
+flags, correct-by dates, blank citations, reinspections and random picks)
+and compared every field with the CSVs: **all 50 matched exactly.** A
+separate review re-parsed all PDFs and looked for statistical anomalies;
+it found no parser errors, only the source quirks listed below.
 
 ## Caveats for reporting
 
@@ -184,7 +212,7 @@ __CHECKS__
   published.** Every row is a "Retail Food Establishment" inspection. There
   are no complaint investigations, foodborne-illness investigations, pool
   inspections, temporary-event or pre-opening inspections.
-* **Reinspections and reopenings are mostly missing.** Only __N_REINSPECT__
+* **Reinspections and reopenings are mostly missing.** Only 8
   inspections are labelled "Reinspection". Several establishments that were
   closed or told a follow-up was needed have no later record. Don't compute
   reinspection rates or time-to-reopen from this data; ask the city for its
@@ -196,7 +224,7 @@ __CHECKS__
   the matching passage. It is a keyword screen: read each flagged report
   before calling it a closure.
 * **The official score sometimes differs from the points printed on the
-  form** (`score` vs. `printed_points_total`; __N_SCORE_DIFF__ inspections).
+  form** (`score` vs. `printed_points_total`; 5 inspections).
   In the cases examined, a consumer-advisory warning (item 26, `OUT-W`,
   printed 0) was still counted as 2 points. `score` is the city's published
   figure.

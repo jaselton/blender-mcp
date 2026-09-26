@@ -1,0 +1,447 @@
+{
+  "listing": {
+    "scraped_at": "2026-09-26T01:56:13+00:00",
+    "range": [
+      "2025-01-01",
+      "2026-09-26"
+    ],
+    "years_with_data": [
+      2025,
+      2026
+    ],
+    "rows": 3160,
+    "daily_pass_rows": 3160,
+    "weekly_pass_rows": 3152,
+    "weekly_rows_hidden_by_latest_per_establishment_rule": 8,
+    "passes_match": true
+  },
+  "counts": {
+    "inspections_in_listing": 3166,
+    "inspections_built": 3166,
+    "establishments": 1387,
+    "violation_entries": 8510,
+    "measurements": 23130,
+    "permit_pages": 1387,
+    "web_pages_cross_checked": 371
+  },
+  "check_failures": {
+    "found_only_on_permit_page": 6,
+    "source_official_score_differs_from_printed_points": 5,
+    "source_time_out_before_time_in": 68
+  },
+  "details": {
+    "found_only_on_permit_page": [
+      {
+        "id": "6643466C-A12F-4423-9719-B35216153B30",
+        "permit": "23625EFF-1C1B-475F-98F2-262BFF356D12"
+      },
+      {
+        "id": "8C04F6CD-6520-4F51-B83D-5D3225622982",
+        "permit": "B497EB90-9A58-405F-8E26-4800C569A001"
+      },
+      {
+        "id": "2641DE82-8C46-4302-B139-F2F561BB2E3C",
+        "permit": "6BDCCE69-27BD-4360-983C-CDCCD4A0382B"
+      },
+      {
+        "id": "3A227B4F-8018-4F20-A5F9-51932F714FD6",
+        "permit": "A7F11F02-130A-4F50-8493-37FC3AB4978B"
+      },
+      {
+        "id": "3B26B283-2EC0-48FA-9D82-F9E8FD4FD285",
+        "permit": "DFF96046-38DE-4710-8D74-17DF529D9211"
+      },
+      {
+        "id": "A4CC9FCB-D355-4A93-B245-DBDF62F2C621",
+        "permit": "2020040A-1DF8-47B0-AB7D-D34C8984AD74"
+      }
+    ],
+    "source_official_score_differs_from_printed_points": [
+      {
+        "id": "F22FABA7-A4F6-4A5B-A1C4-4D87AF19136F",
+        "official": 15,
+        "printed_points": 13,
+        "warning_items": [
+          26,
+          39
+        ]
+      },
+      {
+        "id": "303C8066-B8AE-4701-AE25-0A9B8A91E6D6",
+        "official": 29,
+        "printed_points": 27,
+        "warning_items": [
+          26
+        ]
+      },
+      {
+        "id": "76B0685D-18BD-4527-B9A3-7EB2C8E3B2FC",
+        "official": 22,
+        "printed_points": 20,
+        "warning_items": [
+          21,
+          26,
+          46
+        ]
+      },
+      {
+        "id": "7894344D-0381-452A-88D5-0DDB33392874",
+        "official": 9,
+        "printed_points": 7,
+        "warning_items": [
+          26,
+          38,
+          45
+        ]
+      },
+      {
+        "id": "26664EB5-51B7-49B2-B108-1DF0697920AD",
+        "official": 0,
+        "printed_points": 1,
+        "warning_items": []
+      }
+    ],
+    "source_time_out_before_time_in": [
+      {
+        "id": "A28421B5-6D81-434B-ADC7-13872BDCBA3E",
+        "time_in": "09:45 PM",
+        "time_out": "10:30 AM"
+      },
+      {
+        "id": "086C21C5-1A46-4B6B-A12B-0E0A87FFCA03",
+        "time_in": "03:15 PM",
+        "time_out": "04:15 AM"
+      },
+      {
+        "id": "7518E9D3-76BB-4EC2-9DF1-824C05EC8046",
+        "time_in": "02:00 PM",
+        "time_out": "02:45 AM"
+      },
+      {
+        "id": "EBD7F627-9BC8-4D5B-9528-3949D45EBDF9",
+        "time_in": "11:20 PM",
+        "time_out": "01:30 PM"
+      },
+      {
+        "id": "71AA9E82-4606-445D-9F88-9C5B3AEB3DC6",
+        "time_in": "10:50 PM",
+        "time_out": "12:45 PM"
+      },
+      {
+        "id": "44BA70B6-F0B7-4C36-B61A-0BDCB6DF2FE3",
+        "time_in": "10:25 AM",
+        "time_out": "12:05 AM"
+      },
+      {
+        "id": "7FF9EFF5-45CD-45CF-A5D6-9DB8DB8D5A03",
+        "time_in": "11:15 PM",
+        "time_out": "12:15 AM"
+      },
+      {
+        "id": "31F6863F-98F5-4911-B4A1-148B58045BC1",
+        "time_in": "11:30 PM",
+        "time_out": "12:30 PM"
+      },
+      {
+        "id": "7660AB9D-86AF-48F9-8C0F-58AA9F92B010",
+        "time_in": "09:15 PM",
+        "time_out": "12:35 PM"
+      },
+      {
+        "id": "AE126C62-0D3F-4155-BBF3-A43B6837B9D6",
+        "time_in": "09:15 PM",
+        "time_out": "12:35 PM"
+      },
+      {
+        "id": "C90EF2A0-B393-453E-9361-DE4F78D19317",
+        "time_in": "11:00 PM",
+        "time_out": "11:40 AM"
+      },
+      {
+        "id": "DAE8BB25-F38E-46B5-8418-93F6BA757A2C",
+        "time_in": "11:30 PM",
+        "time_out": "12:05 PM"
+      },
+      {
+        "id": "6CB8BF10-DC83-4130-9582-EA802649746A",
+        "time_in": "11:30 PM",
+        "time_out": "12:35 PM"
+      },
+      {
+        "id": "E9290B59-6AD8-4D8A-926C-E27325BB4FA1",
+        "time_in": "11:45 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "0A996268-7BE1-4F63-AA82-A91E227943E8",
+        "time_in": "09:50 PM",
+        "time_out": "02:00 PM"
+      },
+      {
+        "id": "E86D06B8-04B2-4EE2-BC92-8A0EA2460FE2",
+        "time_in": "02:30 PM",
+        "time_out": "03:15 AM"
+      },
+      {
+        "id": "2F94515D-4DB4-4C91-8829-C39583175DF7",
+        "time_in": "12:45 PM",
+        "time_out": "01:15 AM"
+      },
+      {
+        "id": "74CC4120-3439-4784-9BC5-C67F78EED048",
+        "time_in": "01:45 PM",
+        "time_out": "02:30 AM"
+      },
+      {
+        "id": "D92FD478-560F-4D70-B1E1-C9772FCFDA19",
+        "time_in": "11:30 PM",
+        "time_out": "02:00 PM"
+      },
+      {
+        "id": "2665809B-60EC-4293-A8D3-74E51254BB0A",
+        "time_in": "11:30 PM",
+        "time_out": "01:15 PM"
+      },
+      {
+        "id": "EDDD08B9-C34C-4895-9AE4-CBA6A45B7735",
+        "time_in": "11:50 PM",
+        "time_out": "12:55 PM"
+      },
+      {
+        "id": "5A54C1F3-5FA8-487A-9657-63F14A24E5A4",
+        "time_in": "10:34 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "921CF0AF-790F-4BDC-9FD0-8FF4F75A833C",
+        "time_in": "11:30 PM",
+        "time_out": "11:26 AM"
+      },
+      {
+        "id": "C2271826-754E-4F75-A6AA-D5B24A8A4D73",
+        "time_in": "10:57 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "68EAC419-874B-4A8D-A1AE-9E6182063865",
+        "time_in": "11:20 AM",
+        "time_out": "12:05 AM"
+      },
+      {
+        "id": "5100A552-98D3-40E9-A531-5FE9939CC47B",
+        "time_in": "11:00 AM",
+        "time_out": "12:05 AM"
+      },
+      {
+        "id": "59A6C761-BF4E-4369-AE60-87323637927D",
+        "time_in": "11:30 PM",
+        "time_out": "12:45 PM"
+      },
+      {
+        "id": "B66D4772-A866-41CC-B073-E2F524010EA1",
+        "time_in": "11:15 PM",
+        "time_out": "12:40 PM"
+      },
+      {
+        "id": "6F9D8006-DEFA-4DE6-9C11-BFFDAF313293",
+        "time_in": "01:15 PM",
+        "time_out": "02:30 AM"
+      },
+      {
+        "id": "3AC6C9D6-6409-4204-B997-3B97891BFF9E",
+        "time_in": "10:50 PM",
+        "time_out": "01:35 PM"
+      },
+      {
+        "id": "E6F7DBDA-8FED-4C97-9EC5-33E1B9566E9F",
+        "time_in": "10:50 PM",
+        "time_out": "01:35 PM"
+      },
+      {
+        "id": "C9912FDF-3DCA-4A59-A9CE-90C142F2A0C4",
+        "time_in": "11:30 PM",
+        "time_out": "01:00 PM"
+      },
+      {
+        "id": "066908F5-F9A4-4A97-831D-1786A6631C9C",
+        "time_in": "11:45 PM",
+        "time_out": "01:00 PM"
+      },
+      {
+        "id": "8BEE42BE-6822-4838-AFA7-DB9AE9CE1693",
+        "time_in": "11:30 PM",
+        "time_out": "12:30 PM"
+      },
+      {
+        "id": "9AAEBB59-234C-4913-A1B2-8EDD4269CDB4",
+        "time_in": "01:30 PM",
+        "time_out": "02:15 AM"
+      },
+      {
+        "id": "47A06F65-F50A-4370-8D56-57124B5FB465",
+        "time_in": "11:40 PM",
+        "time_out": "12:20 PM"
+      },
+      {
+        "id": "9A53861A-B2C3-44D2-B54C-15221FB31446",
+        "time_in": "11:10 PM",
+        "time_out": "12:15 PM"
+      },
+      {
+        "id": "E80FAD20-F801-4DE3-8AB6-94B1DB98FB60",
+        "time_in": "11:10 PM",
+        "time_out": "12:15 PM"
+      },
+      {
+        "id": "1A734809-BF7A-42F4-A3DE-EBC4493C4A07",
+        "time_in": "11:44 PM",
+        "time_out": "12:20 PM"
+      },
+      {
+        "id": "228E8AEB-7EEA-4D76-9441-694FC0E45ECB",
+        "time_in": "11:05 PM",
+        "time_out": "12:22 PM"
+      },
+      {
+        "id": "AFA1EFF8-6093-4376-8B23-0EED6C19D12D",
+        "time_in": "11:39 PM",
+        "time_out": "12:18 PM"
+      },
+      {
+        "id": "A2F82005-6F34-4113-9D05-E467AE541DD5",
+        "time_in": "11:15 PM",
+        "time_out": "12:35 PM"
+      },
+      {
+        "id": "D9617C38-37CC-4564-BB9F-80B6919E17D2",
+        "time_in": "11:43 AM",
+        "time_out": "12:05 AM"
+      },
+      {
+        "id": "F7617EBD-1F2D-4866-BE9B-DF1267C25FF7",
+        "time_in": "11:26 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "336DCE4D-C331-4E33-A0C6-1C0E57A6C697",
+        "time_in": "10:20 PM",
+        "time_out": "12:45 PM"
+      },
+      {
+        "id": "48CEB652-5DA2-49BC-A2CA-F83C85631A61",
+        "time_in": "10:20 PM",
+        "time_out": "12:45 PM"
+      },
+      {
+        "id": "5744A17F-EEDF-4CD3-AC76-94F7FB57C17D",
+        "time_in": "10:20 PM",
+        "time_out": "12:45 PM"
+      },
+      {
+        "id": "B0AEED57-D49A-48DC-BF1D-78BF131918A9",
+        "time_in": "10:20 PM",
+        "time_out": "12:45 PM"
+      },
+      {
+        "id": "EA3DD690-B396-42D6-804A-3490477476B4",
+        "time_in": "11:18 AM",
+        "time_out": "12:03 AM"
+      },
+      {
+        "id": "A4A5D867-6C68-483F-9020-F5F9A745F318",
+        "time_in": "11:10 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "6D2E4AC3-9F9A-4371-A3FC-55D5E5351CD9",
+        "time_in": "10:00 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "A03D295A-7A83-4F0F-A755-9EF57D8A3559",
+        "time_in": "10:00 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "2C62FDAC-F02D-4A71-A410-704751E61B4A",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "31BDF14B-9551-4846-B7D5-8E9ACFF9802E",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "51E36297-2BC7-4676-B901-5E7895924F02",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "6288A78A-313A-4ED1-9E4B-702830CECB4F",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "966109B4-B332-465B-A3EF-899EAEA24FC1",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "999CB8A9-C865-4C6C-9DF7-20B3AAB73825",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "B91F3A2A-2855-4E09-9817-B0804FAEDCEA",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "D686D06C-F752-4680-9397-29E77FC2DD57",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "FDD1796A-A94F-4E8A-8A67-467259C9390B",
+        "time_in": "09:44 PM",
+        "time_out": "02:15 PM"
+      },
+      {
+        "id": "FC5DCB1D-6B63-492D-A1E8-2FD70B95D1E1",
+        "time_in": "11:25 AM",
+        "time_out": "12:05 AM"
+      },
+      {
+        "id": "D073C5B0-F01B-4377-98D9-D7CC242CB059",
+        "time_in": "11:00 AM",
+        "time_out": "12:15 AM"
+      },
+      {
+        "id": "91123761-CE84-41FE-BA97-9B06D82C7178",
+        "time_in": "11:50 PM",
+        "time_out": "01:05 PM"
+      },
+      {
+        "id": "61158CA1-1209-4E22-A24A-24EA5940DCC5",
+        "time_in": "11:40 AM",
+        "time_out": "12:00 AM"
+      },
+      {
+        "id": "100958D9-4A1A-451F-B6F2-55001EC9C3B4",
+        "time_in": "12:18 PM",
+        "time_out": "11:30 AM"
+      },
+      {
+        "id": "146B1359-1BD9-4DCC-A99C-B8852B33B491",
+        "time_in": "03:20 PM",
+        "time_out": "02:45 PM"
+      },
+      {
+        "id": "1EBA936F-230D-446B-AA72-9F42DEC0B7E2",
+        "time_in": "01:45 PM",
+        "time_out": "02:15 AM"
+      }
+    ]
+  }
+}

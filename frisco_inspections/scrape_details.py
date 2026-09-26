@@ -47,10 +47,11 @@ def download(kind, key, stale_before=None):
 
 
 HERE = Path(__file__).parent
-# Parsed results are cached per inspection, keyed by the parser source, so a
-# re-run only re-parses when the parser changes or a file was re-downloaded.
+# Parsed results are cached per inspection, keyed by the source of the
+# parsers and of this file (parse_one shapes the cached record), so a re-run
+# only re-parses when that code changes or a file was re-downloaded.
 PARSER_VERSION = hashlib.sha1(
-    b"".join((HERE / f).read_bytes() for f in ("parse_pdf.py", "parse_html.py"))
+    b"".join((HERE / f).read_bytes() for f in ("parse_pdf.py", "parse_html.py", "scrape_details.py"))
 ).hexdigest()[:12]
 
 
