@@ -38,7 +38,7 @@ Frisco
 Everything here is a pattern in published records. Inspector comparisons cannot separate how strictly
 someone inspects from where they are sent or how they record what they find.
 
-Run from this folder:  python violations_and_frisco.py   (pandas, numpy, statsmodels; about a minute)
+Run from this folder:  python violations_and_frisco.py   (pandas, numpy, statsmodels; about 15 seconds)
 """
 import importlib.util
 import os
@@ -70,7 +70,7 @@ rng = np.random.default_rng(20260927)
 B = 2000
 
 FRISCO = HERE.parent.parent / "frisco_inspections"
-F_START, F_END = pd.Timestamp("2025-06-23"), pd.Timestamp("2026-09-24")   # Frisco's data
+F_START = pd.Timestamp("2025-06-23")                                       # first day of Frisco's data
 MK_END = ins.inspection_date.max()                                          # McKinney's last inspection
 AM = "American (sit-down, bars, venues)"
 SALLEY, GOLDSTON, ADAGBON, SMITH, GUIDRY = ("Shane Salley", "Victoria Goldston", "Emmanuel Adagbon",
@@ -145,7 +145,8 @@ def item_matrix(v, key, ids):
 PEST = {  # applied to lower-cased item-34 text; categories overlap
     "roaches": r"roach",
     "rodents or droppings": r"dropping|feces|excrement|\bmouse\b|\bmice\b|\brats?\b|gnaw|rodent (?:activity|evidence|"
-                            r"infestation|observed|found|noted|sighting)|(?:live|dead|observed|noted|found) (?:a )?rodent",
+                            r"infestation|observed|found|noted|sighting|issue|problem)|(?:live|dead|observed|noted|found) (?:a )?rodent|"
+                            r"rodents? found|issue with rodents|\d+ rodents",
     "flies, gnats or other flying insects": r"\bflies\b|\bgnats?\b|fruit ?fl|drain ?fl|bar ?fl|\bfly (?:issue|problem|"
                                             r"activity|infestation)|house ?fl|flying (?:insect|bug)",
     "other insects or animals": r"\bants?\b|beetle|weevil|\bmoths?\b|spider|\bbirds?\b|lizard|cricket|wasp|"
@@ -156,6 +157,7 @@ PEST = {  # applied to lower-cased item-34 text; categories overlap
 }
 DEAD = r"dead (?:bug|insect|fl(?:y|ies)|cricket|roach)s?|deceased|light shield"
 ENTRY = r"door|gap|seal|screen|opening|window|weather ?strip|sweep|\bholes?\b|crack|air curtain|entry|entrance of pest"
+CEIL = r"ceiling tile|ceiling grate"
 CONTROL = (r"pest control (?:record|receipt|report|log|invoice)|records?\b|receipt|invoice|household|residential|"
            r"unapproved|unpermitted|bug spray|\braid\b|pesticide|fly light|bug light|zap|glue|trap|bait|insecticide|"
            r"spray|fly strip|sticky|swatter|self|licensed|does not have pest control|no pest control")
@@ -168,11 +170,12 @@ def classify_pests(text):
     out["dead insects only"] = t.str.contains(DEAD) & ~out["pests recorded"]
     out["entry points (doors, gaps, seals)"] = t.str.contains(ENTRY)
     out["control devices, chemicals or records"] = t.str.contains(CONTROL)
+    out["ceiling tiles"] = t.str.contains(CEIL)
     out["no text"] = t.str.strip() == ""
     prim = np.select([out["pests recorded"], out["dead insects only"], out["entry points (doors, gaps, seals)"],
-                      out["control devices, chemicals or records"], out["no text"]],
+                      out["control devices, chemicals or records"], out["ceiling tiles"], out["no text"]],
                      ["pests recorded", "dead insects only", "entry points only", "control devices/records only",
-                      "no text"], "other or unclear")
+                      "ceiling tiles only", "no text"], "other or unclear")
     out["primary"] = prim
     return out
 
@@ -270,7 +273,7 @@ print(f"item 34 cited on {pct(n34, nR)} R inspections at {v34.establishment_id.n
       f"({(v34.source != 'layer').sum()} of the {len(v34)} citations are corrected-on-site items from reports)")
 print("What the note under item 34 describes (overlapping categories):")
 for k in list(PEST) + ["pests recorded", "dead insects only", "entry points (doors, gaps, seals)",
-                       "control devices, chemicals or records", "no text"]:
+                       "control devices, chemicals or records", "ceiling tiles", "no text"]:
     print(f"  {k:40s} {int(v34[k].sum()):4d}")
 print("Primary reading of each citation (mutually exclusive):", v34.primary.value_counts().to_dict())
 pestI = v34[v34["pests recorded"]]
@@ -281,6 +284,10 @@ print(f"R inspections whose item-34 note records pests (live or droppings, incl.
 for k in PEST:
     s = v34[v34[k]]
     print(f"  {k:40s} {s.inspection_number.nunique():4d} inspections at {s.establishment_id.nunique():3d} establishments")
+rr34 = v34[v34["roaches"] | v34["rodents or droppings"]]
+print(f"roaches or rodent evidence: {pct(rr34.inspection_number.nunique(), nR)} at {rr34.establishment_id.nunique()} "
+      f"establishments; other pest findings (flies, gnats, other insects, type not stated): "
+      f"{v34[v34['pests recorded'] & ~v34['roaches'] & ~v34['rodents or droppings']].inspection_number.nunique()}")
 nost = v34[v34["pest, type not stated"]]
 print(f"'Observed pest in establishment' (type not stated) by inspector: {nost.inspector.value_counts().to_dict()}; "
       f"years {nost.inspection_date.dt.year.value_counts().sort_index().to_dict()}")
@@ -336,6 +343,9 @@ print(f"what the {len(v31)} item-31 notes mention (overlapping keyword counts):"
       {k: int(t31.str.contains(p).sum()) for k, p in kw.items()})
 s14 = vL[vL.item_number == 14]
 print(f"item 14 (hands washed, gloves) cited on {pct(s14.inspection_number.nunique(), nR)}")
+hp = ins.custom_comments.fillna("").str.contains(r"health policy|employee health|illness policy", case=False)
+print(f"notes (all {len(ins):,} McKinney inspections) mentioning a written employee-health policy: {int(hp.sum())} "
+      f"(Frisco's finding 3 example); item 15 cited on {pct(int(XL[15].sum()), nR)} R inspections")
 
 # =================================================================================================== [6]
 head("[6] Corrected on site (COS) and repeat marks: reports era (R inspections from 2024 with a report)")
@@ -355,6 +365,12 @@ print(ct.sort_values("inspections", ascending=False).round(3).to_string())
 cos_by_insp = RP[RP.any_cos].inspector.value_counts()
 print(f"inspections with COS items, by inspector: {cos_by_insp.to_dict()} "
       f"(Salley share {100 * cos_by_insp.get(SALLEY, 0) / RP.any_cos.sum():.0f}%)")
+XP = item_matrix(vP, "inspection_number", RP.inspection_number)         # layer + COS items, reports era
+RP["pri_all"] = XP.loc[RP.inspection_number, range(1, 21)].max(axis=1).to_numpy()
+print(f"share with a Priority violation: layer only {100 * RP.pri.mean():.1f}%, with COS items {100 * RP.pri_all.mean():.1f}%")
+pr = RP.groupby("inspector")[["pri", "pri_all"]].mean().mul(100).round(1)
+print("  by inspector (layer only -> with COS items, %):",
+      {k: f"{r.pri} -> {r.pri_all}" for k, r in pr.iterrows() if (RP.inspector == k).sum() >= 100})
 pP = vP[vP.item_number <= 20]
 print(f"Priority items on these reports: {len(pP)}; marked COS: {pct(int(pP.corrected_on_site.sum()), len(pP))}")
 pS = pP[pP.inspector == SALLEY]
@@ -424,17 +440,13 @@ for nm, f in [("year only", "pri ~ C(yr, Treatment('2018'))"),
               ("+ inspector", "pri ~ C(yr, Treatment('2018')) + C(inspector)"),
               ("+ inspector + establishment", "pri ~ C(yr, Treatment('2018')) + C(inspector) + C(establishment_id)")]:
     m = smf.ols(f, M).fit(cov_type="cluster", cov_kwds=cl)
-    ci = m.conf_int()
     res[nm] = {y: f"{100 * m.params[KY.format(y)]:+.1f}" for y in yrs}
 print("\nChange in the share of inspections with a Priority violation relative to 2018 (percentage points, "
       "linear probability model, SEs clustered by establishment):")
 print(pd.DataFrame(res).T.to_string())
-m_full = smf.ols("pri ~ C(yr, Treatment('2018')) + C(inspector) + C(establishment_id)", M).fit(
-    cov_type="cluster", cov_kwds=cl)
-k19, k25 = KY.format(2019), KY.format(2025)
-print(f"  full model 2019 vs 2018: {100 * m_full.params[k19]:+.1f} pp (95% CI {100 * m_full.conf_int().loc[k19, 0]:+.1f} "
-      f"to {100 * m_full.conf_int().loc[k19, 1]:+.1f}); 2025 vs 2018: {100 * m_full.params[k25]:+.1f} pp "
-      f"({100 * m_full.conf_int().loc[k25, 0]:+.1f} to {100 * m_full.conf_int().loc[k25, 1]:+.1f})")
+ci = m.conf_int()  # last model: year + inspector + establishment
+print("  95% CIs, full model:", {y: f"{100 * ci.loc[KY.format(y), 0]:+.1f} to {100 * ci.loc[KY.format(y), 1]:+.1f}"
+                                 for y in yrs})
 # 2020
 print("\n2020 (COVID-19):")
 mon = R[R.year.between(2019, 2021)].groupby([R.year.astype(int), R.inspection_date.dt.month]).size().unstack(0)
@@ -497,9 +509,6 @@ print(f"Reports exist only for permits still on the city's map: without-report i
 
 # =================================================================================================== [9]
 head("[9] Headline numbers, side by side (routine restaurant inspections)")
-XP = item_matrix(vP, "inspection_number", RP.inspection_number)         # layer + COS items, reports era
-RP["pri_all"] = XP.loc[RP.inspection_number, range(1, 21)].max(axis=1).to_numpy()
-RPW["pri_all"] = RP.set_index("inspection_number").pri_all.reindex(RPW.inspection_number).to_numpy()
 
 
 def headline(label, score, pri, est, per):
@@ -538,10 +547,24 @@ RPW_items = XP.loc[RPW.inspection_number].sum(axis=1)
 print(f"items cited per inspection: McKinney B {RPW_items.mean():.2f}, Frisco {FR_items.mean():.2f}; "
       f"Priority items per inspection: McKinney B {XP.loc[RPW.inspection_number, range(1, 21)].sum(axis=1).mean():.2f}, "
       f"Frisco {FX.loc[FR.inspection_id, range(1, 21)].sum(axis=1).mean():.2f}")
-FRj = FR[FR.inspector.isin(F_NEW)]
+PTS = pd.Series({n: 3 if n <= 20 else 2 if n <= 33 else 1 for n in range(1, 48)})
+for lab, cols in (("Priority (1-20)", range(1, 21)), ("Priority Foundation (21-33)", range(21, 34)),
+                  ("Core (34-47)", range(34, 48))):
+    mb = (XP.loc[RPW.inspection_number, cols] * PTS[list(cols)]).sum(axis=1).mean()
+    ff = (FX.loc[FR.inspection_id, cols] * PTS[list(cols)]).sum(axis=1).mean()
+    print(f"  points per inspection from {lab:28s} McKinney B {mb:.2f}, Frisco {ff:.2f}, difference {mb - ff:+.2f}")
+FXw = item_matrix(FVr, "inspection_id", FR.inspection_id)             # OUT and OUT-W
+print(f"Frisco items per inspection counting 0-point warnings too: {FXw.loc[FR.inspection_id].sum(axis=1).mean():.2f}; "
+      f"Frisco inspections with no scored item and no warning: "
+      f"{pct(int((FXw.loc[FR.inspection_id].sum(axis=1) == 0).sum()), len(FR))} (McKinney B at 0: "
+      f"{pct(int((RPW.score_printed == 0).sum()), len(RPW))})")
 FRo = FR[~FR.inspector.isin(F_NEW)]
 print(f"Frisco without its three summer-2026 inspectors: {len(FRo):,} inspections, mean {FRo.score.mean():.2f}, "
       f"any Priority {100 * FRo.pri.mean():.1f}%, 15+ {100 * (FRo.score >= 15).mean():.1f}%")
+RPo = RPW[RPW.inspector != ADAGBON]
+print(f"McKinney B without its high-scoring newcomer (Adagbon): {len(RPo):,} inspections, mean "
+      f"{RPo.score_printed.mean():.2f}, any Priority {100 * RPo.pri_all.mean():.1f}%, 15+ "
+      f"{100 * (RPo.score_printed >= 15).mean():.1f}%, at 0 {100 * (RPo.score_printed == 0).mean():.1f}%")
 
 # =================================================================================================== [10]
 head("[10] What inspectors find most, side by side (share of routine restaurant inspections citing the item)")
@@ -578,6 +601,8 @@ fpr = F34[F34["pests recorded"]]
 print(f"  Frisco by type (inspections): " + ", ".join(
     f"{k} {fpr[fpr[k]].inspection_id.nunique()}" for k in PEST))
 mpr = v34[v34["pests recorded"] & v34.inspection_number.isin(RPW.inspection_number)]
+typed = mpr[~mpr["pest, type not stated"]].inspection_number.nunique()
+print(f"  McKinney B leaving out 'observed pest in establishment' with no type given: {pct(typed, len(RPW))}")
 print(f"  McKinney B by type (inspections): " + ", ".join(
     f"{k} {mpr[mpr[k]].inspection_number.nunique()}" for k in PEST))
 # COS and repeat
@@ -587,6 +612,19 @@ print(f"\nPriority entries marked corrected on site: Frisco {pct(int(FP.correcte
 f_rep = FVr[FVr.repeat == True].inspection_id.nunique()  # noqa: E712
 m_rep = int(RPW.report_repeat_items.fillna("").ne("").sum())
 print(f"inspections with at least one Repeat mark: Frisco {pct(f_rep, len(FR))}; McKinney B {pct(m_rep, len(RPW))}")
+# recurrence in Frisco with the same rule as section [6]: item cited (OUT or OUT-W) at a routine inspection and again
+# at the permit's next routine inspection 30+ days later; share of those marked Repeat at the second visit
+FS = FR.sort_values(["permit_id", "inspection_date", "time_in_24h"]).copy()
+FS["prev"] = FS.groupby("permit_id").inspection_id.shift()
+FS["gap"] = (FS.inspection_date - FS.groupby("permit_id").inspection_date.shift()).dt.days
+f_items = FVr.groupby("inspection_id").item_number.apply(set).to_dict()
+f_rflag = FVr[FVr.repeat == True].groupby("inspection_id").item_number.apply(set).to_dict()  # noqa: E712
+frec = [(r.inspector, n in f_rflag.get(r.inspection_id, set()))
+        for r in FS[FS.prev.notna() & (FS.gap >= 30)].itertuples()
+        for n in f_items.get(r.inspection_id, set()) & f_items.get(r.prev, set())]
+frec = pd.DataFrame(frec, columns=["inspector", "marked"])
+print(f"recurring items marked Repeat at the second visit: Frisco {pct(int(frec.marked.sum()), len(frec))} "
+      f"(its report: 28%); McKinney reports era {pct(int(rec.marked.sum()), len(rec))}")
 # cold holding temperatures, both cities
 F2 = FO[FO.item_number == 2].copy()
 F2["t"] = F2.comments.map(lambda s: temps(s, max))
@@ -679,6 +717,8 @@ for nm, (d, sc, est) in {"McKinney A (printed)": (RP, "score_printed", "establis
                          "Frisco (labelled restaurants)": (FU, "score", "permit_id")}.items():
     print(f"  {nm:30s} R-squared, log(1+score): inspector {r2(d, sc, 'inspector'):.3f}, cuisine group "
           f"{r2(d, sc, 'g'):.3f}  (n={len(d):,}, inspectors {d.inspector.nunique()})")
+print(f"  finer labels: McKinney R, our category {r2(R, 'score_std', 'category'):.3f}; Frisco, the city's food type "
+      f"{r2(FU, 'score', 'food_type'):.3f}")
 for nm, (d, sc) in {"McKinney A": (RP, "score_printed"), "Frisco": (FR, "score")}.items():
     im = d.groupby("inspector")[sc].agg(["size", "mean"])
     im = im[im["size"] >= 100].sort_values("mean")
@@ -723,7 +763,6 @@ NVM = newcomer(mp_std, pd.Timestamp("2025-09-04"), [ADAGBON], "establishment_id"
                "McKinney, Emmanuel Adagbon (first seen Sep 4 2025), score_std")
 newcomer(mp_std, pd.Timestamp("2025-09-04"), [SMITH, GUIDRY], "establishment_id", NEW25,
          "McKinney, Billy Smith and Nala Guidry (first seen Jan/Mar 2026), score_std")
-Rb = R[R.score_printed.notna()]
 mp_pr = pairs(R.assign(sp=R.score_printed), "sp", "establishment_id", ["inspection_date", "time_in"], min_gap=30)
 mp_pr = mp_pr[mp_pr.prev_score.notna() & mp_pr.sp.notna()]
 newcomer(mp_pr, pd.Timestamp("2025-09-04"), [ADAGBON], "establishment_id", NEW25,
@@ -736,18 +775,27 @@ print(f"McKinney restaurant mean score_std, 12 months before Sep 4 2025: {before
 print(f"  share of 15+ scores since Sep 4 2025 written by Adagbon: "
       f"{pct(int((since[since.inspector == ADAGBON].score_std >= 15).sum()), int((since.score_std >= 15).sum()))}; "
       f"his share of inspections {100 * (since.inspector == ADAGBON).mean():.0f}%")
-# same-establishment inspector effects, McKinney R, establishment + year effects
+# same-establishment inspector effects, McKinney R, establishment + year effects (within transformation)
 M2 = R.copy()
 M2["insp"] = M2.inspector.where(M2.inspector.map(M2.inspector.value_counts()) >= 100, "other")
+M2["i10"] = XL.loc[M2.inspection_number, 10].to_numpy()
 g = M2.establishment_id
 X = pd.get_dummies(M2.insp, dtype=float).drop(columns=[SALLEY])
 X = pd.concat([X, pd.get_dummies(M2.year.astype(int).astype(str), prefix="y", drop_first=True, dtype=float)], axis=1)
-Yw = M2.score_std - M2.groupby(g).score_std.transform("mean")
 Xw = X - X.groupby(g).transform("mean")
-fe = sm.OLS(Yw, Xw).fit(cov_type="cluster", cov_kwds={"groups": pd.factorize(g)[0]})
 lv = [c for c in X.columns if not c.startswith("y_") and c != "other"]
-print("McKinney R, same establishment and year, points relative to Shane Salley (establishment FE):",
-      {k: f"{fe.params[k]:+.1f} ({fe.conf_int().loc[k, 0]:+.1f} to {fe.conf_int().loc[k, 1]:+.1f})" for k in lv})
+FE = {}
+for y, scale, unit in (("score_std", 1, " points"), ("pri", 100, " pp"), ("i10", 100, " pp")):
+    Yw = M2[y].astype(float) - M2.groupby(g)[y].transform("mean")
+    fe = sm.OLS(Yw, Xw).fit(cov_type="cluster", cov_kwds={"groups": pd.factorize(g)[0]})
+    ci = fe.conf_int()
+    FE[y] = {k: scale * fe.params[k] for k in lv}
+    print(f"McKinney R, same establishment and year, {y} relative to Shane Salley ({unit.strip()}):",
+          {k: f"{scale * fe.params[k]:+.1f} ({scale * ci.loc[k, 0]:+.1f} to {scale * ci.loc[k, 1]:+.1f})" for k in lv})
+i10r = M2.groupby("inspector").i10.agg(["mean", "size"])
+print("item 10 (food-contact surfaces not clean/sanitized), raw share of each inspector's R inspections:",
+      {k: f"{100 * r['mean']:.0f}% of {int(r['size'])}" for k, r in i10r.sort_values("size", ascending=False).iterrows()
+       if r["size"] >= 100})
 
 # =================================================================================================== [13]
 head("[13] Closures, side by side")
@@ -775,7 +823,7 @@ print(f"  per 1,000 routine inspections: all permits {1000 * CLO.routine.sum() /
       f"({len(routine_all):,}); restaurants {1000 * CLO.in_R.sum() / nR:.1f}")
 print("  by type:", CLO.type.value_counts().to_dict())
 hz = CLO[CLO.type == "hazard-based"]
-water = hz.reason.str.contains("water|leak", case=False)
+water = hz.reason.str.contains("hot water|running water|water line|leak", case=False)
 print(f"  hazard-based reasons: no hot or running water or a leak {pct(int(water.sum()), len(hz))}; "
       f"pests {int(hz.reason.str.contains('dropping|roach|ant |fly|insect', case=False).sum())}; "
       f"refrigeration {int(hz.reason.str.contains('cooler|refrig', case=False).sum())}")
@@ -872,38 +920,51 @@ print(f"  2026 inspections above 30: {len(hiF)}; not shown in the default browse
 
 # =================================================================================================== [15]
 head("[15] Frisco's six headline findings: same issue in McKinney?")
-g_mb = GAP[("McK B (printed)", "Indian", AM)]
 g_ma = GAP[("McK A (printed)", "Indian", AM)]
 g_f = GAP[("Frisco", "Indian", AM)]
 g_r = GAP[("McK R 2017-26 (std)", "Indian", AM)]
+nm_ = lambda ns: ", ".join(f"{n} {SHORT[n]}" for n in ns)  # noqa: E731
 tbl = [
-    ("1 Some kinds of restaurants score far worse (Indian ~4x American)", "YES, smaller ratio",
-     f"Indian-coded restaurants are the highest group in McKinney too: {g_ma[0]:.1f}x American on printed scores "
-     f"2024-26 (+{g_ma[1]:.1f} points; Frisco {g_f[0]:.1f}x, +{g_f[1]:.1f}); 2017-26 layer {g_r[0]:.1f}x (+{g_r[1]:.1f}). "
-     f"Point gap similar, ratio smaller because McKinney's American baseline is higher. Chinese is not in McKinney's top group."),
+    ("1 Some kinds of restaurants score far worse (Indian ~4x American)", "YES, but a smaller ratio",
+     f"Indian-coded restaurants are McKinney's highest-scoring group too: {g_ma[0]:.1f}x American on printed scores "
+     f"2024-26, +{g_ma[1]:.1f} points (Frisco {g_f[0]:.1f}x, +{g_f[1]:.1f}); 2017-26 layer scores {g_r[0]:.1f}x, "
+     f"+{g_r[1]:.1f}. The point gap is about the same; the ratio is smaller because McKinney's American baseline is "
+     f"higher. The Asian groups also score high in McKinney; Chinese is less of an outlier than in Frisco."),
     ("2 Who inspects matters about as much as cuisine; newcomers score the same places higher", "YES",
-     f"Inspector explains more score variation than cuisine group in McKinney (R2 {r2(R, 'score_std', 'inspector'):.2f} vs "
-     f"{r2(R, 'score_std', 'g'):.2f}, 2017-26); newcomer Adagbon's first visits ran {NVM[0]:+.1f} points above the same "
-     f"restaurants' previous inspection vs {NVM[1]:+.1f} for same-inspector repeats (Frisco newcomers {NVF[0]:+.1f})."),
+     f"Over 2017-26 the inspector explains more score variation than the cuisine group (R2 "
+     f"{r2(R, 'score_std', 'inspector'):.2f} vs {r2(R, 'score_std', 'g'):.2f}; in the 2024-26 report set "
+     f"{r2(RP, 'score_printed', 'inspector'):.2f} vs {r2(RP, 'score_printed', 'g'):.2f}). Newcomer Adagbon's first "
+     f"visits ran {NVM[0]:+.2f} points above the same restaurants' previous inspection vs {NVM[1]:+.2f} for "
+     f"same-inspector repeats (Frisco's newcomers {NVF[0]:+.2f} vs {NVF[1]:+.2f}). McKinney's other two newcomers "
+     f"show no jump."),
     ("3 Same problem written up different ways (health policy, warnings, Repeat flag)", "PARTLY",
-     f"No 0-point warnings and no health-policy citations in McKinney; but corrected-on-site marks, which drop items from "
-     f"the public layer score, come almost entirely from one inspector ({cos_by_insp.get(SALLEY, 0)} of "
-     f"{int(RP.any_cos.sum())} inspections), and Repeat marking of recurring items varies by inspector (overall "
-     f"{100 * rec.marked.mean():.0f}%)."),
+     f"No 0-point warnings and no health-policy citations in McKinney. But recording differs by inspector: "
+     f"corrected-on-site marks, which remove items from the city's public layer, come almost entirely from one "
+     f"inspector ({cos_by_insp.get(SALLEY, 0)} of {int(RP.any_cos.sum())} inspections); the top Priority item (10) "
+     f"is cited on {100 * i10r.loc['David Lerma', 'mean']:.0f}% of Lerma's and {100 * i10r.loc[GOLDSTON, 'mean']:.0f}% "
+     f"of Goldston's restaurant inspections vs {100 * i10r.loc[SALLEY, 'mean']:.0f}% of Salley's "
+     f"(+{FE['i10']['David Lerma']:.0f} and +{FE['i10'][GOLDSTON]:.0f} percentage points at the same establishments); "
+     f"Repeat marking of recurring items ranges {100 * (rb['sum'] / rb['size']).min():.0f}-"
+     f"{100 * (rb['sum'] / rb['size']).max():.0f}% by inspector."),
     ("4 Closures only in free text; most without a published reinspection", "PARTLY",
-     f"Closures are free text only here too ({len(CLO)} in nine years). Score-based closures ({(CLO.type == 'score-based').sum()}) "
-     f"almost always have a next-day record ({int((CLO[CLO.type == 'score-based'].next_days <= 1).sum())}); hazard closures "
-     f"({(CLO.type == 'hazard-based').sum()}, mostly no hot water) rarely do ({int((CLO[CLO.type == 'hazard-based'].next_days <= 14).sum())} "
-     f"within 14 days)."),
-    ("5 The public portal shows less than the reports do", "YES, different mechanism",
-     f"No portal equivalent: the city's map page is 'temporarily unavailable'; the unlinked app attaches "
-     f"{pct(int(plc.get('own permit', 0)), len(rp))} reports to their own permit, shows a rounded-down 4-inspection "
-     f"average, and its layer drops corrected-on-site items; almost no reports before 2024."),
+     f"Closures are free text only here too ({len(CLO)} in nine years; {len(Cw)} in Frisco's window, "
+     f"{1000 * Cw.routine.sum() / len(rw):.1f} per 1,000 routine inspections vs Frisco's {1000 * len(FCc) / len(FIr):.1f}). "
+     f"But most McKinney closures are score-based under the ordinance's threshold, and "
+     f"those almost always have a next-day record ({int((CLO[CLO.type == 'score-based'].next_days <= 1).sum())} of "
+     f"{(CLO.type == 'score-based').sum()}); hazard closures ({(CLO.type == 'hazard-based').sum()}; no hot or running "
+     f"water or a leak in {int(water.sum())}) rarely do ({int((CLO[CLO.type == 'hazard-based'].next_days <= 14).sum())} "
+     f"within 14 days), much as in Frisco ({int(FCc.reins.sum())} of {len(FCc)} with a published reinspection)."),
+    ("5 The public portal shows less than the reports do", "YES, by a different mechanism",
+     f"McKinney has no inspection portal: the city's map page says it is temporarily unavailable; the unlinked app "
+     f"attaches only {pct(int(plc.get('own permit', 0)), len(rp))} report PDFs to their own business, shows a "
+     f"rounded-down four-inspection average rather than the latest score, and its layer leaves out corrected-on-site "
+     f"items; restaurant reports before 2024 are almost all missing."),
     ("6 What inspectors find most (surfaces, raw/RTE, chemicals, cold holding; ~1/3 with a Priority violation)",
-     "YES for items; NO for the rate",
-     f"Same top Priority items (McKinney {topM}, Frisco {topF}); but {100 * H['B']['pri'][0]:.0f}% of McKinney "
-     f"restaurant inspections in Frisco's window had a Priority violation vs {100 * H['F']['pri'][0]:.0f}% in Frisco, "
-     f"and corrected-on-site marks are rare in McKinney."),
+     "YES for the items; NO for the rate",
+     f"The same four Priority items lead in both cities (McKinney: {nm_(topM)}; Frisco: {nm_(topF)}). But "
+     f"{100 * H['B']['pri'][0]:.0f}% of McKinney restaurant inspections in Frisco's window had a Priority "
+     f"violation vs {100 * H['F']['pri'][0]:.0f}% in Frisco, and McKinney marks few Priority items corrected on site "
+     f"(Frisco {100 * FP.corrected_on_site.mean():.0f}%)."),
 ]
 for f, verdict, ev in tbl:
     print(f"\n{f}\n  -> {verdict}\n     {ev}")
