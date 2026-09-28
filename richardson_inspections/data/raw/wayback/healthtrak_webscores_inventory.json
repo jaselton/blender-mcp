@@ -1,0 +1,2471 @@
+{
+ "note": "CDX listing only; none of these captures were downloaded.",
+ "captures": [
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20031121131551",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IPGEOUVJIHVI7VJSMV4VXPUYDTZUWLAB",
+   "length": "3177"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20040202174025",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IBAVO7T6CBMX4RM6IWAIE7BNPHPNGLR2",
+   "length": "2528"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?openview",
+   "timestamp": "20040203073243",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SKJ34KN5NE6GELUUMKJ7L3EM2SNFVPHL",
+   "length": "1743"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview&resortascending=3",
+   "timestamp": "20040203162430",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500&ResortAscending=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "Z7BDEKMHLKT3PUJTWTXPFL4U6BGVQB6K",
+   "length": "9294"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview&resortascending=4",
+   "timestamp": "20040203163258",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500&ResortAscending=4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XAQLQBYXV4CJIXIRDSUN3U2TWS5SXHMS",
+   "length": "9256"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1&openview&start=1",
+   "timestamp": "20040203174459",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "72BYRMNA34H6FAHKBFYYVRFZDMLWJPGG",
+   "length": "1821"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2&openview&start=1",
+   "timestamp": "20040203174727",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "4W7TIUAJLG3OSKSXRKZYGDA26V2R5ZBG",
+   "length": "1955"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4&openview&start=1",
+   "timestamp": "20040203181226",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "LCN4CO2YUYRGQ6RB7E2RCHYOUEN2STB4",
+   "length": "1844"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview",
+   "timestamp": "20040222212338",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "LWX2NIZGVL4KZV4HZYL6G374KGZKKGQL",
+   "length": "1742"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.10&openview&start=1",
+   "timestamp": "20040222225921",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "WPEGA5MPCWOI5OY2FOESAKA3XLCUGV3S",
+   "length": "2024"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.2&openview&start=1",
+   "timestamp": "20040222230409",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ST6TQW73WFH2ZXAGW6LI4J5YTBDV56HL",
+   "length": "5300"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.1&openview&start=1",
+   "timestamp": "20040222231003",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "V4UPHBL7RPTIVJESL5FQVFVPGLZZECKD",
+   "length": "1948"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.11&openview&start=1",
+   "timestamp": "20040222231212",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "NUOCDSJQH7OFJHMHRBD53QWCZFOQBAXL",
+   "length": "2012"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.2&openview&start=1",
+   "timestamp": "20040222231327",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "2CEHVJC57E3FA6P3AIJUZ3L5DFZS6KNB",
+   "length": "4302"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2&count=500&openview&start=1",
+   "timestamp": "20040222231510",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "I33C4UMTMRCMNYXA3EEBWVGCNIPBQ24U",
+   "length": "1764"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.2&openview&start=1",
+   "timestamp": "20040222231515",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "VJDZ53DU5BH6VEC7WUZPMO255XEEQKWE",
+   "length": "1922"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.4&openview&start=1",
+   "timestamp": "20040222231528",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "WUXWOJTZ3YQR2SVPPPXVZ6ACCFXP5MHL",
+   "length": "5875"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.5&openview&start=1",
+   "timestamp": "20040222231902",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SQMH2MMQIBWQRJBUFL2UZNR23DAZSTZB",
+   "length": "5318"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3&count=500&openview&start=1",
+   "timestamp": "20040222232041",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "TH6DYSZYPJTXWQ5Y5POJUOL77K72G7BT",
+   "length": "1765"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.3&openview&start=1",
+   "timestamp": "20040222232423",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "HV6LZMRVKPWAXGFW7HWLKUM36BS7OSUG",
+   "length": "2023"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.6&openview&start=1",
+   "timestamp": "20040222232733",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "LZQFPILULXHTTFW47P7GXMDQ5VG5RN62",
+   "length": "5348"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.4&openview&start=1",
+   "timestamp": "20040222232804",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "3LWJ3JNOTV6NQNJTLNK2WL6JRJU6HQY7",
+   "length": "2843"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4&count=500&openview&start=1",
+   "timestamp": "20040222232853",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "KXELYLH7XV6ETJK763O5NX6H7U3KWBBH",
+   "length": "1765"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.4&openview&start=1",
+   "timestamp": "20040222232912",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "JLNUETFVIJ5IFDOVVPJ73AWC5QKW47VY",
+   "length": "2016"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.1&openview&start=1",
+   "timestamp": "20040222233244",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZXY4ZDEJNXORB5PY2CL63YKEE7W3M57K",
+   "length": "4756"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.5&openview&start=1",
+   "timestamp": "20040222233310",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "GJS5R5O6REYFRM4TWR7523AKOILF55EM",
+   "length": "2433"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.7&openview&start=1",
+   "timestamp": "20040222233522",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "YR732WORUPYMGDAH6N7OQULCHNBYR3ZO",
+   "length": "5195"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.6&openview&start=1",
+   "timestamp": "20040222233624",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "BL3YW24AFP4QY4IVGKFRMB7KYCD2IKEY",
+   "length": "2550"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.10&openview&start=1",
+   "timestamp": "20040222233753",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XAU3YREBTK5LIXRVOI4CEXFFYRYIWOCI",
+   "length": "5457"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.8&openview&start=1",
+   "timestamp": "20040222233923",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "VCKAG6PGTEHGXQMGCB4SFQJON4GNB6FE",
+   "length": "4967"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.9&openview&start=1",
+   "timestamp": "20040222234353",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OPTB5LIONPM3QNG5F3FX5YFCBSOVWNJB",
+   "length": "5144"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.1&openview&start=1",
+   "timestamp": "20040222234956",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "UFNFPMXALFZMV2IJA55TYNPMDGENWE7V",
+   "length": "3804"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1&count=500&openview&start=1",
+   "timestamp": "20040223021825",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "JHUKHHLTYUXELACWDXXNQLVDLIG2QBUS",
+   "length": "1767"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.1&openview&start=1",
+   "timestamp": "20040223023752",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7IAPVY3ZYGCJ4OCQKXR5ELXDW4Q7DVIB",
+   "length": "4103"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.2&openview&start=1",
+   "timestamp": "20040223024337",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "3MVNHIRIYGOZP2KTCCLHWHSSKN34JVJ4",
+   "length": "5015"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.1&count=500&openview&start=1",
+   "timestamp": "20040223070607",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RG6LFGN2GWDLOSK7G3TFLZGXHJ2RSS66",
+   "length": "1960"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.10&count=500&openview&start=1",
+   "timestamp": "20040223070619",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RPKK2EH7RVRXCDBYDIZ65R2I6AWFRHGF",
+   "length": "1959"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.11&count=500&openview&start=1",
+   "timestamp": "20040223070638",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "F3G3DNTILDRNEUKKJDEB4YYYZSAYIM6O",
+   "length": "1958"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.12&count=500&openview&start=1",
+   "timestamp": "20040223070704",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ANAED7PKIUAJUUGSYPFNGI4A777RS2CR",
+   "length": "1956"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.2&count=500&openview&start=1",
+   "timestamp": "20040223070746",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "I5DKECT4L6DXXCMARF7KN6RUJXFF6AQD",
+   "length": "1962"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.4&count=500&openview&start=1",
+   "timestamp": "20040223070804",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IDUA7V7FE77S3UYDYVW4OFNE75QNMZGD",
+   "length": "1958"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.5&count=500&openview&start=1",
+   "timestamp": "20040223070834",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "6FG3GINSJHMPLHBNX5CTGRIGWI5BZXHX",
+   "length": "1961"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.6&count=500&openview&start=1",
+   "timestamp": "20040223070849",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SZDBKPTM2PPRYJNXPBCGBZTQ5HOBIHKU",
+   "length": "1960"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.3&count=500&openview&start=1",
+   "timestamp": "20040223071054",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "6XSMYKGNK2A4SP5OPUBHXV6RTUUMRRXC",
+   "length": "1944"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.4&count=500&openview&start=1",
+   "timestamp": "20040223071105",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "J5743SP4JREWYB5MNOEXJ2YDFKKLYCCW",
+   "length": "1943"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.5&count=500&openview&start=1",
+   "timestamp": "20040223071134",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "WE3MKH3Q56G2FA52LIE4TPKTMGAUWBPX",
+   "length": "1945"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.6&count=500&openview&start=1",
+   "timestamp": "20040223071149",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "JWIUJFET42RTPPIQMCE4CFAWOG77X5K5",
+   "length": "1946"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.7&count=500&openview&start=1",
+   "timestamp": "20040223071206",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "45XTQKKOP2QLYG3BAUFX4OZ3SZPBWCYN",
+   "length": "1947"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.8&count=500&openview&start=1",
+   "timestamp": "20040223071234",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "LELTDLRFU4CJDX2GK7FVSXMVGZ6U3R5G",
+   "length": "1945"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.1&count=500&openview&start=1",
+   "timestamp": "20040223071256",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "WHGOYBH5CAZ2S46ULSM5KNFZFRRDIBRN",
+   "length": "1849"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.2&count=500&openview&start=1",
+   "timestamp": "20040223071315",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "WBNXPXBOLMZ56CVNAJIQRICMZJQX36IS",
+   "length": "1851"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.3&count=500&openview&start=1",
+   "timestamp": "20040223071339",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "YITB5323HEU3KKBSCVA4KK3YN7S7LXKX",
+   "length": "1846"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.4&count=500&openview&start=1",
+   "timestamp": "20040223071358",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "QNWOSVQPNNR7NC5RMYSGYNGPOW3XZWWC",
+   "length": "1846"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.2&count=500&openview&start=1",
+   "timestamp": "20040223090305",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "COKBBKSF4NWIAK3Z3Z6QEJPRC7JP5OFI",
+   "length": "1820"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.3&count=500&openview&start=1",
+   "timestamp": "20040223090332",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZRA5HJFOGCU7PSXWUL2EAIBBZS2FZJ6P",
+   "length": "1960"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.11&count=500&openview&start=1",
+   "timestamp": "20040223090348",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XPMN5EQNBRD4R7FPLEEUB4CXMFMYY7CQ",
+   "length": "1946"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.2&count=500&openview&start=1",
+   "timestamp": "20040223090615",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "3MXLC7P6C6H4XST3JMBTY4BAW3Q436JZ",
+   "length": "1950"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.9&count=500&openview&start=1",
+   "timestamp": "20040223090627",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "EI7XWWKUUM5UMQC5CBAONHIAPSWBQ4T4",
+   "length": "1945"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20040405223948",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OLH6U3RORWIVFOCYXWRUQURF364XZABE",
+   "length": "2811"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?openview",
+   "timestamp": "20040407042625",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "27WLVFVMLGKQIUXEERAPFKBY3BIQ6KIV",
+   "length": "1738"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores",
+   "timestamp": "20040423023924",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "MH2RZOKVTXLXPDTONIOUXGGI75M7P3RS",
+   "length": "2578"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview&resortascending=3",
+   "timestamp": "20040427090202",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500&ResortAscending=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "GV3YHGUUOKGNERHPWNR4JQEM24S3U2TR",
+   "length": "8980"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1&openview&start=1",
+   "timestamp": "20040427095042",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "KCNSZK5XQFC4XI5WOSJR4LQHSIGQWIFG",
+   "length": "1850"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3&openview&start=1",
+   "timestamp": "20040427101230",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "4QFNKZUB7E5DQHAUEGZKJ2CA2A5XIQ66",
+   "length": "1940"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.2&openview&start=1",
+   "timestamp": "20040429005339",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "S2H7ERGNMFJP2TCVNHDRREGLGOYKF3VT",
+   "length": "4299"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.1&openview&start=1",
+   "timestamp": "20040429005509",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "PJOND4P56OU62Q6BLXMOOBYYZ65SABEE",
+   "length": "4752"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.8&openview&start=1",
+   "timestamp": "20040429005525",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "75RQYNPJD3MNGMPYEOL5A355NLFNVLVA",
+   "length": "4962"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.7&openview&start=1",
+   "timestamp": "20040429005558",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RVVVJWAMSGXJD3CGDSKZMUKMP5XZCOBV",
+   "length": "2279"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.3&openview&start=1",
+   "timestamp": "20040429005914",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "P5PNR4JRNIVPS5DLNNEHACMNUH6Y275M",
+   "length": "5882"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.3&openview&start=1",
+   "timestamp": "20040429005939",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ATD3UI6KQHWJX7WHUAKPDXU2PHNZI6GA",
+   "length": "2021"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.3&openview&start=1",
+   "timestamp": "20040429010022",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OA7QZLOPFAMPSBT2EZOO6MM6PGZHPNZX",
+   "length": "3013"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview",
+   "timestamp": "20040429010142",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "Q7GOZLSZWUPTUGWC4UGY5AIKXK2DKXJ2",
+   "length": "1738"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.1&openview&start=1",
+   "timestamp": "20040429010206",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "R6JHFXDEX6HHLOUQ6VTLRHSWYHL65NVA",
+   "length": "4533"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.10&openview&start=1",
+   "timestamp": "20040429010224",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "AKXD4ZUFBFG3WSVXBGJB4NJNGXQVL7EQ",
+   "length": "5452"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.4&openview&start=1",
+   "timestamp": "20040429010228",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OGZ3MCITKPJU62GC7RDXNN6UUHK4MMTH",
+   "length": "2012"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.4&openview&start=1",
+   "timestamp": "20040429010318",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SEZQA5FBQNB37O3VT223LLANY4PFP5JS",
+   "length": "5871"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.8&openview&start=1",
+   "timestamp": "20040429010336",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "LHWX7JB4ECLJJYZ7Q3M3SPHD5TXYMMPT",
+   "length": "2479"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.9&openview&start=1",
+   "timestamp": "20040429010347",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XTVNIJODLJXA54TOBMVWQOX5L7B2TZXU",
+   "length": "5140"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.4&openview&start=1",
+   "timestamp": "20040429010518",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "LTSOUVTCIFNLCYASZNOA7GVWLIYNGK4L",
+   "length": "2839"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.1&openview&start=1",
+   "timestamp": "20040429010652",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "UX2BNR4S2T2IVYHNGUDCQLJB5S3APMTA",
+   "length": "3799"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.5&openview&start=1",
+   "timestamp": "20040429010728",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "G557RDS4RPHDTTVRBHCSGGTMBL5ONBCS",
+   "length": "5319"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.2&openview&start=1",
+   "timestamp": "20040429010843",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "23Y5OOPLPWSUMCPHXDH4BDHXMPFNIKEP",
+   "length": "6289"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.11&openview&start=1",
+   "timestamp": "20040429010857",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZDABMYDWG6BUWGFOVVWAK7O27NSW2WSJ",
+   "length": "4837"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.10&openview&start=1",
+   "timestamp": "20040429011102",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DR3I2VH4JMCPPW6RT7KV4VOTXU4JAGGA",
+   "length": "2022"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.5&openview&start=1",
+   "timestamp": "20040429011120",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZSK5VL5DNSCTE5Q2QOGGSKMQZ6GYPQ34",
+   "length": "2429"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.12&openview&start=1",
+   "timestamp": "20040429011206",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ITKFDYYPVZJE5DZW3JRLEHAN67OQWFKZ",
+   "length": "5401"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.1&openview&start=1",
+   "timestamp": "20040429011233",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IPZOI26TKCFP2N2IPZVQWTMZOAG7QPLI",
+   "length": "1946"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.6&openview&start=1",
+   "timestamp": "20040429011320",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IFNK5NSQNDRNN6XT7WUGBNF5U4EVHJKQ",
+   "length": "5344"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2&count=500&openview&start=1",
+   "timestamp": "20040429011328",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "K2JL3F3IKUTEO5NNR2V5QXJ2CYN3WKOJ",
+   "length": "1759"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3&count=500&openview&start=1",
+   "timestamp": "20040429011544",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IBK44JRBTPHF7A54XS225Z3BTBB4Q2PC",
+   "length": "1759"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4.2&openview&start=1",
+   "timestamp": "20040429011614",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "CPFK334OCGVBGVTYSIXAVYFC2TERNYZQ",
+   "length": "1920"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.7&openview&start=1",
+   "timestamp": "20040429011622",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "27PRDXQDSTPS4AK6ZKNQJW5O5JOER4TW",
+   "length": "5191"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.11&openview&start=1",
+   "timestamp": "20040429011648",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "6OD4DNTA7WZIPVMYQKWWWJECQ36DDZJW",
+   "length": "2010"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.4&openview&start=1",
+   "timestamp": "20040429011652",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OSFTHEETBHZJRESQPQFXTDSZI5KUZAEK",
+   "length": "5038"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.2&openview&start=1",
+   "timestamp": "20040429011808",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "TUZ3BBSP6BPM3VQKFXGCTI2K6NJR6VWB",
+   "length": "5297"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.6&openview&start=1",
+   "timestamp": "20040429011849",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "2CJ7ZQV6AL7ITUEUDN7Z7P4OR2BXT7KN",
+   "length": "2546"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.2&count=500&openview&start=1",
+   "timestamp": "20040510065636",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "O5FX7GHQHVDWRNYSSYGR5HFMTCOMAIX2",
+   "length": "1863"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.9&count=500&openview&start=1",
+   "timestamp": "20040510065753",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "X74QOGOS6IUCV3FSTA6ADIIZDBP7RGMW",
+   "length": "1943"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.3&count=500&openview&start=1",
+   "timestamp": "20040510070230",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZIM7U4GPR42EIQNQQ6JOGBJFYAQYNOYK",
+   "length": "1859"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.1&count=500&openview&start=1",
+   "timestamp": "20040510070337",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "Z7JOEMATPPS2I7U3YOPO4F7B4HJADILO",
+   "length": "1844"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.2&count=500&openview&start=1",
+   "timestamp": "20040510071102",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "MXQ4UTP6ZSYD5FYLSJFU4TINPZJOZABU",
+   "length": "1847"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.4&count=500&openview&start=1",
+   "timestamp": "20040510071315",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "UFEL5I6HBOY5USMMZCZUXL5F5WG63XLZ",
+   "length": "1859"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.1&count=500&openview&start=1",
+   "timestamp": "20040510071633",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XH2OXBMHIVRNFMQLU6ZLQPXMH52UYK7X",
+   "length": "1958"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.3&count=500&openview&start=1",
+   "timestamp": "20040510072042",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "CP4PRHC6NMEGGU76DWT2R5QPCDN3J4SJ",
+   "length": "1845"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=4.4&count=500&openview&start=1",
+   "timestamp": "20040510072313",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=4.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "YMNIKZKJIDV5BQNGB6XZTUBRF2HZN6WT",
+   "length": "1844"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.10&count=500&openview&start=1",
+   "timestamp": "20040510072705",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "PALDP2AHDDXQB5K3BAXKGPXMKET4ISEF",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.12&count=500&openview&start=1",
+   "timestamp": "20040510075429",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "F464HLXAUVCGHEHWJNJNDFXPJNEEPIWF",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.2&count=500&openview&start=1",
+   "timestamp": "20040510093447",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OFM7NRZXYUDYAZDEWYENAXUHCQFZLDT2",
+   "length": "1961"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.3&count=500&openview&start=1",
+   "timestamp": "20040510095318",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DKVOEGVWJJHEZZBGJWHXTSSWSIXH2GGN",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.4&count=500&openview&start=1",
+   "timestamp": "20040510095503",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "FSG2GSQ4UGFNNSOHUIGWJ6IW4W2Z6R4N",
+   "length": "1956"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.5&count=500&openview&start=1",
+   "timestamp": "20040510100330",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "QYN5X34ANIW66RVC2AF6WWZ67RG56HRI",
+   "length": "1956"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.6&count=500&openview&start=1",
+   "timestamp": "20040510100939",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "L2JXFHXOUZUJS5TPWLT74DXJYBKXWUFO",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.7&count=500&openview&start=1",
+   "timestamp": "20040510101722",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "D3XWEQ6YGRV3AJAEYM5ZMOCYSHWPANL7",
+   "length": "1958"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.8&count=500&openview&start=1",
+   "timestamp": "20040510102157",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "VAQMMHZXJU7JDHQ7DGUXHAS2ROPD5EHO",
+   "length": "1956"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.9&count=500&openview&start=1",
+   "timestamp": "20040510102431",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "3L2I5JCUZZCZHKA4EBYPZZYBOQ5TKA4K",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.1&count=500&openview&start=1",
+   "timestamp": "20040510104302",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "GL2ZVM45GZ4KNCVZ2PIKWSYUZVYTG44Q",
+   "length": "1944"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.10&count=500&openview&start=1",
+   "timestamp": "20040510105026",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IVPF76PYXT77JWH2LCIWSITNLNCT7D3K",
+   "length": "1942"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.11&count=500&openview&start=1",
+   "timestamp": "20040510105249",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SX5WI3UDQWEBQQ7ZFJCMCH7ACANJ7UKS",
+   "length": "1942"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.2&count=500&openview&start=1",
+   "timestamp": "20040510110107",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "GOCDCNRLJWDCW6QNQV776GTFI3BSH2WK",
+   "length": "1945"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.3&count=500&openview&start=1",
+   "timestamp": "20040510110621",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "2BPFAWYW2VIDZ2KSCAIOOHGNDY4HKPE6",
+   "length": "1941"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.4&count=500&openview&start=1",
+   "timestamp": "20040510111017",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "JB7LG5GT3ZZ4E7F53DV57KE64MW6OT55",
+   "length": "1941"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.5&count=500&openview&start=1",
+   "timestamp": "20040510111750",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "M375YRYN3U5GD7LLQQIJP2MZBANWIIAI",
+   "length": "1942"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.6&count=500&openview&start=1",
+   "timestamp": "20040510112411",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IUCXO2NNMJZ6VRFZEL4BKO4B4B4F224S",
+   "length": "1943"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.7&count=500&openview&start=1",
+   "timestamp": "20040510112856",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "Z7NP5RNPWVSJLAKMRVH7PSZOAUPF2UYN",
+   "length": "1946"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.8&count=500&openview&start=1",
+   "timestamp": "20040510113457",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "375EARI46IKOTBG7W6OJ3WJZMPJ7CNE3",
+   "length": "1943"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.1&count=500&openview&start=1",
+   "timestamp": "20040510113719",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "3B5CQZH6JBSAZDJT6NNBNNXBV3PRVEU4",
+   "length": "1862"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.5&openview&start=1",
+   "timestamp": "20040510223100",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RNZZSYCKNANN2BEDZNXBL44V2QUIYIS4",
+   "length": "5050"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.5&count=500&openview&start=1",
+   "timestamp": "20040511224226",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "CCXHSUZHCALKBXP3DTMMQXBMKPQE3XKM",
+   "length": "1861"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20040604215451",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "HQZVWVKC2NEKGJG3BQDPHDPFPTZAR3FI",
+   "length": "2761"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?openview",
+   "timestamp": "20040605043053",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "27WLVFVMLGKQIUXEERAPFKBY3BIQ6KIV",
+   "length": "1739"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview&resortascending=3",
+   "timestamp": "20040624105257",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500&ResortAscending=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "FVUQH5WTOFAX5VDWBVR4DSHVHXSQHBVH",
+   "length": "8787"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2&openview&start=1",
+   "timestamp": "20040624111038",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "6SHMZN6UODQ5XC4ALMBATB4Q7VS7LPW7",
+   "length": "1951"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.12&openview&start=1",
+   "timestamp": "20040624142837",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ITKFDYYPVZJE5DZW3JRLEHAN67OQWFKZ",
+   "length": "5401"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.7&openview&start=1",
+   "timestamp": "20040624143623",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "27PRDXQDSTPS4AK6ZKNQJW5O5JOER4TW",
+   "length": "5192"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.1&openview&start=1",
+   "timestamp": "20040624143716",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "NZDVXYJG4RUTIFHZ3Y2GE6TFZIXXYKQ4",
+   "length": "4780"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.4&openview&start=1",
+   "timestamp": "20040624143859",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SEZQA5FBQNB37O3VT223LLANY4PFP5JS",
+   "length": "5871"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.2&openview&start=1",
+   "timestamp": "20040624144247",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "TUZ3BBSP6BPM3VQKFXGCTI2K6NJR6VWB",
+   "length": "5298"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview",
+   "timestamp": "20040624144350",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "Q7GOZLSZWUPTUGWC4UGY5AIKXK2DKXJ2",
+   "length": "1740"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.9&openview&start=1",
+   "timestamp": "20040624145159",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XTVNIJODLJXA54TOBMVWQOX5L7B2TZXU",
+   "length": "5140"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2&count=500&openview&start=1",
+   "timestamp": "20040624145303",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "K2JL3F3IKUTEO5NNR2V5QXJ2CYN3WKOJ",
+   "length": "1760"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.11&openview&start=1",
+   "timestamp": "20040624145401",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZDABMYDWG6BUWGFOVVWAK7O27NSW2WSJ",
+   "length": "4837"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.3&openview&start=1",
+   "timestamp": "20040624145520",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "P5PNR4JRNIVPS5DLNNEHACMNUH6Y275M",
+   "length": "5882"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.6&openview&start=1",
+   "timestamp": "20040624145721",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IFNK5NSQNDRNN6XT7WUGBNF5U4EVHJKQ",
+   "length": "5345"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview&resortascending=4",
+   "timestamp": "20040625060947",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500&ResortAscending=4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "NKDNHUXK5LHEMBADYAL4GXY3VTWEMM6A",
+   "length": "8877"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3&openview&start=1",
+   "timestamp": "20040625062409",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "4QFNKZUB7E5DQHAUEGZKJ2CA2A5XIQ66",
+   "length": "1938"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.12&count=500&openview&start=1",
+   "timestamp": "20040625090010",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "F464HLXAUVCGHEHWJNJNDFXPJNEEPIWF",
+   "length": "1956"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.7&count=500&openview&start=1",
+   "timestamp": "20040625090604",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "D3XWEQ6YGRV3AJAEYM5ZMOCYSHWPANL7",
+   "length": "1958"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.2&count=500&openview&start=1",
+   "timestamp": "20040625090937",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OFM7NRZXYUDYAZDEWYENAXUHCQFZLDT2",
+   "length": "1959"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.8&count=500&openview&start=1",
+   "timestamp": "20040625091405",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "VAQMMHZXJU7JDHQ7DGUXHAS2ROPD5EHO",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.4&count=500&openview&start=1",
+   "timestamp": "20040625092057",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "FSG2GSQ4UGFNNSOHUIGWJ6IW4W2Z6R4N",
+   "length": "1955"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.1&count=500&openview&start=1",
+   "timestamp": "20040625092501",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XH2OXBMHIVRNFMQLU6ZLQPXMH52UYK7X",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.5&count=500&openview&start=1",
+   "timestamp": "20040625092530",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "QYN5X34ANIW66RVC2AF6WWZ67RG56HRI",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.10&count=500&openview&start=1",
+   "timestamp": "20040625092546",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "PALDP2AHDDXQB5K3BAXKGPXMKET4ISEF",
+   "length": "1957"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.11&count=500&openview&start=1",
+   "timestamp": "20040625093417",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "FRLXESJQBC4DTEHZDBQNJT4MBHIOYNNY",
+   "length": "1958"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.6&count=500&openview&start=1",
+   "timestamp": "20040625093636",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "L2JXFHXOUZUJS5TPWLT74DXJYBKXWUFO",
+   "length": "1956"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1&openview&start=1",
+   "timestamp": "20040625205313",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "S22XKA53THX5K6MVUXYMOOZMHHPFSGBR",
+   "length": "1876"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4&openview&start=1",
+   "timestamp": "20040625211036",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZCMM67DPILR4VIFULHT7IBXWP76R74V2",
+   "length": "1841"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.3&count=500&openview&start=1",
+   "timestamp": "20040630095543",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DKVOEGVWJJHEZZBGJWHXTSSWSIXH2GGN",
+   "length": "1958"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20040815200251",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "QUNMYTKEE6UIFL6ASJRSA4ZAWQNSRSRU",
+   "length": "2479"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?openview",
+   "timestamp": "20040816032731",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7PPIUTLHV6K5INDMG525QIF6SPLHBHRM",
+   "length": "1799"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?amp&openview",
+   "timestamp": "20040822142215",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&amp",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "AP2CGIFZ4XJVF7YBI2XL5LVGDOV6DZMS",
+   "length": "1800"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek",
+   "timestamp": "20040830023209",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7PPIUTLHV6K5INDMG525QIF6SPLHBHRM",
+   "length": "1798"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20041014081253",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RTJCTPFHWFBKC3XT3H7FNFPYA7AHEOSL",
+   "length": "3121"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20041208225748",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RKR4FUXYZVEWF2D4J2AQZN5T22WV6YUX",
+   "length": "2879"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?openview",
+   "timestamp": "20041209080012",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7PPIUTLHV6K5INDMG525QIF6SPLHBHRM",
+   "length": "1797"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?amp&openview",
+   "timestamp": "20041209134220",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&amp",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "AP2CGIFZ4XJVF7YBI2XL5LVGDOV6DZMS",
+   "length": "1799"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20131208062951",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "PUVEHBG3SD5T4AGWO6NFD7ZMUWGRLLHE",
+   "length": "2460"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20140101030314",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "WL5UHEP5F47R5FXTWB2JZAU5JCZGTFQ5",
+   "length": "2376"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20150115042419",
+   "original": "http://discovery.cor.gov:80/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "QAS6HDNFC6HQ4FJZG6KRPUQLAGTRBTL5",
+   "length": "2303"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20150818035214",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DDVRH7RKGKVZ5N2XQ7KYHLFCIKDZBH4M",
+   "length": "2996"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20160913182055",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "BHAZEFW3QNRSEUHNQJX76TMMOYSNZJUO",
+   "length": "1891"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20161130235317",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "JQSJSJURD3MXM56Z3UNLEZH3ZRDVM6Z3",
+   "length": "1927"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?openview",
+   "timestamp": "20161203164829",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SX6QICOXNIEG3FECVK35KBI4ZKX67G3O",
+   "length": "2029"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview&resortascending=3",
+   "timestamp": "20170123232323",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500&ResortAscending=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "6X5EDI63KTE4GKBWQX5M2MKAOEX5DYJA",
+   "length": "10492"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview&resortascending=4",
+   "timestamp": "20170123232350",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500&ResortAscending=4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XQK7MQAJCBT3DAMNNW7LUI5UNGJFR2CN",
+   "length": "10438"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1&openview&start=1",
+   "timestamp": "20170123232405",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "C4RQB7HMXI2KJFENA62H4XQT5JQIH7DF",
+   "length": "2173"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2&openview&start=1",
+   "timestamp": "20170123232438",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SKTZADYROIFX7QNSZ3LWRO5VQNA2EKNC",
+   "length": "2303"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3&openview&start=1",
+   "timestamp": "20170123232445",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "PLHZSM3RF46QXXX7QX3QHY6Y4W36GTX3",
+   "length": "2293"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=4&openview&start=1",
+   "timestamp": "20170123232514",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "MCRNMCJPD3UKUQKNMMPVZDDTA776BOT5",
+   "length": "2023"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&openview",
+   "timestamp": "20170124014303",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Count=500",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "TGMBEL33JNJ4AQNX2BK7U424F5USVYRP",
+   "length": "2012"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1&count=500&openview&start=1",
+   "timestamp": "20170124014307",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "MDZ56OI6B4IJ2HBX2CZKHNKSYVGWGASG",
+   "length": "2034"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.1&openview&start=1",
+   "timestamp": "20170124014321",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RQDIEYWK4NYOEIMB5C6K6KM6G4Y6EBQY",
+   "length": "3241"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.2&openview&start=1",
+   "timestamp": "20170124014401",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "YPVMV763HYQ3DUWDKHIAF7QAJNQZUHN4",
+   "length": "3698"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.3&openview&start=1",
+   "timestamp": "20170124014418",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SLSC526YQMHJY3ADUUPQMVCAWBXNKAWV",
+   "length": "3961"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.4&openview&start=1",
+   "timestamp": "20170124014433",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "Z2BSDBINSHZC4QHWCZAP5SXAUNOO2YFD",
+   "length": "4884"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=1.5&openview&start=1",
+   "timestamp": "20170124014441",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=1.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "UAG3JDYIYY2NSP4RYSAAOE6C7XTR5Z56",
+   "length": "4823"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2&count=500&openview&start=1",
+   "timestamp": "20170124014527",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "AB66CVMFDWRYIHDMYEZVD2IJPISIKS62",
+   "length": "2029"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.1&openview&start=1",
+   "timestamp": "20170124014539",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "VXRIKFR6RN46HT6BKGXARACM723ALVLZ",
+   "length": "6632"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.2&openview&start=1",
+   "timestamp": "20170124014652",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "I7FWRB32L5FUSQTKAUQUBUQPM3ENBJU5",
+   "length": "6263"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.3&openview&start=1",
+   "timestamp": "20170124014711",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "FWO6UHNDRIMLIMHMTMWZ7RVS2INMUQEA",
+   "length": "4376"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.4&openview&start=1",
+   "timestamp": "20170124014829",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "S25TOPRWURAEOQNEMIIZ27Z47MBAI2MF",
+   "length": "5199"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.5&openview&start=1",
+   "timestamp": "20170124014937",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XKOLQBW3E5ATTKJ75AVXWOLTC6PHSHSC",
+   "length": "4146"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.6&openview&start=1",
+   "timestamp": "20170124015051",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DVN7HN6B7CNCOZCUCZ7NRJO7WVVJ46HQ",
+   "length": "6979"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.7&openview&start=1",
+   "timestamp": "20170124015114",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "VPOF2NCFHBCNDUOJJQWCNCPHJXOTMJDW",
+   "length": "5066"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.8&openview&start=1",
+   "timestamp": "20170124015136",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "QT7DXNCIZGD6RQJB2DS6FRCYUXULUAS7",
+   "length": "6033"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.9&openview&start=1",
+   "timestamp": "20170124015201",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DRZ53J66BNKVUL63VE7S5XCQQPEFTIEG",
+   "length": "4118"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.10&openview&start=1",
+   "timestamp": "20170124015216",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DRKJFPZ6DV2PMKK7ISGPTZBBG5TPZ2ZQ",
+   "length": "5188"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.11&openview&start=1",
+   "timestamp": "20170124015232",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DYBDKEIR3ARL65ZXUB4P4SBMSU5LGA6L",
+   "length": "3499"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=2.12&openview&start=1",
+   "timestamp": "20170124015332",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=2.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SNNQDNKYXYFGI2ISXYUHJ7IKEJO64XCF",
+   "length": "4741"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3&count=500&openview&start=1",
+   "timestamp": "20170124015403",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "MM2UMLVXHLVHEWOH27Q7P6OHRROQDWXX",
+   "length": "2034"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.1&openview&start=1",
+   "timestamp": "20170124015413",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RWSSX43SFYUAORZDMH4C2ED3LEQ5XSZC",
+   "length": "5809"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.2&openview&start=1",
+   "timestamp": "20170124015418",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "EWA3RLOU4ZD5ORWK3TCPCRMDRBZYWNS6",
+   "length": "6034"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.3&openview&start=1",
+   "timestamp": "20170124015456",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DVKKNVTLRMA2G4SYHX26WEI33BEEOFE2",
+   "length": "5074"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.4&openview&start=1",
+   "timestamp": "20170124015503",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "QYNHVI6EKYFHGOPKK5V5IESDRKNLI27V",
+   "length": "5592"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.5&openview&start=1",
+   "timestamp": "20170124015514",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DGODNIDE2BSZYINLTDSEOG2G57TBUCAF",
+   "length": "4730"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.6&openview&start=1",
+   "timestamp": "20170124015550",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "J46QBXSKMYKGITGPHWENNJG6YVN3AKNO",
+   "length": "3280"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.7&openview&start=1",
+   "timestamp": "20170124015606",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "EUBLM7S3GL4RCBYJOT3BG5ZH5MGPV4Q6",
+   "length": "5494"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.8&openview&start=1",
+   "timestamp": "20170124015615",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "MZW44V5CXTXMRSN5CEVDJBDTBZLVJ5G5",
+   "length": "3942"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.9&openview&start=1",
+   "timestamp": "20170124015653",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "5AQZVJ2ETT62KD2WLANGU2SIIYPD7CEV",
+   "length": "6195"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.10&openview&start=1",
+   "timestamp": "20170124015738",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "5ITPA42FYYOB7JAGW4Z3F3DX3F7HOYIP",
+   "length": "4363"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.11&openview&start=1",
+   "timestamp": "20170124015814",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "XU6EFMO7EZNSDOPG4MALSOGG6LDGIV6U",
+   "length": "4788"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?count=500&expand=3.12&openview&start=1",
+   "timestamp": "20170124015852",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Expand=3.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7IMWGEVA634LM2F5FRGTJQWUMS6G5LAV",
+   "length": "3824"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.1&count=500&openview&start=1",
+   "timestamp": "20170124023005",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "GONPIF7DLUQOVQSMUEL65NNI7TP5KCQP",
+   "length": "2180"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.2&count=500&openview&start=1",
+   "timestamp": "20170124023014",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "NJASUUDJP4SPRBLEGYI6Z6MT4QPNLPE5",
+   "length": "2174"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.3&count=500&openview&start=1",
+   "timestamp": "20170124023019",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "3HD5M47M76XVO76F43Z4YERQM52N72X3",
+   "length": "2170"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.4&count=500&openview&start=1",
+   "timestamp": "20170124023022",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "2ADUAUQ2IPMLVCL4CNCJ4NCHI4WNENFH",
+   "length": "2171"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=1.5&count=500&openview&start=1",
+   "timestamp": "20170124023039",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=1.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "FXYNWNJYFHFPYJ6YYFAOJ7TR4IKFCIN4",
+   "length": "2170"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.1&count=500&openview&start=1",
+   "timestamp": "20170124023111",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "LYGVYAEQAJLH34SIYEAJYSTFXHNC3MRD",
+   "length": "2306"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.2&count=500&openview&start=1",
+   "timestamp": "20170124023118",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "56OXP5BLSEGRB6VA2YLBWIQPKTJO625M",
+   "length": "2300"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.3&count=500&openview&start=1",
+   "timestamp": "20170124023136",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "T2QO7MQB3TFKBUHTGSM4CUT7TEROAIA6",
+   "length": "2303"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.4&count=500&openview&start=1",
+   "timestamp": "20170124023217",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7G4IIKBK55ZGM6K2E7GTV4IKLYF7ESLG",
+   "length": "2300"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.5&count=500&openview&start=1",
+   "timestamp": "20170124023227",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7QZZTNPNRHLKP3NMLW42JPY3PR4JHM6F",
+   "length": "2305"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.6&count=500&openview&start=1",
+   "timestamp": "20170124023233",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "U4R7Y7ZRJBLKGCX23O2SKBFIIHTMZMRM",
+   "length": "2297"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.7&count=500&openview&start=1",
+   "timestamp": "20170124023245",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IVK7EVKNLLDE26RVOSUTBSDM6TPEFVMU",
+   "length": "2304"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.8&count=500&openview&start=1",
+   "timestamp": "20170124023305",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "4NKAKRLFBSBXFMKC5G4H4JXMEY7YCFDP",
+   "length": "2305"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.9&count=500&openview&start=1",
+   "timestamp": "20170124023320",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OFTZSPO2IMKUIY5A4BX653OETPNQYF3W",
+   "length": "2304"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.10&count=500&openview&start=1",
+   "timestamp": "20170124023324",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DA6RAEBO2GUKCNU5FIBXISUB5VOQQY5J",
+   "length": "2299"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.11&count=500&openview&start=1",
+   "timestamp": "20170124023338",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "L3WJ7LWXA4GQVFKFI2YNDUVRQAVRK5IM",
+   "length": "2303"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=2.12&count=500&openview&start=1",
+   "timestamp": "20170124023345",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=2.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "A7XSYIVBPYCMHL2ZSLENKY2BDGELPQJM",
+   "length": "2303"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.1&count=500&openview&start=1",
+   "timestamp": "20170124023358",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.1",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DMMOSUOV5L4WRNNWNM7LJLIE6SXU4LWW",
+   "length": "2295"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.2&count=500&openview&start=1",
+   "timestamp": "20170125113914",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.2",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SGXIK6WKIZ6LHPIB2NTIH6GH2YU5OHXM",
+   "length": "2300"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.3&count=500&openview&start=1",
+   "timestamp": "20170125113922",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.3",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "V4WZQ3T5BYQM4JFDDSMDOZFUHGQF72QJ",
+   "length": "2296"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.4&count=500&openview&start=1",
+   "timestamp": "20170125113928",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.4",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "6M3VSAC3JKHF3TABK6ML6GTO6SJ6T23C",
+   "length": "2296"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.5&count=500&openview&start=1",
+   "timestamp": "20170125113931",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.5",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "4DNAA3V4Y2O2V77BNVWIC7GTSAALUS7T",
+   "length": "2294"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.6&count=500&openview&start=1",
+   "timestamp": "20170125113934",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.6",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SMKTVOAUCP5AM6W3P2RML2D5ZVSSMKFC",
+   "length": "2294"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.7&count=500&openview&start=1",
+   "timestamp": "20170125113939",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.7",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OKO64JM3WULNM2RQUJEH2QOPMJP5A4CN",
+   "length": "2295"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.8&count=500&openview&start=1",
+   "timestamp": "20170125113943",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.8",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "V6I747CGG5UWD6N7MI3BWFRYXNRIIVQN",
+   "length": "2299"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.9&count=500&openview&start=1",
+   "timestamp": "20170125113950",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.9",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "OLF4MG5OVPBT3TC7F26PZEERHOSLZGRO",
+   "length": "2298"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.10&count=500&openview&start=1",
+   "timestamp": "20170126195255",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.10",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "WI67V3ASNFCAHMHXLCHQ4RQKSGZLLOLQ",
+   "length": "2298"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.11&count=500&openview&start=1",
+   "timestamp": "20170126195324",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.11",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "A45G7V3YX4ECSUM67NIF2QSOJ5C64ZVO",
+   "length": "2295"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?collapse=3.12&count=500&openview&start=1",
+   "timestamp": "20170126195413",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?OpenView&Start=1&Count=500&Collapse=3.12",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "PNGMAJ4DZFPGVSFVWTTE672SXVFTJM3O",
+   "length": "2297"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20170607074450",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "Q26AB24E5SCA3LC7CICDPMMMPRF6WSAV",
+   "length": "3015"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyweek?openview",
+   "timestamp": "20170718154555",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByWeek?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "V7VMIDT2TUDGA2KSQDVJNY4AQSTRY6F2",
+   "length": "2025"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20180823070842",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "unk",
+   "statuscode": "302",
+   "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+   "length": "576"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20180823070846",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "NOSZXQ3ESMXZZHOJ4V24ACYFLJO4C6AU",
+   "length": "4643"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20190504095139",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "unk",
+   "statuscode": "302",
+   "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+   "length": "405"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20190504095141",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "PGEFSHX4HPQ4PTKRMPZS4K5S6THSH4YN",
+   "length": "4394"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openviewvisionstyles.css",
+   "timestamp": "20190504095154",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openviewVisionStyles.css",
+   "mimetype": "text/html",
+   "statuscode": "400",
+   "digest": "6UXFULACO4J4BXJB6YSB4UCNJ5E53YCG",
+   "length": "608"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20190607203821",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "unk",
+   "statuscode": "302",
+   "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+   "length": "410"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20190630073245",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "ZN3XKZYQAGCDGBAQU5DFI6FYP5I37YA4",
+   "length": "3464"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openviewvisionstyles.css",
+   "timestamp": "20190916023844",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openviewVisionStyles.css",
+   "mimetype": "warc/revisit",
+   "statuscode": "-",
+   "digest": "6UXFULACO4J4BXJB6YSB4UCNJ5E53YCG",
+   "length": "568"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20211227064321",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "unk",
+   "statuscode": "302",
+   "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+   "length": "316"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20211227064322",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "N6TTMCKEJUTJKJZYB3P4DVYSHFUQMTA5",
+   "length": "2381"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores",
+   "timestamp": "20211227064557",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "N6TTMCKEJUTJKJZYB3P4DVYSHFUQMTA5",
+   "length": "2358"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20220512133716",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7WAUTWQQYUID5OJOEEB6UYRRTZ43HVX3",
+   "length": "3863"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20230309070128",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "warc/revisit",
+   "statuscode": "-",
+   "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+   "length": "653"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20230326071037",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "warc/revisit",
+   "statuscode": "-",
+   "digest": "3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ",
+   "length": "674"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20230326071040",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "YLK3YJCOQACOBHLAHYLD4IGLNL6FWCF2",
+   "length": "3765"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores.html",
+   "timestamp": "20240513005815",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "4O6J4LK5UQUZCRQYB4BMEEREW3GQZ7WP",
+   "length": "2878"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20240612101656",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IS7ADLLMHKT7TJGJCLYWEGMJP4CLTZZX",
+   "length": "3577"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores",
+   "timestamp": "20240612122651",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IS7ADLLMHKT7TJGJCLYWEGMJP4CLTZZX",
+   "length": "3572"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores",
+   "timestamp": "20240613162722",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IS7ADLLMHKT7TJGJCLYWEGMJP4CLTZZX",
+   "length": "3578"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20240615032053",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "IS7ADLLMHKT7TJGJCLYWEGMJP4CLTZZX",
+   "length": "3575"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores.html",
+   "timestamp": "20250327120852",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RBT7MXJ233CQ7V23LGOBXOTS5LC35OCP",
+   "length": "3010"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores.html",
+   "timestamp": "20250327183145",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RBT7MXJ233CQ7V23LGOBXOTS5LC35OCP",
+   "length": "3011"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores.html",
+   "timestamp": "20250327225304",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RBT7MXJ233CQ7V23LGOBXOTS5LC35OCP",
+   "length": "3004"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyday.html",
+   "timestamp": "20250403015435",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByDay.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7XKF3WYYWEEKOVOLMHKVUYUS4MBDZEBQ",
+   "length": "3534"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20250420101627",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "DTWQHPRLREURF5C3JFB3ZZBIKTD56ZXX",
+   "length": "3322"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyday.html",
+   "timestamp": "20251017172322",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByDay.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RIHL4ZMZDS2VDMII7TK67OJQ6UDZ7M2Y",
+   "length": "4290"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresbyday.html",
+   "timestamp": "20251018001619",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScoresByDay.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "RIHL4ZMZDS2VDMII7TK67OJQ6UDZ7M2Y",
+   "length": "4293"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores.html",
+   "timestamp": "20251019093022",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SCIBIC5YMFGSMBRXKV4ZWQ4OYE76M5QS",
+   "length": "3713"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores.html",
+   "timestamp": "20251022040352",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "SCIBIC5YMFGSMBRXKV4ZWQ4OYE76M5QS",
+   "length": "3736"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores?openview",
+   "timestamp": "20260411234331",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "7VI4IZL7NCF2KKDRW3ACDCVXCUE55XNL",
+   "length": "5170"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscores.html",
+   "timestamp": "20260813084931",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "mimetype": "text/html",
+   "statuscode": "200",
+   "digest": "HRZ4TDTZO4GBEWZDIOCHIHSYS6NAIOF3",
+   "length": "4268"
+  }
+ ]
+}

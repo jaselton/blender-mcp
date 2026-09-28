@@ -1,0 +1,379 @@
+{
+ "note": "Archived HealthTrak weekly score listings ('WebScores?openview') captured by the Internet Archive between the last LIVES inspection (20181106) and the earliest date in any archived export (20210512). Only the table rows are kept (name, address, score, report link as printed); the full pages carry city contact details, which are not stored. sha256 is of the full capture as downloaded.",
+ "gap_bounds_exclusive": [
+  "20181106",
+  "20210512"
+ ],
+ "captures": [
+  {
+   "timestamp": "20190504095141",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "wayback_url": "https://web.archive.org/web/20190504095141id_/https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "http_status": 200,
+   "bytes": 65354,
+   "sha256": "ca5118f15ef9ca69f6ef0b29d8d8c9fc4d0ced593b10050e64566a92bc87e1a2",
+   "cdx_digest": "PGEFSHX4HPQ4PTKRMPZS4K5S6THSH4YN",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 1,
+   "fetched_at": "2026-09-28T02:48:17Z",
+   "week_ending_as_published": "04/27/2019",
+   "report_links_on_page": 34,
+   "scale_paragraph": "Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "rows": [
+    {
+     "name": "Albertson's #4260 - Bakery/Deli",
+     "address": "2165 E Buckingham Rd",
+     "score": "96",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9711~96~04/24/2019?OpenDocument",
+     "report_key": "9711~96~04/24/2019"
+    },
+    {
+     "name": "Albertson's #4260 - Meat Market",
+     "address": "2165 E Buckingham Rd",
+     "score": "99",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9712~99~04/24/2019?OpenDocument",
+     "report_key": "9712~99~04/24/2019"
+    },
+    {
+     "name": "Arapaho Classical Magnet Elementary",
+     "address": "1300 Cypress Dr",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9220~100~04/23/2019?OpenDocument",
+     "report_key": "9220~100~04/23/2019"
+    },
+    {
+     "name": "Bukri's Taste of Ethiopia",
+     "address": "2148 E Belt Line Rd",
+     "score": "85",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11430~85~04/24/2019?OpenDocument",
+     "report_key": "11430~85~04/24/2019"
+    },
+    {
+     "name": "Bukri's Taste of Ethiopia",
+     "address": "2148 E Belt Line Rd",
+     "score": "85",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11430~85~04/24/2019?OpenDocument",
+     "report_key": "11430~85~04/24/2019"
+    },
+    {
+     "name": "Bunkies Donuts",
+     "address": "504 W Lookout Dr #410",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12048~98~04/22/2019?OpenDocument",
+     "report_key": "12048~98~04/22/2019"
+    },
+    {
+     "name": "Burger im",
+     "address": "120 W Cityline Dr 600",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12222~98~04/23/2019?OpenDocument",
+     "report_key": "12222~98~04/23/2019"
+    },
+    {
+     "name": "Burger Street",
+     "address": "514 W Belt Line Rd",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9686~98~04/22/2019?OpenDocument",
+     "report_key": "9686~98~04/22/2019"
+    },
+    {
+     "name": "Delish Bubble Tea",
+     "address": "3000 Northside Blvd 600",
+     "score": "99",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11754~99~04/25/2019?OpenDocument",
+     "report_key": "11754~99~04/25/2019"
+    },
+    {
+     "name": "Dover Elementary",
+     "address": "700 Dover Dr",
+     "score": "97",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9222~97~04/24/2019?OpenDocument",
+     "report_key": "9222~97~04/24/2019"
+    },
+    {
+     "name": "El Jeffe Mexican Taste",
+     "address": "2148 E Belt Line Rd",
+     "score": "97",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12077~97~04/24/2019?OpenDocument",
+     "report_key": "12077~97~04/24/2019"
+    },
+    {
+     "name": "Greenwood Hills Elementary",
+     "address": "1313 West Shore Dr",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9223~100~04/23/2019?OpenDocument",
+     "report_key": "9223~100~04/23/2019"
+    },
+    {
+     "name": "Holiday Inn",
+     "address": "1655 N Central Expy",
+     "score": "94",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10998~94~04/24/2019?OpenDocument",
+     "report_key": "10998~94~04/24/2019"
+    },
+    {
+     "name": "J-Marquez & Sons, RHS-East (3)",
+     "address": "1250 W Belt Line Rd",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/1207~100~04/25/2019?OpenDocument",
+     "report_key": "1207~100~04/25/2019"
+    },
+    {
+     "name": "J-Marquez & Sons, RHS-Gym (1)",
+     "address": "1250 W Belt Line Rd",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10122~100~04/25/2019?OpenDocument",
+     "report_key": "10122~100~04/25/2019"
+    },
+    {
+     "name": "J-Marquez & Sons, RHS-West (2)",
+     "address": "1250 W Belt Line Rd",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/1208~100~04/25/2019?OpenDocument",
+     "report_key": "1208~100~04/25/2019"
+    },
+    {
+     "name": "Jersey Mike's Subs",
+     "address": "2040 E President George Bush Hwy",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12192~98~04/23/2019?OpenDocument",
+     "report_key": "12192~98~04/23/2019"
+    },
+    {
+     "name": "Mohawk Elementary",
+     "address": "1500 Mimosa Dr",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9225~98~04/26/2019?OpenDocument",
+     "report_key": "9225~98~04/26/2019"
+    },
+    {
+     "name": "Mooyah Burgers & Fries",
+     "address": "2160 N Coit Rd 130",
+     "score": "90",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10791~90~04/24/2019?OpenDocument",
+     "report_key": "10791~90~04/24/2019"
+    },
+    {
+     "name": "Neighbors Food N Brews",
+     "address": "508 W Lookout Dr., Suite 12",
+     "score": "95",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11929~95~04/22/2019?OpenDocument",
+     "report_key": "11929~95~04/22/2019"
+    },
+    {
+     "name": "Northrich Elementary",
+     "address": "1301 Custer Rd",
+     "score": "97",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9226~97~04/23/2019?OpenDocument",
+     "report_key": "9226~97~04/23/2019"
+    },
+    {
+     "name": "Nothing Bundt Cakes",
+     "address": "324 W Campbell Rd",
+     "score": "96",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11630~96~04/22/2019?OpenDocument",
+     "report_key": "11630~96~04/22/2019"
+    },
+    {
+     "name": "Paris Donuts",
+     "address": "230 W Campbell Rd",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10389~98~04/22/2019?OpenDocument",
+     "report_key": "10389~98~04/22/2019"
+    },
+    {
+     "name": "Qdoba Mexican Grill",
+     "address": "1930 N Coit Rd 150",
+     "score": "96",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10212~96~04/24/2019?OpenDocument",
+     "report_key": "10212~96~04/24/2019"
+    },
+    {
+     "name": "QuikTrip #960",
+     "address": "522 W Belt Line Rd",
+     "score": "99",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10850~99~04/23/2019?OpenDocument",
+     "report_key": "10850~99~04/23/2019"
+    },
+    {
+     "name": "Sake Japanese & Korean",
+     "address": "300 N Coit Rd 270",
+     "score": "88",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12204~88~04/23/2019?OpenDocument",
+     "report_key": "12204~88~04/23/2019"
+    },
+    {
+     "name": "Spin Neapolitan Pizza",
+     "address": "348 W Campbell Rd",
+     "score": "91",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11156~91~04/22/2019?OpenDocument",
+     "report_key": "11156~91~04/22/2019"
+    },
+    {
+     "name": "St. Paul School Cafeteria",
+     "address": "720 S Floyd Rd",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/9184~100~04/24/2019?OpenDocument",
+     "report_key": "9184~100~04/24/2019"
+    },
+    {
+     "name": "Sushi Go",
+     "address": "3600 North Star Rd 105",
+     "score": "94",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12223~94~04/25/2019?OpenDocument",
+     "report_key": "12223~94~04/25/2019"
+    },
+    {
+     "name": "Sweet Mix",
+     "address": "1811 N Greenville Ave 300",
+     "score": "88",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12036~88~04/22/2019?OpenDocument",
+     "report_key": "12036~88~04/22/2019"
+    },
+    {
+     "name": "Tamaleria Nuevo Leon",
+     "address": "2139 E Buckingham Rd",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/12082~98~04/24/2019?OpenDocument",
+     "report_key": "12082~98~04/24/2019"
+    },
+    {
+     "name": "Texadelphia - Richardson Heights",
+     "address": "100 S Central Expy 44",
+     "score": "",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11486~~04/22/2019?OpenDocument",
+     "report_key": "11486~~04/22/2019"
+    },
+    {
+     "name": "Vegvana",
+     "address": "100 S Central Expy 35",
+     "score": "86",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11922~86~04/24/2019?OpenDocument",
+     "report_key": "11922~86~04/24/2019"
+    },
+    {
+     "name": "Vegvana",
+     "address": "100 S Central Expy 35",
+     "score": "",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11922~~04/25/2019?OpenDocument",
+     "report_key": "11922~~04/25/2019"
+    }
+   ]
+  },
+  {
+   "timestamp": "20190630073245",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "wayback_url": "https://web.archive.org/web/20190630073245id_/https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "http_status": 200,
+   "bytes": 31253,
+   "sha256": "0dc90921597bdfe9e282b2e21deee0dd98d3e230b1727a0acf74e4fff31f1844",
+   "cdx_digest": "ZN3XKZYQAGCDGBAQU5DFI6FYP5I37YA4",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 1,
+   "fetched_at": "2026-09-28T02:48:20Z",
+   "week_ending_as_published": "06/29/2019",
+   "report_links_on_page": 14,
+   "scale_paragraph": "Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "rows": [
+    {
+     "name": "Fiesta Mart #75 - Grocery and Produce",
+     "address": "1332 S Plano Rd 600",
+     "score": "",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10599~~06/24/2019?OpenDocument",
+     "report_key": "10599~~06/24/2019"
+    },
+    {
+     "name": "Funasia (downstairs)",
+     "address": "1210 E Belt Line Rd",
+     "score": "91",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11885~91~06/24/2019?OpenDocument",
+     "report_key": "11885~91~06/24/2019"
+    },
+    {
+     "name": "Funasia (upstairs)",
+     "address": "1210 E Belt Line Rd",
+     "score": "91",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11884~91~06/24/2019?OpenDocument",
+     "report_key": "11884~91~06/24/2019"
+    },
+    {
+     "name": "Krispy Kreme",
+     "address": "507 W Belt Line Rd",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11127~100~06/24/2019?OpenDocument",
+     "report_key": "11127~100~06/24/2019"
+    },
+    {
+     "name": "Oakhill Inc. (BINGO)",
+     "address": "2120 E Belt Line Rd",
+     "score": "96",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/1436~96~06/24/2019?OpenDocument",
+     "report_key": "1436~96~06/24/2019"
+    },
+    {
+     "name": "Parks Coffee @ Lute Riley Honda",
+     "address": "1331 N Central Expy",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11978~100~06/24/2019?OpenDocument",
+     "report_key": "11978~100~06/24/2019"
+    },
+    {
+     "name": "Parks Coffee @ Peloton",
+     "address": "3300 E Renner Rd",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11977~100~06/24/2019?OpenDocument",
+     "report_key": "11977~100~06/24/2019"
+    },
+    {
+     "name": "Pepper Trade Cafe",
+     "address": "1801 N Greenville Ave. 100",
+     "score": "83",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11969~83~06/26/2019?OpenDocument",
+     "report_key": "11969~83~06/26/2019"
+    },
+    {
+     "name": "Sonic Drive-In #4853",
+     "address": "605 S Plano Rd",
+     "score": "97",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11904~97~06/24/2019?OpenDocument",
+     "report_key": "11904~97~06/24/2019"
+    },
+    {
+     "name": "Starbucks Coffee #22561",
+     "address": "501 W Belt Line Rd",
+     "score": "100",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11432~100~06/24/2019?OpenDocument",
+     "report_key": "11432~100~06/24/2019"
+    },
+    {
+     "name": "Subway #52203",
+     "address": "819 W Arapaho Rd 58E",
+     "score": "98",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11015~98~06/25/2019?OpenDocument",
+     "report_key": "11015~98~06/25/2019"
+    },
+    {
+     "name": "Tandoori Renner Pizza & Grill",
+     "address": "3601 N Jupiter Rd 450",
+     "score": "89",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/11111~89~06/27/2019?OpenDocument",
+     "report_key": "11111~89~06/27/2019"
+    },
+    {
+     "name": "Wellington at Arapaho",
+     "address": "600 W Arapaho Rd",
+     "score": "97",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/1600~97~06/25/2019?OpenDocument",
+     "report_key": "1600~97~06/25/2019"
+    },
+    {
+     "name": "Ye Shire Tavern",
+     "address": "3600 Shire Blvd 112",
+     "score": "95",
+     "report_href": "/Public/health/HealthTrak.nsf/webScoresForReadonly/10509~95~06/27/2019?OpenDocument",
+     "report_key": "10509~95~06/27/2019"
+    }
+   ]
+  }
+ ]
+}

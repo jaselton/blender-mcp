@@ -1,0 +1,374 @@
+{
+ "started_at": "2026-09-28T02:55:26Z",
+ "offline_run": true,
+ "note": "fetched_at values are the times of the network requests (kept in the cache); started_at is when this manifest was written, which on an --offline run is a rebuild from cache, not a new download.",
+ "never_contacted": [
+  "discovery.cor.gov (robots.txt: User-agent: * / Disallow: /)",
+  "inspections.myhealthdepartment.com"
+ ],
+ "robots": {
+  "web.archive.org": {
+   "url": "https://web.archive.org/robots.txt",
+   "status": 404,
+   "fetched_at": "2026-09-28T02:26:41Z",
+   "groups": [],
+   "crawl_delay": []
+  },
+  "lives.data.socrata.com": {
+   "url": "https://lives.data.socrata.com/robots.txt",
+   "status": 200,
+   "fetched_at": "2026-09-28T02:26:41Z",
+   "groups": [
+    "*"
+   ],
+   "crawl_delay": [
+    "1"
+   ]
+  },
+  "api.municode.com": {
+   "url": "https://api.municode.com/robots.txt",
+   "status": 404,
+   "fetched_at": "2026-09-28T02:26:42Z",
+   "groups": [],
+   "crawl_delay": []
+  }
+ },
+ "cdx_queries": [
+  {
+   "name": "corscores_any_scheme",
+   "purpose": "corscores",
+   "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores.json",
+   "rows": 3,
+   "fetched_at": "2026-09-28T02:26:52Z",
+   "file": "wayback/cdx_corscores_any_scheme.json",
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  {
+   "name": "corscores_http",
+   "purpose": "corscores",
+   "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=http%3A%2F%2Fdiscovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores.json",
+   "rows": 3,
+   "fetched_at": "2026-09-28T02:27:33Z",
+   "file": "wayback/cdx_corscores_http.json",
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  {
+   "name": "corscores_https",
+   "purpose": "corscores",
+   "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=https%3A%2F%2Fdiscovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores.json",
+   "rows": 3,
+   "fetched_at": "2026-09-28T02:28:31Z",
+   "file": "wayback/cdx_corscores_https.json",
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  {
+   "name": "corscores_prefix",
+   "purpose": "corscores",
+   "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores&matchType=prefix",
+   "rows": 3,
+   "fetched_at": "2026-09-28T02:28:32Z",
+   "file": "wayback/cdx_corscores_prefix.json",
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  {
+   "name": "scores_page",
+   "purpose": "scores_page",
+   "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FwebScores.html",
+   "rows": 7,
+   "fetched_at": "2026-09-28T02:29:00Z",
+   "file": "wayback/cdx_scores_page.json",
+   "sha256": "c896f9ef05c8ba8d9a76a6a71ce476ee685bea81f751ade6a95295ea518b9b26"
+  },
+  {
+   "name": "webscores_prefix",
+   "purpose": "inventory",
+   "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2Fwebscores&matchType=prefix&limit=20000&filter=%21original%3A.%2A%5BRr%5Deadonly%5BAa%5Dll.%2A",
+   "rows": 274,
+   "fetched_at": "2026-09-28T02:29:07Z",
+   "file": "wayback/cdx_webscores_prefix.json",
+   "sha256": "22d374192fcc45e7d21a570c84dbfe061bbaeed238683425ff31c8ac11c55b3b"
+  },
+  {
+   "name": "report_pages_prefix",
+   "purpose": "report_inventory",
+   "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FwebScoresForReadonlyAll&matchType=prefix&limit=20000",
+   "rows": 7,
+   "fetched_at": "2026-09-28T02:30:01Z",
+   "file": "wayback/cdx_report_pages_prefix.json",
+   "sha256": "7b4a7704db84d8b95217283028579630bb7bcbcd49dd9fcbf02fe806f86dbb83"
+  }
+ ],
+ "corscores_cdx_captures": [
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/corscores.json",
+   "timestamp": "20240513021424",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "mimetype": "application/json",
+   "statuscode": "200",
+   "digest": "QPFVRL5M2ADIAE4Y2G5BLQXH5YD2C74G",
+   "length": "61311"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/corscores.json",
+   "timestamp": "20240612124719",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "mimetype": "application/json",
+   "statuscode": "200",
+   "digest": "6HCIJK6OMYTJOJ2AG4G53MVO4ZGMNX6E",
+   "length": "61400"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/corscores.json",
+   "timestamp": "20251017180715",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "mimetype": "application/json",
+   "statuscode": "200",
+   "digest": "3NKHO7HB7UHSLDGRXB2NUEUD4TZLMGXX",
+   "length": "75451"
+  }
+ ],
+ "corscores_captures": [
+  {
+   "timestamp": "20240513021424",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "wayback_url": "https://web.archive.org/web/20240513021424id_/http://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "cdx_digest": "QPFVRL5M2ADIAE4Y2G5BLQXH5YD2C74G",
+   "cdx_mimetype": "application/json",
+   "cdx_length": "61311",
+   "http_status": 200,
+   "final_url": "https://web.archive.org/web/20240513021424id_/http://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "fetched_at": "2026-09-28T02:29:09Z",
+   "memento_datetime": null,
+   "obtained_via": "web.archive.org id_ download",
+   "bytes": 835522,
+   "sha256": "e68dfc24e89a98e2b3226181ff8f94eb807fb7558e447004e6b91edd0c554797",
+   "sha1_base32": "QPFVRL5M2ADIAE4Y2G5BLQXH5YD2C74G",
+   "digest_matches_cdx": true,
+   "file": "wayback/CORScores_20240513021424.json"
+  },
+  {
+   "timestamp": "20240612124719",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "wayback_url": "https://web.archive.org/web/20240612124719id_/https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "cdx_digest": "6HCIJK6OMYTJOJ2AG4G53MVO4ZGMNX6E",
+   "cdx_mimetype": "application/json",
+   "cdx_length": "61400",
+   "http_status": 200,
+   "final_url": "https://web.archive.org/web/20240612124719id_/https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "fetched_at": "2026-09-28T02:29:13Z",
+   "memento_datetime": null,
+   "obtained_via": "web.archive.org id_ download",
+   "bytes": 837749,
+   "sha256": "d3750b4c94143b5389dfa6cfde2ffc87872eb405df38e0680ab76e6183d0ad15",
+   "sha1_base32": "6HCIJK6OMYTJOJ2AG4G53MVO4ZGMNX6E",
+   "digest_matches_cdx": true,
+   "file": "wayback/CORScores_20240612124719.json"
+  },
+  {
+   "timestamp": "20251017180715",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "wayback_url": "https://web.archive.org/web/20251017180715id_/https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "cdx_digest": "3NKHO7HB7UHSLDGRXB2NUEUD4TZLMGXX",
+   "cdx_mimetype": "application/json",
+   "cdx_length": "75451",
+   "http_status": 200,
+   "final_url": "https://web.archive.org/web/20251017180715id_/https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+   "fetched_at": "2026-09-28T02:29:16Z",
+   "memento_datetime": null,
+   "obtained_via": "web.archive.org id_ download",
+   "bytes": 797194,
+   "sha256": "e111884b9eae89cde2594c5b11fe8cb2a2ef36115290c5b72200cd88d08a9b0f",
+   "sha1_base32": "3NKHO7HB7UHSLDGRXB2NUEUD4TZLMGXX",
+   "digest_matches_cdx": true,
+   "file": "wayback/CORScores_20251017180715.json"
+  }
+ ],
+ "socrata": {
+  "dataset": "yf9v-pthu",
+  "dataset_page": "https://lives.data.socrata.com/d/yf9v-pthu",
+  "api": "https://lives.data.socrata.com/resource/yf9v-pthu.json",
+  "fields_published": [
+   "business_id",
+   "business_name",
+   "business_address",
+   "business_city",
+   "business_state",
+   "business_postal_code",
+   "business_latitude",
+   "business_longitude",
+   "business_phone_number",
+   "inspection_id",
+   "inspection_date",
+   "inspection_score",
+   "business_location",
+   ":@computed_region_s9ah_rd6f"
+  ],
+  "field_types": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text",
+   "number",
+   "number",
+   "number",
+   "text",
+   "floating_timestamp",
+   "number",
+   "location",
+   "number"
+  ],
+  "fields_not_downloaded": [
+   "business_phone_number",
+   "business_location",
+   ":@computed_region_s9ah_rd6f"
+  ],
+  "last_modified": "Tue, 23 Apr 2019 04:37:17 GMT",
+  "api_count": 2167,
+  "rows_saved": 2167,
+  "contact_strings_removed": 0,
+  "pages": [
+   {
+    "url": "https://lives.data.socrata.com/resource/yf9v-pthu.json?%24select=%3Aid%2Cbusiness_id%2Cbusiness_name%2Cbusiness_address%2Cbusiness_city%2Cbusiness_state%2Cbusiness_postal_code%2Cbusiness_latitude%2Cbusiness_longitude%2Cinspection_id%2Cinspection_date%2Cinspection_score&%24order=%3Aid&%24limit=1000&%24offset=0",
+    "rows": 1000,
+    "sha256": "864b6b7fe173458bd3ce87a0f0991af1d0ab4aadbd3b8655ab72b6d0668ad19f",
+    "fetched_at": "2026-09-28T02:29:47Z"
+   },
+   {
+    "url": "https://lives.data.socrata.com/resource/yf9v-pthu.json?%24select=%3Aid%2Cbusiness_id%2Cbusiness_name%2Cbusiness_address%2Cbusiness_city%2Cbusiness_state%2Cbusiness_postal_code%2Cbusiness_latitude%2Cbusiness_longitude%2Cinspection_id%2Cinspection_date%2Cinspection_score&%24order=%3Aid&%24limit=1000&%24offset=1000",
+    "rows": 1000,
+    "sha256": "9cb20822c55e23ba158223ee2caeee4d051eca18f932d94b1af0ed52fb7d50d8",
+    "fetched_at": "2026-09-28T02:29:48Z"
+   },
+   {
+    "url": "https://lives.data.socrata.com/resource/yf9v-pthu.json?%24select=%3Aid%2Cbusiness_id%2Cbusiness_name%2Cbusiness_address%2Cbusiness_city%2Cbusiness_state%2Cbusiness_postal_code%2Cbusiness_latitude%2Cbusiness_longitude%2Cinspection_id%2Cinspection_date%2Cinspection_score&%24order=%3Aid&%24limit=1000&%24offset=2000",
+    "rows": 167,
+    "sha256": "c640b17a43a20df636f0d5f45bfcd04d7b8a92ee43930a6010a4d222c734a57d",
+    "fetched_at": "2026-09-28T02:29:50Z"
+   }
+  ],
+  "file": "socrata/yf9v-pthu.json",
+  "sha256": "411d97bb3b8ddfd650511c9331b5fa424bda8db2b461cd1f4f18faa0337ce834",
+  "feed_info": {
+   "dataset": "tqfg-ya7z",
+   "url": "https://lives.data.socrata.com/resource/tqfg-ya7z.json?%24select=feed_version%2Cmunicipality_name%2Cmunicipality_url%2Cscoring_method",
+   "rows": 1,
+   "columns_left_out": [
+    "contact_email"
+   ],
+   "contact_strings_removed": 0,
+   "file": "socrata/tqfg-ya7z.json",
+   "sha256": "b779ae5f3ce90d692abacef7606517ca4d37a858142b9f93da39e9b2d9340a5c",
+   "fetched_at": "2026-09-28T02:29:51Z"
+  },
+  "note": "The city's LIVES feed is one flat table (business fields repeated on every inspection row). It has no violations table and no violation columns."
+ },
+ "weekly_listings_in_gap": [
+  {
+   "timestamp": "20190504095141",
+   "wayback_url": "https://web.archive.org/web/20190504095141id_/https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "sha256": "ca5118f15ef9ca69f6ef0b29d8d8c9fc4d0ced593b10050e64566a92bc87e1a2",
+   "digest_matches_cdx": true,
+   "week_ending_as_published": "04/27/2019",
+   "rows": 34
+  },
+  {
+   "timestamp": "20190630073245",
+   "wayback_url": "https://web.archive.org/web/20190630073245id_/https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+   "sha256": "0dc90921597bdfe9e282b2e21deee0dd98d3e230b1727a0acf74e4fff31f1844",
+   "digest_matches_cdx": true,
+   "week_ending_as_published": "06/29/2019",
+   "rows": 14
+  }
+ ],
+ "municode": {
+  "file": "municode_sec_10-126.json",
+  "api_url": "https://api.municode.com/CodesContent?jobId=495968&nodeId=PTIICOOR_CH10HEHUSE_ARTVFOSESA_S10-126RUADCOPR&productId=10221",
+  "library_url": "https://library.municode.com/tx/richardson/codes/code_of_ordinances?nodeId=PTIICOOR_CH10HEHUSE_ARTVFOSESA_S10-126RUADCOPR",
+  "job": {
+   "Id": 495968,
+   "Name": "Supplement 35 Update 2",
+   "PublishDate": "2026-06-15T04:00:00",
+   "OnlineDate": "2026-07-09T12:46:35",
+   "BannerText": "CODE OF ORDINANCES\r\nCity of\r\nRICHARDSON, TEXAS\r\n\r\nCodified through\r\nOrdinance No. 4590, enacted June 15, 2026.\r\n(Supp. No. 35, Update 2)"
+  },
+  "sha256": "552de3bc9659aa8316e72cc084e256d2cbf0fd31ec7abf867d13a3685a840ab1"
+ },
+ "finished_at": "2026-09-28T02:55:27Z",
+ "http_stats": {
+  "network": 0,
+  "cached": 27,
+  "retries": 0
+ },
+ "files": {
+  "municode_sec_10-126.json": {
+   "bytes": 10512,
+   "sha256": "552de3bc9659aa8316e72cc084e256d2cbf0fd31ec7abf867d13a3685a840ab1"
+  },
+  "socrata/tqfg-ya7z.json": {
+   "bytes": 155,
+   "sha256": "b779ae5f3ce90d692abacef7606517ca4d37a858142b9f93da39e9b2d9340a5c"
+  },
+  "socrata/yf9v-pthu.json": {
+   "bytes": 963957,
+   "sha256": "411d97bb3b8ddfd650511c9331b5fa424bda8db2b461cd1f4f18faa0337ce834"
+  },
+  "wayback/CORScores_20240513021424.json": {
+   "bytes": 835522,
+   "sha256": "e68dfc24e89a98e2b3226181ff8f94eb807fb7558e447004e6b91edd0c554797"
+  },
+  "wayback/CORScores_20240612124719.json": {
+   "bytes": 837749,
+   "sha256": "d3750b4c94143b5389dfa6cfde2ffc87872eb405df38e0680ab76e6183d0ad15"
+  },
+  "wayback/CORScores_20251017180715.json": {
+   "bytes": 797194,
+   "sha256": "e111884b9eae89cde2594c5b11fe8cb2a2ef36115290c5b72200cd88d08a9b0f"
+  },
+  "wayback/cdx_corscores_any_scheme.json": {
+   "bytes": 752,
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  "wayback/cdx_corscores_http.json": {
+   "bytes": 752,
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  "wayback/cdx_corscores_https.json": {
+   "bytes": 752,
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  "wayback/cdx_corscores_prefix.json": {
+   "bytes": 752,
+   "sha256": "d64052ac8a89f278d26ce016f768c951ba5b055817160dcde96623796409fbff"
+  },
+  "wayback/cdx_report_pages_prefix.json": {
+   "bytes": 2126,
+   "sha256": "7b4a7704db84d8b95217283028579630bb7bcbcd49dd9fcbf02fe806f86dbb83"
+  },
+  "wayback/cdx_scores_page.json": {
+   "bytes": 1591,
+   "sha256": "c896f9ef05c8ba8d9a76a6a71ce476ee685bea81f751ade6a95295ea518b9b26"
+  },
+  "wayback/cdx_webscores_prefix.json": {
+   "bytes": 77488,
+   "sha256": "22d374192fcc45e7d21a570c84dbfe061bbaeed238683425ff31c8ac11c55b3b"
+  },
+  "wayback/healthtrak_report_pages_inventory.json": {
+   "bytes": 2991,
+   "sha256": "b880c573c13f077c6cee3a1d1b64887f567c32092a29bd64b5c260c65a865b6f"
+  },
+  "wayback/healthtrak_webscores_inventory.json": {
+   "bytes": 108737,
+   "sha256": "321375cfee5285a61885555e88750ac0b842aa42177b26a1acd145e035b3c855"
+  },
+  "wayback/scores_page_text.json": {
+   "bytes": 6692,
+   "sha256": "83a183a422d3bec668e6bfa0ede5538036574ada1dd9df771210e55f4a4c3ab0"
+  },
+  "wayback/weekly_listings_in_gap.json": {
+   "bytes": 14676,
+   "sha256": "be6c8e72ec10d075b156db3c53ac581e96dffed4254afd2d4d454f6b10524a62"
+  }
+ }
+}

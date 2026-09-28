@@ -1,0 +1,4 @@
+[["urlkey","timestamp","original","mimetype","statuscode","digest","length"],
+["gov,cor,discovery)/public/health/healthtrak.nsf/corscores.json","20240513021424","http://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json","application/json","200","QPFVRL5M2ADIAE4Y2G5BLQXH5YD2C74G","61311"],
+["gov,cor,discovery)/public/health/healthtrak.nsf/corscores.json","20240612124719","https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json","application/json","200","6HCIJK6OMYTJOJ2AG4G53MVO4ZGMNX6E","61400"],
+["gov,cor,discovery)/public/health/healthtrak.nsf/corscores.json","20251017180715","https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json","application/json","200","3NKHO7HB7UHSLDGRXB2NUEUD4TZLMGXX","75451"]]
