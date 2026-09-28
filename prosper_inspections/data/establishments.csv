@@ -1,0 +1,1009 @@
+establishment_id,source,name,names_in_tables,address,facility_class,permit_numbers,permit_class,latest_permit_status,any_active_permit,latest_permit_issue_date,table_rows,first_report_month,last_report_month,score_100_rows,demerit_27_rows,latest_score_100,latest_score_month,min_score_100,mean_score_100,fail_rows,below_70_rows,closure_text_rows,reopen_text_rows
+P0001,permit list,Popeye's,Popeye's | Popeyes | Popeyes No 11761 | Popeyes No. 1176 | Popeyes No. 11761 | Popeye’s,4235 E UNIVERSITY DR,restaurant,FOOD-22-0003 FOOD-23-0043 FOOD-26-0084,Food Establishment - Restaurant,Active,True,2026-02-19,27,2019-12,2025-11,10,0,86,2025-10,75,82.3,1,0,1,0
+P0002,permit list,Ernesto's Fine Mexican Food,Ernesto's Mexican Restaurant | Ernesto’s | Ernesto’s Mexican Restaurant | Ernesto’s Mexico Restaurant,120 N PRESTON RD STE 40 Unit: 40,restaurant,FOOD-23-0001 FOOD-26-0038,Food Establishment - Restaurant,Active,True,2026-02-03,20,2016-02,2023-03,6,2,81,2023-03,64,75.3,3,1,0,0
+P0003,permit list,Texaco Eagle's Nest,Eagles Nest Deli | Eagles Nest Texaco | Eagle’s Nest Deli | Texaco | Texaco Eagles Nest | Texaco Eagles Nest and Deli,640 N PRESTON RD,restaurant,FOOD-23-0002 FOOD-23-0003 FOOD-26-0191 FOOD-26-0192,Food Establishment - Convenience Store,Active,True,2026-03-11,20,2016-08,2024-06,10,2,97,2024-06,85,92.1,0,0,0,0
+P0004,permit list,Firehouse Subs,Firehouse Subs,1141 S PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0006 FOOD-26-0193,Food Establishment - Restaurant,Active,True,2026-03-11,18,2020-07,2024-07,4,0,90,2024-06,77,84.8,0,0,0,0
+P0005,permit list,Peachwave Frozen Yogurt,Peachwave | Peachwave Frozen Yogurt,1170 N PRESTON RD STE 150 Unit: 150,restaurant,FOOD-23-0007,Food Establishment - Restaurant,Void,False,2023-01-11,13,2017-01,2022-08,4,2,82,2022-07,74,79.8,1,0,0,0
+P0006,permit list,Taco Bueno,Taco Bueno | Taco Bueno No 3207 | Taco Bueno No. 3207,4385 E UNIVERSITY DR,restaurant,FOOD-23-0010 FOOD-26-0076,Food Establishment - Restaurant,Active,True,2026-02-09,12,2016-10,2024-09,6,1,86,2024-09,76,84.3,1,0,0,0
+P0007,permit list,Wingstop,Wingstop,1350 N PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0011 FOOD-26-0159,Food Establishment - Restaurant,Active,True,2026-03-04,11,2020-08,2024-07,5,0,87,2024-06,85,90.6,0,0,0,0
+P0008,permit list,SUGARBOY DONUT,,1180 N COIT RD STE 60 Unit: 60,,FOOD-23-0016 FOOD-26-0065,Food Establishment - Restaurant,Active,True,2026-02-06,0,,,0,0,,,,,0,0,0,0
+P0009,permit list,Circle K #2741580,Circle K,1411 E UNIVERSITY DR,store,FOOD-23-0017 FOOD-24-0110 FOOD-26-0057,Food Establishment - Convenience Store,Active,True,2026-02-06,9,2020-04,2024-09,6,0,81,2024-08,75,86.7,0,0,0,0
+P0010,permit list,Kung Fu Tea,Kung Fu Tea,1151 S PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0018 FOOD-23-0293 FOOD-26-0134,Food Establishment - Restaurant,Fees Due,False,,13,2021-10,2024-03,4,0,96,2024-02,93,94.5,2,0,0,0
+P0011,permit list,Texas Roadhouse,Texas Roadhouse,1211 S PRESTON RD,restaurant,FOOD-23-0020,Food Establishment - Restaurant,Expired,False,2025-01-31,7,2020-07,2024-12,3,0,87,2024-12,87,88.7,0,0,0,0
+P0012,permit list,Whataburger #1133,Whataburger | Whataburger #1133 | Whataburger Restaurant | Whataburger Restaurants LLC,1201 S PRESTON RD,restaurant,FOOD-23-0021 FOOD-26-0150,Food Establishment - Restaurant,Under Review,False,2026-03-04,10,2020-06,2025-04,4,0,90,2024-05,88,91.5,0,0,0,0
+P0013,permit list,Killa Pie,Killa Pie,1100 S PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0022,Food Establishment - Restaurant,Expired,False,2025-01-31,1,2024-01,2024-01,0,0,,,,,0,0,0,0
+P0014,permit list,Z-Donut,Z Donut | Z Donuts,2381 E UNIVERSITY DR STE 80 Unit: 80,restaurant,FOOD-23-0023,Food Establishment - Restaurant,Void,False,2024-01-31,9,2021-09,2025-08,3,0,89,2025-07,87,89.7,0,0,0,0
+P0015,permit list,Salsa Tex Mex Restaurant,Salsa Tex Mex | Salsa Tex-Mex | Salsa’s Tex Mex,1170 N PRESTON RD STE 190 Unit: 190,restaurant,FOOD-23-0024 FOOD-26-0205,Food Establishment - Restaurant,Active,True,2026-03-11,18,2019-12,2024-10,7,0,82,2024-09,70,78.1,0,0,0,0
+P0016,permit list,Andy's Frozen Custard,Andy's Frozen Custard | Andy’s Frozen Custard,1151 E FIRST ST,restaurant,FOOD-23-0026 FOOD-26-0107,Food Establishment - Restaurant,Active,True,2026-02-20,5,2023-01,2025-07,2,0,95,2025-07,91,93.0,1,0,0,0
+P0017,permit list,Menchie's Frozen Yogurt,Menchies Frozen Yogurt | Menchie’s Frozen Yogurt | Menchie’s Frozen Yougurt,4740 W UNIVERSITY DR STE 40 Unit: 40,restaurant,FOOD-23-0027 FOOD-26-0151,Food Establishment - Restaurant,Active,True,2026-03-04,8,2020-06,2024-11,6,0,100,2024-11,95,98.7,1,0,0,0
+P0018,permit list,Honeylu's Coffee,Honey Lu’s Coffee | Honeylu’s Coffee,1170 N PRESTON RD STE 130 Unit: 130,restaurant,FOOD-23-0031,Food Establishment - Restaurant,Revoked,False,2023-01-27,7,2020-07,2022-09,4,0,86,2022-07,79,84.5,0,0,0,0
+P0019,permit list,Romas Italian Restaurant,Roma's Italian Restaurant | Roma’s Italian Restaurant,1361 E UNIVERSITY DR STE 70 Unit: 70,restaurant,FOOD-23-0032 FOOD-26-0106,Food Establishment - Restaurant,Active,True,2026-02-27,10,2020-08,2024-11,5,0,95,2024-11,73,85.8,0,0,0,0
+P0020,permit list,Sonic Drive-In,Sonic,150 N PRESTON RD,restaurant,FOOD-23-0034 FOOD-26-0063,Food Establishment - Restaurant,Active,True,2026-02-06,8,2016-08,2021-10,1,2,86,2021-09,86,86.0,0,0,0,0
+P0021,permit list,Salad and Go,Salad and Go,4620 W UNIVERSITY DR,restaurant,FOOD-23-0035,Food Establishment - Restaurant,Void,False,2025-01-31,4,2023-01,2025-09,1,0,98,2024-11,98,98.0,1,0,0,0
+P0022,permit list,Marco's Pizza,Marcos Pizza | Marco’s Pizza,1180 N COIT RD STE 20 Unit: 20,restaurant,FOOD-23-0036 FOOD-26-0165,Food Establishment - Restaurant,Active,True,2026-03-04,9,2020-03,2022-10,5,0,90,2022-09,81,88.4,1,0,0,0
+P0023,permit list,Jersey Mike's,Jersey Mikes Subs | Jersey Mike’s | Jersey Mike’s Subs,4740 W UNIVERSITY DR STE 150 Unit: 150,restaurant,FOOD-23-0040 FOOD-26-0203 FOOD-26-0348,Food Establishment - Restaurant,Active,True,2026-08-06,5,2019-08,2021-09,2,0,99,2021-09,94,96.5,1,0,0,0
+P0024,permit list,Wisk AM Eatery,Wish AM Eatery | Wisk A.M. Eatery | Wisk AM Eatery | Wisk Am Eatery,111 S PRESTON RD STE 30 Unit: 30,restaurant,FOOD-23-0042,Food Establishment - Restaurant,Void,False,2025-01-31,15,2020-08,2022-09,5,0,79,2022-09,75,78.4,2,0,0,0
+P0025,permit list,Chilis Bar & Grill,Chili's Bar & Grill | Chili's Grill & Bar | Chili’s Bar & Grill | Chili’s Grill & Bar,1081 S PRESTON RD,restaurant,FOOD-23-0046 FOOD-26-0155,Food Establishment - Restaurant,Active,True,2026-03-04,8,2019-12,2024-11,3,0,88,2024-10,80,87.0,2,0,0,0
+P0026,permit list,Rice Pot Express,Rice Pot | Rice Pot Express,1049 N PRESTON RD STE 40 Unit: 40,restaurant,FOOD-23-0048 FOOD-26-0222,Food Establishment - Restaurant,Active,True,2026-03-12,21,2016-08,2025-03,7,2,77,2025-03,72,77.9,3,0,0,0
+P0027,permit list,Murphy Express #8869,Murphy Express | Murphy Express #8869 | Murphy Express No. 8869,791 S PRESTON RD,store,FOOD-23-0049,Food Establishment - Convenience Store,Fees Paid,False,2025-01-31,6,2022-03,2024-11,3,0,97,2024-11,94,95.7,0,0,0,0
+P0028,permit list,7-Eleven #34650,7 Eleven | 7-Eleven | 7-Eleven #34650 | 7-Eleven Convenience Store,1541 E UNIVERSITY DR,store,FOOD-23-0050 FOOD-26-0064,Food Establishment - Convenience Store,Active,True,2026-02-06,10,2016-03,2024-08,5,1,86,2024-08,80,88.2,0,0,0,0
+P0029,permit list,Hana Hibachi and Sushi,Hana Hibachi and Sushi | Hanna Hibachi and Sushi,1151 S PRESTON RD STE 30 Unit: 30,restaurant,FOOD-23-0053 FOOD-26-0074,Food Establishment - Restaurant,Active,True,2026-02-09,8,2020-06,2022-02,3,0,74,2021-12,74,76.7,1,0,0,0
+P0030,permit list,Pizza Hut,Pizza Hut,1049 N PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0054 FOOD-26-0128,Food Establishment - Restaurant,Active,True,2026-02-27,13,2016-02,2024-09,5,2,92,2024-09,80,88.8,0,0,0,0
+P0031,permit list,Mi Luna Great Tex-Mex,Mi Luna Great Tex-Mex,2111 E UNIVERSITY DR STE 10 Unit: 10,restaurant,FOOD-23-0055 FOOD-26-0113,Food Establishment - Restaurant,Active,True,2026-02-20,10,2021-07,2023-08,2,0,85,2023-08,80,82.5,0,0,0,0
+P0032,permit list,Swig,Swig,4570 W UNIVERSITY DR,restaurant,FOOD-23-0056 FOOD-26-0166,Food Establishment - Restaurant,Active,True,2026-03-04,1,2023-08,2023-08,1,0,89,2023-08,89,89.0,0,0,0,0
+P0033,permit list,Snowfruits 589 - Kroger,Snowfruits-Kroger | Snowfruits-Kroger 589,4650 W UNIVERSITY DR,restaurant,FOOD-23-0057 FOOD-26-0174,Food Establishment - Restaurant,Active,True,2026-03-04,4,2022-10,2022-11,2,0,87,2022-11,87,89.5,1,0,0,0
+P0034,permit list,JFE Sushi,JFE Sushi K589 | JFE Sushi-Kroger,4650 W UNIVERSITY DR,restaurant,FOOD-23-0058 FOOD-26-0041,Food Establishment - Restaurant,Active,True,2026-02-06,8,2019-12,2022-10,4,0,96,2022-09,88,93.0,0,0,0,0
+P0035,permit list,Super Wings,Super Wings,2770 W FIRST ST STE 30 Unit: 30,restaurant,FOOD-23-0060 FOOD-24-0028,Food Establishment - Restaurant,Active,True,2026-01-06,2,2024-01,2024-01,0,0,,,,,0,0,0,0
+P0036,permit list,Panera Bread #6026,Panera Bread | Panera Bread No 6026,581 RICHLAND BLVD,restaurant,FOOD-23-0061 FOOD-26-0187,Food Establishment - Restaurant,Under Review,False,2026-03-11,7,2020-08,2025-11,3,0,91,2025-11,82,86.3,0,0,0,0
+P0037,permit list,Panera Bread #6079,Panera Bread | Panera Bread #6079 | Panera Bread 6079 | Panera Bread No 6079 | Panera Bread No. 6079,4480 W UNIVERSITY DR,restaurant,FOOD-23-0062 FOOD-26-0188,Food Establishment - Restaurant,Active,True,2026-03-11,10,2019-02,2024-01,4,0,93,2024-01,71,84.8,0,0,0,0
+P0038,permit list,Snowfruits 573 - Kroger,Snowfruits-Kroger 573,1250 N PRESTON RD,store,FOOD-23-0063 FOOD-26-0175,Food Establishment - Restaurant,Active,True,2026-03-04,2,2022-10,2022-10,0,0,,,,,1,0,0,0
+P0039,permit list,7 ELEVEN INC/LAREDO TACO 38694H,7 Eleven | 7-Eleven | 7-Eleven Inc | 7-Eleven/Laredo Taco,2101 N PRESTON RD,store,FOOD-23-0064 FOOD-26-0145,Food Establishment - Restaurant,Active,True,2026-03-09,14,2021-02,2025-03,3,0,91,2024-09,75,83.7,1,0,0,0
+P0040,permit list,Pie Five Pizza Co,Pie Five | Pie Five Pizza | Pie Five Pizza Co,1101 S PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0065 FOOD-23-0331 FOOD-24-0072,Food Establishment - Restaurant,Expired,False,2025-01-31,15,2020-04,2024-07,2,0,90,2021-08,77,83.5,3,0,0,0
+P0041,permit list,The Brass Tap - Prosper,The Brass Tap,790 N PRESTON RD STE 80 Unit: 80,restaurant,FOOD-23-0066 FOOD-25-0186 FOOD-26-0228,Food Establishment - Restaurant,Active,True,2026-03-18,13,2020-06,2025-11,3,0,83,2021-11,79,81.3,0,0,2,0
+P0042,permit list,380 Indian Restaurant and Bar,380 Indian Restaurant and Bar,2361 E UNIVERSITY DR STE 90 Unit: 90,restaurant,FOOD-23-0068,Food Establishment - Restaurant,Revoked,False,2023-02-13,5,2022-09,2023-10,1,0,72,2022-11,72,72.0,1,0,0,0
+P0043,permit list,HUNGRY PLATTERS & GYRO,Hungry Platters | Hungry Platters & Gyro,4740 W UNIVERSITY DR STE 90 Unit: 90,restaurant,FOOD-23-0069 FOOD-23-0273 FOOD-25-0104 FOOD-25-0105 FOOD-26-0157,Food Establishment - Restaurant,Active,True,2026-03-04,14,2019-02,2025-07,6,0,92,2024-11,76,82.8,1,0,0,0
+P0044,permit list,1418 Coffeehouse,Fourteen Eighteen Coffeehouse,102 E BROADWAY ST,restaurant,FOOD-23-0070 FOOD-26-0200,Food Establishment - Restaurant,Active,True,2026-03-11,2,2024-09,2024-09,1,0,92,2024-09,92,92.0,0,0,0,0
+P0045,permit list,Gloria's Latin Cuisine,Gloria's Latin Cuisine | Gloria’s Latin Cuisine,1110 S PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0071 FOOD-26-0160,Food Establishment - Restaurant,Active,True,2026-03-04,8,2022-01,2025-10,2,0,98,2025-10,83,90.5,0,0,0,0
+P0046,permit list,Sushi Bene,Sushi Bene,1180 N COIT RD STE 90 Unit: 90,restaurant,FOOD-23-0072 FOOD-23-0229 FOOD-26-0042,Food Establishment - Restaurant,Active,True,2026-02-03,9,2022-01,2023-08,2,0,87,2023-03,87,88.0,1,0,0,0
+P0047,permit list,Tribute Senior Living,Tibute Senior Living | Tribute Senior Living,190 N PRESTON RD,restaurant,FOOD-23-0073 FOOD-26-0161,Food Establishment - Restaurant,Under Review,False,2026-03-04,6,2021-05,2025-04,3,0,94,2025-03,80,86.7,0,0,0,0
+P0048,permit list,Highland Food Mart,Highland Food Mart | Highland Foods,112 N COLEMAN ST,store,FOOD-23-0074 FOOD-26-0045,Food Establishment - Convenience Store,Active,True,2026-02-03,12,2016-02,2025-04,7,2,92,2025-04,84,92.7,0,0,0,0
+P0049,permit list,Eddie's Napolis Italian Bistro,Eddie Napolis Italian Restaurant | Eddie’s Napoli Italian Restaurant | Eddie’s Napolis Italian Restaurant,1450 N PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0075,Food Establishment - Restaurant,Void,False,2024-01-31,13,2020-06,2021-10,4,0,70,2021-09,70,76.5,0,0,0,0
+P0050,permit list,Jerry's Liquor & Fine Wine,Jerry’s Wine and Spirits,1281 E UNIVERSITY DR STE 10 Unit: 10,store,FOOD-23-0076,Food Establishment - Convenience Store,Expired,False,2025-01-31,5,2021-06,2022-08,3,0,100,2022-08,100,100.0,1,0,0,0
+P0051,permit list,Mi Chante Mexican Cuisine,Mi Chante Mexican Cuisine,1090 N COIT RD STE 10 Unit: 10,restaurant,FOOD-23-0077 FOOD-26-0061,Food Establishment - Restaurant,Active,True,2026-02-06,1,2022-10,2022-10,0,0,,,,,1,0,0,0
+P0052,permit list,Fossil creek Liquor,Fossil Creek | Fossil Creek Liquior | Fossil Creek Liquor | Fossil creek liquor,1921 N PRESTON RD STE 50 Unit: 50,store,FOOD-23-0078 FOOD-26-0256,Food Establishment - Liquor Store,Active,True,2026-03-26,9,2022-01,2026-08,6,0,94,2026-08,94,96.7,0,0,0,0
+P0053,permit list,Fossil creek liquor,Fossil Creek Liquor,1180 E PROSPER TRL STE 10 Unit: 10,store,FOOD-23-0079 FOOD-26-0257,Food Establishment - Liquor Store,Active,True,2026-03-26,4,2021-03,2026-08,3,0,88,2026-08,88,95.7,0,0,0,0
+P0054,permit list,Fossil Creek Liquor,Fossil Creek Liquor | Fossil Creek Liquor No 2 | Fossil Creek Liquor No. 2,2361 E UNIVERSITY DR STE 40 Unit: 40,store,FOOD-23-0080,Food Establishment - Convenience Store,Void,False,2023-05-04,5,2021-04,2023-08,3,0,100,2022-08,100,100.0,0,0,0,0
+P0055,permit list,SMASHBURGER,SmashBurger | Smashburger,1111 S PRESTON RD STE 30 Unit: 30,restaurant,FOOD-23-0081 FOOD-25-0154 FOOD-26-0227,Food Establishment - Restaurant,Active,True,2026-03-12,15,2020-04,2025-12,6,0,100,2025-12,78,85.8,0,0,0,0
+P0056,permit list,Southpaw's Grill,SouthPaw’s Grill | Southpaws Grill,1921 N PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0082,Food Establishment - Restaurant,Void,False,2024-01-31,3,2022-09,2022-11,0,0,,,,,0,0,0,0
+P0057,permit list,Tealatte Bar,TeaLatte Bar | Tealatte Bar,1921 N PRESTON RD STE 60 Unit: 60,restaurant,FOOD-23-0083,Food Establishment - Restaurant,Void,False,2025-01-31,8,2022-02,2024-09,2,0,91,2024-08,87,89.0,0,0,0,0
+P0058,permit list,Jack In The Box,Jack In The Box | Jack in the Box,4750 W UNIVERSITY DR,restaurant,FOOD-23-0084 FOOD-26-0129,Food Establishment - Restaurant,Active,True,2026-02-27,9,2019-08,2022-06,4,0,94,2022-06,87,93.0,0,0,0,0
+P0059,permit list,"MooYah Burgers, Fries, and Shakes",MooYah Burgers | Mooyah Burger and Fries | Mooyah Burgers | Mooyah Burgers And Fries | Mooyah Burgers and Fries,1350 N PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0086 FOOD-26-0114 FOOD-26-0229 FOOD-26-0232 FOOD-26-0239 FOOD-26-0240,Food Establishment - Restaurant,Active,True,2026-04-10,15,2019-08,2026-05,5,0,92,2024-11,75,88.8,1,0,0,0
+P0060,permit list,Starbucks (duplicate),Starbucks | Starbucks Coffee,4261 E UNIVERSITY DR,restaurant,FOOD-23-0088,Food Establishment - Restaurant,Void,False,,9,2017-01,2022-09,4,1,96,2022-09,88,92.0,0,0,0,0
+P0061,permit list,Starbucks #63417,Starbucks Coffee | Starbucks No 63417 | Starbucks No. 63417,820 S PRESTON RD,restaurant,FOOD-23-0089 FOOD-26-0126,Food Establishment - Restaurant,Active,True,2026-02-27,9,2021-05,2025-04,3,0,92,2025-04,85,88.7,1,0,0,0
+P0062,permit list,Chick Fil A at Windsong Ranch,Chick Fil A at Windsong Ranch | Chick-Fil-A Windsong | Chick-fil-A | Chick-fil-A @ Windsong | Chick-fil-a (Windsong),4420 W UNIVERSITY DR,restaurant,FOOD-23-0090 FOOD-26-0196,Food Establishment - Restaurant,Active,True,2026-03-11,5,2020-03,2024-08,4,0,99,2024-08,98,98.8,0,0,0,0
+P0063,permit list,Walmart #6300,Wal-Mart Stores Texas LLC | Walmart | Walmart No.6300 | Walmart Store #6300 | Walmart Store 6300 | Walmart Store No 6300,500 RICHLAND BLVD Unit: 510,store,FOOD-23-0093,Food Establishment - Convenience Store,Expired,False,2026-01-21,19,2016-03,2026-08,7,0,92,2026-08,83,89.7,0,0,0,0
+P0064,permit list,Wing Stop #1584,Wing Stop | Wingstop No 1584 | Wingstop No. 1584,4940 W UNIVERSITY DR STE 50 Unit: 50,restaurant,FOOD-23-0096 FOOD-26-0109,Food Establishment - Restaurant,Active,True,2026-02-20,11,2021-05,2026-08,4,0,81,2026-08,81,90.0,0,0,0,0
+P0065,permit list,Nothing Bundt Cakes,Nothing Bundt Cakes,2381 E UNIVERSITY DR STE 90 Unit: 90,restaurant,FOOD-23-0097 FOOD-26-0132,Food Establishment - Restaurant,Active,True,2026-02-27,8,2020-10,2025-07,5,0,100,2025-07,93,96.0,1,0,0,0
+P0066,permit list,Smoothie King,Smoothie King,841 S PRESTON RD,restaurant,FOOD-23-0098 FOOD-26-0055,Food Establishment - Restaurant,Active,True,2026-02-03,12,2020-04,2024-12,7,0,93,2024-12,90,94.9,2,0,0,0
+P0067,permit list,Starbucks #24471,,4261 E UNIVERSITY DR STE 10 Unit: 10,,FOOD-23-0099,Food Establishment - Restaurant,Void,False,2025-01-31,0,,,0,0,,,,,0,0,0,0
+P0068,permit list,Papa John's #4883,Pap John’s | Papa John’s | Papa John’s Pizza | Papa John’s West,4740 W UNIVERSITY DR STE 130 Unit: 130,restaurant,FOOD-23-0101 FOOD-26-0075,Food Establishment - Restaurant,Active,True,2026-02-09,15,2019-08,2022-09,6,0,93,2022-08,80,87.0,0,0,0,0
+P0069,permit list,McDonalds 39055,McDonald's | McDonalds 39055 | McDonalds’ No. 39055 | McDonald’s | McDonald’s No 39055 | McDonald’s No. 39055,4500 W UNIVERSITY DR,restaurant,FOOD-23-0110 FOOD-26-0167,Food Establishment - Restaurant,Active,True,2026-03-04,12,2020-04,2024-11,6,0,99,2024-08,88,94.3,0,0,0,0
+P0070,permit list,Panda Express #3239,Panada Express | Panda Express,2251 E UNIVERSITY DR,restaurant,FOOD-23-0115 FOOD-26-0040,Food Establishment - Restaurant,Active,True,2026-02-03,13,2020-04,2025-03,6,0,95,2025-02,81,91.2,1,0,0,0
+P0071,permit list,Papa John's #4168,Papa Johns | Papa John’s | Papa John’s East,2111 E UNIVERSITY DR Unit: 80,restaurant,FOOD-23-0116 FOOD-26-0080,Food Establishment - Restaurant,Active,True,2026-02-16,11,2016-03,2026-03,7,2,96,2026-03,90,93.9,0,0,0,0
+P0072,permit list,Cook Children's Medical Center - Prosper,Cook Children’s Medical Center,4100 W UNIVERSITY DR,restaurant,FOOD-23-0117 FOOD-26-0156,Food Establishment - Restaurant,Active,True,2026-03-04,3,2022-08,2022-10,0,0,,,,,2,0,0,0
+P0073,permit list,Donuts Plus,Donut Plus | Donuts Plus,1049 N PRESTON RD STE 30 Unit: 30,restaurant,FOOD-23-0118,Food Establishment - Restaurant,On Hold,False,2023-03-30,17,2016-08,2022-08,6,2,92,2022-08,73,82.3,1,0,0,0
+P0074,permit list,Racetrac #215,Race Trac | RaceTrac | Racetrac,4870 W UNIVERSITY DR,store,FOOD-23-0119 FOOD-26-0049,Food Establishment - Restaurant,Active,True,2026-02-03,9,2019-08,2024-11,6,0,86,2024-11,86,90.3,0,0,0,0
+P0075,permit list,Anamia's Tex-Mex,Anamia's Tex-Mex,2001 N PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0129,Food Establishment - Restaurant,Expired,False,2025-01-31,6,2023-04,2025-04,1,0,86,2025-04,86,86.0,1,0,0,0
+P0076,permit list,CVS Pharmacy #10641,CVS | CVS Pharmacy | CVS Pharmacy #10641 | CVS Pharmacy Inc | CVS Pharmacy No. 10641,2451 E UNIVERSITY DR,store,FOOD-23-0136 FOOD-26-0170,Food Establishment - Convenience Store,Active,True,2026-03-04,14,2017-01,2026-08,9,1,94,2026-08,85,95.0,1,0,0,0
+P0077,permit list,CVS Pharmacy #2876,CVS | CVS Pharmacy | CVS Pharmacy #2876 | CVS Pharmacy No. 2876,201 S PRESTON RD,store,FOOD-23-0137 FOOD-26-0172,Food Establishment - Convenience Store,Active,True,2026-03-04,12,2016-08,2025-07,8,1,97,2025-07,95,96.4,0,0,0,0
+P0078,permit list,Prosper Pantry LLC,Prosper Pantry | Prosper Pantry LLC,608 E FIRST ST,restaurant,FOOD-23-0139,Food Establishment - Restaurant,Void,False,2025-01-31,11,2019-07,2024-11,5,0,94,2024-11,83,88.0,0,0,0,0
+P0079,permit list,Canteen @ Children's Health Specialty Center Prosper,Canteen @ Children's Health Specialty Center Prosper | Canteen @ Children’s Health Specialty Center Prosper,1300 CHILDRENS WAY,store,FOOD-23-0143 FOOD-26-0219,Food Establishment - Convenience Store,Active,True,2026-03-12,2,2023-04,2024-09,1,0,100,2024-09,100,100.0,0,0,0,0
+P0080,permit list,Tropical Smoothie,Tropical Smoothie Cafe | Tropical Smoothie Café,2001 N PRESTON RD STE 30 Unit: 30,restaurant,FOOD-23-0145 FOOD-26-0243,Food Establishment - Restaurant,Active,True,2026-03-18,5,2023-04,2024-08,1,0,92,2024-07,92,92.0,1,0,0,0
+P0081,permit list,Popshelf Store #24453,Pop Shelf | Popshelf | Popshelf Store | Popshelf Store No. 24453,1000 N PRESTON RD STE 10 Unit: 10,store,FOOD-23-0154 FOOD-26-0048,Food Establishment - Convenience Store,Active,True,2026-02-03,7,2022-09,2026-08,5,0,99,2026-08,99,99.6,0,0,0,0
+P0082,permit list,La Finca Coffee and Bakery,La Finca Coffee & Bakery | La Finca Coffee and Bakery,2281 E UNIVERSITY DR STE 10 Unit: 10,restaurant,FOOD-23-0157,Food Establishment - Restaurant,Expired,False,2025-01-31,6,2022-10,2025-10,1,0,83,2025-09,83,83.0,2,0,0,0
+P0083,permit list,Yummi Sushi,Yummi Sushi Inside Kroger | Yummi Sushi: Kroger,1250 N PRESTON RD,restaurant,FOOD-23-0159 FOOD-26-0249,Food Establishment - Restaurant,Active,True,2026-03-24,9,2021-02,2022-09,3,0,95,2022-08,92,94.0,2,0,0,0
+P0084,permit list,Tiff's Treats,"Tiff Treats | Tiff's Treats | Tiff's Treats Dallas II, LLC | Tiff’s Treat | Tiff’s Treats",1070 S PRESTON RD Unit: 10,restaurant,FOOD-23-0165 FOOD-26-0043,Food Establishment - Restaurant,Active,True,2026-02-20,11,2020-11,2026-08,6,0,91,2026-08,87,93.2,0,0,0,0
+P0085,permit list,Pietro's Italian Bakery,Formerly Pietro's Bakery | Pietro's Italian Bakery | Pietro’s Italian Bakery,2111 E UNIVERSITY DR STE 50 Unit: 50,restaurant,FOOD-23-0171,Food Establishment - Restaurant,Revoked,False,2023-04-18,5,2022-11,2023-09,1,0,83,2023-03,83,83.0,1,0,0,0
+P0086,permit list,JERSEY MIKE'S,Jersey Mike's,2001 N PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0173 FOOD-26-0204 FOOD-26-0346 FOOD-26-0347,Food Establishment - Restaurant,Active,True,2026-08-04,1,2026-08,2026-08,0,0,,,,,1,0,0,0
+P0087,permit list,Cheek Middle School PTA,Cheek Middle School | Cheeks Middle School PTA,200 DENTON WAY,school,FOOD-23-0178 FOOD-24-0128 FOOD-26-0343 FOOD-26-0345,Food Establishment - Concession,Active,True,2026-08-04,6,2024-05,2026-08,4,0,100,2025-10,100,100.0,0,0,0,0
+P0088,permit list,Smallcakes Prosper,Small Cakes | Smallcakes,1101 S PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0182 FOOD-26-0121 FOOD-26-0251,Food Establishment - Restaurant,Active,True,2026-03-26,8,2020-04,2022-11,6,0,89,2022-11,89,94.5,0,0,0,0
+P0089,permit list,Hibachi Master LLC,Hibachi Master | Hibachi Masters | Hibachi Masters Inc,640 N PRESTON RD,restaurant,FOOD-23-0186 FOOD-26-0223,Food Establishment - Restaurant,Active,True,2026-03-12,7,2019-08,2024-11,4,0,85,2024-10,85,88.0,0,0,0,0
+P0090,permit list,First Watch Restaurants inc,,111 S PRESTON RD,,FOOD-23-0189,Food Establishment - Restaurant,Expired,False,2025-01-31,0,,,0,0,,,,,0,0,0,0
+P0091,permit list,"Concetta's Italian Kitchen, LLC",Concetta Italian Kitchen,203 N COLEMAN ST,restaurant,FOOD-23-0191,Food Establishment - Restaurant,Expired,False,2024-01-31,4,2020-06,2022-08,3,0,100,2022-08,98,99.0,0,0,0,0
+P0092,permit list,Raising Cane's #408,Raising Cane's | Raising Cane’s | Raising Cane’s No 408,4760 W UNIVERSITY DR,restaurant,FOOD-23-0194 FOOD-26-0125,Food Establishment - Restaurant,Active,True,2026-02-27,6,2020-04,2025-10,4,0,95,2025-10,95,95.8,0,0,0,0
+P0093,permit list,Sabaidee Lao & Thai Street Food,Sabaidee Lao & Thai Street Food | Sabaidee Lao and Thai Street Food,1111 S PRESTON RD STE 20 Unit: 20,restaurant,FOOD-23-0204 FOOD-26-0035,Food Establishment - Restaurant,Active,True,2026-02-03,10,2020-04,2022-09,3,0,73,2022-09,73,76.3,0,0,0,0
+P0094,permit list,Donut Man,Donut Man | Donutman,861 N COLEMAN ST STE 160 Unit: 160,restaurant,FOOD-23-0206 FOOD-26-0224,Food Establishment - Restaurant,Active,True,2026-03-12,10,2016-08,2024-11,4,2,95,2024-11,93,94.0,0,0,0,0
+P0095,permit list,ICF Boar's Head @ Kroger $589,,4650 W UNIVERSITY DR,,FOOD-23-0207,Food Establishment - Restaurant,Void,False,2025-01-31,0,,,0,0,,,,,0,0,0,0
+P0096,permit list,MOD Pizza,MOD Pizza | Mod Pizza,4780 W UNIVERSITY DR STE 10 Unit: 10,restaurant,FOOD-23-0209 FOOD-26-0016 FOOD-26-0116,Food Establishment - Restaurant,Active,True,2026-03-03,20,2020-07,2026-07,6,0,90,2025-05,76,84.7,2,0,1,0
+P0097,permit list,Project Lean Nation,Project Lean Nation,2361 E UNIVERSITY DR STE 20 Unit: 20,restaurant,FOOD-23-0210 FOOD-26-0067,Food Establishment - Restaurant,Active,True,2026-02-06,4,2023-05,2023-08,0,0,,,,,2,0,0,0
+P0098,permit list,Donut Bliss,Donut Bliss,1361 E UNIVERSITY DR STE 40 Unit: 40,restaurant,FOOD-23-0211 FOOD-26-0030,Food Establishment - Restaurant,Active,True,2026-02-03,14,2017-02,2026-02,6,1,89,2025-07,82,88.8,0,0,0,0
+P0099,permit list,ICF Boar's Head @ Kroger $573,,1250 N PRESTON RD,,FOOD-23-0212,Food Establishment - Restaurant,Revoked,False,2025-01-31,0,,,0,0,,,,,0,0,0,0
+P0100,permit list,SPEC'S LIQUOR #138,SPEC'S FAMILY CORP | Spec's | Spec's Liquors,950 S PRESTON RD,store,FOOD-23-0221 FOOD-26-0028,Food Establishment - Liquor Store,Active,True,2026-02-20,4,2023-07,2026-08,2,0,92,2026-08,92,96.0,0,0,0,0
+P0101,permit list,The Olive Garden Italian Restaurant,Olive Garden | Olive Garden Italian Restaurant,1161 S PRESTON RD,restaurant,FOOD-23-0223 FOOD-26-0304,Food Establishment - Restaurant,Active,True,2026-01-21,8,2020-04,2023-08,5,0,88,2022-09,86,87.8,1,0,1,1
+P0102,permit list,Tilt Liquor,Tilt Liquor,2361 E UNIVERSITY DR STE 40 Unit: 40,store,FOOD-23-0267 FOOD-26-0051,Food Establishment - Liquor Store,Active,True,2026-02-03,2,2024-07,2026-08,2,0,93,2026-08,93,94.5,0,0,0,0
+P0103,permit list,Palio's Pizza Cafe,Palio's | Palio's Pizza Cafe | Palio's Pizza Café | Palios Pizza | Palio’s | Palio’s Pizza | Palio’s Pizza Café,120 N PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0270 FOOD-24-0113,Food Establishment - Restaurant,Expired,False,2025-01-31,21,2016-02,2026-08,5,2,74,2026-08,74,83.0,0,0,0,0
+P0104,permit list,Kroger #573 Starbucks,Kroger #573 Starbucks | Kroger 573 Starbucks | Kroger No 573 Starbucks | Kroger No. 573 Starbucks | Kroger Starbuck’s | Kroger-Starbucks | Starbucks | Starbucks Inside Kroger No. 573 | Starbucks Kroger No. 573 | Starbucks: Kroger,1250 N PRESTON RD,restaurant,FOOD-23-0275 FOOD-26-0215,Food Establishment - Restaurant,Active,True,2026-03-12,16,2019-08,2022-10,6,0,97,2022-09,92,95.8,5,0,0,0
+P0105,permit list,Target Store T2884,,401 GATES PKWY,,FOOD-23-0278,Food Establishment - Restaurant,Expired,False,2025-01-31,0,,,0,0,,,,,0,0,0,0
+P0106,permit list,Murphy Express #8990,Murphy Express | Murphy Express #8990,2331 E UNIVERSITY DR,store,FOOD-23-0280,Food Establishment - Convenience Store,Expired,False,2025-01-31,12,2020-06,2024-11,7,0,96,2024-11,88,93.6,0,0,0,0
+P0107,permit list,Phoke Noodles & Grill,Phoke Noodles & Grill,4580 W UNIVERSITY DR STE 60 Unit: 60,restaurant,FOOD-23-0281 FOOD-26-0162,Food Establishment - Restaurant,Active,True,2026-03-04,3,2023-09,2023-09,0,0,,,,,1,0,0,0
+P0108,permit list,Fish City Grill,Fish City Grill,1150 S PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0289 FOOD-26-0217,Food Establishment - Restaurant,Active,True,2026-03-12,5,2023-08,2024-12,1,0,91,2024-12,91,91.0,1,0,0,0
+P0109,permit list,Prosper Liquorville LLC,Prosper Liquorville LLC,1090 N COIT RD STE 50 Unit: 50,store,FOOD-23-0290 FOOD-26-0026,Food Establishment - Liquor Store,Active,True,2026-03-23,4,2023-10,2026-08,2,0,94,2026-08,94,96.5,0,0,0,0
+P0110,permit list,Peak's Treats,Peak's Treats | Peaks' Treats | Peak’s Treates,4200 W UNIVERSITY DR,restaurant,FOOD-23-0292,Food Establishment - Restaurant,Void,False,2024-01-31,5,2023-09,2024-02,1,0,91,2024-01,91,91.0,1,0,0,0
+P0111,permit list,Encompass Health Rehabilitation Hospital of Prosper,Encompass Health Rehabilitation Hospi- | Encompass Health Rehabilitation Hospital of Prosper,1231 MAHARD PKWY,restaurant,FOOD-23-0304 FOOD-26-0081,Food Establishment - Restaurant,Active,True,2026-02-16,4,2023-10,2025-04,1,0,83,2025-04,83,83.0,0,0,0,0
+P0112,permit list,Gentle Creek Country Club,Gentle Creek | Gentle Creek Country Club | Gentle Creek Golf Club,3131 E PROSPER TRL,restaurant,FOOD-23-0309 FOOD-26-0152,Food Establishment - Restaurant,Active,True,2026-03-04,13,2016-08,2023-10,4,2,94,2021-11,74,86.5,3,0,0,0
+P0113,permit list,Prosper Wine House,Prosper Wine House,209 W BROADWAY ST,restaurant,FOOD-23-0313,Food Establishment - Restaurant,Expired,False,2024-01-31,3,2023-10,2023-10,0,0,,,,,1,0,0,0
+P0114,permit list,Domino's Pizza,Dominos Pizza,1061 N COLEMAN ST STE 155 Unit: 155,restaurant,FOOD-23-0315 FOOD-26-0197,Food Establishment - Restaurant,Active,True,2026-03-11,4,2023-10,2024-11,1,0,94,2024-11,94,94.0,1,0,0,0
+P0115,permit list,La Madeleine,La Madeleine,1140 S PRESTON RD STE 10 Unit: 10,restaurant,FOOD-23-0319,Food Establishment - Restaurant,Expired,False,2025-01-31,1,2023-10,2023-10,0,0,,,,,1,0,0,0
+P0116,permit list,Mana Adda Indian Kitchen,Mana Adda | Mana Adda Indian Kitchen,2361 E UNIVERSITY DR STE 90 Unit: 90,restaurant,FOOD-23-0320 FOOD-23-0335,Food Establishment - Restaurant,Expired,False,2025-01-31,11,2024-01,2025-05,2,0,65,2025-05,65,66.5,3,2,3,0
+P0117,permit list,Sake Sushi & Hibachi Bar in Prosper,,4580 W UNIVERSITY DR STE 50 Unit: 50,,FOOD-23-0326 FOOD-26-0153,Food Establishment - Restaurant,Active,True,2026-03-04,0,,,0,0,,,,,0,0,0,0
+P0118,permit list,Burger King 20942,Burger King,4355 E UNIVERSITY DR,restaurant,FOOD-23-0328 FOOD-26-0095,Food Establishment - Restaurant,Active,True,2026-02-20,21,2019-08,2026-07,6,0,89,2024-09,77,87.0,1,0,0,0
+P0119,permit list,Six Sips Coffee Co,Six Sips Coffee Co,2770 W FIRST ST STE 15 Unit: 15,restaurant,FOOD-23-0333 FOOD-26-0105,Food Establishment - Restaurant,Active,True,2026-02-24,1,2024-02,2024-02,1,0,97,2024-02,97,97.0,0,0,0,0
+P0120,permit list,Ginger and Spice Vietnamese Kitchen,Ginger and Spice Vietnamese | Ginger and Spice Vietnamese Kitchen,2001 N PRESTON RD STE 70,restaurant,FOOD-23-0334 FOOD-26-0052,Food Establishment - Restaurant,Active,True,2026-02-03,5,2024-06,2024-11,1,0,95,2024-11,95,95.0,0,0,0,0
+P0121,permit list,Dutch Maid Donuts (Z Donuts),,2381 E UNIVERSITY DR STE 80 Unit: 80,,FOOD-23-0336 FOOD-24-0015 FOOD-26-0062,Food Establishment - Restaurant,Active,True,2026-02-06,0,,,0,0,,,,,0,0,0,0
+P0122,permit list,Exxon Tiger Mart & Subway,Exxon Tiger Mart | Exxon Tiger Mart & Subway | Exxon Tiger Mart No 45 | Exxon Tiger Mart No. 45 | Subway | Subway @ Tiger Mart | Subway Tiger Mart No. 45 | Subway TigerMart No. 45 | Subway Tigermart No 45 | Subway at Exxon Tiger Mart | Tiger Mart,1099 N PRESTON RD,restaurant,FOOD-24-0010 FOOD-24-0011 FOOD-26-0100,Food Establishment - Restaurant,Active,True,2026-02-20,33,2016-08,2025-03,14,4,97,2024-11,88,94.1,2,0,0,0
+P0123,permit list,Tapan Wok,Tapan Wok,1350 N PRESTON RD STE 30 Unit: 30,restaurant,FOOD-24-0012,Food Establishment - Restaurant,Expired,False,2025-01-31,21,2020-04,2022-10,6,0,84,2022-09,76,81.7,5,0,0,0
+P0124,permit list,Dunkin,Dunkin | Dunkin Donuts | Dunkin’ Donuts,1921 N PRESTON RD STE 10 Unit: 10,restaurant,FOOD-24-0013 FOOD-26-0108,Food Establishment - Restaurant,Active,True,2026-02-20,11,2022-04,2025-03,3,0,98,2025-03,75,84.3,0,0,0,0
+P0125,permit list,Dickey's Barbecue Pit,Dickey's BBQ | Dickey’s | Dickey’s BBQ | Dickey’s Barbecue,4325 E UNIVERSITY DR STE 40 Unit: 40,restaurant,FOOD-24-0014 FOOD-24-0039 FOOD-26-0244,Food Establishment - Restaurant,Active,True,2026-03-19,14,2019-08,2024-05,4,0,75,2021-09,72,77.2,0,0,0,0
+P0126,permit list,Silo Park LLC,Silo Park | Silo Park LLC,380 W BROADWAY ST,restaurant,FOOD-24-0016,Food Establishment - Restaurant,Expired,False,2024-01-09,7,2019-02,2024-08,4,0,93,2024-07,86,93.0,0,0,0,0
+P0127,permit list,7-Eleven Convenience Store #38376B,7-Eleven | 7-Eleven Convenience Store No 38376J | 7-Eleven Convenience Store No. 38376B | 7-Eleven Store No. 38376B,390 S PRESTON RD,store,FOOD-24-0018 FOOD-26-0079,Food Establishment - Convenience Store,Active,True,2026-02-16,18,2019-12,2024-02,7,0,83,2024-01,81,87.6,0,0,0,0
+P0128,permit list,"Shakertins Prosper, LLC",Shakertins Prosper | Skakertins Prosper,1140 S PRESTON RD STE 30 Unit: 30,restaurant,FOOD-24-0019,Food Establishment - Restaurant,Void,False,2025-01-31,4,2022-06,2022-09,1,0,80,2022-08,80,80.0,0,0,0,0
+P0129,permit list,Salad And Go,Salad and Go,1320 N PRESTON RD,restaurant,FOOD-24-0023,Food Establishment - Restaurant,Void,False,2026-01-08,4,2022-10,2024-07,2,0,94,2024-07,91,92.5,1,0,0,0
+P0130,permit list,Chick-fil-A Gates of Prosper,Chic Fil A | Chick Fil A | Chick-Fil-A | Chick-Fil-A at Gates of Prosper | Chick-fil-A,1091 S PRESTON RD,restaurant,FOOD-24-0024 FOOD-26-0037,Food Establishment - Restaurant,Active,True,2026-02-03,12,2020-04,2025-05,6,0,93,2025-05,85,90.3,0,0,0,0
+P0131,permit list,Crave Cookies,"Crave Cookies | Crave Cookies - Frisco, LLC - Crave Cookies",4325 E UNIVERSITY DR STE 10 Unit: 10,restaurant,FOOD-24-0027,Food Establishment - Restaurant,Expired,False,2025-01-31,5,2024-03,2024-08,1,0,81,2024-07,81,81.0,0,0,0,0
+P0132,permit list,Jimmy Johns NTX LLC,Jimmy John's | Jimmy Johns,4890 W UNIVERSITY DR STE 90 Unit: 90,restaurant,FOOD-24-0029 FOOD-26-0083,Food Establishment - Restaurant,Active,True,2026-02-19,6,2024-01,2025-10,2,0,98,2025-10,97,97.5,0,0,0,0
+P0133,permit list,Chick N' Burger,Chick N' Burger | Chick n' Burger,2111 E UNIVERSITY DR STE 60 Unit: 60,restaurant,FOOD-24-0030,Food Establishment - Restaurant,Expired,False,2024-05-01,5,2024-01,2024-06,1,0,93,2024-06,93,93.0,0,0,0,0
+P0134,permit list,The Gin,Cotton Gin | The Gin,204 W BROADWAY ST,restaurant,FOOD-24-0032 FOOD-26-0171,Food Establishment - Restaurant,Active,True,2026-08-07,4,2016-11,2024-07,1,1,95,2024-07,95,95.0,0,0,0,0
+P0135,permit list,The Chinese Neighbor,China Neighbor | The Chinese Neighbor,750 RICHLAND BLVD STE 90 Unit: 90,restaurant,FOOD-24-0033 FOOD-26-0077,Food Establishment - Restaurant,Active,True,2026-02-10,8,2019-08,2022-04,4,0,87,2021-12,77,84.8,1,0,0,0
+P0136,permit list,Legacy Bagels,Legacy Bagels,2381 E UNIVERSITY DR STE 10 Unit: 10,restaurant,FOOD-24-0034 FOOD-24-0124 FOOD-26-0226,Food Establishment - Restaurant,Active,True,2026-03-12,11,2021-02,2024-12,4,0,100,2024-12,83,89.5,1,0,0,0
+P0137,permit list,"Pools, Spas, Cafe",,1001 WINDSONG PKWY,,FOOD-24-0035,Food Establishment - Restaurant,Void,False,,0,,,0,0,,,,,0,0,0,0
+P0138,permit list,Kroger #589 Starbucks,Kroger -Starbucks No 589 | Kroger Starbucks No 589 | Starbucks-Kroger | Starbucks: Kroger,4650 W UNIVERSITY DR,restaurant,FOOD-24-0036 FOOD-26-0216,Food Establishment - Restaurant,Active,True,2026-03-12,5,2019-12,2021-09,3,0,94,2021-08,90,94.0,0,0,0,0
+P0139,permit list,Menchie's Prosper Trail,Menchies Frozen Yogurt,1170 N PRESTON RD STE 150 Unit: 150,restaurant,FOOD-24-0038 FOOD-26-0154,Food Establishment - Restaurant,Active,True,2026-03-04,3,2024-02,2024-11,1,0,100,2024-11,100,100.0,0,0,0,0
+P0140,permit list,Coldstone Creamery,Coldstone Creamery,4580 W UNIVERSITY DR STE 40 Unit: 40,restaurant,FOOD-24-0040 FOOD-26-0178 FOOD-26-0182,Food Establishment - Restaurant,Active,True,2026-03-11,6,2024-04,2024-09,1,0,89,2024-08,89,89.0,0,0,0,0
+P0141,permit list,Dunkin,Dunkin' Donuts | Dunkin' Donuts - Walmart,500 RICHLAND BLVD,restaurant,FOOD-24-0047 FOOD-26-0013,Food Establishment - Restaurant,Active,True,2026-02-09,4,2024-03,2024-12,1,0,100,2024-12,100,100.0,0,0,0,0
+P0142,permit list,Einstein Bros Bagels,Einstein Bros Bagels,100 S PRESTON RD STE 50 Unit: 50,restaurant,FOOD-24-0051 FOOD-26-0176,Food Establishment - Restaurant,Active,True,2026-03-06,3,2024-05,2024-12,1,0,97,2024-12,97,97.0,0,0,0,0
+P0143,permit list,Feng Cha,Feng Cha,4580 W UNIVERSITY DR STE 70 Unit: 70,restaurant,FOOD-24-0057 FOOD-26-0163,Food Establishment - Restaurant,Active,True,2026-03-04,5,2024-04,2024-08,1,0,95,2024-08,95,95.0,0,0,0,0
+P0144,permit list,Heritage Scoop,Heritage Scoop | IBACO - Heritage Scoop,2111 E UNIVERSITY DR STE 40 Unit: 40,restaurant,FOOD-24-0058 FOOD-26-0050,Food Establishment - Restaurant,Active,True,2026-02-03,5,2024-04,2024-06,1,0,93,2024-06,93,93.0,0,0,0,0
+P0145,permit list,K Town Street Food,K-Town Street Food,1049 N PRESTON RD STE 30 Unit: 30,restaurant,FOOD-24-0061,Food Establishment - Restaurant,Void,False,2024-04-16,3,2024-04,2024-04,0,0,,,,,0,0,0,0
+P0146,permit list,Canteen @ Lowe's #3104,Canteen @ Lowe's,4301 E UNIVERSITY DR,store,FOOD-24-0062,Food Establishment - Convenience Store,Active,True,2026-01-06,1,2024-11,2024-11,1,0,100,2024-11,100,100.0,0,0,0,0
+P0147,permit list,Black Hawk Brewery,Black Hawk Brewery,390 W BROADWAY ST,restaurant,FOOD-24-0063 FOOD-26-0250,Food Establishment - Restaurant,Active,True,2026-03-20,6,2024-05,2026-01,1,0,92,2025-12,92,92.0,0,0,0,0
+P0148,permit list,Crumbl,Crumbl Cookies,220 S PRESTON RD STE 10 Unit: 10,restaurant,FOOD-24-0094 FOOD-26-0059,Food Establishment - Restaurant,Active,True,2026-02-26,5,2024-05,2024-10,1,0,93,2024-10,93,93.0,0,0,0,0
+P0149,permit list,Blenders and Bowls,Blenders and Bowls,1250 N PRESTON RD,restaurant,FOOD-24-0106,Food Establishment - Restaurant,Void,False,2025-01-31,3,2024-06,2024-09,1,0,97,2024-09,97,97.0,0,0,0,0
+P0150,permit list,Dutch Bros LLC dba Dutch Bros Coffee,Dutch Bros,520 S PRESTON RD,restaurant,FOOD-24-0111 FOOD-26-0082 FOOD-26-0098,Food Establishment - Restaurant,Fees Due,False,,4,2024-07,2024-11,1,0,97,2024-11,97,97.0,0,0,0,0
+P0151,permit list,Heirloom Haul,Flea Style & Heirloom Haul | Heirloom Haul,1150 S PRESTON RD STE 20 Unit: 20,restaurant,FOOD-24-0118 FOOD-26-0103,Food Establishment - Restaurant,Active,True,2026-02-26,4,2024-08,2024-11,1,0,77,2024-11,77,77.0,0,0,0,0
+P0152,permit list,Pinspiration,Pinspiration,821 N COLEMAN ST STE 150 Unit: 150,store,FOOD-24-0120 FOOD-26-0198,Food Establishment - Convenience Store,Active,True,2026-03-11,3,2024-08,2024-11,1,0,100,2024-11,100,100.0,0,0,0,0
+P0153,permit list,Lala's Taqueria,Lala's Taqueria,1921 N PRESTON RD STE 20 Unit: 20,restaurant,FOOD-24-0121 FOOD-26-0225,Food Establishment - Restaurant,Active,True,2026-03-12,4,2024-08,2024-10,1,0,98,2024-10,98,98.0,0,0,0,0
+P0154,permit list,First Watch 1097,First Watch,4890 W UNIVERSITY DR STE 50 Unit: 50,restaurant,FOOD-24-0130 FOOD-26-0044,Food Establishment - Restaurant,Active,True,2026-02-03,5,2024-09,2025-09,1,0,91,2025-09,91,91.0,0,0,0,0
+P0155,permit list,Goyaki,Goyaki,1049 N PRESTON RD STE 30 Unit: 30,restaurant,FOOD-24-0140 FOOD-26-0068,Food Establishment - Restaurant,Active,True,2026-02-10,4,2024-09,2024-11,1,0,90,2024-11,90,90.0,0,0,0,0
+P0156,permit list,Fourteen Eighteen Kitchen LLC,Fourteen Eighteen Kitchen,203 N COLEMAN ST,restaurant,FOOD-24-0152 FOOD-26-0202,Food Establishment - Restaurant,Active,True,2026-03-11,3,2024-09,2024-10,0,0,,,,,0,0,0,0
+P0157,permit list,The Tavern On Broadway,The Tavern | The Tavern on Broadway,350 W BROADWAY ST,restaurant,FOOD-24-0184,Food Establishment - Restaurant,Expired,False,2026-01-15,4,2024-12,2025-02,0,0,,,,,0,0,0,0
+P0158,permit list,McDonald's 40758,McDonald's,2105 W FRONTIER PKWY,restaurant,FOOD-24-0185 FOOD-26-0168,Food Establishment - Restaurant,Active,True,2026-03-04,3,2024-12,2025-12,1,0,100,2025-12,100,100.0,0,0,0,0
+P0159,permit list,Veg-Nivas,Veg-Nivas Restaurant,2111 E UNIVERSITY DR STE 60 Unit: 60,restaurant,FOOD-25-0004,Food Establishment - Restaurant,Void,False,2025-01-14,4,2025-08,2025-08,1,0,67,2025-08,67,67.0,2,1,1,1
+P0160,permit list,Club Demonstration Services Inc.,Club Demonstration services (Costco),5620 W UNIVERSITY DR,restaurant,FOOD-25-0012 FOOD-26-0173,Food Establishment - Restaurant,Active,True,2026-03-04,2,2025-01,2025-01,0,0,,,,,0,0,0,0
+P0161,permit list,Salute LLC,Salute Italian,1450 N PRESTON RD STE 10 Unit: 10,restaurant,FOOD-25-0023 FOOD-26-0101,Food Establishment - Restaurant,Active,True,2026-02-20,3,2025-01,2025-02,0,0,,,,,0,0,0,0
+P0162,permit list,Moseley MS Football Concession,,1451 N TEEL PKWY,,FOOD-25-0024,Food Establishment - Concession,Active,True,2026-01-07,0,,,0,0,,,,,0,0,0,0
+P0163,permit list,Moseley Gym Concession,,1451 N TEEL PKWY,,FOOD-25-0025,Food Establishment - Concession,Active,True,2026-01-07,0,,,0,0,,,,,0,0,0,0
+P0164,permit list,Canteen @ Costco #1694,,5620 W UNIVERSITY DR,,FOOD-25-0029 FOOD-26-0220,Food Establishment - Convenience Store,Active,True,2026-03-12,0,,,0,0,,,,,0,0,0,0
+P0165,permit list,Outback Steakhouse,Outback Steakhouse,840 S PRESTON RD,restaurant,FOOD-25-0038 FOOD-26-0199,Food Establishment - Restaurant,Active,True,2026-03-11,5,2025-02,2025-09,1,0,97,2025-09,97,97.0,0,0,0,0
+P0166,permit list,Top Shelf Liquor and Fine Wine,Top Shelf Liquor,1281 E UNIVERSITY DR STE 10,store,FOOD-25-0039 FOOD-26-0238,Food Establishment - Liquor Store,Void,False,2026-03-18,2,2025-03,2025-03,0,0,,,,,0,0,0,0
+P0167,permit list,Flame Broiler,Flame Broiler,4580 W UNIVERSITY DR STE 30,restaurant,FOOD-25-0040 FOOD-26-0259,Food Establishment - Restaurant,Void,False,2026-03-24,5,2025-02,2026-01,1,0,89,2025-12,89,89.0,0,0,0,0
+P0168,permit list,Handel's Homemade Ice Cream,Handel's | Handel's Homemade Ice Cream | Handel's Ice Cream,201 W FRONTIER PKWY STE 50 Unit: 50,restaurant,FOOD-25-0072 FOOD-26-0099,Food Establishment - Restaurant,Active,True,2026-02-20,5,2025-05,2026-07,1,0,99,2025-12,99,99.0,0,0,0,0
+P0169,permit list,Holiday Inn Express,Holiday Inn Express,1100 MAHARD PKWY,restaurant,FOOD-25-0085 FOOD-25-0086 FOOD-26-0136 FOOD-26-0137,Food Establishment - Restaurant,Active,True,2026-05-06,6,2025-10,2025-10,0,0,,,,,0,0,0,0
+P0170,permit list,"Tokyo Gardens Catering, LLC","Tokyo Gardens Catering, LLC",2145 W FRONTIER PKWY,restaurant,FOOD-25-0100 FOOD-26-0221,Food Establishment - Restaurant,Active,True,2026-03-12,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+P0171,permit list,"Sushic, LLC",,301 Eagle Drive,,FOOD-25-0107 FOOD-26-0214,Food Establishment - Restaurant,Active,True,2026-03-12,0,,,0,0,,,,,0,0,0,0
+P0172,permit list,[name withheld],,1551 frontier parkway,,FOOD-25-0111,Food Establishment - Concession,Void,False,,0,,,0,0,,,,,0,0,0,0
+P0173,permit list,Windsong Ranch Cafe,Windsong Café | Windsong Ranch Café,1001 WINDSONG PKWY,restaurant,FOOD-25-0118 FOOD-25-0119 FOOD-26-0039,Food Establishment - Restaurant,Active,True,2026-01-30,16,2016-10,2026-01,5,1,79,2022-07,79,84.4,0,0,0,0
+P0174,permit list,"H-E-B , LP (Grocery Store)",H-E-B | HEB,2145 W FRONTIER PKWY,store,FOOD-25-0123,Food Establishment - Restaurant,Expired,False,2025-07-31,4,2025-05,2025-07,0,0,,,,,0,0,0,0
+P0175,permit list,Urban Cookhouse,Urban Cookhouse,1151 S PRESTON RD Unit: 10,restaurant,FOOD-25-0124 FOOD-26-0117,Food Establishment - Restaurant,Active,True,2026-02-26,5,2025-07,2026-03,1,0,93,2026-03,93,93.0,0,0,0,0
+P0176,permit list,Cork & Growler,,201 W FRONTIER PKWY STE 10 Unit: 10,,FOOD-25-0132,Food Establishment - Restaurant,Expired,False,,0,,,0,0,,,,,0,0,0,0
+P0177,permit list,Chili's Grill & Bar,Chili's Grill & Bar,3700 W UNIVERSITY DR,restaurant,FOOD-25-0146 FOOD-26-0158,Food Establishment - Restaurant,Active,True,2026-03-04,3,2025-10,2025-10,0,0,,,,,0,0,0,0
+P0178,permit list,NAWABI HYDERABAD HOUSE,Hyderabad House,4740 W UNIVERSITY DR Unit: 20,restaurant,FOOD-25-0169 FOOD-25-0170 FOOD-26-0335,Food Establishment - Restaurant,Active,True,2026-07-13,4,2025-09,2025-10,0,0,,,,,0,0,0,0
+P0179,permit list,Brass Legacy Group LLC,,790 N PRESTON RD Unit: 80,,FOOD-25-0183,Food Establishment - Restaurant,On Hold,False,,0,,,0,0,,,,,0,0,0,0
+P0180,permit list,Rock Creek Church Cafe,Rock Creek Church,2860 W FIRST ST,restaurant,FOOD-25-0199,Food Establishment - Restaurant,Active,True,2026-01-15,2,2026-01,2026-01,0,0,,,,,0,0,0,0
+P0181,permit list,Panke Bites - Walnut Grove HS,Walnut Grove HS-Panke Bites,3500 E FIRST ST,school,FOOD-26-0010,Food Establishment - Restaurant,Active,True,2026-01-23,1,2025-01,2025-01,0,0,,,,,0,0,0,0
+P0182,permit list,Panke Bites - Prosper High School,,301 EAGLE DR,,FOOD-26-0011,Food Establishment - Restaurant,Active,True,2026-01-23,0,,,0,0,,,,,0,0,0,0
+P0183,permit list,Panke Bites - Richland HS,Richland HS - Panke Bites,3450 PRAIRIE DR,school,FOOD-26-0012,Food Establishment - Restaurant,Active,True,2026-01-23,1,2026-03,2026-03,1,0,100,2026-03,100,100.0,0,0,0,0
+P0184,permit list,Smoothie King 2447,Smoothie King,4890 W UNIVERSITY DR Unit: 80,restaurant,FOOD-26-0027,Food Establishment - Restaurant,Active,True,2026-01-23,3,2026-01,2026-01,0,0,,,,,0,0,0,0
+P0185,permit list,"Total Wine Spirits, Beer & More","Total Wine & More | Total Wine Spirits, Beer & More",1191 GATES PKWY Unit: 400,store,FOOD-26-0029,Food Establishment - Liquor Store,Active,True,2026-02-05,4,2026-02,2026-08,1,0,99,2026-08,99,99.0,0,0,0,0
+P0186,permit list,First Watch #0450,First Watch,1111 S PRESTON RD Unit: 10,restaurant,FOOD-26-0046,Food Establishment - Restaurant,Active,True,2026-02-03,6,2021-05,2021-09,2,0,88,2021-09,88,88.5,0,0,0,0
+P0187,permit list,Texas Roadhouse,,,,FOOD-26-0058,Food Establishment - Restaurant,Active,True,2026-02-06,0,,,0,0,,,,,0,0,0,0
+P0188,permit list,Nags Kitchen,Nags Kitchen,2111 E UNIVERSITY DR Unit: 60,restaurant,FOOD-26-0069,Food Establishment - Restaurant,Active,True,2026-02-18,3,2026-02,2026-02,0,0,,,,,0,0,0,0
+P0189,permit list,Cracker Barrel Old Country Store #783,"Cracker Barrel Old Country Store, Inc.",3830 W UNIVERSITY DR,restaurant,FOOD-26-0071,Food Establishment - Restaurant,Active,True,2026-02-09,2,2026-03,2026-04,0,0,,,,,0,0,0,0
+P0190,permit list,KillA Pie,Killa Pie,1100 S PRESTON RD STE 30 Unit: 30,restaurant,FOOD-26-0072,Food Establishment - Restaurant,Active,True,2026-02-06,8,2021-11,2022-10,2,0,79,2022-09,79,80.5,0,0,0,0
+P0191,permit list,Anamia's Tex-Mex,,2100 N PRESTON RD Unit: Suite 10,,FOOD-26-0091,Food Establishment - Restaurant,Active,True,2026-02-19,0,,,0,0,,,,,0,0,0,0
+P0192,permit list,H-E-B True TX BBQ Restaurant,HEB True Texas BBQ,2145 W FRONTIER PKWY,restaurant,FOOD-26-0097,Food Establishment - Restaurant,Active,True,2026-02-20,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+P0193,permit list,The Tavern on Broadway,,350 W BROADWAY ST Unit: 60,,FOOD-26-0111,Food Establishment - Restaurant,Active,True,2026-03-10,0,,,0,0,,,,,0,0,0,0
+P0194,permit list,JATARA Indian Kitchen,Jatara Indian Kitchen,2361 E UNIVERSITY DR Unit: 90,restaurant,FOOD-26-0112,Food Establishment - Restaurant,Active,True,2026-03-02,5,2026-02,2026-08,1,0,66,2026-08,66,66.0,1,1,1,1
+P0195,permit list,Moka & Co.,Moka & Co,2281 E UNIVERSITY DR Unit: 10,restaurant,FOOD-26-0123,Food Establishment - Restaurant,Active,True,2026-03-31,1,2026-02,2026-02,0,0,,,,,0,0,0,0
+P0196,permit list,La Madeleine,,1140 S PRESTON RD,,FOOD-26-0131,Food Establishment - Restaurant,Active,True,2026-02-27,0,,,0,0,,,,,0,0,0,0
+P0197,permit list,7 ELEVEN INC 38694H,,RD,,FOOD-26-0133,Food Establishment - Convenience Store,Void,False,,0,,,0,0,,,,,0,0,0,0
+P0198,permit list,Nothing Bundt Cakes,Nothing Bundt Cakes,5600 W UNIVERSITY DR Unit: 10,restaurant,FOOD-26-0138,Food Establishment - Restaurant,Active,True,2026-03-11,5,2026-04,2026-05,0,0,,,,,3,0,0,0
+P0199,permit list,Walmart #6300,,500 RICHLAND BLVD,,FOOD-26-0209,Food Establishment - Convenience Store,Active,True,2026-03-12,0,,,0,0,,,,,0,0,0,0
+P0200,permit list,HTeaO,HTeaO,200 S PRESTON RD,restaurant,FOOD-26-0237,Food Establishment - Restaurant,Active,True,2026-03-18,2,2026-04,2026-04,0,0,,,,,1,0,0,0
+P0201,permit list,Prosper Palio LLC,,120 N PRESTON RD Unit: 10,,FOOD-26-0242,Food Establishment - Restaurant,Active,True,2026-03-19,0,,,0,0,,,,,0,0,0,0
+P0202,permit list,1902 Restaurant LLC,,209 W BROADWAY ST,,FOOD-26-0245,Food Establishment - Restaurant,Active,True,2026-03-18,0,,,0,0,,,,,0,0,0,0
+P0203,permit list,Murphy Express #8890,,791 S. Preston Rd.,,FOOD-26-0246,Food Establishment - Convenience Store,Active,True,2026-03-19,0,,,0,0,,,,,0,0,0,0
+P0204,permit list,Target Store T-2884 Starbucks,Target - Starbuck's | Target - Starbucks | Target-Starbuck’s,401 GATES PKWY,restaurant,FOOD-26-0252 FOOD-26-0334,Food Establishment - Restaurant,Active,True,2026-07-01,7,2023-09,2025-10,2,0,97,2025-10,97,97.5,2,0,0,0
+P0205,permit list,Chick-Fil-A,Chick-Fil-A at Gates of Prosper,1920 N DALLAS PKWY,restaurant,FOOD-26-0253,Food Establishment - Restaurant,Active,True,2026-04-14,2,2026-05,2026-05,0,0,,,,,0,0,0,0
+P0206,permit list,BARNES & NOBLE BOOKSELLERS INC,Barnes & Noble Booksellers Inc,1191 Gates PKWY Unit: STE#300,restaurant,FOOD-26-0263,Food Establishment - Restaurant,Active,True,2026-03-31,6,2026-04,2026-08,1,0,92,2026-08,92,92.0,3,0,0,0
+P0207,permit list,Murphy Express #8890,,2331 East University Dr. E University DR,,FOOD-26-0265,Food Establishment - Convenience Store,Active,True,2026-04-10,0,,,0,0,,,,,0,0,0,0
+P0208,permit list,BRIDGES GYM CONCESSIONS,,1550 N LEGACY DR,,FOOD-26-0271,Food Establishment - Concession,Void,False,,0,,,0,0,,,,,0,0,0,0
+P0209,permit list,WATKINS MS CONCESSIONS FOOTBALL FIELD,,1550 N LEGACY DR,,FOOD-26-0272,Food Establishment - Concession,Active,True,2026-04-14,0,,,0,0,,,,,0,0,0,0
+P0210,permit list,WATKINS MS GYM CONCESSIONS,,1550 N LEGACY DR,,FOOD-26-0273,Food Establishment - Concession,Active,True,2026-04-14,0,,,0,0,,,,,0,0,0,0
+P0211,permit list,Koishi ramen & sushi,,1350 N PRESTON RD Unit: 30,,FOOD-26-0275,Food Establishment - Restaurant,Active,True,2026-04-14,0,,,0,0,,,,,0,0,0,0
+P0212,permit list,Prema's Kitchen,,1921 N PRESTON RD Unit: 60,,FOOD-26-0277,Food Establishment - Restaurant,Active,True,2026-04-14,0,,,0,0,,,,,0,0,0,0
+P0213,permit list,Fire and Shaved Ice,,105 N COLEMAN ST,,FOOD-26-0297,Food Establishment - Concession,Active,True,2026-05-05,0,,,0,0,,,,,0,0,0,0
+P0214,permit list,The Pink Company #1,,1551 W FRONTIER PKWY,,FOOD-26-0316,Food Establishment - Concession,Under Review,False,,0,,,0,0,,,,,0,0,0,0
+P0215,permit list,85c Bakery Cafe,85c Bakery Cafe,5720 W UNIVERSITY DR Unit: 10,restaurant,FOOD-26-0337,Food Establishment - Restaurant,Active,True,2026-07-08,3,2026-07,2026-07,0,0,,,,,2,0,0,0
+P0216,permit list,Vitality Bowls,Vitality Bowls,201 W FRONTIER PKWY Unit: 40,restaurant,FOOD-26-0339,Food Establishment - Restaurant,Active,True,2026-08-03,2,2026-08,2026-08,0,0,,,,,1,0,0,0
+P0217,permit list,Fossil Creek Liuqor,Fossil Creek Liquor,4890 W UNIVERSITY DR Unit: 60,store,FOOD-26-0341,Food Establishment - Liquor Store,Active,True,2026-07-21,3,2026-07,2026-07,0,0,,,,,2,0,0,0
+P0218,permit list,Doner Shack,,3740 W UNIVERSITY DR Unit: 10,,FOOD-26-0349,Food Establishment - Restaurant,Active,True,2026-08-07,0,,,0,0,,,,,0,0,0,0
+P0219,permit list,HEB Food Store #809 (BBQ),,2145 W FRONTIER PKWY Unit: 100,,FOOD-26-0351,Food Establishment - Restaurant,Active,True,2026-08-12,0,,,0,0,,,,,0,0,0,0
+P0220,permit list,DFWParty2Go,,2101 E FIRST ST,,FOOD-26-0353,Food Establishment - Concession,Active,True,2026-08-24,0,,,0,0,,,,,0,0,0,0
+P0221,permit list,[name withheld],,480 S PRESTON RD Unit: 100,,FOOD-26-0357,Food Establishment - Restaurant,Under Review,False,,0,,,0,0,,,,,0,0,0,0
+P0222,permit list,Jimmy Johns,Jimmy John's,480 S PRESTON RD Unit: 100,restaurant,FOOD-26-0358,Food Establishment - Restaurant,Active,True,2026-08-26,1,2026-08,2026-08,0,0,,,,,1,0,0,0
+P0223,permit list,Duck and Buns,,3740 W UNIVERSITY DR Unit: 20,,FOOD-26-0361,Food Establishment - Restaurant,Active,True,2026-08-31,0,,,0,0,,,,,0,0,0,0
+P0224,permit list,Summer Moon Coffee,,4325 E UNIVERSITY DR Unit: 10,,FOOD-26-0362,Food Establishment - Restaurant,Active,True,2026-09-15,0,,,0,0,,,,,0,0,0,0
+P0225,permit list,Cork & Growler,,201 FRONTIER PKWY,,FOOD-26-0369,Food Establishment - Restaurant,Active,True,2026-09-16,0,,,0,0,,,,,0,0,0,0
+P0226,permit list,CHILDREN'S HUNGER FUND,,2161 W FIRST ST,,FOOD-26-0370,Food Establishment - Restaurant,Active,True,2026-09-21,0,,,0,0,,,,,0,0,0,0
+T0001,tables only,Lunch El Mana,Lunch El Mana,[withheld],mobile,,,,False,,1,2016-01,2016-01,0,0,,,,,0,0,0,0
+T0002,tables only,M&G Catering #1,M&G Catering #1,[withheld],mobile,,,,False,,1,2016-02,2016-02,0,0,,,,,0,0,0,0
+T0003,tables only,M&G Catering #2,M&G Catering #2,[withheld],mobile,,,,False,,1,2016-02,2016-02,0,0,,,,,0,0,0,0
+T0004,tables only,JC’s Burger House,JC’s Burger House,"11 N. Preston Road, Suite 20",restaurant,,,,False,,1,2016-02,2016-02,0,1,,,,,0,0,0,0
+T0005,tables only,Refuel,Refuel,821 N. Coleman Street,restaurant,,,,False,,1,2016-02,2016-02,0,1,,,,,0,0,0,0
+T0006,tables only,Chef’s on Scene,Chefs on Scene | Chef’s on Scene,110 N. Preston Road,restaurant,,,,False,,2,2016-02,2017-01,0,2,,,,,0,0,0,0
+T0007,tables only,La Cima Phase II,La Cima Phase II,Lakes of La Cima,pool,,,,False,,1,2016-02,2016-02,0,0,,,,,0,0,0,0
+T0008,tables only,Prosper Montessori Academy,Prosper Montessori Academy,Collin County Land #12,other,,,,False,,1,2016-02,2016-02,0,0,,,,,0,0,0,0
+T0009,tables only,Parks at Legacy,Parks at Legacy,Collin County Land #12,pool,,,,False,,1,2016-02,2016-02,0,0,,,,,0,0,0,0
+T0010,tables only,El Primo Foods #1,El Primo Foods #1,[withheld],mobile,,,,False,,1,2016-02,2016-02,0,0,,,,,0,0,0,0
+T0011,tables only,El Primo Foods #2,El Primo Foods #2,[withheld],mobile,,,,False,,1,2016-02,2016-02,0,0,,,,,0,0,0,0
+T0012,tables only,A&A Food #1,A&A Food #1,[withheld],mobile,,,,False,,1,2016-03,2016-03,0,0,,,,,0,0,0,0
+T0013,tables only,A&A Food #2,A&A Food #2,[withheld],mobile,,,,False,,1,2016-03,2016-03,0,0,,,,,0,0,0,0
+T0014,tables only,Ayden Food #1,Ayden Food #1,[withheld],mobile,,,,False,,1,2016-03,2016-03,0,0,,,,,0,0,0,0
+T0015,tables only,Alejandra’s Food,Alejandra’s Food,[withheld],mobile,,,,False,,1,2016-03,2016-03,0,0,,,,,1,0,0,0
+T0016,tables only,Prosper High School,Prosper High School,300 Eagle Drive,restaurant,,,,False,,1,2016-03,2016-03,0,1,,,,,0,0,0,0
+T0017,tables only,Reynolds Middle School,Reynolds Middle School,700 North Coleman,restaurant,,,,False,,1,2016-03,2016-03,0,1,,,,,0,0,0,0
+T0018,tables only,Rogers Middle School,Rogers Middle School,1001 Coit Road,restaurant,,,,False,,1,2016-03,2016-03,0,1,,,,,0,0,0,0
+T0019,tables only,Corner Store-Valero,Corner Store Convenience Store | Corner Store-Valero,1411 E. University Drive,store,,,,False,,2,2016-03,2017-01,0,2,,,,,0,0,0,0
+T0020,tables only,Mesa’s Mexican Grill,Mesas’s Mexican Grill | Mesa’s | Mesa’s Mexican Grill | Mesa’s Mexican Restaurant,"2111 East University Drive, Suite 10",restaurant,,,,False,,10,2016-03,2021-04,3,3,72,2021-03,70,75.7,4,0,0,0
+T0021,tables only,Primrose School of Prosper,Primrose School of Prosper,1185 LaCima Boulevard,daycare,,,,False,,1,2016-03,2016-03,0,1,,,,,0,0,0,0
+T0022,tables only,Subway,Subway,2111 East University Drive,restaurant,,,,False,,3,2016-03,2019-02,1,2,96,2019-02,96,96.0,0,0,0,0
+T0023,tables only,Whispering Farms Montessori,Whispering Farms | Whispering Farms Montessori | Whispering Farms Montessori Academy,2460 Prosper Trail,daycare,,,,False,,12,2016-03,2025-06,8,1,100,2025-06,88,94.2,0,0,0,0
+T0024,tables only,Gentle Creek,Gentle Creek,2731 East Prosper Trail,other,,,,False,,1,2016-03,2016-03,0,0,,,,,0,0,0,0
+T0025,tables only,El Primo #2,El Primo #2,[withheld],mobile,,,,False,,2,2016-03,2017-02,0,0,,,,,0,0,0,0
+T0026,tables only,Tanner Mills,Tanner Mills | Tanners Mill HOA | Tanner’s Mill | Tanner’s Mill HOA | Tanner’s Mill HOA Wade Pool | Tanner’s Mill: Wade Pool,440 Kingsbury Ln,pool,,,,False,,13,2016-03,2025-04,0,0,,,,,0,0,0,0
+T0027,tables only,Sushi @ Kroger,Sushi @ Kroger,1250 North Preston Road,other,,,,False,,1,2016-03,2016-03,0,1,,,,,0,0,0,0
+T0028,tables only,Kroger,Kroger,1250 North Preston Road,other,,,,False,,1,2016-03,2016-03,0,1,,,,,0,0,0,0
+T0029,tables only,Whitley Place HOA,Whitley Place | Whitley Place HOA,4181 Wilson Creek Trail,pool,,,,False,,9,2016-04,2026-05,0,0,,,,,2,0,0,0
+T0030,tables only,Gentle Creek Estates HOA,Gentle Creek | Gentle Creek Estates | Gentle Creek Estates HOA | Gentle Creek HOA,2731 Gentle Creek Trail,pool,,,,False,,10,2016-04,2026-04,0,0,,,,,3,0,0,0
+T0031,tables only,Lakes of Prosper HOA,Lakes of Prosper | Lakes of Prosper HOA | The Lake of Prosper HOA | The Lakes of Prosper | The Lakes of Prosper HOA | The Lakes of Prosper Trail | The Lakes of Prosper Trail Splash Pad,1200 Lake Trail Lane,pool,,,,False,,15,2016-04,2026-05,0,0,,,,,3,0,0,0
+T0032,tables only,Windsong Ranch HOA,Windsong Ranch HOA,1001 Windsong Ranch,pool,,,,False,,1,2016-04,2016-04,0,0,,,,,1,0,0,0
+T0033,tables only,United Caterers,"United Caterers | United Caterers, Inc",,mobile,,,,False,,6,2016-04,2025-05,0,0,,,,,0,0,0,0
+T0034,tables only,Windsong Elementary,Windsong Elementary,800 Copper Canyon,school,,,,False,,9,2016-05,2025-11,7,1,97,2025-11,92,95.1,0,0,0,0
+T0035,tables only,Lakes of La Cima HOA,Lakes of La CIma HOA Splash Pad | Lakes of La Cima | Lakes of La Cima HOA | Lakes of La Cima Splash Pad,1000 LA CIMA BLVD,pool,,,,False,,18,2016-05,2026-05,0,0,,,,,4,0,0,0
+T0036,tables only,Glenbrooke Estates HOA,Glenbrooke Estates | Glenbrooke Estates HOA | Glenbrooke HOA,1001 GLENBROOKE CT,pool,,,,False,,4,2016-05,2026-05,0,0,,,,,0,0,0,0
+T0037,tables only,Folsom Elementary,Folsom Elementary,800 Sommerville Drive,school,,,,False,,9,2016-06,2023-04,4,1,98,2023-04,93,94.8,0,0,0,0
+T0038,tables only,Cockrell Elementary,Cockrell Elementary,1075 Escalante Trail,school,,,,False,,9,2016-06,2025-11,7,2,98,2025-11,94,96.0,0,0,0,0
+T0039,tables only,Rucker Elementary,Rucker Elementary,402 S Craig Rd,school,,,,False,,9,2016-06,2025-11,7,2,100,2025-11,90,97.0,0,0,0,0
+T0040,tables only,Poppa’s Pit BBQ Catering,Poppa’s Pit BBQ Catering,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0041,tables only,Oh My Kabob,Oh My Kabob,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0042,tables only,Bombay Chopstix,Bombay Chopstix,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0043,tables only,Ruth’s Rolling Café,Ruth’s Rolling Café,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0044,tables only,"Two Trucks, LLC dba What’s In Scoop","Two Trucks, LLC dba What’s In Scoop",[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0045,tables only,"Two Trucks, LLC dba The Butcher’s Son","Two Trucks, LLC dba The Butcher’s Son",[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0046,tables only,Market Street,Market Street,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0047,tables only,Hook and Ladder,Hook and Ladder,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0048,tables only,Very Individual Pizza,Very Individual Pizza,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0049,tables only,The Guava Tree Truck,The Guava Tree Truck,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0050,tables only,Lean Machine,Lean Machine,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0051,tables only,Sweets by Selina,Sweets by Selina,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0052,tables only,Nikki’s Popcorn Company,Nikki’s Popcorn Company,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0053,tables only,The Waffle Wagon,The Waffle Wagon,[withheld],mobile,,,,False,,1,2016-07,2016-07,0,0,,,,,0,0,0,0
+T0054,tables only,Villages at Legacy-T he Parks HOA,Parks at Legacy | The Parks at Legacy | Villages at Legacy-T he Parks HOA,2890 Cannon Drive,pool,,,,False,,8,2016-08,2026-04,0,0,,,,,1,0,0,0
+T0055,tables only,Whitley Place HOA,Whitely Place | Whitley Place | Whitley Place #2 | Whitley Place HOA,521 Gentry Drive,pool,,,,False,,10,2016-08,2026-05,0,0,,,,,2,0,0,0
+T0056,tables only,Lakes of La Cima BOD President,La Cima #2 | Lakes of La Cima | Lakes of La Cima BOD President | Lakes of La Cima HOA | Lakes of La Cima HOA 6B | Lakes of La Cima HOA Pool,620 FALCON DR,pool,,,,False,,10,2016-08,2026-05,0,0,,,,,2,0,0,0
+T0057,tables only,Sunrise Café,Fresh Healthy Café | Sunrise Café,"111 South Preston Road, Suite 30",restaurant,,,,False,,5,2016-08,2020-07,2,1,80,2020-07,80,84.0,1,0,0,0
+T0058,tables only,Hokulia,Hokulia,640 North Preston Road,concession,,,,False,,1,2016-08,2016-08,0,1,,,,,0,0,0,0
+T0059,tables only,Primrose School of Prosper,Primrose School Of Prosper | Primrose School of Prosper,1185 La Cima Boulevard,daycare,,,,False,,11,2016-10,2026-03,10,1,100,2026-03,88,97.6,0,0,0,0
+T0060,tables only,Kroger,Kroger | Kroger #573 | Kroger No 573,1250 N Preston Rd,store,,,,False,,16,2016-10,2024-01,5,1,91,2024-01,81,89.2,2,0,0,0
+T0061,tables only,Pan Sushi @ Kroger,Pan Sushi @ Kroger,1250 North Preston Road,restaurant,,,,False,,1,2016-10,2016-10,0,1,,,,,0,0,0,0
+T0062,tables only,JC’s Burgers,JC’s Burgers,111 South Preston Road,restaurant,,,,False,,1,2016-10,2016-10,0,1,,,,,0,0,0,0
+T0063,tables only,Reynolds Middle School,Reynolds Middle School,700 N Coleman St,school,,,,False,,9,2016-11,2026-03,7,2,100,2026-03,89,95.7,0,0,0,0
+T0064,tables only,Blendz Café,Blendz Café,"821 North Coleman Street, Suite 140",restaurant,,,,False,,1,2016-11,2016-11,0,1,,,,,0,0,0,0
+T0065,tables only,Prosper High School,Prosper High School,301 Eagle Drive,school,,,,False,,2,2016-11,2017-04,0,2,,,,,0,0,0,0
+T0066,tables only,Prosper High School-Coffee Bar,Prosper High School-Coffee Bar,301 Eagle Drive,restaurant,,,,False,,1,2016-11,2016-11,0,1,,,,,0,0,0,0
+T0067,tables only,Prosper High School-Pizza,Prosper High School-Pizza,301 Eagle Drive,school,,,,False,,1,2016-11,2016-11,0,1,,,,,0,0,0,0
+T0068,tables only,Rogers Middle School,Rodgers Middle School | Rogers Middle School,1001 South Coit Road,school,,,,False,,13,2016-11,2026-03,10,1,98,2026-03,85,94.7,0,0,0,0
+T0069,tables only,Folsum Elementary,Folsum Elementary,800 Sommerville,school,,,,False,,1,2016-11,2016-11,0,1,,,,,0,0,0,0
+T0070,tables only,Texas Health Resources,Texas Health Resources,1970 West University Drive,restaurant,,,,False,,5,2017-01,2021-07,2,2,98,2021-07,95,96.5,0,0,0,0
+T0071,tables only,Adara,Adara,4500 Blue Stem Drive,pool,,,,False,,1,2017-01,2017-01,0,0,,,,,0,0,0,0
+T0072,tables only,Kona Ice,Kona Ice,,mobile,,,,False,,12,2017-01,2026-03,0,0,,,,,0,0,0,0
+T0073,tables only,Karla’s Catering,Karla’s Catering,[withheld],mobile,,,,False,,1,2017-01,2017-01,0,0,,,,,0,0,0,0
+T0074,tables only,7-11,7-11,1541 E. University Drive,store,,,,False,,1,2017-01,2017-01,0,1,,,,,0,0,0,0
+T0075,tables only,A & A Foods #1,A & A Foods #1,[withheld],mobile,,,,False,,1,2017-02,2017-02,0,0,,,,,0,0,0,0
+T0076,tables only,A & A Foods #2,A & A Foods #2,[withheld],mobile,,,,False,,1,2017-02,2017-02,0,0,,,,,0,0,0,0
+T0077,tables only,A & A Foods # 3,A & A Foods # 3,[withheld],mobile,,,,False,,1,2017-02,2017-02,0,0,,,,,0,0,0,0
+T0078,tables only,Ayden Foods,Ayden Foods,[withheld],mobile,,,,False,,1,2017-02,2017-02,0,0,,,,,0,0,0,0
+T0079,tables only,El Primo #1,El Primo #1,[withheld],mobile,,,,False,,2,2017-02,2019-08,0,0,,,,,0,0,0,0
+T0080,tables only,Cajun Crawfish,Cajun Crawfish,[withheld],mobile,,,,False,,1,2017-02,2017-02,0,1,,,,,0,0,0,0
+T0081,tables only,7-11,7-11,1541 E. University Drive,store,,,,False,,1,2017-03,2017-03,0,1,,,,,0,0,0,0
+T0082,tables only,Azucar Latin American,Azucar Latin American,[withheld],mobile,,,,False,,1,2017-03,2017-03,0,0,,,,,0,0,0,0
+T0083,tables only,Nosh Box Eatery,Nosh Box Eatery,[withheld],mobile,,,,False,,1,2017-03,2017-03,0,0,,,,,0,0,0,0
+T0084,tables only,Frontier Estates HOA,Frontier Estates | Frontier Estates HOA,1801 Bozman Trl,pool,,,,False,,11,2017-04,2026-05,0,0,,,,,4,0,2,2
+T0085,tables only,Prosper High School,Prosper High School,301 Eagle Lane,concession,,,,False,,1,2017-04,2017-04,0,1,,,,,0,0,0,0
+T0086,tables only,Prosper High School,Prosper High School,301 Eagle Lane,restaurant,,,,False,,1,2017-04,2017-04,0,1,,,,,0,0,0,0
+T0087,tables only,Reynolds Middle School,Reynolds Middle School,700 N Coleman St,concession,,,,False,,3,2017-04,2025-07,0,1,,,,,0,0,0,0
+T0088,tables only,Rucker Elementary School,Rucker Elementary School,402 S Craig,school,,,,False,,3,2017-04,2024-09,2,1,100,2024-09,99,99.5,0,0,0,0
+T0089,tables only,Coach Slim Snow Cones,Coach Slim Snow Cones,[withheld],mobile,,,,False,,1,2017-04,2017-04,0,1,,,,,0,0,0,0
+T0090,tables only,Fuzzy Taco,Fuzzy Taco,4740 W University Drive,restaurant,,,,False,,1,2019-02,2019-02,1,0,89,2019-02,89,89.0,0,0,0,0
+T0091,tables only,Nacho Libre Nachos,Nacho Libre Nachos,[withheld],mobile,,,,False,,1,2019-07,2019-07,0,0,,,,,0,0,0,0
+T0092,tables only,The Saucy Hibachi,The Saucy Hibachi,[withheld],mobile,,,,False,,1,2019-07,2019-07,0,0,,,,,0,0,0,0
+T0093,tables only,Pappy’s Kettle Korn,Pappy’s Kettle Korn,[withheld],mobile,,,,False,,1,2019-07,2019-07,0,0,,,,,0,0,0,0
+T0094,tables only,Broad StrEAT Station,Broad StrEAT Station,[withheld],mobile,,,,False,,1,2019-07,2019-07,0,0,,,,,0,0,0,0
+T0095,tables only,Po’ Boy Place,Po’ Boy Place,[withheld],mobile,,,,False,,1,2019-07,2019-07,0,0,,,,,0,0,0,0
+T0096,tables only,Meat Candy Brisket,Meat Candy Brisket,[withheld],mobile,,,,False,,1,2019-07,2019-07,0,0,,,,,0,0,0,0
+T0097,tables only,Elotes,Elotes,[withheld],mobile,,,,False,,1,2019-07,2019-07,0,0,,,,,0,0,0,0
+T0098,tables only,The Pink Company,The Pink Company,,mobile,,,,False,,5,2019-07,2023-02,0,0,,,,,0,0,0,0
+T0099,tables only,Primrose School Of Windsong Ranch,Primrose School Of Windsong Ranch | Primrose School of Windsong Ranch,1050 Gee Road,daycare,,,,False,,9,2019-08,2025-05,8,0,100,2025-05,90,96.1,0,0,0,0
+T0100,tables only,The Gin,The Cotton Gin | The Gin | The Pizza Trailer at The Gin,206 West Broadway Street,restaurant,,,,False,,15,2019-08,2022-09,7,0,68,2022-08,68,82.4,1,1,0,0
+T0101,tables only,Cousins Main Lobster,Cousins Main Lobster,[withheld],mobile,,,,False,,1,2019-08,2019-08,0,0,,,,,0,0,0,0
+T0102,tables only,Children's Lighthouse,Children's Lighthouse | Children's Lighthouse Childcare | Childrens Lighthouse | Children’s Lighthouse,600 North Preston Road,daycare,,,,False,,14,2019-08,2026-01,12,0,96,2026-01,92,95.3,0,0,0,0
+T0103,tables only,Eagles Nest Deli,Eagles Nest Deli,650 North Preston Road,restaurant,,,,False,,1,2019-08,2019-08,1,0,91,2019-08,91,91.0,0,0,0,0
+T0104,tables only,Kiddie Academy,Kiddie Academy | Kiddie Academy Of Prosper | Kiddie Academy of Prosper,650 North Preston Road,daycare,,,,False,,14,2019-08,2026-03,10,0,100,2026-03,85,94.9,1,0,0,0
+T0105,tables only,ZUZU’s Sweet Creamery,ZUZU’s Sweet Creamery | Zuzu’s Sweet Creamery,,mobile,,,,False,,2,2019-08,2020-08,0,0,,,,,0,0,0,0
+T0106,tables only,Arana’s,Arana’s,[withheld],mobile,,,,False,,1,2019-08,2019-08,0,0,,,,,0,0,0,0
+T0107,tables only,Su’s Amazing Foods,Su’s Amazing Foods,[withheld],mobile,,,,False,,1,2019-08,2019-08,0,0,,,,,0,0,0,0
+T0108,tables only,Prosper ISD,Prosper ISD,[withheld],mobile,,,,False,,1,2019-08,2019-08,0,0,,,,,0,0,0,0
+T0109,tables only,Mac Daddy’s,Mac Daddy’s,[withheld],mobile,,,,False,,1,2019-08,2019-08,0,0,,,,,0,0,0,0
+T0110,tables only,Crunchy Eggrolls,Crunchy Eggrolls,2000 Stadium Drive,temporary,,,,False,,1,2019-08,2019-08,0,0,,,,,0,0,0,0
+T0111,tables only,Fuzzy’s Taco Shop,Fuzzy’s Taco Shop,"4740 West University Drive, Suite 20",restaurant,,,,False,,8,2019-08,2021-12,4,0,93,2021-12,75,86.0,1,0,0,0
+T0112,tables only,Pizza Hut,Pizza Hut,"1350 North Preston Road, Suite 20",restaurant,,,,False,,1,2019-08,2019-08,1,0,93,2019-08,93,93.0,0,0,0,0
+T0113,tables only,Prosper Chiropractic,Prosper Chiropractic,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0114,tables only,Honeylu’s Coffee,Honeylu’s Coffee,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0115,tables only,The Pink Company,The Pink Company,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0116,tables only,Texas Health Resources,Texas Health Resources,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0117,tables only,Kroger-Windsong Ranch,Kroger-Windsong Ranch,4650 West University Drive,store,,,,False,,1,2019-12,2019-12,1,0,88,2019-12,88,88.0,0,0,0,0
+T0118,tables only,Menchie’s Frozen Yogurt,Menchie’s Frozen Yogurt,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0119,tables only,Kona Ice,Kona Ice,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0120,tables only,Papa Murphy’s Pizza,Papa Murphy’s Pizza,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0121,tables only,PPG Paints,PPG Paints,Prosper Christmas Festival,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0122,tables only,9th Island Revel Foods,9th Island Revel Foods,380 West Broadway Street,temporary,,,,False,,1,2019-12,2019-12,0,0,,,,,0,0,0,0
+T0123,tables only,Kona Ice #2,Kona Ice #2,,mobile,,,,False,,2,2020-03,2021-01,0,0,,,,,0,0,0,0
+T0124,tables only,"Tocos, Bites, and Beats","Tocos, Bites, and Beats",,mobile,,,,False,,1,2020-03,2020-03,0,0,,,,,0,0,0,0
+T0125,tables only,Kona Ice Of Denton,Kona Ice Of Denton,,mobile,,,,False,,1,2020-03,2020-03,0,0,,,,,0,0,0,0
+T0126,tables only,Kona Ice Kiosk,Kona Ice Kiosk,,mobile,,,,False,,1,2020-03,2020-03,0,0,,,,,0,0,0,0
+T0127,tables only,Truck’n Thai,Truck’n Thai,,mobile,,,,False,,1,2020-03,2020-03,0,0,,,,,0,0,0,0
+T0128,tables only,Ragin Casian,Ragin Casian | Ragin’ Casian,,mobile,,,,False,,2,2020-03,2022-11,0,0,,,,,0,0,0,0
+T0129,tables only,SW Sushi Kroger,SW Sushi Kroger,1250 North Coit Road,restaurant,,,,False,,1,2020-03,2020-03,1,0,98,2020-03,98,98.0,0,0,0,0
+T0130,tables only,Orion Prosper Lakes,"Orion Prosper | Orion Prosper Lakes | Orion Prosper Lakes LLC | Orion Prosper Lakes, LLC | Orion Prosper On The Lakes | Orion Prosper on The Lakes | Orion Prosper on the Lakes",880 South Coit Road,pool,,,,False,,15,2020-03,2026-08,0,0,,,,,4,0,0,0
+T0131,tables only,Cajun Made Crawfish,Cajun Crawfish | Cajun Made Crawfish,380 West Broadway Street,temporary,,,,False,,3,2020-04,2023-02,0,0,,,,,0,0,0,0
+T0132,tables only,Star Trail Amenity Center,Star Trail Amenity Center,1851 Start Trail Parkway,pool,,,,False,,1,2020-04,2020-04,0,0,,,,,1,0,0,0
+T0133,tables only,Villages of Star Trail,Star Trail Amenity Center | Star Trail HOA | Star Trail HOA Pool #1 | Star Trail HOA Pool #2 | Star Trail HOA Pool No. 1 | Star Trail HOA Pool No. 2 | Villages at Star Trail | Villages of Star Trail,1851 Star Trail Pkwy,pool,,,,False,,19,2020-04,2026-05,0,0,,,,,7,0,0,0
+T0134,tables only,Lakewood HOA,Lakewood Amenity Center | Lakewood HOA | Lakewood at Brook Hollow | Lakewood at Brookhollow | Lakewood at Brookhollow Amenity Center,2821 Meadowbrook Boulevard,pool,,,,False,,9,2020-04,2026-05,0,0,,,,,2,0,0,0
+T0135,tables only,Sonic,Sonic,100 North Preston Road,restaurant,,,,False,,4,2020-06,2020-09,1,0,89,2020-08,89,89.0,0,0,0,0
+T0136,tables only,Hokulia Shaved Ice,Hokulia Shaved Ice,105 North Coleman Street,concession,,,,False,,3,2020-06,2022-06,0,0,,,,,0,0,0,0
+T0137,tables only,Jack In The Box,Jack In The Box,640 North Preston Road,restaurant,,,,False,,1,2020-06,2020-06,0,0,,,,,0,0,0,0
+T0138,tables only,The Camphouse Chill,The Camphouse Chill,[withheld],mobile,,,,False,,2,2020-06,2020-06,0,0,,,,,1,0,0,0
+T0139,tables only,FryDay Concessions,FryDay Concessions,,mobile,,,,False,,1,2020-06,2020-06,0,0,,,,,0,0,0,0
+T0140,tables only,The Carribbean Cajun,The Carribbean Cajun,,mobile,,,,False,,1,2020-06,2020-06,0,0,,,,,0,0,0,0
+T0141,tables only,Snowie To Go,Snowie To Go,,mobile,,,,False,,2,2020-06,2021-09,0,0,,,,,0,0,0,0
+T0142,tables only,El Chifrijo Food,El Chifrijo Food,,mobile,,,,False,,1,2020-06,2020-06,0,0,,,,,0,0,0,0
+T0143,tables only,Prosper Montessori Academy,Prosper Montessori Academy,100 Gorgeous Road,daycare,,,,False,,15,2020-06,2026-03,10,0,99,2026-03,80,92.6,0,0,0,0
+T0144,tables only,The Goddard School of Prosper,The Goddard School | The Goddard School Of Prosper | The Goddard School of Prosper,1180 La Cima Boulevard,daycare,,,,False,,13,2020-06,2026-03,10,0,100,2026-03,90,95.3,0,0,0,0
+T0145,tables only,The Children's Courtyard,The Children's Courtyard | The Childrens Courtyard | The Children’s Court Yard | The Children’s Courtyard,2301 Richland Boulevard,daycare,,,,False,,12,2020-06,2026-01,9,0,100,2026-01,90,97.2,0,0,0,0
+T0146,tables only,Ace Montessori,ACE Montessori | Ace Montessori,4770 W University Dr,daycare,,,,False,,3,2020-06,2026-01,3,0,98,2026-01,97,98.0,0,0,0,0
+T0147,tables only,Primrose School Of Windsong Ranch,Primrose School Of Windsong Ranch | Primrose School of Windsong Ranch,1050 Gee Road,pool,,,,False,,6,2020-06,2025-05,0,0,,,,,1,0,0,0
+T0148,tables only,Primrose School of Prosper,Primrose School Of Prosper | Primrose School of Prosper,1185 La Cima Boulevard,pool,,,,False,,6,2020-06,2025-06,0,0,,,,,0,0,0,0
+T0149,tables only,Windsong Ranch Lagoon,Windsong Ranch Lagoon,4000 Peppergrass Lane,pool,,,,False,,6,2020-06,2022-07,0,0,,,,,2,0,0,0
+T0150,tables only,Willow Ridge at Prosper HOA,Willow Ridge | Willow Ridge HOA | Willow Ridge HOA Pool | Willow Ridge at Prosper | Willow Ridge at Prosper HOA,621 Willow Ridge Circle,pool,,,,False,,8,2020-06,2026-04,0,0,,,,,1,0,0,0
+T0151,tables only,Honey Lu’s Coffee,Honey Lu’s Coffee,"1170 Preston Road, Suite 30",restaurant,,,,False,,1,2020-07,2020-07,0,0,,,,,0,0,0,0
+T0152,tables only,Sugar Boy Donuts,Sugar Boy Donuts,"1180 North Coit Road, Suite 60",restaurant,,,,False,,8,2020-07,2022-08,4,0,81,2022-08,77,82.5,1,0,0,0
+T0153,tables only,SW Sushi (Inside Kroger),SW Sushi (Inside Kroger),1250 North Preston Road,restaurant,,,,False,,1,2020-07,2020-07,1,0,87,2020-07,87,87.0,0,0,0,0
+T0154,tables only,Sauce Pizza and Wine,Sauce Pizza and Wine,"1551 South Preston Road, Suite 10",restaurant,,,,False,,2,2020-07,2020-07,1,0,91,2020-07,91,91.0,0,0,0,0
+T0155,tables only,Children's Lighthouse,Children's Lighthouse | Childrens Lighthouse Splash Pad | Children’s Lighthouse Splash Pad,600 N Preston Rd,pool,,,,False,,6,2020-07,2025-06,0,0,,,,,0,0,0,0
+T0156,tables only,Chills 360,Chills 360,1151 South Preston Road Suite 20,restaurant,,,,False,,1,2020-08,2020-08,1,0,84,2020-08,84,84.0,0,0,0,0
+T0157,tables only,Sugar Boy Donuts,Sugar Boy Donuts,120 North Preston Road Suite 10,restaurant,,,,False,,1,2020-08,2020-08,0,0,,,,,0,0,0,0
+T0158,tables only,SW Sushi,SW Sushi,1250 North Preston Road,restaurant,,,,False,,1,2020-08,2020-08,0,0,,,,,0,0,0,0
+T0159,tables only,Kids R Kids,"Kid R Kids | Kids ""R"" Kids | Kids 'R' Kids of Prosper | Kids R Kids | Kids “R’ Kids | Kids “R” Kids",130 North Coit Road,daycare,,,,False,,14,2020-08,2026-02,8,0,96,2025-05,90,97.2,0,0,0,0
+T0160,tables only,Papa John’s,Papa John’s,2111 East University Drive Suite 10,restaurant,,,,False,,1,2020-08,2020-08,0,0,,,,,0,0,0,0
+T0161,tables only,The Cookie Rack,The Cookie Rack,"2111 East University Drive, Suite 50",restaurant,,,,False,,8,2020-08,2022-04,5,0,96,2022-04,96,97.8,1,0,0,0
+T0162,tables only,Race Trac,Race Trac,4780 West University Drive,store,,,,False,,2,2020-08,2020-08,0,0,,,,,0,0,0,0
+T0163,tables only,SIPZ,SIPZ,[withheld],mobile,,,,False,,3,2020-08,2020-10,0,0,,,,,0,0,0,0
+T0164,tables only,Dats A Nice Italian Ice,Dats A Nice Italian Ice,4000 Pepper Grass Lane,mobile,,,,False,,1,2020-08,2020-08,0,0,,,,,0,0,0,0
+T0165,tables only,Walmart Fuel Station,Walmart 6300 Fuel Station | Walmart Fuel Station | Walmart Fuel Station No. 45,500 Richland Boulevard,store,,,,False,,5,2020-09,2022-11,5,0,100,2022-11,97,99.0,0,0,0,0
+T0166,tables only,St Martin de Porres Catholic School,St Martin de Porres Catholic School | St. Martin De Porres Catholic School | St. Martin de Porres Catholic School,4000 West University Drive,school,,,,False,,9,2020-09,2025-05,8,0,100,2024-11,89,96.0,0,0,0,0
+T0167,tables only,Southern Whips,Southern Whips,,mobile,,,,False,,4,2020-09,2021-03,0,0,,,,,2,0,0,0
+T0168,tables only,Legacy Gardens HOA,Legacy Garden | Legacy Gardens | Legacy Gardens Amenity Pool | Legacy Gardens HOA,1800 Wynne Ave,pool,,,,False,,9,2020-09,2026-04,0,0,,,,,1,0,0,0
+T0169,tables only,Prosper Nutrition,Prosper Nutrition,"1061 North Coleman Street, Suite 200",restaurant,,,,False,,8,2020-10,2022-04,4,0,92,2022-03,85,90.0,0,0,0,0
+T0170,tables only,Prosper High Main Café,Prosper High Main Café,301 Eagle Drive,school,,,,False,,1,2020-10,2020-10,1,0,94,2020-10,94,94.0,0,0,0,0
+T0171,tables only,Prosper High-Pizza Hut & Sweet Shop,Prosper High-Pizza Hut & Sweet Shop,301 Eagle Drive,school,,,,False,,1,2020-10,2020-10,1,0,97,2020-10,97,97.0,0,0,0,0
+T0172,tables only,Prosper High Coffee Bar,Prosper High Coffee Bar,301 Eagle Drive,school,,,,False,,1,2020-10,2020-10,1,0,100,2020-10,100,100.0,0,0,0,0
+T0173,tables only,Prosper High Salad Bar,Prosper High Salad Bar,301 Eagle Drive,school,,,,False,,1,2020-10,2020-10,1,0,97,2020-10,97,97.0,0,0,0,0
+T0174,tables only,Reynolds Middle Gym Concession,Reynolds Middle Gym Concession,700 North Coleman Street,school,,,,False,,1,2020-10,2020-10,1,0,96,2020-10,96,96.0,0,0,0,0
+T0175,tables only,Reynolds Middle Football Concession,Reynolds Middle Football Concession,700 North Coleman Street,school,,,,False,,1,2020-10,2020-10,1,0,97,2020-10,97,97.0,0,0,0,0
+T0176,tables only,Mudea Café,Mudea Café,[withheld],mobile,,,,False,,1,2020-10,2020-10,0,0,,,,,0,0,0,0
+T0177,tables only,Boardwalk Bites,Boardwalk Bites,[withheld],mobile,,,,False,,1,2020-10,2020-10,0,0,,,,,0,0,0,0
+T0178,tables only,Smokin Grill on Wheels,Smokin Grill on Wheels,[withheld],mobile,,,,False,,2,2020-10,2021-04,0,0,,,,,0,0,0,0
+T0179,tables only,Renee’s Jerk Chicken,Renee’s Jerk Chicken,[withheld],mobile,,,,False,,2,2020-10,2021-06,0,0,,,,,0,0,0,0
+T0180,tables only,Trini Style Bake’N Shark & Tings,Trini Style Bake’N Shark & Tings,[withheld],mobile,,,,False,,1,2020-10,2020-10,0,0,,,,,0,0,0,0
+T0181,tables only,Ace Montessori Schools Inc,"Ace Montessori Schools | Ace Montessori Schools Inc | Ace Montessori Schools, Inc",4770 West University Drive,daycare,,,,False,,7,2020-11,2025-06,7,0,97,2025-06,96,98.0,0,0,0,0
+T0182,tables only,Trini Style Bake N Shark & Tings,Trini Style Bake N Shark & Tings | Trini Style Bake N’ Shark & Tings | Trini Style Bake N’ Shark Tings,,mobile,,,,False,,4,2020-11,2022-03,0,0,,,,,0,0,0,0
+T0183,tables only,SW Sushi: Kroger,SW Sushi: Kroger,1250 North Preston Road,restaurant,,,,False,,1,2020-12,2020-12,1,0,98,2020-12,98,98.0,0,0,0,0
+T0184,tables only,Texas Health Resources,Texas Health Resources,1971 West University Drive,restaurant,,,,False,,1,2020-12,2020-12,1,0,100,2020-12,100,100.0,0,0,0,0
+T0185,tables only,Kroger Texas LP,Kroger | Kroger No 589 | Kroger No. 589 | Kroger Texas LP,4650 W University Dr,store,,,,False,,10,2020-12,2026-08,2,0,86,2021-09,78,82.0,1,0,0,0
+T0186,tables only,Walmart Fuel Station,Walmart Fuel Station,510 Richland Boulevard,store,,,,False,,1,2020-12,2020-12,1,0,98,2020-12,98,98.0,0,0,0,0
+T0187,tables only,William Rushing Middle School,William Rushing Middle School,3080 Fishtrap Road,school,,,,False,,1,2020-12,2020-12,1,0,90,2020-12,90,90.0,0,0,0,0
+T0188,tables only,Stuber Elementary School,Stuber Elementary School,721 Village Park Lane,school,,,,False,,2,2020-12,2024-09,2,0,100,2024-09,92,96.0,0,0,0,0
+T0189,tables only,Prosper High School Arena Concession: Home,Prosper High School Arena Concession: Home,301 Eagle Drive,school,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0190,tables only,Prosper High School Arena Concession: Away,Prosper High School Arena Concession: Away,301 Eagle Drive,school,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0191,tables only,Prosper High School Track/Turf Concession,Prosper High School Track/Turf Concession,301 Eagle Drive,school,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0192,tables only,Prosper High School Softball/Baseball Concession,Prosper High School Softball/Baseball Concession,301 Eagle Drive,school,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0193,tables only,Rushing Middle School Indoor Concession,Rushing Middle School Indoor Concession,3080 Fishtrap Road,school,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0194,tables only,PISD Children’s Health Stadium-Home,PISD Children’s Health Stadium-Home,2000 Stadium Drive,school,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0195,tables only,PISD Natatorium,PISD Natatorium,2000 Stadium Drive,pool,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0196,tables only,Rogers Middle School Gym Concession,Rogers Middle School Gym Concession,1001 South Coit Road,school,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0197,tables only,Andy’s Frozen Custard,Andy’s Frozen Custard,1001 Prosper Trail,temporary,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0198,tables only,Ruthie’s Rolling Café,Ruthie’s Rolling Café,[withheld],mobile,,,,False,,2,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0199,tables only,Prestonwood Baptist Church-Booth 2,Prestonwood Baptist Church-Booth 1 | Prestonwood Baptist Church-Booth 2,1001 Prosper Trail,temporary,,,,False,,2,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0200,tables only,Conway CornDogs,Conway CornDogs | Conway Corndog | Conway Corndogs,1001 Prosper Trail,temporary,,,,False,,3,2020-12,2024-11,0,0,,,,,0,0,0,0
+T0201,tables only,Snowball Express,Snowball Express,[withheld],mobile,,,,False,,2,2020-12,2022-11,0,0,,,,,0,0,0,0
+T0202,tables only,"Tacos, Bites, & Beats","Tacos, Bites, & Beats",[withheld],mobile,,,,False,,1,2020-12,2020-12,0,0,,,,,0,0,0,0
+T0203,tables only,M&G Truck No. 1,M & G Truck #1 | M&G Truck No. 1,,mobile,,,,False,,2,2021-01,2022-03,0,0,,,,,0,0,0,0
+T0204,tables only,Kona Ice #1,Kona Ice #1,,mobile,,,,False,,1,2021-01,2021-01,0,0,,,,,0,0,0,0
+T0205,tables only,Carnalito Catering #1,Carnalito Catering #1,,mobile,,,,False,,1,2021-01,2021-01,0,0,,,,,0,0,0,0
+T0206,tables only,Carnalito Catering No 2,Carnalito Catering #2 | Carnalito Catering No 2,,mobile,,,,False,,2,2021-01,2021-03,0,0,,,,,1,0,0,0
+T0207,tables only,M & G Truck No. 2,M & G Truck No. 2 | M& G Truck #2,,mobile,,,,False,,2,2021-01,2022-04,0,0,,,,,0,0,0,0
+T0208,tables only,Kona Ice #3,Kona Ice #3,,mobile,,,,False,,1,2021-01,2021-01,0,0,,,,,0,0,0,0
+T0209,tables only,Ay Papito,Ay Papito,,mobile,,,,False,,1,2021-01,2021-01,0,0,,,,,0,0,0,0
+T0210,tables only,Mike's Chicken Shack,Mike's Chicken Shack | Mike’s Chicken Shack,,mobile,,,,False,,2,2021-01,2023-05,0,0,,,,,0,0,0,0
+T0211,tables only,9th Island Revel Foods,9th Island Revel Foods,,mobile,,,,False,,3,2021-01,2023-02,0,0,,,,,0,0,0,0
+T0212,tables only,El Primo Food #2,El Primo Food #2,,mobile,,,,False,,1,2021-01,2021-01,0,0,,,,,0,0,0,0
+T0213,tables only,United Caterers Truck 2016,United Caterers Truck #2016 | United Caterers Truck 2016,,mobile,,,,False,,2,2021-01,2021-12,0,0,,,,,0,0,0,0
+T0214,tables only,United Caterers Truck 5538,United Caterers Truck #5538 | United Caterers Truck 5538,,mobile,,,,False,,2,2021-01,2021-12,0,0,,,,,0,0,0,0
+T0215,tables only,Newman Style BBQ,Newman Style BBQ | Newman Style BBQ LLC,,mobile,,,,False,,4,2021-01,2024-02,0,0,,,,,0,0,0,0
+T0216,tables only,Sauce Pizza and Wine,Sauce Pizza And Wine | Sauce Pizza and Wine,"1151 South Preston Road, Suite 10",restaurant,,,,False,,7,2021-01,2022-05,3,0,87,2022-04,80,84.7,0,0,0,0
+T0217,tables only,Honeylu’s Coffee Truck,Honeylu’s Coffee Truck,,mobile,,,,False,,2,2021-01,2022-01,0,0,,,,,0,0,0,0
+T0218,tables only,Waffle O’Licious,Waffle O’Licious | Waffle O’licious,,mobile,,,,False,,2,2021-02,2021-03,0,0,,,,,0,0,0,0
+T0219,tables only,Ventura’s Catering Truck #4418,Ventura’s Catering Truck #4418,,mobile,,,,False,,1,2021-02,2021-02,0,0,,,,,0,0,0,0
+T0220,tables only,5BarBQ,5BarBQ,,mobile,,,,False,,1,2021-02,2021-02,0,0,,,,,0,0,0,0
+T0221,tables only,Spicy Tails,Spicy Tails,,mobile,,,,False,,1,2021-02,2021-02,0,0,,,,,0,0,0,0
+T0222,tables only,Sonic,Sonic,100 North Preston Road Suite A,restaurant,,,,False,,3,2021-02,2021-03,1,0,84,2021-02,84,84.0,1,0,0,0
+T0223,tables only,Jersey Mike’s Subs,Jersey Mike’s Subs,4740 West University Drive Suite 50,restaurant,,,,False,,1,2021-02,2021-02,1,0,88,2021-02,88,88.0,0,0,0,0
+T0224,tables only,M&G Truck No. 3,M & G Truck No 3 | M&G Truck No. 3,,mobile,,,,False,,2,2021-03,2022-03,0,0,,,,,0,0,0,0
+T0225,tables only,Cajun Made Crawfish & Seafood,Cajun Made Crawfish & Seafood,,mobile,,,,False,,2,2021-03,2024-02,0,0,,,,,0,0,0,0
+T0226,tables only,Cousins Maine Lobster Truck No 1,Cousins Maine Lobster Truck No 1,,mobile,,,,False,,1,2021-03,2021-03,0,0,,,,,0,0,0,0
+T0227,tables only,Cousins Maine Lobster Truck No 2,Cousins Maine Lobster Truck No 2,,mobile,,,,False,,1,2021-03,2021-03,0,0,,,,,0,0,0,0
+T0228,tables only,Cortland Windsong Ranch,Cortland Windsong Ranch,4500 Bluestem Drive,pool,,,,False,,5,2021-04,2024-05,0,0,,,,,1,0,0,0
+T0229,tables only,Glenbrooke Estates,Glenbrooke Estates,1001 Glenbrook Court,pool,,,,False,,4,2021-04,2025-04,0,0,,,,,1,0,0,0
+T0230,tables only,Windsong HOA,Windsong HOA | Windsong Ranch | Windsong Ranch HOA | Windsong Ranch HOA Pool | Windsong Ranch Pool w/Splash Pad,1001 Windsong Pkwy,pool,,,,False,,18,2021-04,2026-05,0,0,,,,,2,0,0,0
+T0231,tables only,The Lake of Prosper Trail Splash Pad,The Lake of Prosper Trail Splash Pad,1200 Lake Trail Lane,pool,,,,False,,2,2021-04,2021-04,0,0,,,,,2,0,0,0
+T0232,tables only,Ariana Estates (dba Wildwood) HOA Inc,Ariana Estates | Ariana Estates (dba Wildwood) HOA Inc | Ariana Estates HOA,101 Dianna Dr,pool,,,,False,,9,2021-04,2026-03,0,0,,,,,3,0,0,0
+T0233,tables only,Prosper ISD - Natatorium,PISD Natatorium | PISD Natatorium Pool No. 1 | PISD Natatorium Pool No. 2 | Prosper ISD - Natatorium | Prosper ISD Natatorium,1851 Stadium Dr,pool,,,,False,,10,2021-04,2025-04,0,0,,,,,0,0,0,0
+T0234,tables only,Mesa’s Mexican Grill,Mesa’s Mexican Grill,"2111 East University Drive, Sutie10",restaurant,,,,False,,1,2021-04,2021-04,0,0,,,,,0,0,0,0
+T0235,tables only,Triple G Group Booth,Triple G Group Booth,[withheld],mobile,,,,False,,1,2021-04,2021-04,0,0,,,,,0,0,0,0
+T0236,tables only,Tripe G Group,Tripe G Group,[withheld],mobile,,,,False,,1,2021-04,2021-04,0,0,,,,,0,0,0,0
+T0237,tables only,Enclave at Lakes of Prosper,Enclave Lakes Of Prosper | Enclave Lakes of Prosper | Enclave Lakes of Prosper HOA | Enclave at Lakes | Enclave at Lakes of Prosper | Enclaves Lakes of Prosper,1050 WATERVIEW,pool,,,,False,,10,2021-05,2026-05,0,0,,,,,4,0,0,0
+T0238,tables only,Villages at Legacy-The Lakes HOA,Villages at Legacy | Villages at Legacy - The Lakes | Villages at Legacy HOA | Villages at Legacy-The Lakes HOA | Villages at Legacy-The Parks HOA,2811 Firefly Pl,pool,,,,False,,8,2021-05,2026-04,0,0,,,,,1,0,0,0
+T0239,tables only,Down Home Mobile Kitchen,Down Home Mobile Kitchen,[withheld],mobile,,,,False,,1,2021-05,2021-05,0,0,,,,,0,0,0,0
+T0240,tables only,Mrs. Jerry Bryant Elementary,Mrs. Jerry Bryant Elementary,3830 Freeman Way,school,,,,False,,4,2021-05,2022-04,2,0,93,2022-04,93,94.5,0,0,0,0
+T0241,tables only,Kids 'R' Kids of Prosper,Kids 'R' Kids | Kids 'R' Kids of Prosper | Kids R Kids Splash Pad | Kids “R’ Kids Splash Pad,130 N Coit Rd,pool,,,,False,,5,2021-05,2025-05,0,0,,,,,0,0,0,0
+T0242,tables only,Spicy Tails,Spicy Tails,4000 Pepper Grass Lane,temporary,,,,False,,4,2021-05,2023-02,0,0,,,,,0,0,0,0
+T0243,tables only,!Ay Caramba!,!Ay Caramba!,1001 South Windsong Parkway,temporary,,,,False,,1,2021-05,2021-05,0,0,,,,,0,0,0,0
+T0244,tables only,Ruthies Rolling Café,Ruthies Rolling Café,1075 Escalante Trail,temporary,,,,False,,1,2021-05,2021-05,0,0,,,,,0,0,0,0
+T0245,tables only,Orion Prosper LLC,Orion Prosper | Orion Prosper LLC | Orion Prosper Lakes LLC,980 S Coit Rd,pool,,,,False,,4,2021-06,2026-08,0,0,,,,,0,0,0,0
+T0246,tables only,Ace Montessori,Ace Montessori,4770 West University Drive,pool,,,,False,,2,2021-06,2022-05,0,0,,,,,0,0,0,0
+T0247,tables only,Shonda’s Shave Ice,Shonda’s Shave Ice,[withheld],mobile,,,,False,,1,2021-06,2021-06,0,0,,,,,0,0,0,0
+T0248,tables only,In-N-Out Burger,In-N-Out Burger,[withheld],temporary,,,,False,,2,2021-06,2021-08,0,0,,,,,0,0,0,0
+T0249,tables only,Prosper Kinder Care,Kindercare Childcare | Kindercare Of Prosper | Kindercare of Prosper | Prosper Kinder Care,1230 South Coit Road,daycare,,,,False,,15,2021-07,2026-08,9,0,80,2026-08,80,93.0,0,0,0,0
+T0250,tables only,Su Amazing Foods LLC,Su Amazing Foods LLC,[withheld],mobile,,,,False,,1,2021-07,2021-07,0,0,,,,,0,0,0,0
+T0251,tables only,Sushi Dojo,Sushi Dojo,[withheld],mobile,,,,False,,2,2021-07,2022-11,0,0,,,,,0,0,0,0
+T0252,tables only,Super Wing,Super Wing,"2770 Fishtrap Road, Suite 30",restaurant,,,,False,,5,2021-07,2021-12,2,0,95,2021-12,86,90.5,1,0,0,0
+T0253,tables only,Nellys Mexican Corn,Nellys Mexican Corn | Pappy’s Kettle Corn | Sweet Pop Kettle Corn,1551 W Frontier Pkwy,temporary,,,,False,,4,2021-07,2025-07,0,0,,,,,0,0,0,0
+T0254,tables only,Crunchies Enterprises LLC,Crunchies Eggroll & More | Crunchies Eggrolls & More | Crunchies Enterprises LLC,1551 West Frontier Parkway,temporary,,,,False,,3,2021-07,2026-07,0,0,,,,,0,0,0,0
+T0255,tables only,Latinos Concessions,Jazzy Tacos Booth | Latinos Concessions | Latinos Concessions Booth | Mr. Sugar Rush | Mr. Sugar Rush Booth,1551 West Frontier Parkway,temporary,,,,False,,8,2021-07,2024-07,0,0,,,,,0,0,0,0
+T0256,tables only,!Ay Caramba!,!Ay Caramba!,1551 West Frontier Parkway,temporary,,,,False,,3,2021-07,2021-10,0,0,,,,,0,0,0,0
+T0257,tables only,JBW Vending,"JBW Vending | JBW Vending, LLC",1551 W Frontier Pkwy,temporary,,,,False,,10,2021-07,2026-07,0,0,,,,,1,0,0,0
+T0258,tables only,Mudea Café,Mudea Café | Mudea’s Café Trailer,1551 West Frontier Parkway,temporary,,,,False,,4,2021-07,2024-07,0,0,,,,,0,0,0,0
+T0259,tables only,Roasted Hatch Chili Peppers,Roasted Hatch Chili Peppers,1250 North Preston Road,temporary,,,,False,,1,2021-07,2021-07,0,0,,,,,0,0,0,0
+T0260,tables only,Stuber Elementary,Stuber Elementary,721 Village Park Lane,school,,,,False,,10,2021-08,2025-11,8,0,100,2025-11,93,95.8,0,0,0,0
+T0261,tables only,Founders Classical Academy of Prosper,Founders Classical Academy Of Prosper | Founders Classical Academy of Prosper,4250 East First Street,school,,,,False,,7,2021-08,2024-11,4,0,100,2024-11,81,94.0,0,0,0,0
+T0262,tables only,!Ay Caramba!,!Ay Caramba!,4000 Pepper Grass Lane,temporary,,,,False,,1,2021-08,2021-08,0,0,,,,,0,0,0,0
+T0263,tables only,Founders Classical Academy of Prosper,Founders Classical Academy | Founders Classical Academy Concession | Founders Classical Academy of Prosper,4250 East First Street,concession,,,,False,,6,2021-09,2024-11,0,0,,,,,0,0,0,0
+T0264,tables only,Sandlot Subs LLC,"Sandlot Subs | Sandlot Subs LLC | Sandlot Subs, LLC",,mobile,,,,False,,4,2021-09,2024-04,0,0,,,,,0,0,0,0
+T0265,tables only,Moe’s Steaks,Moe’s Steaks,[withheld],mobile,,,,False,,1,2021-09,2021-09,0,0,,,,,0,0,0,0
+T0266,tables only,Rice Pot Express,Rice Pot Express,"1049 North Preston Road, Suite 10",restaurant,,,,False,,5,2021-09,2021-09,1,0,63,2021-09,63,63.0,1,1,0,0
+T0267,tables only,JFE Sushi K589,JFE Sushi K589,4650 West University Drve,restaurant,,,,False,,1,2021-09,2021-09,1,0,90,2021-09,90,90.0,0,0,0,0
+T0268,tables only,Cockrell Elementary Kitchen,Cockrell Elementary Kitchen,1075 Escalante Trail,school,,,,False,,2,2021-09,2021-12,1,0,95,2021-12,95,95.0,0,0,0,0
+T0269,tables only,Rucker Elementary Kitchen,Rucker Elementary Kitchen,402 South Craig Road,school,,,,False,,2,2021-09,2021-12,1,0,92,2021-12,92,92.0,0,0,0,0
+T0270,tables only,Rushing Middle School Kitchen,Rushing Middle School Kitchen,3080 Fishtrap Road,school,,,,False,,1,2021-09,2021-09,1,0,91,2021-09,91,91.0,0,0,0,0
+T0271,tables only,Degenhardt’s Brat Haus,Degenhardt’s Brat Haus,380 West Broadway Street,temporary,,,,False,,5,2021-09,2021-11,0,0,,,,,0,0,0,0
+T0272,tables only,Lighthouse Church,Lighthouse Church,[withheld],temporary,,,,False,,1,2021-09,2021-09,0,0,,,,,0,0,0,0
+T0273,tables only,Prosper United Methodist,Prosper United Methodist,[withheld],temporary,,,,False,,1,2021-09,2021-09,0,0,,,,,0,0,0,0
+T0274,tables only,Jerajo Foods LLC,Jerajo Foods LLC,[withheld],temporary,,,,False,,1,2021-09,2021-09,0,0,,,,,0,0,0,0
+T0275,tables only,Six Sips Coffee Co.,Six Sips Coffee Co.,1851 Star Trail,temporary,,,,False,,1,2021-09,2021-09,0,0,,,,,0,0,0,0
+T0276,tables only,Reynolds Middle School - Eagle Stadi-,Reynolds Middle School - Eagle Stadi- | Reynolds Middle School Eagle Stadium | Reynolds Middle School-Eagle Stadium,700 N Coleman St,concession,,,,False,,3,2021-10,2023-10,0,0,,,,,0,0,0,0
+T0277,tables only,PISD Children's Health Stadium (Visitor) Concession,PISD Children's Health Stadium (Home) Concession | PISD Children's Health Stadium (Visitor) Concession | PISD Children’s Health Stadium | PISD Children’s Health Stadium (Home) | PISD Children’s Health Stadium (Visitor) | PISD Children’s Health Stadium Visitor Section,2000 Stadium Drive,concession,,,,False,,6,2021-10,2024-09,0,0,,,,,0,0,0,0
+T0278,tables only,Prosper High School Track/Turf Concession,Prosper High School Track/Turf Concession,301 Eagle Drive,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0279,tables only,Prosper High School Softball/Baseball Concession,Prosper High School Softball/Baseball Concession,301 Eagle Drive,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0280,tables only,Rogers Middle School Football Concessions,Rodgers Middle School Football Concession | Rogers Middle School Football Concessions,1001 South Coit Road,concession,,,,False,,2,2021-10,2022-05,0,0,,,,,0,0,0,0
+T0281,tables only,Prosper High School Arena Concession (Visitor),Prosper High School Arena Concession (Visitor),301 Eagle Drive,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0282,tables only,Reynolds Middle School Gym Concession,Reynolds Middle School Gym Concession,700 North Coleman,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0283,tables only,Rushing Middle School Gym Concession,Rushing Middle School Gym Concession,3080 Fishtrap Road,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0284,tables only,Prosper High School Arena Concession (Home),Prosper High School Arena Concession (Home),301 Eagle Drive,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0285,tables only,Rushing Middle School Football Concession,Rushing Middle School Football Concession,3080 Fishtrap Road,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0286,tables only,Rogers Middle School Gym Concessions,Rogers Middle School Gym Concession | Rogers Middle School Gym Concessions,1001 South Coit Road,concession,,,,False,,3,2021-10,2022-05,0,0,,,,,0,0,0,0
+T0287,tables only,Town of Prosper Baseball-Turf,Town of Prosper Baseball | Town of Prosper Baseball Concession Stand 1 | Town of Prosper Baseball-Turf,1551 West Frontier Parkway,concession,,,,False,,3,2021-10,2022-09,0,0,,,,,0,0,0,0
+T0288,tables only,Town of Prosper Baseball Concession Stand 2,Town of Prosper Baseball Concession Stand 2,1551 West Frontier Parkway,concession,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0289,tables only,Town of Prosper Soccer,Town of Prosper Soccer | Town of Prosper Soccer Concession,1551 West Frontier Parkway,concession,,,,False,,2,2021-10,2022-09,0,0,,,,,0,0,0,0
+T0290,tables only,Rushing Middle School Cafeteria,Rushing Middle School Cafeteria,3080 Fishtrap Road,school,,,,False,,3,2021-10,2021-12,1,0,91,2021-12,91,91.0,0,0,0,0
+T0291,tables only,Prosper High School - Provisions,Prosper High School - Provisions | Prosper High School Provisions,301 Eagle Drive,school,,,,False,,5,2021-10,2024-11,5,0,100,2024-11,100,100.0,0,0,0,0
+T0292,tables only,Prosper High School - Union Café,Prosper High School - Union Café | Prosper High School Union Cafe | Prosper High School Union Café,301 Eagle Drive,school,,,,False,,4,2021-10,2023-05,3,0,100,2023-05,95,98.0,0,0,0,0
+T0293,tables only,Prosper High School Eagle Eatery,Prosper High School Eagle Eatery,301 Eagle Drive,school,,,,False,,2,2021-10,2022-04,2,0,100,2022-04,100,100.0,0,0,0,0
+T0294,tables only,Prosper High School - Main Kitchen,Prosper High School - Main Kitch- | Prosper High School - Main Kitchen | Prosper High School Main Kitchen,301 Eagle Drive,school,,,,False,,7,2021-10,2024-11,5,0,97,2024-11,93,96.4,0,0,0,0
+T0295,tables only,Reynolds Middle School Kitchen,Reynolds Middle School Kitchen,700 North Coleman,school,,,,False,,3,2021-10,2022-05,3,0,91,2022-05,91,94.0,0,0,0,0
+T0296,tables only,Texas Twist Saint Martin De Porres Catholic Church,Texas Twist Saint Martin De Porres Catholic Church,[withheld],temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0297,tables only,Smokin Grill On Wheels,Smokin Grill On Wheels,2601 Prairie Drive,temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0298,tables only,A Taste of Paradise,A Taste of Paradise,380 West Broadway Street,temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0299,tables only,So Icy DFW,So Icy DFW,1551 West Frontier Parkway,temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0300,tables only,JBW Vending,JBW Vending,2000 Stadium Drive,temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0301,tables only,Snowie To Go,Snowball Express DBA Snowie To Go | Snowie To Go | Snowie To Go Shaved Ice | Snowie To Go/ Snowball Express,1001 West Prosper Trail,temporary,,,,False,,7,2021-10,2024-11,0,0,,,,,0,0,0,0
+T0302,tables only,Eddie Knows Best,Eddie Knows Best,[withheld],temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0303,tables only,Batch Bakery,Batch Bakery,1551 West Frontier Parkway,temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0304,tables only,La Gran Empanada,La Gran Empanada,1551 West Frontier Parkway,temporary,,,,False,,1,2021-10,2021-10,0,0,,,,,0,0,0,0
+T0305,tables only,7-Eleven Store No 383761,7-Eleven Store No 383761,390 South Preston Road,store,,,,False,,2,2021-11,2021-11,1,0,91,2021-11,91,91.0,0,0,0,0
+T0306,tables only,Mary’s Eataly,Mary’s Eataly,[withheld],mobile,,,,False,,1,2021-11,2021-11,0,0,,,,,0,0,0,0
+T0307,tables only,Fresh & Hot BBQ,Fresh & Hot BBQ,1001 West Prosper Trail,temporary,,,,False,,1,2021-11,2021-11,0,0,,,,,0,0,0,0
+T0308,tables only,Southern Gourmet Kitchen,Southern Gourmet Kitchen,250 West First Street,temporary,,,,False,,1,2021-11,2021-11,0,0,,,,,0,0,0,0
+T0309,tables only,Chick-fil-A,Chick fil A | Chick-Fil-A | Chick-fil-A,250 W FIRST ST,temporary,,,,False,,3,2021-11,2024-12,0,0,,,,,0,0,0,0
+T0310,tables only,Kona Ice Kiosk Truck No 3 (20075),Kona Ice Kiosk Truck No 3 (20075),,mobile,,,,False,,1,2021-12,2021-12,0,0,,,,,0,0,0,0
+T0311,tables only,Kona Ice Kiosk Truck No 1 (218),Kona Ice Kiosk Truck No 1 (218),,mobile,,,,False,,1,2021-12,2021-12,0,0,,,,,0,0,0,0
+T0312,tables only,Degenhardts Brat Haus,Degenhardts Brat Haus,[withheld],mobile,,,,False,,1,2021-12,2021-12,0,0,,,,,0,0,0,0
+T0313,tables only,United Caterers Truck #5544,United Caterers Truck #5544 | United Caterers Truck 5544,,mobile,,,,False,,2,2021-12,2026-01,0,0,,,,,0,0,0,0
+T0314,tables only,United Caterers Truck #1143,United Caterers Truck #1143 | United Caterers Truck 1143,,mobile,,,,False,,2,2021-12,2026-01,0,0,,,,,0,0,0,0
+T0315,tables only,Windsong Elementary School Kitchen,Windsong Elementary School Kitchen,800 Copper Canyon,school,,,,False,,1,2021-12,2021-12,1,0,95,2021-12,95,95.0,0,0,0,0
+T0316,tables only,Waffle O’licious,Waffle O’licious,1001 Windsong Parkway,temporary,,,,False,,1,2021-12,2021-12,0,0,,,,,0,0,0,0
+T0317,tables only,Eggstand,Eggstand,1001 W Prosper Trail,temporary,,,,False,,2,2021-12,2024-11,0,0,,,,,0,0,0,0
+T0318,tables only,Luiege Pizza Truck,Luiege Pizza Truck,1001 W Prosper Trail,temporary,,,,False,,2,2021-12,2024-11,0,0,,,,,0,0,0,0
+T0319,tables only,Fryday Concessions,Fryday Concessions,1001 Windsong Parkway,temporary,,,,False,,1,2021-12,2021-12,0,0,,,,,0,0,0,0
+T0320,tables only,Coffee & Crumbs,Coffee & Crumbs,[withheld],temporary,,,,False,,1,2021-12,2021-12,0,0,,,,,0,0,0,0
+T0321,tables only,Easy Slider,Easy Slider,1001 W Prosper Trail,temporary,,,,False,,2,2021-12,2024-11,0,0,,,,,0,0,0,0
+T0322,tables only,Ruthie’s Rolling Café,Ruthie’s Rolling Café,1001 West Prosper Trial,temporary,,,,False,,1,2021-12,2021-12,0,0,,,,,1,0,0,0
+T0323,tables only,Dat’s A N’ice Italian Ice,Dat’s A N’ice Italian Ice,,mobile,,,,False,,1,2022-01,2022-01,0,0,,,,,0,0,0,0
+T0324,tables only,Chefyummi Dishes LLC,ChefYummi Dishes | Chefyummi Dishes LLC,,mobile,,,,False,,3,2022-01,2024-03,0,0,,,,,0,0,0,0
+T0325,tables only,The Pink Co Truck #1,The Pink Co Truck #1 | The Pink Company Truck No 1,,mobile,,,,False,,3,2022-01,2024-01,0,0,,,,,0,0,0,0
+T0326,tables only,The Pink Co Truck #2,The Pink Co Truck #2 | The Pink Company Truck No 2,,mobile,,,,False,,3,2022-01,2024-01,0,0,,,,,0,0,0,0
+T0327,tables only,Frios Gourmet Pops,Frios Gourmet Pops,,mobile,,,,False,,2,2022-01,2023-01,0,0,,,,,0,0,0,0
+T0328,tables only,Smoothies & Coffee,Smoothies & Coffee,"1141 South Preston Road, Suite 20",restaurant,,,,False,,1,2022-01,2022-01,0,0,,,,,0,0,0,0
+T0329,tables only,Kona Ice Truck #2,Kona Ice Truck #2 | Kona Ice Truck No. 2,,mobile,,,,False,,3,2022-02,2025-02,0,0,,,,,0,0,0,0
+T0330,tables only,Smoothies & Coffee,Smoothies & Coffee,"2281 East University Drive, Suite 10",restaurant,,,,False,,5,2022-02,2022-05,1,0,81,2022-05,81,81.0,0,0,0,0
+T0331,tables only,Cajun Made Crawfish,Cajun Made Crawfish,380 West Broadway Street,restaurant,,,,False,,1,2022-02,2022-02,0,0,,,,,0,0,0,0
+T0332,tables only,Mr. Sugar Rush,Mr. Sugar Rush,[withheld],mobile,,,,False,,1,2022-03,2022-03,0,0,,,,,0,0,0,0
+T0333,tables only,Cousins Main Lobster Truck No. 2,Cousins Main Lobster Truck No. 2,,mobile,,,,False,,1,2022-03,2022-03,0,0,,,,,0,0,0,0
+T0334,tables only,Mueller Wagyu,Mueller Wagyu,,mobile,,,,False,,2,2022-03,2023-08,0,0,,,,,0,0,0,0
+T0335,tables only,A Taste of Paradise,A Taste of Paradise,,temporary,,,,False,,1,2022-03,2022-03,0,0,,,,,0,0,0,0
+T0336,tables only,Cajun Made Crawfish and Seafood,Cajun Made Crawfish and Seafood,,temporary,,,,False,,1,2022-03,2022-03,0,0,,,,,0,0,0,0
+T0337,tables only,Crave the Shave LLC,"Crave The Shave, LLC | Crave the Shave LLC",,mobile,,,,False,,2,2022-04,2023-04,0,0,,,,,0,0,0,0
+T0338,tables only,Dippin Dots Ice Cream Mobile,Dippin Dots Ice Cream Mobile,[withheld],mobile,,,,False,,1,2022-04,2022-04,0,0,,,,,0,0,0,0
+T0339,tables only,Folsom Elementary,Folsom Elementary,800 Sommervile Drive,school,,,,False,,2,2022-04,2022-04,1,0,94,2022-04,94,94.0,0,0,0,0
+T0340,tables only,Twin Stacks BBQ,Twin Stacks BBQ,1075 Escalante Trail,temporary,,,,False,,1,2022-04,2022-04,0,0,,,,,0,0,0,0
+T0341,tables only,Dippin Dots Ice Cream,Dippin Dots Ice Cream,1075 Escalante Trail,temporary,,,,False,,1,2022-04,2022-04,0,0,,,,,0,0,0,0
+T0342,tables only,Island Whips,Island Whips,[withheld],mobile,,,,False,,1,2022-05,2022-05,0,0,,,,,0,0,0,0
+T0343,tables only,Wild Fork Foods,Wild Fork Foods,2351 East University Drive,store,,,,False,,6,2022-05,2026-08,4,0,94,2026-08,94,97.2,0,0,0,0
+T0344,tables only,88 Bites Inc,88 Bites Inc,,mobile,,,,False,,1,2022-05,2022-05,0,0,,,,,0,0,0,0
+T0345,tables only,Spartaco LLC,Spartaco LLC,,mobile,,,,False,,1,2022-05,2022-05,0,0,,,,,0,0,0,0
+T0346,tables only,Platia Americana,Platia Americana,,mobile,,,,False,,1,2022-05,2022-05,0,0,,,,,0,0,0,0
+T0347,tables only,Windsong Elementary Kitchen,Windsong Elementary Kitchen,800 Copper Canyon Drive,school,,,,False,,2,2022-05,2022-10,1,0,95,2022-05,95,95.0,0,0,0,0
+T0348,tables only,Cockrell Elementary Kitchen,Cockrell Elementary Kitchen,1075 Escalante Trial,school,,,,False,,1,2022-05,2022-05,0,0,,,,,0,0,0,0
+T0349,tables only,Prosper Montessori Academy,H2O Splash Pad | Prosper Montessori Academy | Prosper Montessori Splash Pad,100 Gorgeous Rd,pool,,,,False,,3,2022-05,2025-05,0,0,,,,,0,0,0,0
+T0350,tables only,Tripe G Group,Tripe G Group,204 West Broadway,temporary,,,,False,,1,2022-05,2022-05,0,0,,,,,0,0,0,0
+T0351,tables only,Khao Gang Thai,Khao Gang Thai,,mobile,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0352,tables only,Locally Owned Ventures Summer Ice & Grill,Locally Owned Ventures Summer Ice & Grill,,mobile,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0353,tables only,The CornDog Co,The CornDog Co,,mobile,,,,False,,1,2022-06,2022-06,0,0,,,,,1,0,0,0
+T0354,tables only,LA Fitness,LA Fitness | LA Fitness - Main Pool | LA Fitness - Men's Spa | LA Fitness - Women's Spa | LA Fitness Spa 1 | LA Fitness Spa 2,4900 W University Dr,pool,,,,False,,12,2022-06,2024-08,0,0,,,,,1,0,0,0
+T0355,tables only,A Taste of Paradise,A Taste of Paradise,4000 Pepper Grass Lane,temporary,,,,False,,2,2022-06,2022-09,0,0,,,,,0,0,0,0
+T0356,tables only,Dippin Dots Ice Cream,Dippin Dots Ice Cream,1001 Windsong Parkway,temporary,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0357,tables only,Elotes Mendoza Booth,Elotes Mendoza Booth,1551 West Frontier Parkway,temporary,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0358,tables only,Rowdy’s Soda Barn Trailer,Rowdy’s Soda Barn Trailer,1001 Windsong Parkway,temporary,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0359,tables only,Prosper Juicery LLC,Cheddr Wheel Windsong Ranch | Prosper Juicery Booth | Prosper Juicery LLC | Prosper Juicery Windsong Ranch,1001 Windsong Parkway,temporary,,,,False,,6,2022-06,2023-05,0,0,,,,,0,0,0,0
+T0360,tables only,Bondi Bowls Truck,Bondi Bowls Truck,1001 Windsong Parkway,temporary,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0361,tables only,Chick-Fil-A at Gates of Prosper,Chick Fil A Gates of Prosper | Chick-Fil-A | Chick-Fil-A at Gates of Prosper,1551 W Frontier Pkwy,temporary,,,,False,,3,2022-06,2024-07,0,0,,,,,0,0,0,0
+T0362,tables only,Shorty’s Tacos,Shorty’s Tacos,[withheld],temporary,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0363,tables only,Sugarbaby Canes,Sugarbaby Canes,1551 West Frontier Parkway,temporary,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0364,tables only,Dippin Dots Trailer,Dippin Dots Trailer,1551 West Frontier Parkway,temporary,,,,False,,2,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0365,tables only,Texas Mac Shack,Mike’s Chicken Shack | Texas Mac Shack,4000 Pepper Grass Ln,temporary,,,,False,,3,2022-06,2024-10,0,0,,,,,0,0,0,0
+T0366,tables only,Rowdy's Soda Barn,Rowdy's Soda Barn | Rowdy’s Soda Barn Trailer,1551 W Frontier Pkwy,temporary,,,,False,,2,2022-06,2024-07,0,0,,,,,0,0,0,0
+T0367,tables only,Smo’s Mini Donuts Trailer,Smo’s Mini Donuts Trailer,1551 West Frontier Parkway,temporary,,,,False,,1,2022-06,2022-06,0,0,,,,,0,0,0,0
+T0368,tables only,Maharaja Indian Cuisine and Bar,Maharaja Indian Cuisine and Bar,"2361 East University Drive, Suite 90",restaurant,,,,False,,2,2022-07,2022-08,0,0,,,,,0,0,0,0
+T0369,tables only,Joyce Hall Elementary,Joyce Hall Elementary,1001 Star Meadow Dr,school,,,,False,,2,2022-07,2025-11,1,0,100,2025-11,100,100.0,0,0,0,0
+T0370,tables only,Hometown Dippin Dots,Hometown Dippin Dots,250 West First Street,temporary,,,,False,,1,2022-07,2022-07,0,0,,,,,0,0,0,0
+T0371,tables only,Sweetie’s Cheesecakes Book,Sweetie’s Cheesecakes Book,1001 South Windsong Parkway,temporary,,,,False,,1,2022-07,2022-07,0,0,,,,,0,0,0,0
+T0372,tables only,Neighbors Nourishing Neighbors,Neighbors Nourishing Neighbors,"474 North Hays Road, Suite E-1",other,,,,False,,2,2022-07,2022-07,0,0,,,,,0,0,0,0
+T0373,tables only,Tiff Treats Cookies Truck No. 1,Tiff Treats Cookies Truck No. 1,,mobile,,,,False,,1,2022-08,2022-08,0,0,,,,,0,0,0,0
+T0374,tables only,Tiff Treats Cookies Truck No. 2,Tiff Treats Cookies Truck No. 2,,mobile,,,,False,,1,2022-08,2022-08,0,0,,,,,0,0,0,0
+T0375,tables only,Neighbors Nourishing Neighbors,Neighbors Nourishing Neighbors,"474 North Hays Road, Suite E1",other,,,,False,,1,2022-08,2022-08,0,0,,,,,0,0,0,0
+T0376,tables only,Pie Five,Pie Five,"11001 South Preston Road, Suite 10",restaurant,,,,False,,2,2022-08,2022-08,1,0,84,2022-08,84,84.0,0,0,0,0
+T0377,tables only,Rushing Middle School-Gym,Rushing Middle School-Gym,3080 Fishtrap Road,concession,,,,False,,1,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0378,tables only,Rushing Middle School-Football,Rushing Middle School-Football,3080 Fishtrap Road,concession,,,,False,,1,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0379,tables only,Prosper High School - Track/Turf,Prosper High School - Track/Turf | Prosper High School Track/Turf,301 Eagle Dr,concession,,,,False,,2,2022-09,2023-10,0,0,,,,,0,0,0,0
+T0380,tables only,Rodgers Middle School-Football,Rodgers Middle School-Football,1001 South Coit Road,concession,,,,False,,1,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0381,tables only,Rogers Middle School - Gym,Rogers Middle School - Gym | Rogers Middle School Gym,1001 S Coit Rd,concession,,,,False,,2,2022-09,2023-10,0,0,,,,,0,0,0,0
+T0382,tables only,Prosper High School Arena,Prosper High School Arena,301 Eagle Drive,concession,,,,False,,2,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0383,tables only,Reynolds Middle School - Gym,Reynolds Middle School - Gym | Reynolds Middle School-Gym,700 N Coleman St,concession,,,,False,,2,2022-09,2023-10,0,0,,,,,0,0,0,0
+T0384,tables only,Prosper High School - Softball/Baseball,Prosper High School - Softball/Baseball | Prosper High School Softball/Baseball,301 Eagle Dr,concession,,,,False,,2,2022-09,2023-10,0,0,,,,,0,0,0,0
+T0385,tables only,Pizza Hut,Pizza Hut,"10495 North Preston Road, Suite 20",restaurant,,,,False,,3,2022-09,2022-09,1,0,82,2022-09,82,82.0,0,0,0,0
+T0386,tables only,Founders Classical Academy of Prosper,Founders Classical Academy of Prosper,4250 West University Drive,school,,,,False,,1,2022-09,2022-09,1,0,95,2022-09,95,95.0,0,0,0,0
+T0387,tables only,Windsong Elementary Kitchen,Windsong Elementary Kitchen,800 Cooper Canyon,school,,,,False,,1,2022-09,2022-09,1,0,89,2022-09,89,89.0,0,0,0,0
+T0388,tables only,Prosper ISD Food Truck,Prosper ISD Food Truck,2000 Stadium Drive,school,,,,False,,1,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0389,tables only,Prosper Wine House,Prosper Wine House,[withheld],temporary,,,,False,,1,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0390,tables only,Cheddr Wheel,Cheddr Wheel,1001 West Prosper Trail,temporary,,,,False,,1,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0391,tables only,Mike’s Chicken Shack,Mike’s Chicken Shack,1001 West Prosper Trail,temporary,,,,False,,1,2022-09,2022-09,0,0,,,,,0,0,0,0
+T0392,tables only,Fourteen Eighteen Coffee,Fourteen Eighteen Coffee,102 E. Broadway Street,restaurant,,,,False,,3,2022-10,2022-12,0,0,,,,,1,0,0,0
+T0393,tables only,Mi Chante Mexican Cuisine,Mi Chante Mexican Cuisine,1090 N Coit Road Suite 90,restaurant,,,,False,,1,2022-10,2022-10,0,0,,,,,0,0,0,0
+T0394,tables only,Tanos Tacos,Tanos Tacos,2601 Prairie Drive,temporary,,,,False,,1,2022-10,2022-10,0,0,,,,,0,0,0,0
+T0395,tables only,Dang Good Food,Dang Good Food,2601 Prairie Drive,temporary,,,,False,,1,2022-10,2022-10,0,0,,,,,0,0,0,0
+T0396,tables only,Smokey Rays BBQ & Catering,Smokey Rays BBQ & Catering,2601 Prairie Drive,temporary,,,,False,,1,2022-10,2022-10,0,0,,,,,0,0,0,0
+T0397,tables only,"United Caterers, Inc #2005","United Caterers, Inc #2005",[withheld],mobile,,,,False,,1,2022-10,2022-10,0,0,,,,,0,0,0,0
+T0398,tables only,Neighbors Nourishing Neighbors,Neighbors Nourishing Neighbors,474 N Hays Road E1,other,,,,False,,1,2022-10,2022-10,1,0,97,2022-10,97,97.0,0,0,0,0
+T0399,tables only,Mike’s Chicken Shack,Mike’s Chicken Shack,[withheld],temporary,,,,False,,1,2022-10,2022-10,0,0,,,,,0,0,0,0
+T0400,tables only,Yummy Sushi-Kroger,Yummy Sushi-Kroger,4650 W University Drive,restaurant,,,,False,,1,2022-11,2022-11,1,0,96,2022-11,96,96.0,0,0,0,0
+T0401,tables only,Chick fil A,Chick fil A,1001 W Prosper Trail,temporary,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0402,tables only,Dean’s Smokin’ BBQ,Dean’s Smokin’ BBQ,[withheld],mobile,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0403,tables only,ZZ’s Ice Cream Puffs,ZZ’s Ice Cream Puffs,[withheld],mobile,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0404,tables only,Sophia’s Haitian Cuisine,Sophia’s Haitian Cuisine,,mobile,,,,False,,2,2022-11,2023-04,0,0,,,,,0,0,0,0
+T0405,tables only,Nothing Bundt Cakes,Nothing Bundt Cakes,250 W First Street,temporary,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0406,tables only,Ruthie’s Rolling Café Truck,Ruthie’s Rolling Café Truck,[withheld],mobile,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0407,tables only,Conway Corndog,Conway Corndog,[withheld],mobile,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0408,tables only,Eggstand,Eggstand,[withheld],mobile,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0409,tables only,Tender Smokehouse,Tender Smokehouse,[withheld],mobile,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0410,tables only,Reynolds Middle School,Reynolds Middle School,700 N Preston Road,school,,,,False,,1,2022-11,2022-11,0,0,,,,,0,0,0,0
+T0411,tables only,Dang Good Food Truck,Dang Good Food Truck,250 W First Street,temporary,,,,False,,1,2022-12,2022-12,0,0,,,,,0,0,0,0
+T0412,tables only,Tio Pats,Tio Pats,380 W Broadway Street,temporary,,,,False,,2,2022-12,2022-12,0,0,,,,,1,0,0,0
+T0413,tables only,On The Hook Fish and Chips,Ocean 5 Enterprises LLC DBA On The Hook Fish and Chips | On The Hook Fish and Chips | On the Hook Fish and Chips,380 W Broadway St.,temporary,,,,False,,4,2022-12,2023-07,0,0,,,,,0,0,0,0
+T0414,tables only,Boardwalk Shrimp,Boardwalk Shrimp,,mobile,,,,False,,1,2023-01,2023-01,0,0,,,,,0,0,0,0
+T0415,tables only,Alma’s Sweet Treats,Alma’s Sweet Treats,,mobile,,,,False,,1,2023-01,2023-01,0,0,,,,,0,0,0,0
+T0416,tables only,Trini Bake N Shark & Tings,Trini Bake N Shark & Tings,,mobile,,,,False,,1,2023-01,2023-01,0,0,,,,,0,0,0,0
+T0417,tables only,Cousins Maine Lobster,Cousins Maine Lobster | Cousins’ Maine Lobster | Cousin’s Maine Lobster,,mobile,,,,False,,4,2023-01,2025-02,0,0,,,,,1,0,0,0
+T0418,tables only,Boundaries Coffee,Boundaries Coffee,[withheld],temporary,,,,False,,1,2023-02,2023-02,0,0,,,,,0,0,0,0
+T0419,tables only,"La Gran Empanada, LLC","La Gran Empanada, LLC",,mobile,,,,False,,3,2023-02,2024-02,0,0,,,,,1,0,0,0
+T0420,tables only,Angel Touch Group Inc. DBA Angel Touch Kitchen,Angel Touch Group Inc. DBA Angel Touch Kitchen,[withheld],mobile,,,,False,,2,2023-02,2023-02,0,0,,,,,1,0,0,0
+T0421,tables only,Bento Nouveau,Bento Nouveau,301 Eagle Dr.,school,,,,False,,4,2023-02,2023-05,1,0,95,2023-05,95,95.0,1,0,0,0
+T0422,tables only,Tio Pat’s LLC,Tio Pat’s LLC,[withheld],mobile,,,,False,,2,2023-02,2023-03,0,0,,,,,1,0,0,0
+T0423,tables only,Honeylu's Coffee,Honeylu's Coffee | Honeylu’s Coffee,,mobile,,,,False,,4,2023-02,2026-01,0,0,,,,,0,0,0,0
+T0424,tables only,Cajun Made Crawfish,Cajun Made Crawfish,,mobile,,,,False,,1,2023-03,2023-03,0,0,,,,,0,0,0,0
+T0425,tables only,Fossil Creek,Fossil Creek,380 W Broadway St.,store,,,,False,,2,2023-03,2023-03,1,0,99,2023-03,99,99.0,0,0,0,0
+T0426,tables only,DFW Island Whips LLC,DFW Island Whips LLC,,mobile,,,,False,,1,2023-03,2023-03,0,0,,,,,0,0,0,0
+T0427,tables only,Oopsie Scoopsie Italian Ice and Treats,Oopsie Scoopsie Italian Ice and Treats,,mobile,,,,False,,1,2023-03,2023-03,0,0,,,,,0,0,0,0
+T0428,tables only,Swig,Swig,1640 W Frontier Pkwy Ste 100,restaurant,,,,False,,2,2023-04,2023-04,0,0,,,,,1,0,0,0
+T0429,tables only,Jersey Mike’s Subs,Jersey Mike’s Subs,200 N Preston Rd Ste 20,restaurant,,,,False,,2,2023-04,2023-04,0,0,,,,,1,0,0,0
+T0430,tables only,Pat Hagan Cheek Middle School,Pat Hagan Cheek Middle School,200 Denton Way,school,,,,False,,1,2023-04,2023-04,0,0,,,,,1,0,0,0
+T0431,tables only,Jerry Bryant Elementary School,Jerry Bryant Elementary School,3830 Freeman Way,school,,,,False,,1,2023-04,2023-04,1,0,92,2023-04,92,92.0,0,0,0,0
+T0432,tables only,Cockrell Elementary School,Cockrell Elementary School,1075 Escalante Trail,school,,,,False,,2,2023-04,2024-09,2,0,100,2024-09,96,98.0,0,0,0,0
+T0433,tables only,Joyce Hall Elementary School,Joyce Hall Elementary School,1001 Star Meadow Dr,school,,,,False,,1,2023-04,2023-04,1,0,95,2023-04,95,95.0,0,0,0,0
+T0434,tables only,Jewel’s Mobile Kitchen,Jewel’s Mobile Kitchen,[withheld],mobile,,,,False,,1,2023-04,2023-04,0,0,,,,,0,0,0,0
+T0435,tables only,Dippin' Dots Ice Cream,Dippin Dots Ice Cream | Dippin' Dots Ice Cream,,mobile,,,,False,,3,2023-04,2026-02,0,0,,,,,0,0,0,0
+T0436,tables only,Snowie To Go,Snowie To Go,,temporary,,,,False,,1,2023-04,2023-04,0,0,,,,,0,0,0,0
+T0437,tables only,Tender Smokehouse,Tender Smokehouse,,temporary,,,,False,,1,2023-04,2023-04,0,0,,,,,0,0,0,0
+T0438,tables only,Gelu’s Italian Ice,Gelu’s Italian Ice,380 W Broadway St,temporary,,,,False,,1,2023-04,2023-04,0,0,,,,,0,0,0,0
+T0439,tables only,Poppa’s Pit BBQ,Poppa’s Pit BBQ,[withheld],temporary,,,,False,,1,2023-04,2023-04,0,0,,,,,0,0,0,0
+T0440,tables only,Heavenly Eatery LLC,Heavenly Eatery LLC,,mobile,,,,False,,2,2023-05,2024-05,0,0,,,,,0,0,0,0
+T0441,tables only,Bondi Bowls Denton,Bondi Bowls Denton,,mobile,,,,False,,1,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0442,tables only,MR. B's Shaved Ice,MR. B's Shaved Ice | Mr. B's Shaved Ice,,mobile,,,,False,,3,2023-05,2025-03,0,0,,,,,0,0,0,0
+T0443,tables only,"Tiff's Treats Dallas II, LLC","Tiff's Treats Dallas II, LLC",[withheld],mobile,,,,False,,1,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0444,tables only,The Gin,The Gin,204 W Broadway St,temporary,,,,False,,1,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0445,tables only,Tru Kitchen,Tru Kitchen,250 W First St,temporary,,,,False,,1,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0446,tables only,Prosper Wine House,Prosper Wine House,250 W First St,temporary,,,,False,,2,2023-05,2023-07,0,0,,,,,0,0,0,0
+T0447,tables only,Los Charroz Del Sazon,Los Charroz Del Sazon,,temporary,,,,False,,1,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0448,tables only,Latinos Concessions,Latinos Concessions,250 W First St,temporary,,,,False,,1,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0449,tables only,Cake Press,Cake Press,4000 Pepper Grass Ln,temporary,,,,False,,1,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0450,tables only,Denton ISD,Denton ISD,200 Denton Way,concession,,,,False,,2,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0451,tables only,Denton ISD,Denton ISD,200 Denton Way,school,,,,False,,2,2023-05,2023-05,0,0,,,,,0,0,0,0
+T0452,tables only,Prosper High School - Eagles,Prosper High School - Eagles,301 Eagle Dr,school,,,,False,,1,2023-05,2023-05,1,0,100,2023-05,100,100.0,0,0,0,0
+T0453,tables only,Rushing Middle School,Rushing Middle School,3080 Fishtrap Rd,school,,,,False,,1,2023-05,2023-05,1,0,95,2023-05,95,95.0,0,0,0,0
+T0454,tables only,Lakewood at Brook Hollow HOA,Lakewood at Brook Hollow HOA,2821 Meadowbrook Blvd,pool,,,,False,,2,2023-05,2023-05,0,0,,,,,1,0,0,0
+T0455,tables only,Windsong Ranch Lagoon,Windsong Lagoon | Windsong Ranch Lagoon | Wingsong Ranch Lagoon,4000 Pepper Grass Ln,pool,,,,False,,11,2023-05,2026-05,0,0,,,,,2,0,0,0
+T0456,tables only,Lupe Tortilla,Lupe Tortilla,[withheld],mobile,,,,False,,1,2023-06,2023-06,0,0,,,,,0,0,0,0
+T0457,tables only,Firehouse Shaved Ice Prosper Station,Firehouse Shaved Ice Prosper Station,[withheld],mobile,,,,False,,4,2023-06,2025-05,0,0,,,,,2,0,0,0
+T0458,tables only,Supreme Service Solutions (Kroger),Supreme Service Solutions (Kroger),4650 W University Dr,unknown,,,,False,,3,2023-06,2023-06,0,0,,,,,2,0,0,0
+T0459,tables only,Six Sips Coffee Co,Six Sips Coffee Co,2860 W First St,temporary,,,,False,,1,2023-06,2023-06,0,0,,,,,0,0,0,0
+T0460,tables only,Both Worlds Mexican and American Cuisine,"American Gothic Pizza, LLC | Both Worlds Mexican and American Cuisine",1001 Windsong Pkwy,temporary,,,,False,,2,2023-06,2023-06,0,0,,,,,0,0,0,0
+T0461,tables only,Ricky Ricardo BBQ,Ricky Ricardo BBQ,1551 W Frontier Pkwy,temporary,,,,False,,1,2023-06,2023-06,0,0,,,,,0,0,0,0
+T0462,tables only,Supreme Service Solutions at Kroger,Supreme Service Solutions at Kroger,1250 N Preston Rd,unknown,,,,False,,2,2023-07,2023-07,0,0,,,,,0,0,0,0
+T0463,tables only,Walnut Grove High School,Walnut Grove High School,3500 E First St,school,,,,False,,3,2023-07,2023-07,0,0,,,,,2,0,0,0
+T0464,tables only,Nan's Lemonade,Nan's Lemonade,1001 Windsong Pkwy,temporary,,,,False,,1,2023-07,2023-07,0,0,,,,,0,0,0,0
+T0465,tables only,Dat's A Nice Italian Ice,Dat's A Nice Italian Ice,1001 Windsong Pkwy,temporary,,,,False,,1,2023-07,2023-07,0,0,,,,,0,0,0,0
+T0466,tables only,"All Things Michelle, LLC","All Things Michelle, LLC",1001 Windsong Pkwy,temporary,,,,False,,1,2023-07,2023-07,0,0,,,,,0,0,0,0
+T0467,tables only,DonutNV,DonutNV,,mobile,,,,False,,1,2023-07,2023-07,0,0,,,,,0,0,0,0
+T0468,tables only,Prosper ISD - Walnut Grove High School - Main Kitchen,Prosper ISD - Walnut Grove High School - Main Kitchen,3500 E First St,school,,,,False,,2,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0469,tables only,Walnut Grove High School - Wild Cat Market,Prosper ISD - Walnut Grove High School - Wild Cat Market | Walnut Grove High School - Wild Cat Market,3500 E First St,school,,,,False,,5,2023-08,2026-02,3,0,100,2026-02,100,100.0,0,0,0,0
+T0470,tables only,Prosper ISD - Walnut Grove High School - Union Coffee,Prosper ISD - Walnut Grove High School - Union Coffee,3500 E First St,school,,,,False,,2,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0471,tables only,Walnut Grove High School - Greens to Grains,Prosper ISD - Walnut Grove High School - Greens to Grains | Walnut Grove High School - Greens to Grains,3500 E First St,school,,,,False,,6,2023-08,2026-02,3,0,98,2026-02,98,99.3,1,0,0,0
+T0472,tables only,Prosper ISD - Walnut Grove High School - Culinary Arts,Prosper ISD - Walnut Grove High School - Culinary Arts,3500 E First St,school,,,,False,,3,2023-08,2023-08,0,0,,,,,1,0,0,0
+T0473,tables only,Prosper ISD - Walnut Grove High School - Baseball/Softball Concession Stand,Prosper ISD - Walnut Grove High School - Baseball/Softball Concession Stand,3500 E First St,school,,,,False,,2,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0474,tables only,Prosper ISD - Walnut Grove High School - Football Concession,Prosper ISD - Walnut Grove High School - Football Concession,3500 E First St,school,,,,False,,2,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0475,tables only,Prosper ISD - Walnut Grove High School - Arena Visitor Concession Stand,Prosper ISD - Walnut Grove High School - Arena Visitor Concession Stand,3500 E First St,school,,,,False,,2,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0476,tables only,Prosper ISD - Walnut Grove High School - Arena Home Concession Stand,Prosper ISD - Walnut Grove High School - Arena Home Concession Stand,3500 E First St,school,,,,False,,2,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0477,tables only,Prosper ISD - Walnut Grove High School - Arena Home (Practice Gym),Prosper ISD - Walnut Grove High School - Arena Home (Practice Gym),3500 E First St,school,,,,False,,2,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0478,tables only,Prosper Wine House,Prosper Wine House,209 W Broadway St,temporary,,,,False,,1,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0479,tables only,Pop Shop,Pop Shop,,temporary,,,,False,,1,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0480,tables only,American Gothic Pizza,American Gothic Pizza,,temporary,,,,False,,1,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0481,tables only,HTEAO,HTEAO,,temporary,,,,False,,1,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0482,tables only,Cheddr Wheel,Cheddr Wheel,,temporary,,,,False,,1,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0483,tables only,The Corndog Co,The Corndog Co,,temporary,,,,False,,1,2023-08,2023-08,0,0,,,,,0,0,0,0
+T0484,tables only,Firehouse Shaved Ice,Firehouse Shaved Ice | Firehouse Shaved Ice Prosper Station,301 Eagle Dr,temporary,,,,False,,2,2023-09,2024-10,0,0,,,,,0,0,0,0
+T0485,tables only,Fusion X,Fusion X,Temporary Event,temporary,,,,False,,1,2023-09,2023-09,0,0,,,,,0,0,0,0
+T0486,tables only,Hall Elementary,Hall Elementary,1001 Star Meadow Dr,school,,,,False,,3,2023-09,2025-05,3,0,99,2025-05,97,98.7,0,0,0,0
+T0487,tables only,Folsom Elementary,Folsom Elementary,800 Somerville Dr,school,,,,False,,4,2023-09,2025-11,4,0,98,2025-11,97,97.8,0,0,0,0
+T0488,tables only,Bryant Elementary,Bryant Elementary,3830 Freeman Way,school,,,,False,,4,2023-09,2025-11,4,0,99,2025-11,96,98.5,0,0,0,0
+T0489,tables only,Target - Grocery Store,Target - Grocery Store,401 Gates Pkwy,store,,,,False,,3,2023-09,2023-09,0,0,,,,,1,0,0,0
+T0490,tables only,Rice Pot Express,Rice Pot Express,1049 N Preston Rd Ste 4,restaurant,,,,False,,1,2023-09,2023-09,0,0,,,,,0,0,0,0
+T0491,tables only,Ladera Prosper,Ladera Amenity Center | Ladera Prosper,4320 Valencia Dr,pool,,,,False,,3,2023-09,2024-06,0,0,,,,,1,0,0,0
+T0492,tables only,Rushing Middle School - Gym,Rushing Middle School - Gym,3080 W First St,concession,,,,False,,1,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0493,tables only,Rushing Middle School - Football,Rushing Middle School - Football,3080 W First St,concession,,,,False,,1,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0494,tables only,Prosper High School - Arena Concession,Prosper High School - Arena Concession,301 Eagle Dr,concession,,,,False,,2,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0495,tables only,Walnut Grove High School - Football,Walnut Grove High School - Football,3500 E First St,concession,,,,False,,1,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0496,tables only,Walnut Grove High School - Practice,Walnut Grove High School - Practice,3500 E First St,concession,,,,False,,1,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0497,tables only,Walnut Grove High School - Arena,Walnut Grove High School - Arena,3500 E First St,concession,,,,False,,2,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0498,tables only,Prosper ISD Children's Stadium,Prosper ISD Children's Stadium,2000 Stadium Dr,concession,,,,False,,2,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0499,tables only,PISD Natatorium Concession,PISD Natatorium Concession | Prosper ISD - Natatorium,1851 Stadium Dr,concession,,,,False,,2,2023-10,2024-09,0,0,,,,,0,0,0,0
+T0500,tables only,A2B Indian Restaurant,A2B Indian Restaurant,1001 Windsong Pkwy,temporary,,,,False,,2,2023-10,2023-10,0,0,,,,,1,0,0,0
+T0501,tables only,At Your Service Catering & Event Plan-,At Your Service Catering & Event Plan-,1001 Windsong Pkwy,temporary,,,,False,,1,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0502,tables only,American Gothic Pizza,American Gothic Pizza,721 Village Park Ln,temporary,,,,False,,1,2023-10,2023-10,0,0,,,,,0,0,0,0
+T0503,tables only,Lakeview at the Gates of Prosper,Lakeview at Gates | Lakeview at the Gates of Prosper,961 Gateway Dr,pool,,,,False,,5,2023-10,2026-04,0,0,,,,,1,0,0,0
+T0504,tables only,DonutNV,DonutNV,800 Sommerville Dr,temporary,,,,False,,1,2024-01,2024-01,0,0,,,,,0,0,0,0
+T0505,tables only,Kona Ice Truck #1,Kona Ice Truck #1,,mobile,,,,False,,2,2024-01,2025-02,0,0,,,,,0,0,0,0
+T0506,tables only,Kona Ice Truck #3,Kona Ice Truck #3,,mobile,,,,False,,2,2024-01,2025-02,0,0,,,,,0,0,0,0
+T0507,tables only,Kona Ice Truck #4,Kona Ice Truck #4,,mobile,,,,False,,2,2024-01,2025-02,0,0,,,,,0,0,0,0
+T0508,tables only,Alma’s Cocina,Alma’s Cocina,,mobile,,,,False,,1,2024-01,2024-01,0,0,,,,,0,0,0,0
+T0509,tables only,United Caterers Unit #5544,United Caterers Unit #5544,,mobile,,,,False,,1,2024-01,2024-01,0,0,,,,,0,0,0,0
+T0510,tables only,United Caterers Unit #2005,United Caterers Unit #2005,,mobile,,,,False,,1,2024-01,2024-01,0,0,,,,,0,0,0,0
+T0511,tables only,United Caterers Unit #1143,United Caterers Unit #1143,,mobile,,,,False,,1,2024-01,2024-01,0,0,,,,,0,0,0,0
+T0512,tables only,Target Corporation,Target | Target Corporation,401 Gates Parkway,store,,,,False,,2,2024-02,2024-03,1,0,89,2024-02,89,89.0,0,0,0,0
+T0513,tables only,Sushi Dojo,Sushi Dojo,1001 Windsong Pkwy,temporary,,,,False,,2,2024-02,2024-06,0,0,,,,,0,0,0,0
+T0514,tables only,Pokey O's Cookies & Ice Cream,Pokey O's Cookies & Ice Cream,,mobile,,,,False,,1,2024-03,2024-03,0,0,,,,,0,0,0,0
+T0515,tables only,Boardwalk Bites,Boardwalk Bites,,temporary,,,,False,,1,2024-03,2024-03,0,0,,,,,0,0,0,0
+T0516,tables only,Donut NV,Donut NV,,mobile,,,,False,,1,2024-04,2024-04,0,0,,,,,0,0,0,0
+T0517,tables only,Up In Smoke Tx Bbq,Up In Smoke Tx Bbq,[withheld],temporary,,,,False,,1,2024-04,2024-04,0,0,,,,,0,0,0,0
+T0518,tables only,CoServ Snackin Wagon,CoServ Snackin Wagon,700 N Coleman St,temporary,,,,False,,1,2024-04,2024-04,0,0,,,,,0,0,0,0
+T0519,tables only,Pop Shop Texas,Pop Shop Texas,250 W First St,temporary,,,,False,,1,2024-04,2024-04,0,0,,,,,0,0,0,0
+T0520,tables only,So Icy Brand LLC,So Icy Brand LLC,,temporary,,,,False,,1,2024-04,2024-04,0,0,,,,,0,0,0,0
+T0521,tables only,Rushing Middle School,Rushing Middle School,3080 W First St,school,,,,False,,4,2024-05,2026-03,4,0,92,2026-03,92,96.2,0,0,0,0
+T0522,tables only,Prosper High School - Union Coffee Co,Prosper High School - Union Coffee | Prosper High School - Union Coffee Co,301 Eagle Dr,school,,,,False,,2,2024-05,2024-11,2,0,97,2024-11,97,98.5,0,0,0,0
+T0523,tables only,Prosper High School - Eagle Market,Prosper High School - Eagle Market,301 Eagle Dr,school,,,,False,,2,2024-05,2024-11,2,0,98,2024-11,98,99.0,0,0,0,0
+T0524,tables only,Prosper High School - Bento Nouveau,Prosper High School - Bento Nouveau,301 Eagle Dr,school,,,,False,,2,2024-05,2024-11,2,0,100,2024-11,100,100.0,0,0,0,0
+T0525,tables only,Walnut Grove High School - Main Kitchen,Walnut Grove High School - Main Kitchen,3500 E First St,school,,,,False,,3,2024-05,2026-02,3,0,96,2026-02,94,96.0,0,0,0,0
+T0526,tables only,Walnut Grove High School - Union Coffee,Walnut Grove High School - Union Coffee,3500 E First St,school,,,,False,,3,2024-05,2026-02,3,0,98,2026-02,98,98.7,0,0,0,0
+T0527,tables only,Walnut Grove High School Culinary Arts/ Hardy's Café,Walnut Grove High School Culinary Arts/ Hardy's Café,3500 E First St,school,,,,False,,1,2024-05,2024-05,1,0,98,2024-05,98,98.0,0,0,0,0
+T0528,tables only,Hooptie Tacos,Hooptie Tacos,,mobile,,,,False,,2,2024-05,2025-01,0,0,,,,,0,0,0,0
+T0529,tables only,Firehouse Shaved Ice,Firehouse Shaved Ice,,mobile,,,,False,,2,2024-05,2025-09,0,0,,,,,0,0,0,0
+T0530,tables only,The Baked Bear,The Baked Bear,,mobile,,,,False,,1,2024-05,2024-05,0,0,,,,,0,0,0,0
+T0531,tables only,At Your Service Catering & Event Planning,At Your Service Catering & Event Planning,,temporary,,,,False,,1,2024-05,2024-05,0,0,,,,,0,0,0,0
+T0532,tables only,Dillas Quesadillas Unit 3,Dillas Quesadillas Unit 3,3500 E First St,temporary,,,,False,,1,2024-05,2024-05,0,0,,,,,0,0,0,0
+T0533,tables only,El Tricolor,El Tricolor,,temporary,,,,False,,1,2024-05,2024-05,0,0,,,,,0,0,0,0
+T0534,tables only,Villages of Star Trail,Villages of Star Trail,500 Cool River TRAIL,pool,,,,False,,3,2024-05,2026-05,0,0,,,,,0,0,0,0
+T0535,tables only,Primrose School of Windsong,Primrose School of Windsong,1050 Gee Rd,pool,,,,False,,1,2024-05,2024-05,0,0,,,,,0,0,0,0
+T0536,tables only,The Goddard School of Prosper,The Goddard School of Prosper,1180 La Cima Blvd,pool,,,,False,,2,2024-06,2025-06,0,0,,,,,0,0,0,0
+T0537,tables only,Ace Montessori Schools Inc,Ace Montessori Schools Inc,4470 W University Dr,pool,,,,False,,1,2024-06,2024-06,0,0,,,,,0,0,0,0
+T0538,tables only,Texas Holy Catering and Concessions LLC,Texas Holy Catering and Concessions LLC,,mobile,,,,False,,1,2024-06,2024-06,0,0,,,,,0,0,0,0
+T0539,tables only,A2B Indian Restaurant,A2B Indian Restaurant,,mobile,,,,False,,1,2024-06,2024-06,0,0,,,,,0,0,0,0
+T0540,tables only,Taaza Indian Kitchen,Taaza Indian Kitchen,,mobile,,,,False,,1,2024-06,2024-06,0,0,,,,,0,0,0,0
+T0541,tables only,Dippin Dots,Dippin Dots,,mobile,,,,False,,1,2024-06,2024-06,0,0,,,,,0,0,0,0
+T0542,tables only,Dipped and Drizzled,Dipped and Drizzled,[withheld],temporary,,,,False,,1,2024-06,2024-06,0,0,,,,,0,0,0,0
+T0543,tables only,Fluff'n'Stuff,Fluff'n'Stuff,[withheld],temporary,,,,False,,1,2024-06,2024-06,0,0,,,,,0,0,0,0
+T0544,tables only,Cantina Caravan,Cantina Caravan,,temporary,,,,False,,2,2024-06,2024-11,0,0,,,,,0,0,0,0
+T0545,tables only,9th Island Revel Foods,9th Island Revel Foods,,temporary,,,,False,,1,2024-06,2024-06,0,0,,,,,1,0,0,0
+T0546,tables only,Hot n Here,Hot n Here,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-07,2024-07,0,0,,,,,0,0,0,0
+T0547,tables only,JK Delicieux's Frill LLC,JK Delicieux's Frill LLC,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-07,2024-07,0,0,,,,,0,0,0,0
+T0548,tables only,"Calhoun's Country Smoke, LLC","Calhoun's Country Smoke | Calhoun's Country Smoke, LLC",1551 W Frontier Pkwy,temporary,,,,False,,3,2024-07,2026-07,0,0,,,,,0,0,0,0
+T0549,tables only,The Shaken Lemon,The Shaken Lemon,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-07,2024-07,0,0,,,,,0,0,0,0
+T0550,tables only,All In One Cuisine,All In One Cuisine,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-07,2024-07,0,0,,,,,0,0,0,0
+T0551,tables only,Ryze & Shyne,Ryze & Shyne,1551 W Frontier Pkwy,temporary,,,,False,,3,2024-07,2026-07,0,0,,,,,0,0,0,0
+T0552,tables only,Quilinary Oasis BBQ,Pink Oasis | Quilinary Oasis BBQ,1551 W Frontier Pkwy,temporary,,,,False,,2,2024-07,2026-07,0,0,,,,,0,0,0,0
+T0553,tables only,Kroger,Kroger,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-07,2024-07,0,0,,,,,0,0,0,0
+T0554,tables only,Tacos El Gordo,Tacos El Gordo,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-07,2024-07,0,0,,,,,0,0,0,0
+T0555,tables only,Poppa's Pit BBQ,Poppa's Pit BBQ,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-07,2024-07,0,0,,,,,0,0,0,0
+T0556,tables only,Ricardo's Taqueria,Ricardo's Taqueria,,mobile,,,,False,,2,2024-07,2025-03,0,0,,,,,0,0,0,0
+T0557,tables only,At Your Service Catering & Event Planning,At Your Service Catering & Event Planning,4000 Pepper Grass Ln,temporary,,,,False,,1,2024-08,2024-08,0,0,,,,,0,0,0,0
+T0558,tables only,Little Wonders Montessori,Little Wonders Montessori,920 S Legacy Dr,daycare,,,,False,,6,2024-09,2026-01,3,0,97,2026-01,94,96.7,0,0,0,0
+T0559,tables only,Primrose School of Windsong,Primrose School of Windsong,1050 Gee Rd,daycare,,,,False,,2,2024-09,2026-01,2,0,100,2026-01,100,100.0,0,0,0,0
+T0560,tables only,Folsom Elementary School,Folsom Elementary School,800 Somerville Dr,school,,,,False,,1,2024-09,2024-09,1,0,100,2024-09,100,100.0,0,0,0,0
+T0561,tables only,Hall Elementary School,Hall Elementary School,1001 Star Meadow Dr,school,,,,False,,1,2024-09,2024-09,1,0,100,2024-09,100,100.0,0,0,0,0
+T0562,tables only,Bryant Elementary School,Bryant Elementary School,3830 Freeman Way,school,,,,False,,1,2024-09,2024-09,1,0,99,2024-09,99,99.0,0,0,0,0
+T0563,tables only,Windsong Elementary School,Windsong Elementary School,800 Copper Canyon Dr,school,,,,False,,1,2024-09,2024-09,1,0,93,2024-09,93,93.0,0,0,0,0
+T0564,tables only,Walnut Grove HS Baseball/ Softball Concession,Walnut Grove HS Baseball/ Softball Concession,3500 E First St,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0565,tables only,Walnut Grove HS Football Concession,Walnut Grove HS Football Concession,3500 E First St,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0566,tables only,Walnut Grove HS Arena Visitor Concession,Walnut Grove HS Arena Visitor Concession,3500 E First St,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0567,tables only,Walnut Grove HS Arena Home Concession,Walnut Grove HS Arena Home Concession,3500 E First St,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0568,tables only,Walnut Grove HS Practice Gym Arena,Walnut Grove HS Practice Gym Arena,3500 E First St,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0569,tables only,Prosper HS Track/ Turf Concession,Prosper HS Track/ Turf Concession,301 Eagle Dr,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0570,tables only,Prosper HS Softball/ Baseball Concession,Prosper HS Softball/ Baseball Concession,301 Eagle Dr,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0571,tables only,Prosper HS Arena Visitor Concession,Prosper HS Arena Visitor Concession,301 Eagle Dr,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0572,tables only,Prosper HS Arena Home Concession,Prosper HS Arena Home Concession,301 Eagle Dr,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0573,tables only,Rushing MS Football Concession,Rushing MS Football Concession,3080 W First St,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0574,tables only,Rushing MS Gym Concession,Rushing MS Gym Concession,3080 W First St,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0575,tables only,Cheek MS Concessions,Cheek MS Concessions,200 Denton Way,concession,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0576,tables only,Boo Boos Lemonade,Boo Boos Lemonade,201 Richland Blvd,temporary,,,,False,,2,2024-09,2025-04,0,0,,,,,0,0,0,0
+T0577,tables only,Fluff n' Stuff,Fluff N Stuff | Fluff n' Stuff,201 Richland Blvd,temporary,,,,False,,2,2024-09,2025-03,0,0,,,,,0,0,0,0
+T0578,tables only,Cheddr Wheel,Cheddr Wheel,250 W First St,temporary,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0579,tables only,Chef Nic Catering Co,Chef Nic Catering Co,1551 W Frontier Pkwy,temporary,,,,False,,1,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0580,tables only,Luminest Prosper,Luminest Prosper,4001 E University Dr,pool,,,,False,,2,2024-09,2024-09,0,0,,,,,0,0,0,0
+T0581,tables only,Fluff n' Stuff,Fluff N Stuff | Fluff n' Stuff,[withheld],temporary,,,,False,,3,2024-10,2025-10,0,0,,,,,0,0,0,0
+T0582,tables only,Farm 2 Fork,Farm 2 Fork,[withheld],temporary,,,,False,,1,2024-10,2024-10,0,0,,,,,0,0,0,0
+T0583,tables only,Farm 2 Fork,Farm 2 Fork,201 Richland Blvd,temporary,,,,False,,3,2024-10,2025-03,0,0,,,,,0,0,0,0
+T0584,tables only,At Your Service Catering & Event Planning,At Your Service Catering & Event Planning,1001 W Prosper Trl,temporary,,,,False,,1,2024-10,2024-10,0,0,,,,,0,0,0,0
+T0585,tables only,Dynamite Eggroll,Dynamite Eggroll,721 Village Park Ln,temporary,,,,False,,1,2024-10,2024-10,0,0,,,,,0,0,0,0
+T0586,tables only,Dynamite Eggroll,Dynamite Eggroll,3080 W First St,temporary,,,,False,,1,2024-10,2024-10,0,0,,,,,0,0,0,0
+T0587,tables only,Boardwalk Bites,Boardwalk Bites,3830 Freeman Way,temporary,,,,False,,1,2024-10,2024-10,0,0,,,,,0,0,0,0
+T0588,tables only,Walnut Grove High School - Hardy's Café,Walnut Grove High School - Hardy's Café,3500 E First St,school,,,,False,,2,2024-11,2026-02,2,0,98,2026-02,98,99.0,0,0,0,0
+T0589,tables only,Prosper High School - Culinary Arts,Prosper High School - Culinary Arts,301 Eagle Drive,school,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0590,tables only,3G's Fruit Ice,3G's Fruit Ice,1001 Windsong Parkway,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0591,tables only,Blenders and Bowls,Blenders and Bowls,[withheld],temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0592,tables only,Tre Fiamme Pizza,Tre Fiamme Pizza,3080 Fishtrap Road,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0593,tables only,Killa Pie,Killa Pie,Gates of Prosper,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0594,tables only,Tiff's Treats,Tiff's Treats,Gates of Prosper,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0595,tables only,JBW Vending,JBW Vending,Gates of Prosper,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0596,tables only,La Giralda,La Giralda,Gates of Prosper,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0597,tables only,9th Island Revel Foods,9th Island Revel Foods,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0598,tables only,Cowtown Dogs,Cowtown Dogs,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0599,tables only,Spartaco,Spartaco,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0600,tables only,Totally Nutz,Totally Nutz,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0601,tables only,7 Sisters Food Truck,7 Sisters Food Truck,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0602,tables only,Secret Agent BBQ,Secret Agent BBQ,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0603,tables only,Smo's Mini Donuts,Smo's Mini Donuts,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0604,tables only,Sushi Dojo,Sushi Dojo,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0605,tables only,Fluff n' Stuff,Fluff n' Stuff,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0606,tables only,Herb's House Coffee,Herb's House Coffee,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0607,tables only,Pink Oasis,Pink Oasis,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0608,tables only,Tiff's Treats,Tiff's Treats,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0609,tables only,Hook and Ladder Pizza Co,Hook and Ladder Pizza Co,1001 W Prosper Trail,temporary,,,,False,,1,2024-11,2024-11,0,0,,,,,0,0,0,0
+T0610,tables only,Costco,Costco,5620 W University Dr,store,,,,False,,1,2024-12,2024-12,0,0,,,,,0,0,0,0
+T0611,tables only,Boardwalk Bites,Boardwalk Bites,800 SOMERVILLE DR,temporary,,,,False,,1,2024-12,2024-12,0,0,,,,,0,0,0,0
+T0612,tables only,Dean's Smokin BBQ,Dean's Smokin BBQ,250 W FIRST ST,temporary,,,,False,,2,2024-12,2025-12,0,0,,,,,0,0,0,0
+T0613,tables only,Fluff n' Stuff,Fluff n' Stuff,250 W FIRST ST,temporary,,,,False,,1,2024-12,2024-12,0,0,,,,,0,0,0,0
+T0614,tables only,Artha Restaurant,Artha Restaurant,2111 E University Dr Ste 60,restaurant,,,,False,,3,2025-01,2025-01,0,0,,,,,0,0,0,0
+T0615,tables only,Costco Wholesale Corporation #1694,Costco Wholesale Corporation #1694,5620 W University Dr,store,,,,False,,2,2025-01,2025-01,0,0,,,,,0,0,0,0
+T0616,tables only,Whispering Farms Montessori School LLC,Whispering Farms Montesorri School | Whispering Farms Montesorri School LLC | Whispering Farms Montessori School LLC,2460 E Prosper Trail,daycare,,,,False,,4,2025-01,2026-03,1,0,98,2026-03,98,98.0,0,0,0,0
+T0617,tables only,Moseley Middle School-Kitchen,Moseley Middle School-Kitchen,1451 N Teel Pkwy,school,,,,False,,1,2025-01,2025-01,0,0,,,,,0,0,0,0
+T0618,tables only,Moseley Middle School-Football Concession,Moseley Middle School-Football Concession,1451 N Teel Pkwy,school,,,,False,,1,2025-01,2025-01,0,0,,,,,0,0,0,0
+T0619,tables only,Moseley Middle School-Gym Concession,Moseley Middle School-Gym Concession,1451 N Teel Pkwy,school,,,,False,,2,2025-01,2025-01,0,0,,,,,0,0,0,0
+T0620,tables only,Prosper HS - Panke Bites,Prosper HS - Panke Bites | Prosper HS-Panke Bites,301 Eagle Dr,school,,,,False,,2,2025-01,2026-03,1,0,100,2026-03,100,100.0,0,0,0,0
+T0621,tables only,Moseley Middle School,Moseley Middle School,1451 N Teel Pkwy,school,,,,False,,3,2025-02,2026-03,1,0,98,2026-03,98,98.0,0,0,0,0
+T0622,tables only,Heavenly Light Daycare,Heavenly Light Daycare,205 S Church,daycare,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0623,tables only,United Caterers Truck#5533,United Caterers Truck#5533,,mobile,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0624,tables only,United Caterers Truck#2053,United Caterers Truck#2053,,mobile,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0625,tables only,DonutNV Collin County,DonutNV Collin County,,mobile,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0626,tables only,Kona Ice Mini Truck,Kona Ice Mini Truck,,mobile,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0627,tables only,Laffeh Falafel & Shawerma,Laffeh Falafel & Shawerma,3830 Freeman Way,temporary,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0628,tables only,Alma's Cocina,Alma's Cocina,,temporary,,,,False,,3,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0629,tables only,Sophia's Haitian Cuisine,Sophia's Haitian Cuisine,700 N Coleman,temporary,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0630,tables only,La Gran Empanada,La Gran Empanada,,temporary,,,,False,,1,2025-02,2025-02,0,0,,,,,0,0,0,0
+T0631,tables only,Alders Prosper,Alders Prosper,2151 Prairie Dr,pool,,,,False,,2,2025-02,2025-03,0,0,,,,,1,0,0,0
+T0632,tables only,Chefyummi,Chefyummi,,mobile,,,,False,,2,2025-03,2025-03,0,0,,,,,1,0,0,0
+T0633,tables only,Klowns on Fire Gormet Sauces,Klowns on Fire Gormet Sauces,201 Richland Blvd,temporary,,,,False,,1,2025-03,2025-03,0,0,,,,,0,0,0,0
+T0634,tables only,Ascend Garden,Ascend Garden,201 Richland Blvd,temporary,,,,False,,1,2025-03,2025-03,0,0,,,,,0,0,0,0
+T0635,tables only,Dat's a Nice Italian Ice,Dat's a Nice Italian Ice,3830 Freeman Way,temporary,,,,False,,1,2025-03,2025-03,0,0,,,,,0,0,0,0
+T0636,tables only,Livano Prosper,Livano Prosper,400 W Fifth St,pool,,,,False,,3,2025-03,2025-05,0,0,,,,,0,0,0,0
+T0637,tables only,Thomson Elementary School,Thomson Elementary School,1760 Bancroft Dr,school,,,,False,,2,2025-04,2025-04,0,0,,,,,0,0,0,0
+T0638,tables only,Ace Montessori Schools,Ace Montessori Schools,4770 W University Dr,pool,,,,False,,1,2025-04,2025-04,0,0,,,,,0,0,0,0
+T0639,tables only,United Caterers #61,United Caterers #61,,mobile,,,,False,,2,2025-04,2025-04,0,0,,,,,1,0,0,0
+T0640,tables only,Hook and Ladder Pizza Co,Hook and Ladder Pizza Co,,temporary,,,,False,,2,2025-04,2026-04,0,0,,,,,0,0,0,0
+T0641,tables only,Twin Stacks BBQ,Twin Stacks BBQ,[withheld],temporary,,,,False,,3,2025-04,2026-03,0,0,,,,,0,0,0,0
+T0642,tables only,Dulce Panda Creamery,Dulce Panda Creamery,[withheld],temporary,,,,False,,1,2025-04,2025-04,0,0,,,,,0,0,0,0
+T0643,tables only,Neighbors Nourishing Neighbors,Neighbors Nourishing Neighbors,[withheld],temporary,,,,False,,1,2025-04,2025-04,0,0,,,,,0,0,0,0
+T0644,tables only,Walnut Grove HS - Main Kitchen,Walnut Grove HS - Main Kitchen,3500 E First Street,school,,,,False,,1,2025-05,2025-05,1,0,98,2025-05,98,98.0,0,0,0,0
+T0645,tables only,Walnut Grove HS - Wild Cat Market,Walnut Grove HS - Wild Cat Market,3500 E First Street,school,,,,False,,1,2025-05,2025-05,1,0,100,2025-05,100,100.0,0,0,0,0
+T0646,tables only,Walnut Grove HS - Greens to Grains,Walnut Grove HS - Greens to Grains,3500 E First Street,school,,,,False,,1,2025-05,2025-05,1,0,100,2025-05,100,100.0,0,0,0,0
+T0647,tables only,Walnut Grove HS - Union Coffee,Walnut Grove HS - Union Coffee,3500 E First St,school,,,,False,,1,2025-05,2025-05,1,0,100,2025-05,100,100.0,0,0,0,0
+T0648,tables only,Walnut Grove HS - Culinary Arts,Walnut Grove HS - Culinary Arts,3500 E First St,school,,,,False,,1,2025-05,2025-05,1,0,100,2025-05,100,100.0,0,0,0,0
+T0649,tables only,Prosper HS - Main Kitchen,Prosper HS - Main Kitchen,301 Eagle Dr,school,,,,False,,2,2025-05,2026-03,2,0,99,2026-03,99,99.0,0,0,0,0
+T0650,tables only,Prosper HS - Eagle Market,Prosper HS - Eagle Market,301 Eagle Dr,school,,,,False,,2,2025-05,2026-03,2,0,100,2026-03,100,100.0,0,0,0,0
+T0651,tables only,Prosper HS - Provisions,Prosper HS - Provisions,301 Eagle Dr,school,,,,False,,2,2025-05,2026-03,2,0,100,2026-03,100,100.0,0,0,0,0
+T0652,tables only,Prosper HS - Union Coffee,Prosper HS - Union Coffee,301 Eagle Dr,school,,,,False,,2,2025-05,2026-03,2,0,100,2026-03,98,99.0,0,0,0,0
+T0653,tables only,Villages at Legacy - The Parks,Villages at Legacy - The Parks,289 Cannon Dr,pool,,,,False,,1,2025-05,2025-05,0,0,,,,,0,0,0,0
+T0654,tables only,Donut NV,Donut NV,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-05,2025-05,0,0,,,,,0,0,0,0
+T0655,tables only,The Flaming Onion,The Flaming Onion,4000 Pepper Grass Ln,temporary,,,,False,,2,2025-05,2025-05,0,0,,,,,1,0,0,0
+T0656,tables only,The Flaming Onion,The Flaming Onion,1001 Windsong Pkwy,temporary,,,,False,,1,2025-06,2025-06,0,0,,,,,0,0,0,0
+T0657,tables only,M & G Catering,M & G Catering,,mobile,,,,False,,2,2025-06,2025-06,0,0,,,,,0,0,0,0
+T0658,tables only,CVS Pharmacy #2876,CVS Pharmacy #2876,2451 E University Dr,store,,,,False,,2,2025-07,2025-08,1,0,98,2025-07,98,98.0,0,0,0,0
+T0659,tables only,Richland High School - Main Kitchen,Richland High School - Main Kitchen,3450 Prairie Dr,school,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0660,tables only,Richland High School - The Market,Richland High School - The Market,3450 Prairie Dr,school,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0661,tables only,Richland High School - Union Coffee,Richland High School - Union Coffee,3450 Prairie Dr,school,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0662,tables only,Richland High School - Greens to Grains,Richland High School - Greens to Grains,3450 Prairie Dr,school,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0663,tables only,Richland High School - Culinary Arts/Café,Richland High School - Culinary Arts/Café,3450 Prairie Dr,school,,,,False,,2,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0664,tables only,Richland High School - Auditorium Concession,Richland High School - Auditorium Concession,3450 Prairie Dr,concession,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0665,tables only,Richland High School - Arena Home Concession,Richland High School - Arena Home Concession,3450 Prairie Dr,concession,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0666,tables only,Richland High School - Arena Visitor Concession,Richland High School - Arena Visitor Concession,3450 Prairie Dr,concession,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0667,tables only,Richland High School - Baseball/Softball Concession,Richland High School - Baseball/Softball Concession,3450 Prairie Dr,concession,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0668,tables only,Richland High School - Football Concession,Richland High School - Football Concession,3450 Prairie Dr,concession,,,,False,,3,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0669,tables only,Rogers Middle School,Rogers Middle School,1001 S Coit Rd,concession,,,,False,,2,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0670,tables only,Cheros Latin Kitchen,Cheros Latin Kitchen,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0671,tables only,Pokey O's Cookies and Ice Cream,Pokey O's Cookies and Ice Cream,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0672,tables only,The Watering Hole,The Watering Hole,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0673,tables only,Boundaries Coffee,Boundaries Coffee,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0674,tables only,Texas Holy Catering and Concessions,Texas Holy Catering and Concessions,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0675,tables only,9th Island Revel Foods,9th Island Revel Foods,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0676,tables only,Panke Bites,Boardwalk Bites | Panke Bites,1551 W Frontier Pkwy,temporary,,,,False,,2,2025-07,2025-10,0,0,,,,,0,0,0,0
+T0677,tables only,Get Your Greek On,Get Your Greek On,4000 Pepper Grass Ln,temporary,,,,False,,1,2025-07,2025-07,0,0,,,,,0,0,0,0
+T0678,tables only,Cone Heads Shaved Ice,Cone Heads Shaved Ice,3450 Prairie Dr,temporary,,,,False,,1,2025-08,2025-08,0,0,,,,,0,0,0,0
+T0679,tables only,HEB - Crawfish Boil,H-E-B | HEB - Crawfish Boil | HEB Seafood Boil,2145 W FRONTIER PKWY,temporary,,,,False,,4,2025-08,2026-05,0,0,,,,,0,0,0,0
+T0680,tables only,Pokey O's Cookies and Ice Cream,Pokey O's Cookies and Ice Cream,3450 Prairie Dr,temporary,,,,False,,1,2025-08,2025-08,0,0,,,,,0,0,0,0
+T0681,tables only,In-N-Out Burger,In-N-Out Burger,3500 E First St,temporary,,,,False,,1,2025-08,2025-08,0,0,,,,,0,0,0,0
+T0682,tables only,Alma's Sweet N Treats,Alma's Sweet N Treats,3450 Prairie Dr,temporary,,,,False,,1,2025-08,2025-08,0,0,,,,,0,0,0,0
+T0683,tables only,Get Your Greek On,Get Your Greek On,1851 Star Trail Pkwy,temporary,,,,False,,1,2025-08,2025-08,0,0,,,,,0,0,0,0
+T0684,tables only,Bahama Bucks,Bahama Bucks,,mobile,,,,False,,1,2025-09,2025-09,0,0,,,,,0,0,0,0
+T0685,tables only,Mister Softee,Mister Softee,,temporary,,,,False,,1,2025-09,2025-09,0,0,,,,,0,0,0,0
+T0686,tables only,Walnut Grove HS - Arena Visitor,Walnut Grove HS - Arena Visitor,3500 E First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0687,tables only,Walnut Grove HS - Arena Home,Walnut Grove HS - Arena Home,3500 E First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0688,tables only,Walnut Grove HS - Football Field/Turf,Walnut Grove HS - Football Field/Turf,3500 E First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0689,tables only,Walnut Grove HS - Baseball/Softball,Walnut Grove HS - Baseball/Softball,3500 E First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0690,tables only,Walnut Grove HS - Practice Gym,Walnut Grove HS - Practice Gym,3500 E First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0691,tables only,Walnut Grove HS - Auditorium,Walnut Grove HS - Auditorium,3500 E First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0692,tables only,Richland HS - Arena Visitor,Richland HS - Arena Visitor,3450 Prairie Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0693,tables only,Richland HS - Arena Home,Richland HS - Arena Home,3450 Prairie Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0694,tables only,Richland HS - Turf,Richland HS - Turf,3450 Prairie Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0695,tables only,Richland HS - Baseball/ Softball,Richland HS - Baseball/ Softball,3450 Prairie Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0696,tables only,Richland HS - Practice Gym,Richland HS - Practice Gym,3450 Prairie Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0697,tables only,Richland HS - Auditorium,Richland HS - Auditorium,3450 Prairie Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0698,tables only,Prosper HS - Arena Visitor,Prosper HS - Arena Visitor,301 Eagle Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0699,tables only,Prosper HS - Arena Home,Prosper HS - Arena Home,301 Eagle Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0700,tables only,Prosper HS - Track/Turf,Prosper HS - Track/Turf,301 Eagle Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0701,tables only,Prosper HS - Baseball/ Softball,Prosper HS - Baseball/ Softball,301 Eagle Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0702,tables only,Rogers MS - Gym,Rogers MS - Gym,1001 S Coit Rd,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0703,tables only,Rogers MS - Football,Rogers MS - Football,1001 S Coit Rd,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0704,tables only,Reynolds MS - Gym,Reynolds MS - Gym,700 N Coleman St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0705,tables only,Reynolds MS - Eagle Stadium,Reynolds MS - Eagle Stadium,700 N Coleman St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0706,tables only,Rushing MS - Football,Rushing MS - Football,3080 W First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0707,tables only,Rushing MS - Gym,Rushing MS - Gym,3080 W First St,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0708,tables only,Mosely MS - Football,Mosely MS - Football,1451 N Teel Pkwy,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0709,tables only,Mosely MS - Gym,Mosely MS - Gym,1451 N Teel Pkwy,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0710,tables only,Prosper ISD - Children's Stadium Visitor,Prosper ISD - Children's Stadium Visitor,2000 Stadium Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0711,tables only,Prosper ISD - Children's Stadium Home,Prosper ISD - Children's Stadium Home,2000 Stadium Dr,school,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0712,tables only,Prosper ISD - Natatorium,Prosper ISD - Natatorium,1851 STADIUM DRIVE,school,,,,False,,3,2025-10,2026-04,0,0,,,,,0,0,0,0
+T0713,tables only,Holiday Inn Express,Holiday Inn Express,1100 Mahard Pkwy,pool,,,,False,,3,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0714,tables only,Treat Fleat LLC,Treat Fleat LLC,[withheld],temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0715,tables only,Laffeh falafel & Shawerma with,Laffeh falafel & Shawerma with,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0716,tables only,Citrus Charm Lemonade,Citrus Charm Lemonade,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0717,tables only,Twin Stacks BBQ,Twin Stacks BBQ,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0718,tables only,BigTyme Web,BigTyme Web,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0719,tables only,Jewel's Mobile Kitchen,Jewel's Mobile Kitchen,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0720,tables only,El Tricolor,El Tricolor,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0721,tables only,Sip on This,Sip on This,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0722,tables only,Sizzle Swirl,Sizzle Swirl,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0723,tables only,Our Blended Table,Our Blended Table,1551 W Frontier Pkwy,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0724,tables only,Boardwalk Bites,Boardwalk Bites,1075 Escalante Trl,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0725,tables only,Tre Fiamme Pizza,Tre Fiamme Pizza,721 Village Park Ln,temporary,,,,False,,1,2025-10,2025-10,0,0,,,,,0,0,0,0
+T0726,tables only,Thomson Elementary,Thomson Elementary,1760 Bancroft Dr,school,,,,False,,1,2025-11,2025-11,1,0,100,2025-11,100,100.0,0,0,0,0
+T0727,tables only,Hareli Fresh Market,Hareli Fresh Market,5530 W University Dr,store,,,,False,,5,2025-11,2026-03,0,0,,,,,0,0,0,0
+T0728,tables only,Heavenly Eatery LLC,Heavenly Eatery LLC,1150 S Preston Rd,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0729,tables only,Herbs House Coffee,Herbs House Coffee,1150 S Preston Rd,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0730,tables only,Tiffs Treats,Tiffs Treats,1150 S Preston Rd,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0731,tables only,Fish City Grill,Fish City Grill,1150 S Preston Rd,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0732,tables only,Killa Pie,Killa Pie,1150 S Preston Rd,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0733,tables only,JBW Vending,JBW Vending,1150 S Preston Rd,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0734,tables only,Hook and Ladder Pizza,Hook and Ladder Pizza,800 Copper Canyon Dr,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0735,tables only,Tre Fiamme Pizza,Tre Fiamme Pizza,800 Somerville Dr,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0736,tables only,Kailua Town Coffee Company,Kailua Town Coffee Company,250 W First St,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0737,tables only,C&R BBQ,C&R BBQ,250 W First St,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0738,tables only,Cookie Society,Cookie Society,250 W First St,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0739,tables only,El Tricolor,El Tricolor,250 W First St,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0740,tables only,Mini Melts Ice Cream,Mini Melts Ice Cream,250 W First St,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0741,tables only,Sticks N Things,Sticks N Things,250 W First St,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0742,tables only,Sizzle Swirl,Sizzle Swirl,250 W First St,temporary,,,,False,,1,2025-11,2025-11,0,0,,,,,0,0,0,0
+T0743,tables only,Jimmy Dogs Mobile Kitchen LLC,Jimmy Dogs Mobile Kitchen LLC,250 W First St,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0744,tables only,Dirty Twisted Soda Co,Dirty Twisted Soda Co,250 W First St,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0745,tables only,Chubbs Tacos,Chubbs Tacos,[withheld],temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0746,tables only,2Bites LLC,2Bites LLC,250 W First St,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0747,tables only,The Pink Company #2,The Pink Company #2,250 W First St,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0748,tables only,Heavenly Eatery,Heavenly Eatery,250 W First St,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0749,tables only,Hook & Ladder,Hook & Ladder,1001 Windsong Pkwy,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0750,tables only,Meat Juice BBQ,Meat Juice BBQ,1001 Windsong Pkwy,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0751,tables only,The Pink Company #2,The Pink Company #2,1001 Windsong Pkwy,temporary,,,,False,,1,2025-12,2025-12,0,0,,,,,0,0,0,0
+T0752,tables only,United Caterers Truck #2005,United Caterers Truck #2005,,mobile,,,,False,,1,2026-01,2026-01,0,0,,,,,0,0,0,0
+T0753,tables only,Lakeview at the Gates of Prosper (West),Lakeview at the Gates of Prosper (West),890 Bravo Way,pool,,,,False,,2,2026-02,2026-02,0,0,,,,,1,0,0,0
+T0754,tables only,Donut NV Collin County,Donut NV Collin County,,mobile,,,,False,,1,2026-02,2026-02,0,0,,,,,0,0,0,0
+T0755,tables only,Walnut Grove High School - Panke Bites,Walnut Grove High School - Panke Bites,3500 E First St,school,,,,False,,1,2026-02,2026-02,1,0,99,2026-02,99,99.0,0,0,0,0
+T0756,tables only,Tre Fiamme Pizza,Tre Fiamme Pizza,,temporary,,,,False,,1,2026-02,2026-02,0,0,,,,,0,0,0,0
+T0757,tables only,Kailua Town Coffee,Kailua Town Coffee,,temporary,,,,False,,1,2026-02,2026-02,0,0,,,,,0,0,0,0
+T0758,tables only,Crave the Shave LLC,Crave the Shave LLC,[withheld],temporary,,,,False,,1,2026-03,2026-03,0,0,,,,,0,0,0,0
+T0759,tables only,Community Management Associates,Community Management Associates,101 DIANNA DR,pool,,,,False,,1,2026-03,2026-03,0,0,,,,,0,0,0,0
+T0760,tables only,Chefyummi Dishes LLC,Chefyummi Dishes LLC,,temporary,,,,False,,1,2026-03,2026-03,0,0,,,,,0,0,0,0
+T0761,tables only,LAS COMADRITAS TAQUERIA,LAS COMADRITAS TAQUERIA,3450 PRAIRIE DR,temporary,,,,False,,1,2026-03,2026-03,0,0,,,,,0,0,0,0
+T0762,tables only,Get Your Greek On,Get Your Greek On,3450 PRAIRIE DR,temporary,,,,False,,1,2026-03,2026-03,0,0,,,,,0,0,0,0
+T0763,tables only,Richland HS - Main Kitchen,Richland HS - Main Kitchen,3450 Prairie Dr,school,,,,False,,1,2026-03,2026-03,1,0,97,2026-03,97,97.0,0,0,0,0
+T0764,tables only,Richland HS - Greens to Grains,Richland HS - Greens to Grains,3450 Prairie Dr,school,,,,False,,1,2026-03,2026-03,1,0,100,2026-03,100,100.0,0,0,0,0
+T0765,tables only,Richland HS - Market,Richland HS - Market,3450 Prairie Dr,school,,,,False,,1,2026-03,2026-03,1,0,100,2026-03,100,100.0,0,0,0,0
+T0766,tables only,Richland HS - Union Coffee,Richland HS - Union Coffee,3450 Prairie Dr,school,,,,False,,1,2026-03,2026-03,1,0,100,2026-03,100,100.0,0,0,0,0
+T0767,tables only,Prosper HS - Sushic,Prosper HS - Sushic,301 Eagle Dr,school,,,,False,,1,2026-03,2026-03,1,0,99,2026-03,99,99.0,0,0,0,0
+T0768,tables only,Prosper koi kitchen LLC,Prosper koi kitchen LLC,1350 N PRESTON ROAD Unit: 30,restaurant,,,,False,,2,2026-04,2026-04,0,0,,,,,1,0,0,0
+T0769,tables only,PISD New Middle School,PISD New Middle School,1550 N. LEGACY DR.,school,,,,False,,1,2026-04,2026-04,0,0,,,,,0,0,0,0
+T0770,tables only,Chef Yummi Dishes LLC,Chef Yummi Dishes LLC,[withheld],temporary,,,,False,,1,2026-04,2026-04,0,0,,,,,0,0,0,0
+T0771,tables only,Chosen Coffee Co,Chosen Coffee Co,[withheld],temporary,,,,False,,1,2026-04,2026-04,0,0,,,,,0,0,0,0
+T0772,tables only,PISD Food Truck,PISD Food Truck,REYNOLDS MIDDLE SCHOOL,temporary,,,,False,,2,2026-04,2026-04,0,0,,,,,1,0,0,0
+T0773,tables only,Cafeteria,Cafeteria,CHEEK MIDDLE SCHOOL,school,,,,False,,1,2026-04,2026-04,0,0,,,,,0,0,0,0
+T0774,tables only,Prosper ISD-Rucker Elem,Prosper ISD-Rucker Elem,560 S. Craig St.,school,,,,False,,2,2026-05,2026-05,0,0,,,,,1,0,0,0
+T0775,tables only,Firehouse Shaved Ice Prosper Station,Firehouse Shaved Ice Prosper Station,105 N COLEMAN ST,concession,,,,False,,1,2026-05,2026-05,0,0,,,,,0,0,0,0
+T0776,tables only,Bahama bucks,Bahama bucks,[withheld],temporary,,,,False,,2,2026-05,2026-05,0,0,,,,,1,0,0,0
+T0777,tables only,Mountain Mikes Pizza,Mountain Mikes Pizza,[withheld],temporary,,,,False,,1,2026-05,2026-05,0,0,,,,,0,0,0,0
+T0778,tables only,Tanner Mills HOA - Pool,Tanner Mills HOA - Pool | Tanner Mills HOA - Splash Pad,440 KINSBURY LN,pool,,,,False,,4,2026-05,2026-05,0,0,,,,,2,0,0,0
+T0779,tables only,Prosper ISD - Aquatics Booster Club,Prosper ISD - Aquatics Booster Club,1851 STADIUM DRIVE,temporary,,,,False,,1,2026-05,2026-05,0,0,,,,,0,0,0,0
+T0780,tables only,Bold Bowl,Bold Bowl,1551 W. Frontier Parkway,temporary,,,,False,,1,2026-07,2026-07,0,0,,,,,0,0,0,0
+T0781,tables only,Sunken Sips LLC,Sunken Sips LLC,1551 W. Frontier Parkway,temporary,,,,False,,1,2026-07,2026-07,0,0,,,,,0,0,0,0
+T0782,tables only,Prosper Baseball & Softball,Prosper Baseball & Softball,2101 E FIRST ST,concession,,,,False,,1,2026-08,2026-08,0,0,,,,,0,0,0,0

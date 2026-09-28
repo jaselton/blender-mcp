@@ -1,0 +1,2666 @@
+{
+ "generated_at": "2026-09-28T01:26:49-05:00",
+ "time_zone": "America/Chicago",
+ "as_of": {
+  "date": "2026-09-28",
+  "basis": "latest response download 2026-09-28T05:05:38Z (UTC), as a Chicago date"
+ },
+ "fetch": {
+  "started_at": "2026-09-28T06:26:19Z",
+  "finished_at": "2026-09-28T06:26:22Z",
+  "problems": [],
+  "http": {
+   "network": 0,
+   "cached": 8995,
+   "retries": 0,
+   "contacts_scrubbed": 44,
+   "responses_downloaded_between": [
+    "2026-09-28T02:00:00Z",
+    "2026-09-28T05:05:38Z"
+   ]
+  }
+ },
+ "listing": {
+  "Day Care Complaint Inspection": {
+   "type_id": "82e76ec6-280f-f071-e170-1c6d636f9b6e",
+   "portal_total_found": 1,
+   "rows": 1,
+   "rows_equal_total_found": true
+  },
+  "EH-Day Care Facility": {
+   "type_id": "90a964ec-6c05-44c8-b07b-b1f025a47236",
+   "portal_total_found": 666,
+   "rows": 666,
+   "rows_equal_total_found": true
+  },
+  "EH-Food Establishment": {
+   "type_id": "45d0fb5b-86fd-4b9f-9828-3c3e4220dcdc",
+   "portal_total_found": 8498,
+   "rows": 8498,
+   "rows_equal_total_found": true
+  },
+  "EH-Food Truck": {
+   "type_id": "1e5b9ba1-c98b-4768-b416-2919103abcc7",
+   "portal_total_found": 320,
+   "rows": 320,
+   "rows_equal_total_found": true
+  },
+  "Food Complaint Inspection": {
+   "type_id": "bb605522-95e6-2fe9-55fa-eb5e7daf8df5",
+   "portal_total_found": 16,
+   "rows": 16,
+   "rows_equal_total_found": true
+  },
+  "OP - Routine Daycare Inspection - 180 Days": {
+   "type_id": "6887b35d-3146-1738-bb11-6c063805cdc8",
+   "portal_total_found": 29,
+   "rows": 29,
+   "rows_equal_total_found": true
+  },
+  "OP - Routine Food Inspection - 120 Days": {
+   "type_id": "14c179b2-4faf-a56a-6377-6101052e5b48",
+   "portal_total_found": 170,
+   "rows": 170,
+   "rows_equal_total_found": true
+  },
+  "OP - Routine Food Inspection - 180 Days": {
+   "type_id": "d69f35a5-b4d4-8ef3-d8ed-dc6c4e5c2732",
+   "portal_total_found": 114,
+   "rows": 114,
+   "rows_equal_total_found": true
+  },
+  "OP - Routine Food Inspection - 365 Days": {
+   "type_id": "d2700c7b-8b4a-5896-8e2a-974b6625e476",
+   "portal_total_found": 34,
+   "rows": 34,
+   "rows_equal_total_found": true
+  },
+  "OP - Routine Food Inspection - 90 Days": {
+   "type_id": "340f2b22-9a41-6b0b-7f50-73e439abc969",
+   "portal_total_found": 50,
+   "rows": 50,
+   "rows_equal_total_found": true
+  }
+ },
+ "listing_types_with_zero_records": [
+  "EH-Convenience Store",
+  "OP - Complaint Daycare Inspection",
+  "OP - Daycare Illness Investigation",
+  "OP - Follolw Up Food Inspection",
+  "OP - Follow-Up Daycare Inspection",
+  "OP - Follow-up Temp Food Inspection",
+  "OP - Food Complaint Inspections",
+  "OP - Foodborne Illness Investigation",
+  "OP - Mobile Food Establishment Health Inspection",
+  "OP - Opening/Final Daycare Inspection",
+  "OP - Opening/Final Food Inspection",
+  "OP - Past Health Inspections (converted)",
+  "OP - Preliminary Daycare Inspection",
+  "OP - Preliminary Food Inspection",
+  "OP - Routine Daycare Inspection",
+  "OP - Routine Daycare Inspection - 365 Days",
+  "OP - Routine Food Health Inspection",
+  "OP - Routine Mobile Food Establishment Inspection",
+  "OP - Temporary Event Inspection",
+  "zzOP - Routine Food Inspection V2"
+ ],
+ "listing_all_types_match": true,
+ "listing_total_rows": 9898,
+ "status_reconciliation": {
+  "Day Care Complaint Inspection": {
+   "all_match": true,
+   "statuses": {
+    "Pending - Operational Permit": {
+     "rows": 1,
+     "portal_total": 1
+    }
+   }
+  },
+  "EH-Day Care Facility": {
+   "all_match": true,
+   "statuses": {
+    "Pass - Business": {
+     "rows": 539,
+     "portal_total": 539
+    },
+    "Followup Reinspection - Business": {
+     "rows": 52,
+     "portal_total": 52
+    },
+    "Cancelled - Business": {
+     "rows": 52,
+     "portal_total": 52
+    },
+    "Requested - Business": {
+     "rows": 21,
+     "portal_total": 21
+    },
+    "Fail - Business": {
+     "rows": 2,
+     "portal_total": 2
+    }
+   }
+  },
+  "EH-Food Establishment": {
+   "all_match": true,
+   "statuses": {
+    "Pass - Business": {
+     "rows": 6351,
+     "portal_total": 6351
+    },
+    "Followup Reinspection - Business": {
+     "rows": 1109,
+     "portal_total": 1109
+    },
+    "Cancelled - Business": {
+     "rows": 602,
+     "portal_total": 602
+    },
+    "BL - Cancelled - Business License": {
+     "rows": 392,
+     "portal_total": 392
+    },
+    "Fail - Business": {
+     "rows": 40,
+     "portal_total": 40
+    },
+    "Pending - Business": {
+     "rows": 2,
+     "portal_total": 2
+    },
+    "Pass - NONE": {
+     "rows": 1,
+     "portal_total": 1
+    },
+    "Requested - Business": {
+     "rows": 1,
+     "portal_total": 1
+    }
+   }
+  },
+  "EH-Food Truck": {
+   "all_match": true,
+   "statuses": {
+    "Pass - Business": {
+     "rows": 202,
+     "portal_total": 202
+    },
+    "Cancelled - Business": {
+     "rows": 80,
+     "portal_total": 80
+    },
+    "Fail - Business": {
+     "rows": 22,
+     "portal_total": 22
+    },
+    "Followup Reinspection - Business": {
+     "rows": 12,
+     "portal_total": 12
+    },
+    "Requested - Business": {
+     "rows": 4,
+     "portal_total": 4
+    }
+   }
+  },
+  "Food Complaint Inspection": {
+   "all_match": true,
+   "statuses": {
+    "Pass - Operational Permit": {
+     "rows": 7,
+     "portal_total": 7
+    },
+    "Requested - Operational Permit": {
+     "rows": 4,
+     "portal_total": 4
+    },
+    "Converted - Operational Permit": {
+     "rows": 2,
+     "portal_total": 2
+    },
+    "Pending - Operational Permit": {
+     "rows": 2,
+     "portal_total": 2
+    },
+    "Follow-up Reinspection - Operational Permit": {
+     "rows": 1,
+     "portal_total": 1
+    }
+   }
+  },
+  "OP - Routine Daycare Inspection - 180 Days": {
+   "all_match": true,
+   "statuses": {
+    "Pending - Operational Permit": {
+     "rows": 19,
+     "portal_total": 19
+    },
+    "Pass - Operational Permit": {
+     "rows": 7,
+     "portal_total": 7
+    },
+    "Cancelled - Operational Permit": {
+     "rows": 3,
+     "portal_total": 3
+    }
+   }
+  },
+  "OP - Routine Food Inspection - 120 Days": {
+   "all_match": true,
+   "statuses": {
+    "Pending - Operational Permit": {
+     "rows": 127,
+     "portal_total": 127
+    },
+    "Pass - Operational Permit": {
+     "rows": 28,
+     "portal_total": 28
+    },
+    "Follow-up Reinspection - Operational Permit": {
+     "rows": 10,
+     "portal_total": 10
+    },
+    "Requested - Operational Permit": {
+     "rows": 2,
+     "portal_total": 2
+    },
+    "Cancelled - Operational Permit": {
+     "rows": 2,
+     "portal_total": 2
+    },
+    "Failed - Operational Permit": {
+     "rows": 1,
+     "portal_total": 1
+    }
+   }
+  },
+  "OP - Routine Food Inspection - 180 Days": {
+   "all_match": true,
+   "statuses": {
+    "Pending - Operational Permit": {
+     "rows": 88,
+     "portal_total": 88
+    },
+    "Pass - Operational Permit": {
+     "rows": 19,
+     "portal_total": 19
+    },
+    "Follow-up Reinspection - Operational Permit": {
+     "rows": 6,
+     "portal_total": 6
+    },
+    "Cancelled - Operational Permit": {
+     "rows": 1,
+     "portal_total": 1
+    }
+   }
+  },
+  "OP - Routine Food Inspection - 365 Days": {
+   "all_match": true,
+   "statuses": {
+    "Pending - Operational Permit": {
+     "rows": 23,
+     "portal_total": 23
+    },
+    "Pass - Operational Permit": {
+     "rows": 11,
+     "portal_total": 11
+    }
+   }
+  },
+  "OP - Routine Food Inspection - 90 Days": {
+   "all_match": true,
+   "statuses": {
+    "Pending - Operational Permit": {
+     "rows": 31,
+     "portal_total": 31
+    },
+    "Follow-up Reinspection - Operational Permit": {
+     "rows": 10,
+     "portal_total": 10
+    },
+    "Pass - Operational Permit": {
+     "rows": 6,
+     "portal_total": 6
+    },
+    "Converted - Operational Permit": {
+     "rows": 1,
+     "portal_total": 1
+    },
+    "Cancelled - Operational Permit": {
+     "rows": 1,
+     "portal_total": 1
+    },
+    "Failed - Operational Permit": {
+     "rows": 1,
+     "portal_total": 1
+    }
+   }
+  }
+ },
+ "status_reconciliation_all_match": true,
+ "status_counts": {
+  "Pass": 7171,
+  "Followup Reinspection": 1173,
+  "Cancelled": 741,
+  "BL - Cancelled": 392,
+  "Pending": 293,
+  "Fail": 64,
+  "Requested": 32,
+  "Follow-up Reinspection": 27,
+  "Converted": 3,
+  "Failed": 2
+ },
+ "status_counts_excluding_test_records": {
+  "Pass": 7163,
+  "Followup Reinspection": 1173,
+  "Cancelled": 741,
+  "BL - Cancelled": 392,
+  "Pending": 290,
+  "Fail": 64,
+  "Requested": 32,
+  "Follow-up Reinspection": 25,
+  "Converted": 2,
+  "Failed": 2
+ },
+ "test_records": {
+  "rule": "inspections of the city's app-testing establishment (permit 'Training Food Establishment', description 'For App Testing and Training Purposes - Only'), and inspections whose whole comment says 'Testing' / 'Testing again' / 'Testing the app again' or asks 'What happens if I type ...'. They stay in inspections.csv (flagged, is_test_record) so the rows still reconcile with the portal, and are left out of every count, roll-up and match below this point.",
+  "count": 14,
+  "by_basis": {
+   "city app testing/training establishment (permit description says so)": 12,
+   "probable test entry (inference from comment text)": 2
+  },
+  "by_status": {
+   "Pass": 8,
+   "Pending": 3,
+   "Follow-up Reinspection": 2,
+   "Converted": 1
+  },
+  "records": [
+   {
+    "case_number": "FE-102265-2026",
+    "inspection_type": "OP - Routine Food Inspection - 365 Days",
+    "status": "Pass",
+    "inspection_date": "2026-06-02",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": "Testing purposes."
+   },
+   {
+    "case_number": "FE-102268-2026",
+    "inspection_type": "OP - Routine Food Inspection - 120 Days",
+    "status": "Pass",
+    "inspection_date": "2026-06-02",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": "Testing again...."
+   },
+   {
+    "case_number": "FE-102279-2026",
+    "inspection_type": "OP - Routine Food Inspection - 90 Days",
+    "status": "Pass",
+    "inspection_date": "2026-06-02",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": null
+   },
+   {
+    "case_number": "FE-102298-2026",
+    "inspection_type": "OP - Routine Food Inspection - 180 Days",
+    "status": "Pass",
+    "inspection_date": "2026-06-02",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": null
+   },
+   {
+    "case_number": "FE-102303-2026",
+    "inspection_type": "OP - Routine Food Inspection - 180 Days",
+    "status": "Follow-up Reinspection",
+    "inspection_date": "2026-06-09",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": "Items not corrected. Follow up required within 7 days"
+   },
+   {
+    "case_number": "FE-103085-2026",
+    "inspection_type": "OP - Routine Food Inspection - 180 Days",
+    "status": "Pass",
+    "inspection_date": "2026-07-14",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": null
+   },
+   {
+    "case_number": "FE-106112-2026",
+    "inspection_type": "OP - Routine Food Inspection - 120 Days",
+    "status": "Pass",
+    "inspection_date": "2026-07-14",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": "Testing"
+   },
+   {
+    "case_number": "FE--107065-2026",
+    "inspection_type": "Food Complaint Inspection",
+    "status": "Pass",
+    "inspection_date": "2026-07-24",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": "This is where we enter our observations as they relate to the complaint investigation."
+   },
+   {
+    "case_number": "FE-108851-2026",
+    "inspection_type": "OP - Routine Food Inspection - 120 Days",
+    "status": "Follow-up Reinspection",
+    "inspection_date": "2026-08-17",
+    "establishment_name": "Tom Thumb #3579 - Bakery",
+    "address": "900 W McDermott DR Allen TX 75013",
+    "test_record_basis": "probable test entry (inference from comment text)",
+    "comment": "Testing"
+   },
+   {
+    "case_number": "FE-102291-2026",
+    "inspection_type": "OP - Routine Food Inspection - 90 Days",
+    "status": "Converted",
+    "inspection_date": "2026-08-31",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": "This is where we can leave notes and comments."
+   },
+   {
+    "case_number": "FE-108921-2026",
+    "inspection_type": "OP - Routine Food Inspection - 120 Days",
+    "status": "Pass",
+    "inspection_date": "2026-09-22",
+    "establishment_name": "Tom Thumb #3579 - Bakery",
+    "address": "900 W McDermott DR Allen TX 75013",
+    "test_record_basis": "probable test entry (inference from comment text)",
+    "comment": "Testing the app again."
+   },
+   {
+    "case_number": "FE--112074-2026",
+    "inspection_type": "Food Complaint Inspection",
+    "status": "Pending",
+    "inspection_date": "2026-09-27",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": "What happens if I type something in comments under details?"
+   },
+   {
+    "case_number": "FE-106123-2026",
+    "inspection_type": "OP - Routine Food Inspection - 120 Days",
+    "status": "Pending",
+    "inspection_date": "2026-11-10",
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": null
+   },
+   {
+    "case_number": "FE-102269-2026",
+    "inspection_type": "OP - Routine Food Inspection - 120 Days",
+    "status": "Pending",
+    "inspection_date": null,
+    "establishment_name": "Training Food Establishment",
+    "address": "305 CENTURY PKWY ALLEN TX 75013",
+    "test_record_basis": "city app testing/training establishment (permit description says so)",
+    "comment": null
+   }
+  ]
+ },
+ "headline": {
+  "all_rows": {
+   "rows": 9898,
+   "completed": 8440,
+   "cancelled": 1133,
+   "pending_or_requested": 325,
+   "completed_date_range": [
+    "2017-05-08",
+    "2026-09-24"
+   ],
+   "future_dated_rows (after 2026-09-28)": 152
+  },
+  "excluding_test_records": {
+   "rows": 9884,
+   "completed": 8429,
+   "cancelled": 1133,
+   "pending_or_requested": 322,
+   "completed_date_range": [
+    "2017-05-08",
+    "2026-09-24"
+   ],
+   "future_dated_rows (after 2026-09-28)": 151,
+   "fail_by_type": {
+    "EH-Food Establishment": 40,
+    "EH-Food Truck": 22,
+    "EH-Day Care Facility": 2
+   },
+   "pending_dated_after_2026": 37
+  }
+ },
+ "details": {
+  "requested": 8765,
+  "saved": 8765,
+  "errors": [],
+  "detail_status": {
+   "fetched": 8765,
+   "not fetched (cancelled)": 1133
+  },
+  "is_reinspection_true": 0
+ },
+ "dates": {
+  "listing_schedule_date_equals_detail_scheduled_date_local": 8634,
+  "of": 8749,
+  "schedule_date_mismatch_by_status": {
+   "Pending": 109,
+   "Requested": 6
+  },
+  "schedule_date_mismatch_note": "the listing was read before the details; Pending/Requested inspections are re-dated by the portal as days pass",
+  "actual_date_missing_on_fetched_details": 321,
+  "actual_differs_from_scheduled": 196,
+  "actual_differs_from_scheduled_completed": 193,
+  "actual_differs_from_scheduled_completed_excluding_test_records": 191,
+  "no_scheduled_date": 297,
+  "no_scheduled_date_by_type": {
+   "EH-Food Establishment": 248,
+   "EH-Day Care Facility": 16,
+   "EH-Food Truck": 16,
+   "OP - Routine Food Inspection - 120 Days": 8,
+   "OP - Routine Food Inspection - 180 Days": 4,
+   "OP - Routine Daycare Inspection - 180 Days": 2,
+   "OP - Routine Food Inspection - 90 Days": 2,
+   "Food Complaint Inspection": 1
+  },
+  "inspection_date_range": [
+   "2017-05-08",
+   "2027-09-23"
+  ],
+  "future_dated_rows (after 2026-09-28)": 152
+ },
+ "joins": {
+  "permit_tables": {
+   "license_food": {
+    "rows": 746,
+    "portal_total_found": 746
+   },
+   "license_special_event_food": {
+    "rows": 221,
+    "portal_total_found": 221
+   },
+   "op_permit_daycare": {
+    "rows": 361,
+    "portal_total_found": 361
+   },
+   "op_permit_food": {
+    "rows": 4088,
+    "portal_total_found": 4088
+   }
+  },
+  "businesses": 1594,
+  "link_type_on_fetched_details": {
+   "Business": 8357,
+   "Operational Permit": 407,
+   "NONE": 1
+  },
+  "join_method_all_rows": {
+   "business_id_op_permit": 7952,
+   "unmatched": 817,
+   "op_permit_case_id": 392,
+   "address_fallback": 385,
+   "business_id_license": 349,
+   "op_permit_number": 3
+  },
+  "join_method_cancelled_rows": {
+   "unmatched": 788,
+   "address_fallback": 345
+  },
+  "join_method_fetched_details": {
+   "business_id_op_permit": 7952,
+   "op_permit_case_id": 392,
+   "business_id_license": 349,
+   "address_fallback": 40,
+   "unmatched": 29,
+   "op_permit_number": 3
+  },
+  "join_notes_all_rows": {
+   "detail not fetched (cancelled); 0 permits of this kind in force at the address on the date": 588,
+   "detail not fetched (cancelled); one permit of this kind in force at the address on the date": 345,
+   "detail not fetched (cancelled); 2 permits of this kind in force at the address on the date": 90,
+   "link id not in the permit/licence tables; one permit of this kind in force at the address on the date": 40,
+   "link id not in the permit/licence tables; 0 permits of this kind in force at the address on the date": 28,
+   "detail not fetched (cancelled); 3 permits of this kind in force at the address on the date": 27,
+   "detail not fetched (cancelled); 5 permits of this kind in force at the address on the date": 22,
+   "detail not fetched (cancelled); 7 permits of this kind in force at the address on the date": 20,
+   "detail not fetched (cancelled); 8 permits of this kind in force at the address on the date": 16,
+   "detail not fetched (cancelled); 4 permits of this kind in force at the address on the date": 10,
+   "detail not fetched (cancelled); 6 permits of this kind in force at the address on the date": 9,
+   "detail not fetched (cancelled); 9 permits of this kind in force at the address on the date": 3,
+   "detail not fetched (cancelled); 22 permits of this kind in force at the address on the date": 2,
+   "detail not fetched (cancelled); 20 permits of this kind in force at the address on the date": 1,
+   "link id not in the permit/licence tables; 8 permits of this kind in force at the address on the date": 1
+  },
+  "join_rate_fetched_details": 0.9967,
+  "join_rate_fetched_details_by_link_only": 0.9921,
+  "joined_fetched_details_by_link": 8696,
+  "join_rate_by_type": {
+   "Day Care Complaint Inspection": 1.0,
+   "EH-Day Care Facility": 0.9756,
+   "EH-Food Establishment": 0.9991,
+   "EH-Food Truck": 1.0,
+   "Food Complaint Inspection": 0.8125,
+   "OP - Routine Daycare Inspection - 180 Days": 1.0,
+   "OP - Routine Food Inspection - 120 Days": 0.9821,
+   "OP - Routine Food Inspection - 180 Days": 0.9912,
+   "OP - Routine Food Inspection - 365 Days": 1.0,
+   "OP - Routine Food Inspection - 90 Days": 1.0
+  },
+  "unmatched_fetched_details": {
+   "count": 29,
+   "by_type_and_year": {
+    "EH-Day Care Facility | 2017": 8,
+    "EH-Day Care Facility | 2018": 2,
+    "EH-Day Care Facility | 2024": 2,
+    "EH-Day Care Facility | 2025": 2,
+    "EH-Day Care Facility | 2026": 1,
+    "EH-Food Establishment | 2017": 1,
+    "EH-Food Establishment | 2018": 1,
+    "EH-Food Establishment | 2019": 2,
+    "EH-Food Establishment | 2020": 2,
+    "EH-Food Establishment | 2021": 1,
+    "Food Complaint Inspection | 2026": 3,
+    "OP - Routine Food Inspection - 120 Days | 2026": 3,
+    "OP - Routine Food Inspection - 180 Days | 2026": 1
+   },
+   "by_link_type": {
+    "Business": 22,
+    "Operational Permit": 7
+   }
+  },
+  "op_link_number_vs_permit_number": {
+   "op_link_number_equals_case_number": 392
+  }
+ },
+ "establishment_groups": {
+  "rule": "BusinessIds whose latest names normalise to the same words and whose latest permits share the street number, street and unit, or the parcel and unit (build.group_businesses)",
+  "business_ids": 1594,
+  "groups": 1474,
+  "groups_with_several_business_ids": 104,
+  "business_ids_with_inspections": 1201,
+  "groups_with_inspections": 1137,
+  "groups_with_inspections_under_several_business_ids": 59,
+  "examples": [
+   {
+    "name": "7-Eleven #26264B",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     14,
+     5
+    ]
+   },
+   {
+    "name": "Alexis Estates",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     8,
+     10
+    ]
+   },
+   {
+    "name": "Allen Eagle Food Mart",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     3,
+     15
+    ]
+   },
+   {
+    "name": "Braum's Ice Cream # 278",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     9,
+     16
+    ]
+   },
+   {
+    "name": "Buttermilk Sky Pie Shop",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     3,
+     4
+    ]
+   },
+   {
+    "name": "Chevron Mart",
+    "business_ids": 3,
+    "inspections_per_business_id": [
+     5,
+     5,
+     4
+    ]
+   },
+   {
+    "name": "Coconut Hill (Kitchen)",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     3,
+     4
+    ]
+   },
+   {
+    "name": "Coconut Hill (Meat Market)",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     4,
+     4
+    ]
+   },
+   {
+    "name": "Creme de la Creme",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     13,
+     6
+    ]
+   },
+   {
+    "name": "DATTA YOGA CENTER",
+    "business_ids": 2,
+    "inspections_per_business_id": [
+     1,
+     1
+    ]
+   }
+  ]
+ },
+ "comment_scores": {
+  "rule": "leading 2-3 digit integer from 50 to 100 standing alone or followed by punctuation, or followed by an inspection word ('82 Follow up required'); see classify_comment(). Denominators: completed inspections with a fetched detail (Pending/Requested and test records excluded)",
+  "kinds": {
+   "blank": 5718,
+   "narrative": 1310,
+   "score_only": 1016,
+   "result_text": 250,
+   "score_then_text": 131,
+   "number_then_words": 3,
+   "starts_with_date": 1
+  },
+  "overall": {
+   "inspections": 8429,
+   "with_comment": 2711,
+   "with_comment_score": 1147,
+   "share_with_comment_score": 0.1361
+  },
+  "by_year": {
+   "2017": {
+    "inspections": 239,
+    "with_comment": 42,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2018": {
+    "inspections": 792,
+    "with_comment": 66,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2019": {
+    "inspections": 972,
+    "with_comment": 31,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2020": {
+    "inspections": 946,
+    "with_comment": 23,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2021": {
+    "inspections": 861,
+    "with_comment": 104,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2022": {
+    "inspections": 1140,
+    "with_comment": 333,
+    "with_comment_score": 8,
+    "share_with_comment_score": 0.007
+   },
+   "2023": {
+    "inspections": 1012,
+    "with_comment": 527,
+    "with_comment_score": 165,
+    "share_with_comment_score": 0.163
+   },
+   "2024": {
+    "inspections": 1175,
+    "with_comment": 769,
+    "with_comment_score": 502,
+    "share_with_comment_score": 0.4272
+   },
+   "2025": {
+    "inspections": 1010,
+    "with_comment": 638,
+    "with_comment_score": 403,
+    "share_with_comment_score": 0.399
+   },
+   "2026": {
+    "inspections": 282,
+    "with_comment": 178,
+    "with_comment_score": 69,
+    "share_with_comment_score": 0.2447
+   }
+  },
+  "by_type": {
+   "EH-Day Care Facility": {
+    "inspections": 593,
+    "with_comment": 182,
+    "with_comment_score": 88,
+    "share_with_comment_score": 0.1484
+   },
+   "EH-Food Establishment": {
+    "inspections": 7501,
+    "with_comment": 2357,
+    "with_comment_score": 1059,
+    "share_with_comment_score": 0.1412
+   },
+   "EH-Food Truck": {
+    "inspections": 236,
+    "with_comment": 99,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "Food Complaint Inspection": {
+    "inspections": 9,
+    "with_comment": 6,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "OP - Routine Daycare Inspection - 180 Days": {
+    "inspections": 7,
+    "with_comment": 6,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "OP - Routine Food Inspection - 120 Days": {
+    "inspections": 35,
+    "with_comment": 26,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "OP - Routine Food Inspection - 180 Days": {
+    "inspections": 22,
+    "with_comment": 15,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "OP - Routine Food Inspection - 365 Days": {
+    "inspections": 10,
+    "with_comment": 9,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "OP - Routine Food Inspection - 90 Days": {
+    "inspections": 16,
+    "with_comment": 11,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   }
+  },
+  "by_status": {
+   "Converted": {
+    "inspections": 2,
+    "with_comment": 1,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "Fail": {
+    "inspections": 64,
+    "with_comment": 27,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "Failed": {
+    "inspections": 2,
+    "with_comment": 2,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "Follow-up Reinspection": {
+    "inspections": 25,
+    "with_comment": 16,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "Followup Reinspection": {
+    "inspections": 1173,
+    "with_comment": 524,
+    "with_comment_score": 248,
+    "share_with_comment_score": 0.2114
+   },
+   "Pass": {
+    "inspections": 7163,
+    "with_comment": 2141,
+    "with_comment_score": 899,
+    "share_with_comment_score": 0.1255
+   }
+  },
+  "by_year_status": {
+   "2017 | Followup Reinspection": {
+    "inspections": 22,
+    "with_comment": 7,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2017 | Pass": {
+    "inspections": 215,
+    "with_comment": 34,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2018 | Followup Reinspection": {
+    "inspections": 182,
+    "with_comment": 17,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2018 | Pass": {
+    "inspections": 605,
+    "with_comment": 48,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2019 | Followup Reinspection": {
+    "inspections": 122,
+    "with_comment": 12,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2019 | Pass": {
+    "inspections": 842,
+    "with_comment": 18,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2020 | Followup Reinspection": {
+    "inspections": 130,
+    "with_comment": 5,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2020 | Pass": {
+    "inspections": 816,
+    "with_comment": 18,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2021 | Followup Reinspection": {
+    "inspections": 36,
+    "with_comment": 11,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2021 | Pass": {
+    "inspections": 818,
+    "with_comment": 91,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2022 | Followup Reinspection": {
+    "inspections": 148,
+    "with_comment": 52,
+    "with_comment_score": 3,
+    "share_with_comment_score": 0.0203
+   },
+   "2022 | Pass": {
+    "inspections": 977,
+    "with_comment": 279,
+    "with_comment_score": 5,
+    "share_with_comment_score": 0.0051
+   },
+   "2023 | Followup Reinspection": {
+    "inspections": 166,
+    "with_comment": 118,
+    "with_comment_score": 51,
+    "share_with_comment_score": 0.3072
+   },
+   "2023 | Pass": {
+    "inspections": 837,
+    "with_comment": 405,
+    "with_comment_score": 114,
+    "share_with_comment_score": 0.1362
+   },
+   "2024 | Followup Reinspection": {
+    "inspections": 177,
+    "with_comment": 163,
+    "with_comment_score": 95,
+    "share_with_comment_score": 0.5367
+   },
+   "2024 | Pass": {
+    "inspections": 991,
+    "with_comment": 600,
+    "with_comment_score": 407,
+    "share_with_comment_score": 0.4107
+   },
+   "2025 | Followup Reinspection": {
+    "inspections": 176,
+    "with_comment": 128,
+    "with_comment_score": 92,
+    "share_with_comment_score": 0.5227
+   },
+   "2025 | Pass": {
+    "inspections": 826,
+    "with_comment": 503,
+    "with_comment_score": 311,
+    "share_with_comment_score": 0.3765
+   },
+   "2026 | Follow-up Reinspection": {
+    "inspections": 25,
+    "with_comment": 16,
+    "with_comment_score": 0,
+    "share_with_comment_score": 0.0
+   },
+   "2026 | Pass": {
+    "inspections": 236,
+    "with_comment": 145,
+    "with_comment_score": 62,
+    "share_with_comment_score": 0.2627
+   }
+  },
+  "score_distribution": {
+   "61": 1,
+   "65": 3,
+   "66": 2,
+   "67": 1,
+   "70": 2,
+   "71": 6,
+   "72": 3,
+   "73": 5,
+   "74": 6,
+   "75": 12,
+   "76": 8,
+   "77": 12,
+   "78": 14,
+   "79": 7,
+   "80": 14,
+   "81": 16,
+   "82": 23,
+   "83": 17,
+   "84": 16,
+   "85": 24,
+   "86": 29,
+   "87": 37,
+   "88": 41,
+   "89": 40,
+   "90": 61,
+   "91": 54,
+   "92": 61,
+   "93": 64,
+   "94": 71,
+   "95": 82,
+   "96": 85,
+   "97": 87,
+   "98": 89,
+   "99": 46,
+   "100": 108
+  },
+  "at_or_below_69": 7,
+  "score_stats_by_status": {
+   "Followup Reinspection": {
+    "n": 248,
+    "mean": 83.94,
+    "median": 85.0,
+    "min": 61,
+    "max": 98
+   },
+   "Pass": {
+    "n": 899,
+    "mean": 93.87,
+    "median": 95.0,
+    "min": 73,
+    "max": 100
+   }
+  },
+  "closure_keyword_comments": 43
+ },
+ "followup_reinspection_next_inspection": {
+  "records_with_establishment_and_date": 1197,
+  "next_inspection_within_30_days": 975,
+  "next_inspection_within_14_days": 847,
+  "no_later_inspection": 37,
+  "status_of_next_inspection_within_30_days": {
+   "Pass": 742,
+   "Followup Reinspection": 227,
+   "Follow-up Reinspection": 4,
+   "Pending": 1,
+   "Fail": 1
+  },
+  "note": "supports reading 'Followup Reinspection' as 'this inspection needs a follow-up' (inference)"
+ },
+ "same_day_pair_evidence": {
+  "followup_plus_pass_pairs": 45,
+  "pairs_with_a_comment_score": 3,
+  "score_on_followup_record_only": 3,
+  "score_on_pass_record": 0,
+  "pairs": [
+   {
+    "date": "2023-11-01",
+    "followup_case": "FE-011358-2023",
+    "followup_comment_score": 89.0,
+    "pass_case": "FE-027528-2023",
+    "pass_comment_score": null,
+    "pass_comment_kind": "result_text"
+   },
+   {
+    "date": "2026-02-13",
+    "followup_case": "FE-077099-2025",
+    "followup_comment_score": 85.0,
+    "pass_case": "FE-093700-2026",
+    "pass_comment_score": null,
+    "pass_comment_kind": "narrative"
+   },
+   {
+    "date": "2025-01-30",
+    "followup_case": "FE-050106-2024",
+    "followup_comment_score": 83.0,
+    "pass_case": "FE-061113-2025",
+    "pass_comment_score": null,
+    "pass_comment_kind": "narrative"
+   }
+  ]
+ },
+ "scores_summary": {
+  "inspections_with_comment_score": 1147,
+  "inspections_with_pdf_score": 3058,
+  "inspections_with_any_score": 3945,
+  "inspections_matched_to_any_report_line": 3438,
+  "report_lines": 5964,
+  "report_lines_numeric": 5346,
+  "report_lines_numeric_distinct (name, street, date, score)": 3801,
+  "any_score_before_2019": 103,
+  "reports_by_kind": {
+   "quarter": 8,
+   "latest score per establishment": 2,
+   "year to date (cumulative)": 4,
+   "half year": 3
+  }
+ },
+ "pdf_matching": {
+  "match_methods_all_reports": {
+   "same date + street number + name": 4647,
+   "unmatched": 885,
+   "date within 3 days (-1) + street number + name": 93,
+   "same date + name (address differs)": 81,
+   "date within 3 days (+1) + street number + name": 44,
+   "same date + street number": 35,
+   "same date + street number + unit": 35,
+   "same date + street number; names share no word": 30,
+   "same date + street number + name; same-day pair: numeric line given to the Followup Reinspection record (inference)": 19,
+   "ambiguous: 2 same-day records of one establishment": 17,
+   "date within 3 days (+3) + street number + name": 14,
+   "same date + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 13,
+   "same date + street number + unit; names share no word": 12,
+   "ambiguous (2 equally good inspections)": 11,
+   "same date + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 9,
+   "unmatched: low-confidence (only a street-number match with a different name at an address where several establishments were inspected that day)": 7,
+   "date within 3 days (+2) + street number + name": 3,
+   "date within 3 days (-2) + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 3,
+   "date within 3 days (-2) + street number + name": 2,
+   "date within 3 days (-3) + street number + name": 1,
+   "same date + street number + name; same-day pair: follow-up / result line given to the Fail / Failed record (inference)": 1,
+   "date within 3 days (+2) + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 1,
+   "ambiguous: 5 same-day records of one establishment": 1
+  },
+  "lines_matched_as_same_day_pair": 46,
+  "lines_ambiguous_same_day_unresolved": 18,
+  "lines_ambiguous_other": 11,
+  "lines_low_confidence_not_matched": 7,
+  "tier2_lines": 112,
+  "tier2_lines_name_similarity_0": 42,
+  "tier2_lines_name_similarity_0_unit_matches": 12
+ },
+ "pdf_unmatched_in_latest_score_lists": 776,
+ "pdf_reports": [
+  {
+   "report_id": "allen_2025Q3_live",
+   "source_url": "https://www.cityofallen.org/Documents/Departments/Community%20Enhancement/Health%20and%20Food%20Safety/Food%20Safety/Inspection%20Scores%20July-Sept%202025.pdf",
+   "how_found": "city CMS (orphaned: no longer linked from the Food Safety page)",
+   "archive_item": null,
+   "pages": 9,
+   "period_start": "2025-07-01",
+   "period_end": "2025-09-30",
+   "status": "parsed",
+   "total_reported": 279,
+   "rows": 279,
+   "numeric_scores": 229,
+   "score_min": 73,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "quarter",
+   "rows_equal_total_reported": true,
+   "matched": 277,
+   "match_rate": 0.9928,
+   "match_methods": {
+    "same date + street number + name": 267,
+    "same date + name (address differs)": 6,
+    "unmatched": 2,
+    "date within 3 days (-1) + street number + name": 1,
+    "same date + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 1,
+    "same date + street number": 1,
+    "same date + street number; names share no word": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 279,
+   "match_rate_those_rows": 0.9928,
+   "numeric_rows_matched": 228,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 228
+   },
+   "score_vs_comment": {
+    "both_present": 122,
+    "equal": 122,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 353,
+    "matched_to_this_report": 277,
+    "by_status": {
+     "Fail": {
+      "energov": 2,
+      "in_report": 1,
+      "missing_from_report": 1
+     },
+     "Followup Reinspection": {
+      "energov": 61,
+      "in_report": 1,
+      "missing_from_report": 60
+     },
+     "Pass": {
+      "energov": 286,
+      "in_report": 275,
+      "missing_from_report": 11
+     },
+     "Pending": {
+      "energov": 2,
+      "in_report": 0,
+      "missing_from_report": 2
+     },
+     "Requested": {
+      "energov": 2,
+      "in_report": 0,
+      "missing_from_report": 2
+     }
+    }
+   },
+   "followup_reinspection_in_period": 61,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 60,
+   "followup_reinspection_missing_with_comment_score": 29
+  },
+  {
+   "report_id": "allen_2024Q2_document_archive",
+   "source_url": "https://www.cityofallen.org/Archived%20Documents/City%20Secretary/Open%20Records/Health%20Inspection%20Report%20-%20April%20to%20June%202024.pdf",
+   "how_found": "city Document Archive page https://www.cityofallen.org/services/document_archive.php",
+   "archive_item": null,
+   "pages": 5,
+   "period_start": "2024-04-01",
+   "period_end": "2024-06-30",
+   "status": "parsed",
+   "total_reported": null,
+   "rows": 182,
+   "numeric_scores": 160,
+   "score_min": 69,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [
+    "period from file name: April to June 2024"
+   ],
+   "kind": "quarter",
+   "rows_equal_total_reported": null,
+   "matched": 181,
+   "match_rate": 0.9945,
+   "match_methods": {
+    "same date + street number + name": 172,
+    "same date + street number": 4,
+    "date within 3 days (-1) + street number + name": 1,
+    "same date + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 1,
+    "same date + street number; names share no word": 1,
+    "ambiguous (2 equally good inspections)": 1,
+    "same date + street number + unit": 1,
+    "same date + name (address differs)": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 182,
+   "match_rate_those_rows": 0.9945,
+   "numeric_rows_matched": 159,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 159
+   },
+   "score_vs_comment": {
+    "both_present": 79,
+    "equal": 79,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 260,
+    "matched_to_this_report": 181,
+    "by_status": {
+     "Fail": {
+      "energov": 1,
+      "in_report": 0,
+      "missing_from_report": 1
+     },
+     "Followup Reinspection": {
+      "energov": 34,
+      "in_report": 0,
+      "missing_from_report": 34
+     },
+     "Pass": {
+      "energov": 225,
+      "in_report": 181,
+      "missing_from_report": 44
+     }
+    }
+   },
+   "followup_reinspection_in_period": 34,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 34,
+   "followup_reinspection_missing_with_comment_score": 19
+  },
+  {
+   "report_id": "allen_2024Q2_wayback",
+   "source_url": "https://web.archive.org/web/20240928153516id_/https://cms3.revize.com/revize/allentx/Documents/Departments/Community%20Enhancement/Health%20and%20Food%20Safety/Food%20Safety/Health%20Inspection%20Report%20-%20April%20to%20June%202024.pdf",
+   "how_found": "Wayback copy of the file linked from the Food Safety page in Sept 2024 (checksum comparison)",
+   "archive_item": null,
+   "pages": 5,
+   "period_start": "2024-04-01",
+   "period_end": "2024-06-30",
+   "status": "parsed",
+   "total_reported": null,
+   "rows": 182,
+   "numeric_scores": 160,
+   "score_min": 69,
+   "score_max": 100,
+   "duplicate_of": "allen_2024Q2_document_archive",
+   "notes": [
+    "period from file name: April to June 2024"
+   ],
+   "kind": "quarter",
+   "rows_equal_total_reported": null
+  },
+  {
+   "report_id": "archivecenter_item1154",
+   "source_url": "https://web.archive.org/web/20150411064055id_/http://cityofallen.org/ArchiveCenter/ViewFile/Item/1154",
+   "how_found": "AMID=74 Type=Recent capture 20150401122300; AMID=74 Type=Recent capture 20150401171503; AMID=74 Type=Recent capture 20150918144052; AMID=74 Type=Recent capture 20160430030315; AMID=74 Type=Recent capture 20160501075936; AMID=74 Type=Recent capture 20170209235121",
+   "archive_item": 1154,
+   "pages": 10,
+   "period_start": null,
+   "period_end": null,
+   "status": "parsed",
+   "total_reported": null,
+   "rows": 433,
+   "numeric_scores": 381,
+   "score_min": 55,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "latest score per establishment",
+   "rows_equal_total_reported": null,
+   "matched": 0,
+   "match_rate": 0.0,
+   "match_methods": {
+    "unmatched": 433
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 0,
+   "match_rate_those_rows": null,
+   "numeric_rows_matched": 0,
+   "numeric_rows_matched_energov_status": {},
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   }
+  },
+  {
+   "report_id": "archivecenter_item1735",
+   "source_url": "https://web.archive.org/web/20171216214021id_/http://www.cityofallen.org:80/ArchiveCenter/ViewFile/Item/1735",
+   "how_found": "AMID=74 Type=Recent capture 20171216214021",
+   "archive_item": 1735,
+   "pages": 15,
+   "period_start": null,
+   "period_end": null,
+   "status": "parsed",
+   "total_reported": null,
+   "rows": 479,
+   "numeric_scores": 426,
+   "score_min": 68,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "latest score per establishment",
+   "rows_equal_total_reported": null,
+   "matched": 136,
+   "match_rate": 0.2839,
+   "match_methods": {
+    "unmatched": 343,
+    "same date + street number + name": 102,
+    "same date + street number": 8,
+    "same date + street number; names share no word": 8,
+    "same date + street number + unit": 6,
+    "date within 3 days (+1) + street number + name": 6,
+    "same date + name (address differs)": 3,
+    "date within 3 days (+2) + street number + name": 2,
+    "date within 3 days (-2) + street number + name": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 307,
+   "match_rate_those_rows": 0.443,
+   "numeric_rows_matched": 103,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 91,
+    "Followup Reinspection": 12
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   }
+  },
+  {
+   "report_id": "archivecenter_item1976",
+   "source_url": "https://web.archive.org/web/20190724024104id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/1976",
+   "how_found": "candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 1976,
+   "pages": 12,
+   "period_start": "2019-01-01",
+   "period_end": "2019-06-28",
+   "status": "parsed",
+   "total_reported": 344,
+   "rows": 344,
+   "numeric_scores": 329,
+   "score_min": 64,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "year to date (cumulative)",
+   "rows_equal_total_reported": true,
+   "matched": 330,
+   "match_rate": 0.9593,
+   "match_methods": {
+    "same date + street number + name": 312,
+    "unmatched": 12,
+    "same date + name (address differs)": 7,
+    "date within 3 days (+1) + street number + name": 4,
+    "ambiguous (2 equally good inspections)": 2,
+    "same date + street number + unit": 2,
+    "same date + street number + name; same-day pair: numeric line given to the Followup Reinspection record (inference)": 2,
+    "same date + street number; names share no word": 1,
+    "date within 3 days (+3) + street number + name": 1,
+    "same date + street number + unit; names share no word": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 344,
+   "match_rate_those_rows": 0.9593,
+   "numeric_rows_matched": 316,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 306,
+    "Followup Reinspection": 9,
+    "Fail": 1
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 467,
+    "matched_to_this_report": 330,
+    "by_status": {
+     "Fail": {
+      "energov": 3,
+      "in_report": 2,
+      "missing_from_report": 1
+     },
+     "Followup Reinspection": {
+      "energov": 66,
+      "in_report": 9,
+      "missing_from_report": 57
+     },
+     "Pass": {
+      "energov": 396,
+      "in_report": 319,
+      "missing_from_report": 77
+     },
+     "Requested": {
+      "energov": 2,
+      "in_report": 0,
+      "missing_from_report": 2
+     }
+    }
+   },
+   "followup_reinspection_in_period": 66,
+   "followup_reinspection_matched_via_same_day_pair": 2,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 57,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2017",
+   "source_url": "https://web.archive.org/web/20191020153215id_/https://cityofallen.org/ArchiveCenter/ViewFile/Item/2017",
+   "how_found": "candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2017,
+   "pages": 20,
+   "period_start": "2019-01-01",
+   "period_end": "2019-09-30",
+   "status": "parsed",
+   "total_reported": 593,
+   "rows": 593,
+   "numeric_scores": 533,
+   "score_min": 64,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "year to date (cumulative)",
+   "rows_equal_total_reported": true,
+   "matched": 561,
+   "match_rate": 0.946,
+   "match_methods": {
+    "same date + street number + name": 504,
+    "unmatched": 26,
+    "date within 3 days (-1) + street number + name": 25,
+    "same date + name (address differs)": 13,
+    "date within 3 days (+1) + street number + name": 5,
+    "same date + street number + name; same-day pair: numeric line given to the Followup Reinspection record (inference)": 3,
+    "date within 3 days (+3) + street number + name": 3,
+    "same date + street number": 2,
+    "ambiguous (2 equally good inspections)": 2,
+    "ambiguous: 2 same-day records of one establishment": 2,
+    "same date + street number + unit": 2,
+    "same date + street number; names share no word": 2,
+    "unmatched: low-confidence (only a street-number match with a different name at an address where several establishments were inspected that day)": 2,
+    "date within 3 days (-2) + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 1,
+    "same date + street number + unit; names share no word": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 593,
+   "match_rate_those_rows": 0.946,
+   "numeric_rows_matched": 509,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 501,
+    "Followup Reinspection": 7,
+    "Fail": 1
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 728,
+    "matched_to_this_report": 561,
+    "by_status": {
+     "Fail": {
+      "energov": 4,
+      "in_report": 2,
+      "missing_from_report": 2
+     },
+     "Followup Reinspection": {
+      "energov": 88,
+      "in_report": 7,
+      "missing_from_report": 80
+     },
+     "Pass": {
+      "energov": 634,
+      "in_report": 552,
+      "missing_from_report": 80
+     },
+     "Requested": {
+      "energov": 2,
+      "in_report": 0,
+      "missing_from_report": 2
+     }
+    }
+   },
+   "followup_reinspection_in_period": 88,
+   "followup_reinspection_matched_via_same_day_pair": 3,
+   "followup_reinspection_in_unresolved_same_day_tie": 1,
+   "followup_reinspection_missing_from_report": 80,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2032",
+   "source_url": "https://web.archive.org/web/20191122192604id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/2032",
+   "how_found": "candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2032,
+   "pages": 22,
+   "period_start": "2019-01-01",
+   "period_end": "2019-10-31",
+   "status": "parsed",
+   "total_reported": 658,
+   "rows": 658,
+   "numeric_scores": 591,
+   "score_min": 64,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "year to date (cumulative)",
+   "rows_equal_total_reported": true,
+   "matched": 626,
+   "match_rate": 0.9514,
+   "match_methods": {
+    "same date + street number + name": 564,
+    "unmatched": 26,
+    "date within 3 days (-1) + street number + name": 25,
+    "same date + name (address differs)": 14,
+    "date within 3 days (+1) + street number + name": 5,
+    "same date + street number + unit": 3,
+    "same date + street number + name; same-day pair: numeric line given to the Followup Reinspection record (inference)": 3,
+    "date within 3 days (+3) + street number + name": 3,
+    "same date + street number": 2,
+    "ambiguous (2 equally good inspections)": 2,
+    "ambiguous: 2 same-day records of one establishment": 2,
+    "same date + street number; names share no word": 2,
+    "unmatched: low-confidence (only a street-number match with a different name at an address where several establishments were inspected that day)": 2,
+    "same date + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 2,
+    "same date + street number + unit; names share no word": 2,
+    "date within 3 days (-2) + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 658,
+   "match_rate_those_rows": 0.9514,
+   "numeric_rows_matched": 567,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 559,
+    "Followup Reinspection": 7,
+    "Fail": 1
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 813,
+    "matched_to_this_report": 626,
+    "by_status": {
+     "Fail": {
+      "energov": 4,
+      "in_report": 2,
+      "missing_from_report": 2
+     },
+     "Followup Reinspection": {
+      "energov": 98,
+      "in_report": 7,
+      "missing_from_report": 90
+     },
+     "Pass": {
+      "energov": 709,
+      "in_report": 617,
+      "missing_from_report": 90
+     },
+     "Requested": {
+      "energov": 2,
+      "in_report": 0,
+      "missing_from_report": 2
+     }
+    }
+   },
+   "followup_reinspection_in_period": 98,
+   "followup_reinspection_matched_via_same_day_pair": 3,
+   "followup_reinspection_in_unresolved_same_day_tie": 1,
+   "followup_reinspection_missing_from_report": 90,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2042",
+   "source_url": "https://web.archive.org/web/20191228230228id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/2042",
+   "how_found": "AMID=74 Type=Recent capture 20191228230212; candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2042,
+   "pages": 24,
+   "period_start": "2019-01-01",
+   "period_end": "2019-12-02",
+   "status": "parsed",
+   "total_reported": 712,
+   "rows": 712,
+   "numeric_scores": 645,
+   "score_min": 64,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "year to date (cumulative)",
+   "rows_equal_total_reported": true,
+   "matched": 682,
+   "match_rate": 0.9579,
+   "match_methods": {
+    "same date + street number + name": 616,
+    "date within 3 days (-1) + street number + name": 25,
+    "unmatched": 24,
+    "same date + name (address differs)": 14,
+    "same date + street number + name; same-day pair: numeric line given to the Followup Reinspection record (inference)": 5,
+    "date within 3 days (+1) + street number + name": 5,
+    "same date + street number + unit": 4,
+    "same date + street number; names share no word": 3,
+    "date within 3 days (+3) + street number + name": 3,
+    "same date + street number": 2,
+    "ambiguous (2 equally good inspections)": 2,
+    "ambiguous: 2 same-day records of one establishment": 2,
+    "unmatched: low-confidence (only a street-number match with a different name at an address where several establishments were inspected that day)": 2,
+    "same date + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 2,
+    "same date + street number + unit; names share no word": 2,
+    "date within 3 days (-2) + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 712,
+   "match_rate_those_rows": 0.9579,
+   "numeric_rows_matched": 622,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 609,
+    "Followup Reinspection": 12,
+    "Fail": 1
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 891,
+    "matched_to_this_report": 682,
+    "by_status": {
+     "Fail": {
+      "energov": 8,
+      "in_report": 2,
+      "missing_from_report": 6
+     },
+     "Followup Reinspection": {
+      "energov": 112,
+      "in_report": 12,
+      "missing_from_report": 99
+     },
+     "Pass": {
+      "energov": 769,
+      "in_report": 668,
+      "missing_from_report": 99
+     },
+     "Requested": {
+      "energov": 2,
+      "in_report": 0,
+      "missing_from_report": 2
+     }
+    }
+   },
+   "followup_reinspection_in_period": 112,
+   "followup_reinspection_matched_via_same_day_pair": 5,
+   "followup_reinspection_in_unresolved_same_day_tie": 1,
+   "followup_reinspection_missing_from_report": 99,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2148",
+   "source_url": "https://web.archive.org/web/20201025201557id_/https://cityofallen.org/ArchiveCenter/ViewFile/Item/2148",
+   "how_found": "AMID=74 Type=Recent capture 20210327112228; candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2148,
+   "pages": 12,
+   "period_start": "2020-03-31",
+   "period_end": "2020-10-01",
+   "status": "parsed",
+   "total_reported": 381,
+   "rows": 381,
+   "numeric_scores": 367,
+   "score_min": 71,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "half year",
+   "rows_equal_total_reported": true,
+   "matched": 378,
+   "match_rate": 0.9921,
+   "match_methods": {
+    "same date + street number + name": 348,
+    "same date + street number + name; same-day pair: numeric line given to the Followup Reinspection record (inference)": 6,
+    "same date + name (address differs)": 6,
+    "date within 3 days (+1) + street number + name": 5,
+    "same date + street number + unit": 3,
+    "date within 3 days (+3) + street number + name": 3,
+    "unmatched": 3,
+    "same date + street number; names share no word": 2,
+    "same date + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 2,
+    "date within 3 days (-1) + street number + name": 1,
+    "same date + street number": 1,
+    "same date + street number + unit; names share no word": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 381,
+   "match_rate_those_rows": 0.9921,
+   "numeric_rows_matched": 364,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 356,
+    "Followup Reinspection": 8
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 469,
+    "matched_to_this_report": 378,
+    "by_status": {
+     "Followup Reinspection": {
+      "energov": 66,
+      "in_report": 8,
+      "missing_from_report": 58
+     },
+     "Pass": {
+      "energov": 403,
+      "in_report": 370,
+      "missing_from_report": 33
+     }
+    }
+   },
+   "followup_reinspection_in_period": 66,
+   "followup_reinspection_matched_via_same_day_pair": 6,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 58,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2234",
+   "source_url": "https://web.archive.org/web/20210421085441id_/https://cityofallen.org/ArchiveCenter/ViewFile/Item/2234",
+   "how_found": "candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2234,
+   "pages": 15,
+   "period_start": "2020-10-01",
+   "period_end": "2021-03-31",
+   "status": "parsed",
+   "total_reported": 420,
+   "rows": 420,
+   "numeric_scores": 412,
+   "score_min": 78,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "half year",
+   "rows_equal_total_reported": true,
+   "matched": 414,
+   "match_rate": 0.9857,
+   "match_methods": {
+    "same date + street number + name": 395,
+    "same date + street number + unit": 5,
+    "unmatched": 4,
+    "same date + name (address differs)": 3,
+    "same date + street number": 2,
+    "same date + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 2,
+    "same date + street number; names share no word": 2,
+    "date within 3 days (+1) + street number + name": 2,
+    "same date + street number + unit; names share no word": 2,
+    "date within 3 days (-3) + street number + name": 1,
+    "unmatched: low-confidence (only a street-number match with a different name at an address where several establishments were inspected that day)": 1,
+    "ambiguous: 2 same-day records of one establishment": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 420,
+   "match_rate_those_rows": 0.9857,
+   "numeric_rows_matched": 406,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 403,
+    "Followup Reinspection": 3
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 485,
+    "matched_to_this_report": 414,
+    "by_status": {
+     "Fail": {
+      "energov": 2,
+      "in_report": 1,
+      "missing_from_report": 1
+     },
+     "Followup Reinspection": {
+      "energov": 28,
+      "in_report": 3,
+      "missing_from_report": 25
+     },
+     "Pass": {
+      "energov": 455,
+      "in_report": 410,
+      "missing_from_report": 43
+     }
+    }
+   },
+   "followup_reinspection_in_period": 28,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 25,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2329",
+   "source_url": "https://web.archive.org/web/20211023054729id_/https://cityofallen.org/ArchiveCenter/ViewFile/Item/2329",
+   "how_found": "AMID=74 Type=Recent capture 20211130075553; candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2329,
+   "pages": 12,
+   "period_start": "2021-03-01",
+   "period_end": "2021-08-31",
+   "status": "parsed",
+   "total_reported": 401,
+   "rows": 401,
+   "numeric_scores": 374,
+   "score_min": 56,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "half year",
+   "rows_equal_total_reported": true,
+   "matched": 389,
+   "match_rate": 0.9701,
+   "match_methods": {
+    "same date + street number + name": 360,
+    "unmatched": 9,
+    "date within 3 days (-1) + street number + name": 8,
+    "same date + name (address differs)": 6,
+    "same date + street number": 4,
+    "same date + street number + unit": 3,
+    "date within 3 days (+1) + street number + name": 3,
+    "ambiguous (2 equally good inspections)": 2,
+    "same date + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 2,
+    "same date + street number + unit; names share no word": 2,
+    "ambiguous: 2 same-day records of one establishment": 1,
+    "same date + street number; names share no word": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 401,
+   "match_rate_those_rows": 0.9701,
+   "numeric_rows_matched": 363,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 363
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 457,
+    "matched_to_this_report": 389,
+    "by_status": {
+     "Fail": {
+      "energov": 3,
+      "in_report": 1,
+      "missing_from_report": 2
+     },
+     "Followup Reinspection": {
+      "energov": 16,
+      "in_report": 0,
+      "missing_from_report": 16
+     },
+     "Pass": {
+      "energov": 437,
+      "in_report": 388,
+      "missing_from_report": 47
+     },
+     "Pending": {
+      "energov": 1,
+      "in_report": 0,
+      "missing_from_report": 1
+     }
+    }
+   },
+   "followup_reinspection_in_period": 16,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 16,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2445",
+   "source_url": "https://web.archive.org/web/20220620215342id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/2445",
+   "how_found": "candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2445,
+   "pages": 9,
+   "period_start": "2022-01-01",
+   "period_end": "2022-03-31",
+   "status": "parsed",
+   "total_reported": 259,
+   "rows": 259,
+   "numeric_scores": 227,
+   "score_min": 72,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "quarter",
+   "rows_equal_total_reported": true,
+   "matched": 255,
+   "match_rate": 0.9846,
+   "match_methods": {
+    "same date + street number + name": 245,
+    "date within 3 days (-1) + street number + name": 5,
+    "ambiguous: 2 same-day records of one establishment": 3,
+    "same date + name (address differs)": 2,
+    "same date + street number": 1,
+    "same date + street number + name; same-day pair: follow-up / result line given to the Fail / Failed record (inference)": 1,
+    "same date + street number; names share no word": 1,
+    "unmatched": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 259,
+   "match_rate_those_rows": 0.9846,
+   "numeric_rows_matched": 227,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 226,
+    "Followup Reinspection": 1
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 302,
+    "matched_to_this_report": 255,
+    "by_status": {
+     "Fail": {
+      "energov": 5,
+      "in_report": 5,
+      "missing_from_report": 0
+     },
+     "Followup Reinspection": {
+      "energov": 25,
+      "in_report": 1,
+      "missing_from_report": 24
+     },
+     "Pass": {
+      "energov": 272,
+      "in_report": 249,
+      "missing_from_report": 19
+     }
+    }
+   },
+   "followup_reinspection_in_period": 25,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 24,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2515",
+   "source_url": "https://web.archive.org/web/20220907223010id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/2515",
+   "how_found": "AMID=74 Type=Recent capture 20220907223010; candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2515,
+   "pages": 5,
+   "period_start": "2022-04-01",
+   "period_end": "2022-06-30",
+   "status": "parsed",
+   "total_reported": 154,
+   "rows": 154,
+   "numeric_scores": 132,
+   "score_min": 80,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "quarter",
+   "rows_equal_total_reported": true,
+   "matched": 151,
+   "match_rate": 0.9805,
+   "match_methods": {
+    "same date + street number + name": 140,
+    "same date + street number": 4,
+    "ambiguous: 2 same-day records of one establishment": 3,
+    "same date + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 2,
+    "date within 3 days (-1) + street number + name": 1,
+    "same date + street number + unit": 1,
+    "same date + street number; names share no word": 1,
+    "date within 3 days (+1) + street number + name": 1,
+    "same date + street number + unit; names share no word": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 154,
+   "match_rate_those_rows": 0.9805,
+   "numeric_rows_matched": 132,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 131,
+    "Fail": 1
+   },
+   "score_vs_comment": {
+    "both_present": 5,
+    "equal": 5,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 207,
+    "matched_to_this_report": 151,
+    "by_status": {
+     "Fail": {
+      "energov": 1,
+      "in_report": 1,
+      "missing_from_report": 0
+     },
+     "Followup Reinspection": {
+      "energov": 28,
+      "in_report": 1,
+      "missing_from_report": 27
+     },
+     "Pass": {
+      "energov": 178,
+      "in_report": 149,
+      "missing_from_report": 25
+     }
+    }
+   },
+   "followup_reinspection_in_period": 28,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 27,
+   "followup_reinspection_missing_with_comment_score": 2
+  },
+  {
+   "report_id": "archivecenter_item2537",
+   "source_url": "https://web.archive.org/web/20230207191942id_/https://cityofallen.org/ArchiveCenter/ViewFile/Item/2537",
+   "how_found": "candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2537,
+   "pages": 7,
+   "period_start": "2022-07-01",
+   "period_end": "2022-09-30",
+   "status": "parsed",
+   "total_reported": 213,
+   "rows": 213,
+   "numeric_scores": 171,
+   "score_min": 63,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "quarter",
+   "rows_equal_total_reported": true,
+   "matched": 212,
+   "match_rate": 0.9953,
+   "match_methods": {
+    "same date + street number + name": 201,
+    "same date + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 3,
+    "same date + street number; names share no word": 2,
+    "ambiguous: 2 same-day records of one establishment": 1,
+    "date within 3 days (+2) + street number + name; report prints one line per same-day record: lines assigned one each (inference)": 1,
+    "same date + street number + unit": 1,
+    "same date + name (address differs)": 1,
+    "same date + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 1,
+    "date within 3 days (-2) + street number + name": 1,
+    "same date + street number": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 213,
+   "match_rate_those_rows": 0.9953,
+   "numeric_rows_matched": 171,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 167,
+    "Fail": 2,
+    "Followup Reinspection": 2
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 366,
+    "matched_to_this_report": 212,
+    "by_status": {
+     "Fail": {
+      "energov": 4,
+      "in_report": 3,
+      "missing_from_report": 1
+     },
+     "Followup Reinspection": {
+      "energov": 59,
+      "in_report": 3,
+      "missing_from_report": 56
+     },
+     "Pass": {
+      "energov": 303,
+      "in_report": 206,
+      "missing_from_report": 96
+     }
+    }
+   },
+   "followup_reinspection_in_period": 59,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 56,
+   "followup_reinspection_missing_with_comment_score": 1
+  },
+  {
+   "report_id": "archivecenter_item2618",
+   "source_url": "https://web.archive.org/web/20230526045038id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/2618",
+   "how_found": "AMID=74 Type=Recent capture 20230326124926; AMID=74 Type=Recent capture 20230526045038; AMID=74 Type=Recent capture 20230614010851; AMID=74 Type=Recent capture 20230614071605; candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2618,
+   "pages": 4,
+   "period_start": "2022-10-01",
+   "period_end": "2022-12-31",
+   "status": "parsed",
+   "total_reported": 125,
+   "rows": 125,
+   "numeric_scores": 96,
+   "score_min": 81,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "quarter",
+   "rows_equal_total_reported": true,
+   "matched": 123,
+   "match_rate": 0.984,
+   "match_methods": {
+    "same date + street number + name": 117,
+    "same date + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 3,
+    "same date + name (address differs)": 1,
+    "date within 3 days (-1) + street number + name": 1,
+    "ambiguous: 2 same-day records of one establishment": 1,
+    "ambiguous: 5 same-day records of one establishment": 1,
+    "same date + street number + unit": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 125,
+   "match_rate_those_rows": 0.984,
+   "numeric_rows_matched": 96,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 96
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 265,
+    "matched_to_this_report": 123,
+    "by_status": {
+     "Fail": {
+      "energov": 5,
+      "in_report": 0,
+      "missing_from_report": 3
+     },
+     "Followup Reinspection": {
+      "energov": 36,
+      "in_report": 0,
+      "missing_from_report": 33
+     },
+     "Pass": {
+      "energov": 224,
+      "in_report": 123,
+      "missing_from_report": 99
+     }
+    }
+   },
+   "followup_reinspection_in_period": 36,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 3,
+   "followup_reinspection_missing_from_report": 33,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2704",
+   "source_url": "https://web.archive.org/web/20230923001725id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/2704",
+   "how_found": "candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2704,
+   "pages": 4,
+   "period_start": "2023-04-01",
+   "period_end": "2023-06-30",
+   "status": "parsed",
+   "total_reported": 117,
+   "rows": 117,
+   "numeric_scores": 101,
+   "score_min": 82,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "quarter",
+   "rows_equal_total_reported": true,
+   "matched": 115,
+   "match_rate": 0.9829,
+   "match_methods": {
+    "same date + street number + name": 112,
+    "same date + street number; names share no word": 1,
+    "unmatched": 1,
+    "same date + street number": 1,
+    "ambiguous: 2 same-day records of one establishment": 1,
+    "date within 3 days (+1) + street number + name": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 117,
+   "match_rate_those_rows": 0.9829,
+   "numeric_rows_matched": 100,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 100
+   },
+   "score_vs_comment": {
+    "both_present": 0,
+    "equal": 0,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 216,
+    "matched_to_this_report": 115,
+    "by_status": {
+     "Fail": {
+      "energov": 1,
+      "in_report": 0,
+      "missing_from_report": 1
+     },
+     "Followup Reinspection": {
+      "energov": 23,
+      "in_report": 0,
+      "missing_from_report": 23
+     },
+     "Pass": {
+      "energov": 192,
+      "in_report": 115,
+      "missing_from_report": 75
+     }
+    }
+   },
+   "followup_reinspection_in_period": 23,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 23,
+   "followup_reinspection_missing_with_comment_score": 0
+  },
+  {
+   "report_id": "archivecenter_item2755",
+   "source_url": "https://web.archive.org/web/20231211033233id_/https://www.cityofallen.org/ArchiveCenter/ViewFile/Item/2755",
+   "how_found": "AMID=74 Type=Recent capture 20231211033227; candidate: item >= 1800, PDF capture 20-1000 KB",
+   "archive_item": 2755,
+   "pages": 7,
+   "period_start": "2023-07-01",
+   "period_end": "2023-09-30",
+   "status": "parsed",
+   "total_reported": 214,
+   "rows": 214,
+   "numeric_scores": 172,
+   "score_min": 60,
+   "score_max": 100,
+   "duplicate_of": null,
+   "notes": [],
+   "kind": "quarter",
+   "rows_equal_total_reported": true,
+   "matched": 213,
+   "match_rate": 0.9953,
+   "match_methods": {
+    "same date + street number + name": 192,
+    "date within 3 days (+1) + street number + name": 7,
+    "same date + name (address differs)": 4,
+    "same date + street number + unit": 3,
+    "same date + street number; names share no word": 2,
+    "same date + street number": 2,
+    "unmatched": 1,
+    "date within 3 days (+3) + street number + name": 1,
+    "same date + street number + name; same-day pair: follow-up / result line given to the Pass record (inference)": 1,
+    "date within 3 days (+2) + street number + name": 1
+   },
+   "rows_dated_on_or_after_first_energov_inspection": 214,
+   "match_rate_those_rows": 0.9953,
+   "numeric_rows_matched": 172,
+   "numeric_rows_matched_energov_status": {
+    "Pass": 172
+   },
+   "score_vs_comment": {
+    "both_present": 54,
+    "equal": 54,
+    "differ": []
+   },
+   "energov_in_period": {
+    "not_cancelled": 354,
+    "matched_to_this_report": 213,
+    "by_status": {
+     "Fail": {
+      "energov": 2,
+      "in_report": 1,
+      "missing_from_report": 1
+     },
+     "Followup Reinspection": {
+      "energov": 81,
+      "in_report": 0,
+      "missing_from_report": 81
+     },
+     "Pass": {
+      "energov": 271,
+      "in_report": 212,
+      "missing_from_report": 59
+     }
+    }
+   },
+   "followup_reinspection_in_period": 81,
+   "followup_reinspection_matched_via_same_day_pair": 0,
+   "followup_reinspection_in_unresolved_same_day_tie": 0,
+   "followup_reinspection_missing_from_report": 81,
+   "followup_reinspection_missing_with_comment_score": 27
+  }
+ ],
+ "first_energov_inspection_date": "2017-05-08",
+ "pdf_inspections_in_several_reports": {
+  "inspections": 721,
+  "with_conflicting_scores": {}
+ },
+ "pdf_vs_comment_all_reports": {
+  "both_present": 260,
+  "equal": 260
+ },
+ "pdf_manifest_summary": {
+  "city_files": [
+   {
+    "name": "allen_2025Q3_live",
+    "url": "https://cms3.revize.com/revize/allentx/Documents/Departments/Community%20Enhancement/Health%20and%20Food%20Safety/Food%20Safety/Inspection%20Scores%20July-Sept%202025.pdf",
+    "status": 200,
+    "sha256": "3258bcad9a9582ad39d88e4a05a018fe8b483294ca28d07384697f15eaf7b349",
+    "classification": "score report"
+   },
+   {
+    "name": "allen_2024Q2_document_archive",
+    "url": "https://www.cityofallen.org/Archived%20Documents/City%20Secretary/Open%20Records/Health%20Inspection%20Report%20-%20April%20to%20June%202024.pdf",
+    "status": 200,
+    "sha256": "7ad64e2f05ca41297ed7a4e148c313b05acac0d5c224d7db3dea3f80bf86b336",
+    "classification": "score report"
+   },
+   {
+    "name": "allen_2024Q2_wayback",
+    "url": "https://web.archive.org/web/20240928153516id_/https://cms3.revize.com/revize/allentx/Documents/Departments/Community%20Enhancement/Health%20and%20Food%20Safety/Food%20Safety/Health%20Inspection%20Report%20-%20April%20to%20June%202024.pdf",
+    "status": 200,
+    "sha256": "7ad64e2f05ca41297ed7a4e148c313b05acac0d5c224d7db3dea3f80bf86b336",
+    "classification": "score report"
+   }
+  ],
+  "wayback_items_checked": 323,
+  "wayback_classification": {
+   "no archived PDF": 42,
+   "score report": 15,
+   "not a score report": 244,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: DELIVERING ON SERVICE 2017 - 2018 ALLEN, TEXAS ANNUAL BUDGET 2017 - 2018 ANNUAL )": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: CITY OF ALLEN, TEXAS C OMPREHENSIVE A NNUAL F INANCIAL R EPORT FINANCE DEPARTMEN)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: PLANNING AND ZONING COMMISSION WORKSHOP MEETING APRIL 1 6, 201 9 ATTENDANCE : Co)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: E [phone removed] WEB: www.cityofallen.org MAIL: [e-mail removed] AGENDA / 1. 30)": 1,
+   "not a score report (scan: City of Allen declaration of local disaster for public health emergency, March 2020; page 1 read by eye)": 1,
+   "not a score report (scan: City of Allen emergency order, March 2020; page 1 read by eye)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: 8 I. i vi a II. \\222 1 A. 4 B. - 1 1 7 2 18 s s \\226 3 2 0 al 4 2 2 , \\226 5 2 3)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: , 2020 : : st PLANNING AND ZONING COMMISSION REGULAR MEETING May 19 ATTENDANCE C)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: AGENDA CITY OF ALLEN PLANNING AND ZONING COMMISSION REGULAR MEETING DECEMBER 1 ,)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: 4 lance Sheet of Governmental he Statement of Revenues, Statement of Revenues, C)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: , 202 1 : ALLEN CITY COUNCIL REGULAR MEETING JUNE 8 Present Ken neth Fulk, Mayor)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: 14, 202 1 : ALLEN CITY COUNCIL REGULAR MEETING DECEMBER Present Ken neth M. Fulk)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: M ay 3, 2022 C M , . C C M A TT C st - nd - Page 1 Planning and Zoning Commissio)": 1,
+   "truncated capture: unclassified (archive holds only the first 1 MiB of a larger file)": 4,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: B E 6 5 P 2 9/ 4 4 4 e 6 4 * \\226 c a ce e m . OARD NAME TERM EXPIRES APPOINTE P)": 1,
+   "not a score report (scan; PDF title 'Allen Agenda')": 2,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: . 10 a.m. FRIDAY SATURDAY SUNDAY TUESDAY WEDNESDAY MONDAY THURSDAY SH 121 Ridgev)": 1,
+   "truncated capture: not a score report (archive holds only the first 1 MiB; text seen: REMEDY IN : - - Electric AUTHORITY: No Storage and Operation Limitations Conditi)": 1
+  },
+  "wayback_score_reports": [
+   1154,
+   1735,
+   1976,
+   2017,
+   2032,
+   2042,
+   2148,
+   2234,
+   2329,
+   2445,
+   2515,
+   2537,
+   2618,
+   2704,
+   2755
+  ],
+  "robots": {
+   "cms3.revize.com": {
+    "robots_url": "https://cms3.revize.com/robots.txt",
+    "status": 200,
+    "final_url": "https://cms3.revize.com/robots.txt"
+   },
+   "www.cityofallen.org": {
+    "robots_url": "https://www.cityofallen.org/robots.txt",
+    "status": 404,
+    "final_url": "https://cms3.revize.com/revize/allentx/robots.txt"
+   },
+   "web.archive.org": {
+    "robots_url": "https://web.archive.org/robots.txt",
+    "status": 404,
+    "final_url": "https://web.archive.org/robots.txt"
+   }
+  }
+ },
+ "privacy": {
+  "rule": "e-mail addresses and phone numbers are removed from free text before anything is cached; certified-food-manager / staff names and certificate numbers are removed from comments (common.CommentScrubber); the free-text permit Description is not kept (fetch.py); probable home addresses are published as city, state and ZIP only (build.withhold_address)",
+  "contact_patterns_left_in_text_columns": {
+   "inspections": {},
+   "establishments": {},
+   "pdf_scores": {}
+  },
+  "scrub_at_fetch": {
+   "names": 34,
+   "certificate_numbers": 22,
+   "contacts": 0,
+   "comments_changed": 32,
+   "distinct_full_names_learned": 29
+  },
+  "scrub_at_build (second pass)": {
+   "names": 0,
+   "certificate_numbers": 0,
+   "contacts": 0,
+   "comments_changed": 0,
+   "distinct_full_names_learned": 0
+  },
+  "comments_with_redaction_marker": 44,
+  "addresses_withheld": {
+   "rule": "published as city, state and ZIP only (no parcel): a mailing address, and any address of a mobile or temporary vendor (truck, mobile, catering, construction-site, temporary, special-event or seasonal permit, or an EH-Food Truck inspection), unless it is a street address in Allen that is on a fixed establishment's permit or that several businesses use as their permit site; then the same street address on every other record; and a report line printing one of those addresses, or another town's address that is not an EnerGov address kept in full. Matching uses the full addresses internally (build.withhold_address, propagate_withholding).",
+   "exempt_street_addresses": 380,
+   "first_pass": {
+    "inspection_rows": 548,
+    "permits": 401
+   },
+   "inspection_rows": 551,
+   "inspection_rows_mailing_address": 533,
+   "inspection_rows_by_type": {
+    "EH-Food Establishment": 296,
+    "EH-Food Truck": 249,
+    "EH-Day Care Facility": 6
+   },
+   "inspection_distinct_addresses_withheld": 161,
+   "inspection_rows_establishment_address_withheld": 277,
+   "permits": 401,
+   "establishments": 282,
+   "report_lines": 112,
+   "report_lines_by_reason": {
+    "same address as a withheld EnerGov address": 107,
+    "printed town is not Allen": 5
+   },
+   "withheld_street_addresses_checked": 242,
+   "withheld_street_addresses_still_in_csvs": 0
+  },
+  "address_types_on_inspection_rows": {
+   "Site Address": 7987,
+   "Mailing Address": 1645,
+   "nan": 266
+  }
+ },
+ "scoring_rules": {
+  "faq_url": "https://www.cityofallen.org/departments/community_enhancement/health_and_food_safety/food_safety.php",
+  "scale": "100-point; start at 100, deduct 3/2/1 per item",
+  "demerits_inferred": "100 - score, for comparison with demerit-scored cities"
+ },
+ "readme_phrases": {
+  "headline_rows": "**9,898 inspection records** in 10 food-related inspection types",
+  "headline_test": "**14 of them are test or training entries**",
+  "headline_test_split": "(12 on the city's own \"Training Food Establishment\", 2 whose comment reads \"Testing\"",
+  "headline_completed": "Of the other 9,884 records, 8,429 are completed inspections dated May 8, 2017 through September 24, 2026; the rest are cancelled (1,133), pending or requested (322).",
+  "headline_businesses": "**1,594 EnerGov businesses (BusinessIds)**, taken from 5,416 public",
+  "headline_groups": "1,201 BusinessIds have inspections",
+  "headline_groups2": "they are **1,137 establishments**, 59 of which have inspections split across several BusinessIds",
+  "headline_comment_scores": "(1,147 inspections; see",
+  "headline_report_kinds": "17 score reports the city published between 2015 and 2025: 8 quarterly reports, 3 half-year reports, 4 cumulative 2019 year-to-date reports and 2 lists of the latest score per establishment",
+  "headline_lines": "Together they have 5,964 lines and 5,346 numeric scores",
+  "headline_distinct": "only 3,801 distinct numeric lines",
+  "headline_pdf_scored": "**3,058 inspections are matched to a report score.**",
+  "headline_any": "**3,945 inspections have a report score, a comment score or both**",
+  "headline_agree": "in all 260 inspections that have both",
+  "coverage_by_year": "8 in 2022, 165 in 2023 (16%), 502 in 2024 (43%), 403 in 2025 (40%), 69 in 2026 (24%)",
+  "count_inspections": "3,058 inspections have a `pdf_score`, 1,147 a `comment_score`, 3,945 one or both",
+  "unmatched_lines": "885 lines that match no inspection (776 of them in the two latest-score lists",
+  "fr_scores": "the 248 of them with a comment score average 83.9 (median 85, range 61\u201398) against 93.9 (median 95, range 73\u2013100) for the 899 \"Pass\" inspections with one",
+  "at_or_below_69": "All seven comment scores of 69 or below",
+  "fr_next": "975 of the 1,197 such records",
+  "fr_next_pass": "742 of those with \"Pass\"",
+  "test_est": "**12 inspections of the \"Training Food Establishment\"**",
+  "test_comment": "**2 inspections of a real business**",
+  "test_completed": "11 of the 14 are completed",
+  "test_completed2": "with them, 8,440 records are completed inspections",
+  "status_counts": "Excluding them, the statuses are: Pass 7,163, Followup Reinspection 1,173, Cancelled 741, BL - Cancelled 392, Pending 290, Fail 64, Requested 32, Follow-up Reinspection 25, Converted 2, Failed 2.",
+  "files_ins": "EnerGov inspection (9,898, including the 14 test records)",
+  "files_est": "business (EnerGov BusinessId, 1,594)",
+  "files_pdf": "line of a parsed score report (5,964)",
+  "files_details": "non-cancelled inspection (8,765)",
+  "files_permits": "permit / licence (5,416)",
+  "is_reinspection": "**false on all 8,765 fetched records**",
+  "closure": "(43 comments)",
+  "mailing": "1,645 rows carry a \"Mailing Address\"",
+  "join_1": "BusinessId in the food / day-care operational permits; 7,952)",
+  "join_2": "LinkNumber = its permit number in all 392 cases; 392)",
+  "join_3": "(the business is only in the legacy licence tables; 349)",
+  "join_4": "whose permit number is; 3)",
+  "join_5": "number, street and unit on the date; 385, of which 345 are cancelled",
+  "join_6": "`unmatched` (817, of which 788 are cancelled inspections",
+  "join_7": "Of the 8,765 inspections with a detail, 8,696 (99.2%) are joined through their EnerGov link, 40 by address and 29 not at all: 15 day-care inspections (10 of them from 2017\u20132018) and 7 food-establishment inspections",
+  "join_8": "and 7 inspections from 2026 linked to operational permits",
+  "groups_examples": "Braum's Ice Cream #278 (two BusinessIds with 9 and 16 inspections), Allen Eagle Food Mart (3 and 15), Chevron Mart at 105 S Custer Rd (5, 5 and 4)",
+  "low_conf": "(7 lines, e.g.",
+  "tier2_0": "42 tier-2 lines have names with no word in common",
+  "tier2_unit": "12 of the 42 also match the unit",
+  "same_day_evidence": "EnerGov has 45 same-day Followup Reinspection + Pass pairs; 3 of them have a comment score, and in all 3 it is on the Followup Reinspection record",
+  "same_day_lines": "46 lines are matched this way",
+  "same_day_unresolved": "18 lines stay `ambiguous: n same-day records",
+  "ambiguous_other": "11 other lines are `ambiguous (n equally good",
+  "no_scheduled": "the 297 records with no scheduled date (248 of them EH-Food Establishment)",
+  "getbyid_calls": "BL - Cancelled (8,765 calls)",
+  "wayback": "Of 323 items checked, 15 are score reports; 248 are other city documents; 42 (the 2010\u20132014 monthly reports) are not archived; 18 are captures the archive truncated at 1 MiB (14 of them readable",
+  "wayback_unclassified": "4 unclassified, all from files over",
+  "check_types": "equal for all 30 types (9,898 rows)",
+  "check_eh_status": "EH-Food Establishment: Pass 6,351, Followup Reinspection 1,109, Cancelled 602, BL - Cancelled 392, Fail 40, Pending 2, Requested 1",
+  "check_permits": "4,088, 361, 746, 221: all equal",
+  "check_details": "8,765 of 8,765",
+  "check_sched": "equal for 8,634 of 8,749; the 115 others",
+  "check_join": "99.2% of fetched inspections through their EnerGov link; OP LinkNumber = permit number in 392/392",
+  "check_rates": "94.6\u201399.5% per report for the 15 reports from 2019 on",
+  "check_agree": "260 of 260 equal",
+  "check_test": "14 flagged",
+  "as_of": "2026-09-28",
+  "privacy_contacts": "(44 replacements",
+  "privacy_names": "34 names and 22 certificate numbers in 32 comments",
+  "privacy_addresses": "551 inspection rows (533 of them mailing addresses; 161 distinct addresses), 282 establishments and 112 report lines",
+  "privacy_addresses_zero": "none of the withheld street addresses appears anywhere in the three CSVs",
+  "caveat_scores": "Scores exist only for 3,945 inspections",
+  "caveat_before_2019": "before 2019 only 103",
+  "caveat_test": "(14 rows, two of them on a real Tom Thumb bakery)",
+  "caveat_fail": "\"Fail\" is rare (64; 22 of them food-truck inspections)",
+  "caveat_closure": "`closure_keyword` flags 43 comments",
+  "caveat_pending": "The 290 Pending records include 37 inspections scheduled into 2027",
+  "caveat_dates": "193 completed inspections (196 rows in all) have an actual date different"
+ }
+}

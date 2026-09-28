@@ -1,0 +1,84 @@
+{
+ "runs": [
+  {
+   "started": "2026-09-28T02:19:05Z",
+   "finished": "2026-09-28T02:25:36Z",
+   "http": {
+    "network": 97,
+    "cached": 19,
+    "exceptions": 0
+   },
+   "note": "recorded by the first version of fetch.py, which counted only exceptions as errors",
+   "request_log": {
+    "requests": 97,
+    "by_host_status": {
+     "prospertx-energovweb.tylerhost.net 200": 5,
+     "web.archive.org 200": 35,
+     "web.archive.org 503": 2,
+     "www.prospertx.gov 200": 55
+    },
+    "exceptions": 0,
+    "non_ok_responses": [
+     {
+      "time": "2026-09-28T02:22:55Z",
+      "host": "web.archive.org",
+      "status": 503
+     },
+     {
+      "time": "2026-09-28T02:23:06Z",
+      "host": "web.archive.org",
+      "status": 503
+     }
+    ]
+   }
+  },
+  {
+   "started": "2026-09-28T04:15:26Z",
+   "finished": "2026-09-28T04:15:27Z",
+   "offline": true,
+   "http": {
+    "network": 0,
+    "cached": 114,
+    "exceptions": 0,
+    "retried_http_responses": 0
+   },
+   "request_log": {
+    "requests": 0,
+    "by_host_status": {},
+    "exceptions": 0,
+    "non_ok_responses": []
+   }
+  }
+ ],
+ "pdfs": {
+  "archive_center": 73,
+  "wayback": 32,
+  "total_bytes": 260090617
+ },
+ "food_permits": {
+  "TotalFound": 393,
+  "rows_returned": 393,
+  "test_records_dropped": 3,
+  "test_record_case_numbers": [
+   "FOOD-26-0299",
+   "FOOD-26-0325",
+   "FOOD-26-0336"
+  ],
+  "rows_kept": 390,
+  "company_name_withheld_because_dba_present": 337,
+  "company_name_withheld_without_dba": [
+   "FOOD-25-0111",
+   "FOOD-26-0357"
+  ]
+ },
+ "robots": {
+  "www.prospertx.gov": 200,
+  "web.archive.org": 404,
+  "prospertx-energovweb.tylerhost.net": 404
+ },
+ "robots_cache": {
+  "prospertx-energovweb.tylerhost.net": 404,
+  "web.archive.org": 404,
+  "www.prospertx.gov": 200
+ }
+}

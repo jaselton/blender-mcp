@@ -1,0 +1,1512 @@
+{
+ "sources": {
+  "archive_center_items": 73,
+  "archive_center_months": [
+   "2020-06",
+   "2020-07",
+   "2020-08",
+   "2020-09",
+   "2020-10",
+   "2020-11",
+   "2020-12",
+   "2021-01",
+   "2021-02",
+   "2021-03",
+   "2021-04",
+   "2021-05",
+   "2021-06",
+   "2021-07",
+   "2021-08",
+   "2021-09",
+   "2021-10",
+   "2021-11",
+   "2021-12",
+   "2022-01",
+   "2022-02",
+   "2022-03",
+   "2022-04",
+   "2022-05",
+   "2022-06",
+   "2022-07",
+   "2022-08",
+   "2022-09",
+   "2022-10",
+   "2022-11",
+   "2022-12",
+   "2023-01",
+   "2023-02",
+   "2023-03",
+   "2023-04",
+   "2023-05",
+   "2023-06",
+   "2023-07",
+   "2023-08",
+   "2023-09",
+   "2023-10",
+   "2024-01",
+   "2024-02",
+   "2024-03",
+   "2024-04",
+   "2024-05",
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08"
+  ],
+  "archive_center_pdfs_downloaded": 73,
+  "all_pdfs_have_sha256_and_sha1": true,
+  "wayback_pdfs_downloaded": 32,
+  "pdf_bytes_total": 260090617,
+  "food_permits_portal_total": 393,
+  "food_permits_test_records_dropped": 3,
+  "food_permits": 390,
+  "fetch_runs": [
+   {
+    "started": "2026-09-28T02:19:05Z",
+    "finished": "2026-09-28T02:25:36Z",
+    "offline": false,
+    "network_requests": 97,
+    "exceptions": 0,
+    "non_ok_http_responses_retried": [
+     {
+      "time": "2026-09-28T02:22:55Z",
+      "host": "web.archive.org",
+      "status": 503
+     },
+     {
+      "time": "2026-09-28T02:23:06Z",
+      "host": "web.archive.org",
+      "status": 503
+     }
+    ]
+   },
+   {
+    "started": "2026-09-28T04:15:26Z",
+    "finished": "2026-09-28T04:15:27Z",
+    "offline": true,
+    "network_requests": 0,
+    "exceptions": 0,
+    "non_ok_http_responses_retried": []
+   }
+  ],
+  "wayback_skipped_copies": {
+   "files": 27,
+   "with_a_capture_identical_to_the_archive_center_pdf": 19,
+   "without": [
+    {
+     "file": "Development-Services-Monthly-Report-April-2022.pdf",
+     "captures": 1,
+     "cdx_length": 981729
+    },
+    {
+     "file": "Development-Services-Monthly-Report-August-2022.pdf",
+     "captures": 1,
+     "cdx_length": 975128
+    },
+    {
+     "file": "Development-Services-Monthly-Report-December-2020.pdf",
+     "captures": 1,
+     "cdx_length": 1029361
+    },
+    {
+     "file": "Development-Services-Monthly-Report-February-2022.pdf",
+     "captures": 1,
+     "cdx_length": 956993
+    },
+    {
+     "file": "Development-Services-Monthly-Report-January-2022.pdf",
+     "captures": 1,
+     "cdx_length": 940524
+    },
+    {
+     "file": "Development-Services-Monthly-Report-July-2022.pdf",
+     "captures": 1,
+     "cdx_length": 994612
+    },
+    {
+     "file": "Development-Services-Monthly-Report-June-2022.pdf",
+     "captures": 1,
+     "cdx_length": 993112
+    },
+    {
+     "file": "Development-Services-Monthly-Report-May-2022.pdf",
+     "captures": 1,
+     "cdx_length": 1000243
+    }
+   ]
+  },
+  "wayback_downloads": {
+   "files": 32,
+   "checked_complete_pdf_and_cdx_sha1": 32,
+   "fell_back_to_a_later_capture": []
+  },
+  "monthly_report_files_not_downloaded": {
+   "pattern": "^monthly-report-(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)-20\\d\\d(-\\d)?\\.pdf$",
+   "files": 53,
+   "years_in_names": [
+    2018,
+    2022
+   ],
+   "cdx_length_bytes_min_max": [
+    121863,
+    316327
+   ],
+   "ds_report_files_same_years": 33,
+   "ds_report_cdx_length_bytes_min_max_same_years": [
+    940524,
+    4160299
+   ],
+   "all_smaller_than_every_ds_file_of_same_years": true,
+   "classification": "inference, not verified file by file: Fire Department monthly reports, not downloaded. Basis: the one opened in the recon (June 2018) is a Fire Chief activity report, and these files are much smaller than the Development Services reports of the same years"
+  },
+  "archive_center_missing_months": [
+   "2023-11",
+   "2023-12"
+  ],
+  "duplicate_or_alternate_copies": [
+   {
+    "month": "2016-04",
+    "kept": "WB20160615232257_Monthly-Development-Report-April-2016.pdf",
+    "dropped": "WB20161225015350_Monthly-Development-Report-April-2016-1.pdf",
+    "identical_file": false,
+    "identical_table_rows": true,
+    "dropped_rows": 5
+   },
+   {
+    "month": "2016-04",
+    "kept": "WB20160615232257_Monthly-Development-Report-April-2016.pdf",
+    "dropped": "WB20170124221100_Monthly-Development-Report-April-2016.pdf",
+    "identical_file": true,
+    "identical_table_rows": true,
+    "dropped_rows": 5
+   },
+   {
+    "month": "2016-06",
+    "kept": "WB20160910062539_Development-Services-June-2016.pdf",
+    "dropped": "WB20161225012237_Development-Services-June-2016.pdf",
+    "identical_file": true,
+    "identical_table_rows": true,
+    "dropped_rows": 3
+   }
+  ],
+  "not_development_services_reports": [
+   {
+    "key": "WB20161228104225_Monthly-Development-Report-September-1.pdf",
+    "page1_department": "Public Works",
+    "page1_month": "2016-09",
+    "file_name_month": null,
+    "table_rows": 0,
+    "decision": "not a Development Services report (page 1: Public Works Monthly Report); not used"
+   }
+  ],
+  "wayback_month_from_pdf_differs_from_file_name": [
+   {
+    "key": "WB20201030205337_Development-Services-Monthly-Report-June-2019-1.pdf",
+    "file_name_month": "2019-06",
+    "pdf_page1_month": "2019-07"
+   }
+  ],
+  "reports_without_health_table": [
+   {
+    "key": "WB20170124220234_DSC-Monthly-Staff-Report-July-20151.pdf",
+    "month": "2015-07",
+    "statement": null
+   },
+   {
+    "key": "WB20161228105727_DSC-Monthly-Staff-Report-_E2_80_93-August-2015.pdf",
+    "month": "2015-08",
+    "statement": null
+   },
+   {
+    "key": "WB20170124221453_DSC-Monthly-Staff-Report-September-2015.pdf",
+    "month": "2015-09",
+    "statement": null
+   },
+   {
+    "key": "WB20161228112403_Development-and-Community-Services-Monthly-Staff-Report-_E2_80_93-October-2015.pdf",
+    "month": "2015-10",
+    "statement": null
+   },
+   {
+    "key": "WB20170124221200_DSC-Monthly-Staff-Report-November-2015.pdf",
+    "month": "2015-11",
+    "statement": null
+   },
+   {
+    "key": "WB20161225015947_DSC-Monthly-Staff-Report-December-2015-1.pdf",
+    "month": "2015-12",
+    "statement": null
+   },
+   {
+    "key": "WB20170828055511_Monthly-Development-Report-December-2016.pdf",
+    "month": "2016-12",
+    "statement": "No Health Inspections were performed in December 2016"
+   }
+  ],
+  "table_repeats_previous_month": {
+   "2026-06": {
+    "repeats": "2026-05",
+    "shared_rows": 50,
+    "rows": 50,
+    "share": 1.0
+   }
+  },
+  "rows_reprinted_from_an_earlier_report": {
+   "rule": "a run of 4 or more consecutive rows identical in all five printed cells, in the same order, to a run in an earlier month's table",
+   "runs": [
+    {
+     "month": "2024-08",
+     "rows": [
+      27,
+      39
+     ],
+     "earlier_month": "2024-07",
+     "earlier_rows": [
+      26,
+      38
+     ],
+     "length": 13,
+     "pages": [
+      15
+     ],
+     "earlier_pages": [
+      13
+     ]
+    },
+    {
+     "month": "2026-06",
+     "rows": [
+      1,
+      16
+     ],
+     "earlier_month": "2026-05",
+     "earlier_rows": [
+      1,
+      16
+     ],
+     "length": 16,
+     "pages": [
+      14,
+      15
+     ],
+     "earlier_pages": [
+      13,
+      14
+     ]
+    },
+    {
+     "month": "2026-06",
+     "rows": [
+      21,
+      50
+     ],
+     "earlier_month": "2026-05",
+     "earlier_rows": [
+      21,
+      50
+     ],
+     "length": 30,
+     "pages": [
+      15,
+      16,
+      17
+     ],
+     "earlier_pages": [
+      14,
+      15,
+      16
+     ]
+    }
+   ],
+   "rows_outside_tables_that_repeat_the_previous_month": 13
+  },
+  "table_heading_flags": {
+   "2016-01": {
+    "key": "WB20170113210008_Monthly-Development-Report-January-2016-Reduced.pdf",
+    "heading": "Monthly Health Permits",
+    "notes": [
+     "table on p.14 is titled 'Monthly Health Permits', not an inspections title"
+    ]
+   },
+   "2024-07": {
+    "key": "ADID519",
+    "heading": "Health Inspection Results, June 2024",
+    "notes": [
+     "heading on p.11 says 2024-06: 'Health Inspection Results, June 2024' (0 of its 40 rows are in the 2024-06 table)"
+    ]
+   }
+  }
+ },
+ "parse": {
+  "pdfs_parsed": 105,
+  "health_pages": 272,
+  "table_rows_all_pdfs": 3242,
+  "text_crosscheck": "pdfplumber table rows vs. pdftotext -layout text, page by page: the sequence of result-column values and the sequence of numeric scores must be identical",
+  "pages_result_sequence_mismatch": 1,
+  "pages_score_sequence_mismatch": 0,
+  "result_mismatch_pages": [
+   {
+    "key": "WB20161228103804_Monthly-Development-Report-March-2016.pdf",
+    "page": 19,
+    "table_rows": 21,
+    "text_rows": 20,
+    "table_results": [
+     "pass",
+     "pass",
+     "pass",
+     "fail",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "na",
+     "pass",
+     "pass",
+     "na",
+     "",
+     "pass",
+     "pass"
+    ],
+    "text_results": [
+     "pass",
+     "pass",
+     "pass",
+     "fail",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "pass",
+     "na",
+     "pass",
+     "pass",
+     "na",
+     "pass",
+     "pass"
+    ]
+   }
+  ],
+  "continuation_rows_merged": 0,
+  "headerless_continuation_tables": 0,
+  "table_layouts": {
+   "Business Name | Business Type | Address / Event Name | Score or Inspection | Pass/Fail": 195,
+   "Business Name | Business Type | Address / Event Name | Score or Inspection Purpose | Pass/Fail": 46,
+   "Business Name | Business Type | Address | Score | Pass/Fail": 18,
+   "Business Name | Business Type | Address / Event Name | Score | Pass/Fail": 7,
+   " | Business Name | Business Type | Address / Event Name | Score or Inspection | Pass/Fail": 3,
+   "Business Name | Business Type | Address / Event Name | Score or | Pass/Fail": 2,
+   "Business Name | Business Type | Address | Score | Pass/Fail | Inspection Date": 1
+  },
+  "staff_or_food_manager_mentions_on_health_pages": 0,
+  "page_number_overlaps_table_pages": {
+   "ADID372": [
+    14
+   ],
+   "ADID373": [
+    15
+   ],
+   "ADID420": [
+    14
+   ],
+   "ADID433": [
+    14
+   ],
+   "ADID444": [
+    13
+   ],
+   "ADID445": [
+    14
+   ],
+   "ADID455": [
+    13
+   ],
+   "ADID456": [
+    13
+   ]
+  },
+  "page_number_rule": "the footer page number is removed before table extraction (it was read into the last cell of March 2023 p.14 before)",
+  "pdfium_cell_check": {
+   "method": "each non-empty text cell (name, type, address, score/purpose, pass/fail, date) looked up in the page text read by PDFium (pypdfium2, a second PDF engine not used for the extraction), with whitespace ignored and dashes, quotes and ligature glyphs unified; 'ignoring hyphens' = found once hyphens are ignored (a word hyphenated across a line break)",
+   "all_pdfs": {
+    "cells_checked": 16192,
+    "ignoring hyphens": 24,
+    "found_verbatim": 16168,
+    "not_found_cells": []
+   },
+   "published_rows": {
+    "cells_checked": 16127,
+    "ignoring hyphens": 24,
+    "found_verbatim": 16103,
+    "not_found_cells": []
+   },
+   "hand_checked_rows_with_a_cell_not_found": [],
+   "hand_checked_rows_type_and_address_found": 538
+  }
+ },
+ "counts": {
+  "months_in_range": 134,
+  "months_with_report": 101,
+  "months_with_printed_count_in_own_report": 79,
+  "months_with_printed_count_line": 76,
+  "months_with_narrative_count": 3,
+  "months_with_best_count": 94,
+  "ytd_chain": {
+   "no printed count": 22,
+   "not checkable": 5,
+   "no report": 33,
+   "ok": 69,
+   "mismatch": 3,
+   "count line is a copy of the previous month's": 2
+  },
+  "count_lines_copied_from_previous_month": [
+   "2023-09",
+   "2026-06"
+  ],
+  "ytd_chain_mismatches": [
+   {
+    "month": "2021-01",
+    "printed_count": 84.0,
+    "printed_ytd": NaN,
+    "detail": "mismatch (YTD implied by February = 40)",
+    "count_best": 40.0,
+    "basis": "next year's report, agreeing with the YTD totals (this month's printed count fails the YTD chain)"
+   },
+   {
+    "month": "2022-06",
+    "printed_count": 43.0,
+    "printed_ytd": 234.0,
+    "detail": "mismatch (previous YTD 190 + 43 != 234)",
+    "count_best": 43.0,
+    "basis": "printed in this month's report and again in next year's; YTD totals disagree"
+   },
+   {
+    "month": "2025-03",
+    "printed_count": 37.0,
+    "printed_ytd": 109.0,
+    "detail": "mismatch (previous YTD 71 + 37 != 109)",
+    "count_best": 37.0,
+    "basis": "printed in this month's report; YTD chain fails, no agreeing alternative"
+   }
+  ],
+  "prior_year_ytd_disagrees_with_own_report": [
+   {
+    "month": "2022-05",
+    "own": 190.0,
+    "next_year_report": 191.0
+   },
+   {
+    "month": "2022-07",
+    "own": 259.0,
+    "next_year_report": 37.0
+   },
+   {
+    "month": "2023-09",
+    "own": 276.0,
+    "next_year_report": 320.0
+   }
+  ],
+  "prior_year_column_disagrees_with_own_report": [
+   {
+    "month": "2021-01",
+    "own": 84.0,
+    "next_year_report": 40.0
+   },
+   {
+    "month": "2021-07",
+    "own": 69.0,
+    "next_year_report": 56.0
+   },
+   {
+    "month": "2022-02",
+    "own": 18.0,
+    "next_year_report": 19.0
+   },
+   {
+    "month": "2022-05",
+    "own": 54.0,
+    "next_year_report": 71.0
+   },
+   {
+    "month": "2023-09",
+    "own": 69.0,
+    "next_year_report": 44.0
+   },
+   {
+    "month": "2025-03",
+    "own": 37.0,
+    "next_year_report": 28.0
+   }
+  ],
+  "rows_vs_count": {
+   "months_compared": 79,
+   "excluded": "months whose table repeats the previous month's (2026-06), and rows reprinted from an earlier report (table_rows_net)",
+   "equal": 22,
+   "fewer_rows_than_count": 53,
+   "more_rows_than_count": 4,
+   "sum_count_best": 3572,
+   "sum_table_rows_net": 3019,
+   "table_rows_as_share_of_count": 0.845,
+   "months_short_by_10_or_more": 21,
+   "reprinted_rows_excluded_in_compared_months": 13
+  },
+  "largest_shortfalls": [
+   {
+    "month": "2020-12",
+    "count": 84,
+    "rows": 43
+   },
+   {
+    "month": "2019-07",
+    "count": 51,
+    "rows": 11
+   },
+   {
+    "month": "2019-08",
+    "count": 83,
+    "rows": 44
+   },
+   {
+    "month": "2020-11",
+    "count": 49,
+    "rows": 22
+   },
+   {
+    "month": "2019-12",
+    "count": 47,
+    "rows": 21
+   },
+   {
+    "month": "2020-03",
+    "count": 38,
+    "rows": 12
+   },
+   {
+    "month": "2019-02",
+    "count": 31,
+    "rows": 8
+   },
+   {
+    "month": "2025-07",
+    "count": 94,
+    "rows": 71
+   },
+   {
+    "month": "2024-04",
+    "count": 64,
+    "rows": 44
+   },
+   {
+    "month": "2020-10",
+    "count": 46,
+    "rows": 28
+   }
+  ],
+  "overages": [
+   {
+    "month": "2022-01",
+    "count": 19,
+    "rows": 20
+   },
+   {
+    "month": "2022-08",
+    "count": 53,
+    "rows": 54
+   },
+   {
+    "month": "2023-02",
+    "count": 14,
+    "rows": 15
+   },
+   {
+    "month": "2026-04",
+    "count": 16,
+    "rows": 24
+   }
+  ],
+  "narrative_counts_2015": [
+   {
+    "month": "2015-10",
+    "count_best": 8,
+    "basis": "narrative sentence in this month's report (\"Eight (8) Health Inspections were performed in October\"); no YTD printed"
+   },
+   {
+    "month": "2015-11",
+    "count_best": 7,
+    "basis": "narrative sentence in this month's report (\"Seven (7) Health Inspections were performed in November\"); no YTD printed"
+   },
+   {
+    "month": "2015-12",
+    "count_best": 16,
+    "basis": "narrative sentence in this month's report (\"Sixteen (16) Health Inspections were performed in December\"); no YTD printed"
+   }
+  ],
+  "counts_for_months_without_report": [
+   {
+    "month": "2019-03",
+    "count_best": 47.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2019-04",
+    "count_best": 47.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2019-06",
+    "count_best": 101.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2019-09",
+    "count_best": 51.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2019-10",
+    "count_best": 55.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2019-11",
+    "count_best": 54.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2020-01",
+    "count_best": 47.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2020-02",
+    "count_best": 51.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2020-05",
+    "count_best": 76.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2023-11",
+    "count_best": 45.0,
+    "basis": "next year's report (no report for this month)"
+   },
+   {
+    "month": "2023-12",
+    "count_best": 23.0,
+    "basis": "next year's report (no report for this month)"
+   }
+  ]
+ },
+ "scale": {
+  "era_by_report_month": {
+   "2015-07": "",
+   "2015-08": "",
+   "2015-09": "",
+   "2015-10": "",
+   "2015-11": "",
+   "2015-12": "",
+   "2016-01": "demerit_27item",
+   "2016-02": "demerit_27item",
+   "2016-03": "demerit_27item",
+   "2016-04": "demerit_27item",
+   "2016-05": "demerit_27item",
+   "2016-06": "demerit_27item",
+   "2016-07": "demerit_27item",
+   "2016-08": "demerit_27item",
+   "2016-09": "demerit_27item",
+   "2016-10": "demerit_27item",
+   "2016-11": "demerit_27item",
+   "2016-12": "",
+   "2017-01": "demerit_27item",
+   "2017-02": "demerit_27item",
+   "2017-03": "demerit_27item",
+   "2017-04": "demerit_27item",
+   "2019-02": "score_100",
+   "2019-07": "score_100",
+   "2019-08": "score_100",
+   "2019-12": "score_100",
+   "2020-03": "score_100",
+   "2020-04": "score_100",
+   "2020-06": "score_100",
+   "2020-07": "score_100",
+   "2020-08": "score_100",
+   "2020-09": "score_100",
+   "2020-10": "score_100",
+   "2020-11": "score_100",
+   "2020-12": "score_100",
+   "2021-01": "score_100",
+   "2021-02": "score_100",
+   "2021-03": "score_100",
+   "2021-04": "score_100",
+   "2021-05": "score_100",
+   "2021-06": "score_100",
+   "2021-07": "score_100",
+   "2021-08": "score_100",
+   "2021-09": "score_100",
+   "2021-10": "score_100",
+   "2021-11": "score_100",
+   "2021-12": "score_100",
+   "2022-01": "score_100",
+   "2022-02": "score_100",
+   "2022-03": "score_100",
+   "2022-04": "score_100",
+   "2022-05": "score_100",
+   "2022-06": "score_100",
+   "2022-07": "score_100",
+   "2022-08": "score_100",
+   "2022-09": "score_100",
+   "2022-10": "score_100",
+   "2022-11": "score_100",
+   "2022-12": "score_100",
+   "2023-01": "score_100",
+   "2023-02": "score_100",
+   "2023-03": "score_100",
+   "2023-04": "score_100",
+   "2023-05": "score_100",
+   "2023-06": "score_100",
+   "2023-07": "score_100",
+   "2023-08": "score_100",
+   "2023-09": "score_100",
+   "2023-10": "score_100",
+   "2024-01": "score_100",
+   "2024-02": "score_100",
+   "2024-03": "score_100",
+   "2024-04": "score_100",
+   "2024-05": "score_100",
+   "2024-06": "score_100",
+   "2024-07": "score_100",
+   "2024-08": "score_100",
+   "2024-09": "score_100",
+   "2024-10": "score_100",
+   "2024-11": "score_100",
+   "2024-12": "score_100",
+   "2025-01": "score_100",
+   "2025-02": "score_100",
+   "2025-03": "score_100",
+   "2025-04": "score_100",
+   "2025-05": "score_100",
+   "2025-06": "score_100",
+   "2025-07": "score_100",
+   "2025-08": "score_100",
+   "2025-09": "score_100",
+   "2025-10": "score_100",
+   "2025-11": "score_100",
+   "2025-12": "score_100",
+   "2026-01": "score_100",
+   "2026-02": "score_100",
+   "2026-03": "score_100",
+   "2026-04": "score_100",
+   "2026-05": "score_100",
+   "2026-06": "score_100",
+   "2026-07": "score_100",
+   "2026-08": "score_100"
+  },
+  "basis_counts": {
+   "no table": 7,
+   "inferred": 20,
+   "printed note": 74
+  },
+  "inferred_months": [
+   "2016-01",
+   "2024-01",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08"
+  ],
+  "first_score_100_note": "2019-02",
+  "last_score_100_note": "2025-02",
+  "last_demerit_note": "2017-04",
+  "score_100_range": [
+   63,
+   100
+  ],
+  "demerit_27_range": [
+   0,
+   44
+  ],
+  "score_100_values_below_50": [],
+  "demerit_27_values_above_30": [
+   "PR-2016-10-002",
+   "PR-2017-01-002"
+  ]
+ },
+ "rows": {
+  "inspections_csv_rows": 3229,
+  "report_months": 94,
+  "first_month": "2016-01",
+  "last_month": "2026-08",
+  "rows_in_tables_that_repeat_previous_month": 50,
+  "rows_reprinted_from_earlier_report": 59,
+  "rows_reprinted_from_earlier_report_outside_repeated_tables": 13,
+  "rows_excluded_as_reprint": 63,
+  "rows_excluding_reprints": 3166,
+  "by_scale_era_numeric": {
+   "score_100": 870,
+   "demerit_27": 85
+  },
+  "by_purpose": {
+   "routine": 955,
+   "unspecified": 947,
+   "follow_up": 566,
+   "preliminary": 175,
+   "final": 151,
+   "complaint": 105,
+   "certificate_of_occupancy": 89,
+   "pool_routine": 46,
+   "courtesy": 45,
+   "pre_opening": 31,
+   "temporary_food": 20,
+   "complaint_follow_up": 10,
+   "plan_review": 6,
+   "remodel": 5,
+   "imminent_health_hazard": 4,
+   "notice_of_violation": 3,
+   "fbi_complaint": 3,
+   "change_of_ownership": 2,
+   "not_scored": 1,
+   "closure": 1,
+   "fire_sprinkler": 1
+  },
+  "by_facility_class": {
+   "restaurant": 1341,
+   "temporary": 344,
+   "pool": 337,
+   "school": 315,
+   "mobile": 283,
+   "store": 275,
+   "daycare": 153,
+   "concession": 102,
+   "other": 9,
+   "unknown": 7
+  },
+  "by_result": {
+   "pass": 2404,
+   "not_stated": 341,
+   "fail": 218,
+   "not_applicable": 202,
+   "blank": 1
+  },
+  "score_100_by_facility_class": {
+   "restaurant": 455,
+   "school": 177,
+   "store": 127,
+   "daycare": 110,
+   "other": 1
+  },
+  "restaurant_score_100_rows": 455,
+  "score_100_summary": {
+   "count": 870.0,
+   "mean": 91.62,
+   "std": 7.58,
+   "min": 63.0,
+   "25%": 88.0,
+   "50%": 94.0,
+   "75%": 98.0,
+   "max": 100.0
+  },
+  "restaurant_score_100_summary": {
+   "count": 455.0,
+   "mean": 88.03,
+   "std": 7.86,
+   "min": 63.0,
+   "25%": 82.0,
+   "50%": 89.0,
+   "75%": 94.0,
+   "max": 100.0
+  },
+  "demerit_27_summary": {
+   "count": 85.0,
+   "mean": 7.89,
+   "std": 8.23,
+   "min": 0.0,
+   "25%": 3.0,
+   "50%": 7.0,
+   "75%": 12.0,
+   "max": 44.0
+  },
+  "score_100_rows_by_year": {
+   "2019": 52,
+   "2020": 142,
+   "2021": 225,
+   "2022": 126,
+   "2023": 57,
+   "2024": 141,
+   "2025": 76,
+   "2026": 51
+  },
+  "rows_with_an_identical_row_in_same_month": 135,
+  "months_with_identical_rows": 38,
+  "rows_repeating_the_row_above_across_a_page_break": [
+   "PR-2021-11-045",
+   "PR-2023-01-012",
+   "PR-2023-05-047",
+   "PR-2025-07-013",
+   "PR-2026-05-012",
+   "PR-2026-05-027"
+  ],
+  "rows_repeating_the_row_above_across_a_page_break_in_repeated_tables": [
+   "PR-2026-06-012",
+   "PR-2026-06-027"
+  ],
+  "columns_swapped_in_source": 37,
+  "columns_swapped_by_month": {
+   "2022-10": 35,
+   "2023-03": 2
+  },
+  "numeric_rows_including_reprints": {
+   "score_100": 870,
+   "demerit_27": 85
+  },
+  "addresses_withheld_mobile_or_out_of_town": 149,
+  "months_with_zero_numeric_restaurant_scores": [
+   "2016-01",
+   "2016-04",
+   "2016-05",
+   "2016-06",
+   "2016-07",
+   "2016-09",
+   "2019-07",
+   "2022-01",
+   "2022-02",
+   "2022-10",
+   "2023-02",
+   "2023-04",
+   "2023-06",
+   "2023-10",
+   "2024-03",
+   "2024-04",
+   "2025-01",
+   "2025-06",
+   "2026-01",
+   "2026-02",
+   "2026-04",
+   "2026-05",
+   "2026-07"
+  ],
+  "months_since_2019_with_zero_numeric_restaurant_scores": 17
+ },
+ "closures": {
+  "ordinance": {
+   "number": "2021-74",
+   "section": "6.04.010 Inspections-Score",
+   "effective": "2022-01-01",
+   "rule": "a sanitation score below 70 percent: closed until a reinspection is made and all corrective action on critical violations is complete (Sec. 6.04.010); more than 30 demerits is an imminent health hazard (Sec. 6.04.002(b))",
+   "url": "https://web.archive.org/web/20230928185438id_/https://www.prospertx.gov/DocumentCenter/View/122/Food-Establishment-Ordinance-PDF"
+  },
+  "rows": [
+   {
+    "row_id": "PR-2016-10-002",
+    "month": "2016-10",
+    "name": "Mesa’s",
+    "score_or_purpose": "42",
+    "result": "Failed",
+    "score_100": NaN,
+    "demerit_27": 42.0,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2017-01-002",
+    "month": "2017-01",
+    "name": "Ernesto’s",
+    "score_or_purpose": "44",
+    "result": "Failed",
+    "score_100": NaN,
+    "demerit_27": 44.0,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2019-08-005",
+    "month": "2019-08",
+    "name": "Ernesto’s Mexican Restaurant",
+    "score_or_purpose": "64",
+    "result": "Fail",
+    "score_100": 64.0,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": true,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2021-01-023",
+    "month": "2021-01",
+    "name": "MOD Pizza",
+    "score_or_purpose": "Temp Closure",
+    "result": "Fail",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2021-09-024",
+    "month": "2021-09",
+    "name": "Rice Pot Express",
+    "score_or_purpose": "63",
+    "result": "Fail",
+    "score_100": 63.0,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": true,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2022-05-038",
+    "month": "2022-05",
+    "name": "Sauce Pizza and Wine",
+    "score_or_purpose": "N/A",
+    "result": "Closed for Business",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2022-08-039",
+    "month": "2022-08",
+    "name": "The Gin",
+    "score_or_purpose": "68",
+    "result": "Fail",
+    "score_100": 68.0,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": true,
+    "closure_rule_applies": true,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2023-08-044",
+    "month": "2023-08",
+    "name": "Olive Garden",
+    "score_or_purpose": "Electrical Fire/ Closure",
+    "result": "Pass/Re-opened",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": true,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2024-05-029",
+    "month": "2024-05",
+    "name": "Whispering Farms Montessori Academy",
+    "score_or_purpose": "Imminent Health Hazard (Fire)",
+    "result": "Pass",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": ""
+   },
+   {
+    "row_id": "PR-2024-06-009",
+    "month": "2024-06",
+    "name": "Popeyes",
+    "score_or_purpose": "Complaint Inspection/ Closure",
+    "result": "Fail",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2024-07-001",
+    "month": "2024-07",
+    "name": "Mana Adda Indian Kitchen",
+    "score_or_purpose": "68",
+    "result": "Fail/Closure",
+    "score_100": 68.0,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": true,
+    "closure_rule_applies": true,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2024-07-002",
+    "month": "2024-07",
+    "name": "Mana Adda Indian Kitchen",
+    "score_or_purpose": "Follow-Up Inspection",
+    "result": "Fail/Closure",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2024-08-050",
+    "month": "2024-08",
+    "name": "Frontier Estates",
+    "score_or_purpose": "Pool Closure/Reopen",
+    "result": "Fail",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": true,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2024-08-051",
+    "month": "2024-08",
+    "name": "Frontier Estates",
+    "score_or_purpose": "Pool Closure/Reopen",
+    "result": "Pass",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": true,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2024-10-005",
+    "month": "2024-10",
+    "name": "Roma's Italian Restaurant",
+    "score_or_purpose": "Imminent Health Hazard (Fire)",
+    "result": "N/A",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": ""
+   },
+   {
+    "row_id": "PR-2025-04-004",
+    "month": "2025-04",
+    "name": "Whataburger",
+    "score_or_purpose": "Imminent Health Hazard",
+    "result": "N/A",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": ""
+   },
+   {
+    "row_id": "PR-2025-05-002",
+    "month": "2025-05",
+    "name": "Mana Adda Indian Kitchen",
+    "score_or_purpose": "65",
+    "result": "Fail/Closure",
+    "score_100": 65.0,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": true,
+    "closure_rule_applies": true,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2025-08-007",
+    "month": "2025-08",
+    "name": "Veg-Nivas Restaurant",
+    "score_or_purpose": "67",
+    "result": "Fail (Restaurant Closure)",
+    "score_100": 67.0,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": true,
+    "closure_rule_applies": true,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2025-08-008",
+    "month": "2025-08",
+    "name": "Veg-Nivas Restaurant",
+    "score_or_purpose": "Follow Up",
+    "result": "Pass (Restaurant Re-Opened)",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": true,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2025-10-015",
+    "month": "2025-10",
+    "name": "The Brass Tap",
+    "score_or_purpose": "Complaint Inspection/ Closure",
+    "result": "N/A",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2025-10-016",
+    "month": "2025-10",
+    "name": "The Brass Tap",
+    "score_or_purpose": "Follow Up Inspection/ Remained Closed",
+    "result": "N/A",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2026-08-007",
+    "month": "2026-08",
+    "name": "Jatara Indian Kitchen",
+    "score_or_purpose": "66/Temporary Closure",
+    "result": "Fail",
+    "score_100": 66.0,
+    "demerit_27": NaN,
+    "closure_text": true,
+    "reopen_text": false,
+    "below_70": true,
+    "closure_rule_applies": true,
+    "hand_check": "match"
+   },
+   {
+    "row_id": "PR-2026-08-011",
+    "month": "2026-08",
+    "name": "Jatara Indian Kitchen",
+    "score_or_purpose": "Follow Up/Re-Opened",
+    "result": "Pass",
+    "score_100": NaN,
+    "demerit_27": NaN,
+    "closure_text": false,
+    "reopen_text": true,
+    "below_70": false,
+    "closure_rule_applies": false,
+    "hand_check": "match"
+   }
+  ],
+  "below_70_rows": 7,
+  "below_70_rows_since_ordinance": 5,
+  "below_70_since_ordinance_with_closure_wording": 4,
+  "below_70_rows_including_reprints": 7,
+  "narrative_events": [
+   {
+    "month": "2015-08",
+    "key": "WB20161228105727_DSC-Monthly-Staff-Report-_E2_80_93-August-2015.pdf",
+    "page": 2,
+    "text": "Ernesto’s closed on Thursday, August 27, 2015, due to a small fire. Upon inspection by the Health Inspector, a roach infestation was found inside the building. The owners repaired the damage from the fire and complied with the requirement to fumigate the premise. Weekly fumigation must be performed and reported to the Health Inspector for the next four (4) weeks. The restaurant was allowed to reopen on Friday, August 28, 2015."
+   }
+  ]
+ },
+ "matching": {
+  "permits_by_number_prefix": {
+   "FOOD-22": 1,
+   "FOOD-23": 127,
+   "FOOD-24": 46,
+   "FOOD-25": 29,
+   "FOOD-26": 187
+  },
+  "permits_by_status": {
+   "Active": 173,
+   "Expired": 149,
+   "Void": 39,
+   "Revoked": 9,
+   "Fees Paid": 8,
+   "Under Review": 7,
+   "Fees Due": 3,
+   "On Hold": 2
+  },
+  "active_permits_by_number_prefix": {
+   "FOOD-24": 2,
+   "FOOD-25": 4,
+   "FOOD-26": 167
+  },
+  "permit_establishments": 226,
+  "permits": 390,
+  "portal_total_found": 393,
+  "test_records_dropped": [
+   "FOOD-26-0299",
+   "FOOD-26-0325",
+   "FOOD-26-0336"
+  ],
+  "permits_without_public_name": [
+   "FOOD-25-0111",
+   "FOOD-26-0357"
+  ],
+  "permit_establishments_named_withheld": 2,
+  "matched_rows": {
+   "all_rows": 1425,
+   "excluding_reprints": 1411
+  },
+  "active_permit_establishments_ever_scored_0_100": 109,
+  "active_permit_establishments_scored_0_100_since_2025_01": 39,
+  "permit_establishments_with_active_permit": 166,
+  "table_only_establishments": 782,
+  "rows_by_match_method": {
+   "address+name": 1334,
+   "not attempted (class)": 1163,
+   "none": 641,
+   "address+name (suite missing on one side)": 91
+  },
+  "matched_share_by_facility_class": {
+   "concession": {
+    "rows": 102,
+    "matched": 3
+   },
+   "daycare": {
+    "rows": 153,
+    "matched": 0
+   },
+   "mobile": {
+    "rows": 283,
+    "matched": 0
+   },
+   "other": {
+    "rows": 9,
+    "matched": 1
+   },
+   "pool": {
+    "rows": 337,
+    "matched": 0
+   },
+   "restaurant": {
+    "rows": 1341,
+    "matched": 1188
+   },
+   "school": {
+    "rows": 315,
+    "matched": 6
+   },
+   "store": {
+    "rows": 275,
+    "matched": 211
+   },
+   "temporary": {
+    "rows": 344,
+    "matched": 0
+   },
+   "unknown": {
+    "rows": 7,
+    "matched": 2
+   }
+  },
+  "permit_establishments_never_in_tables": 42,
+  "active_permit_establishments_never_scored_in_tables": 57
+ },
+ "hand_check": {
+  "method": "Each selected row's parsed fields were compared by reading the pdftotext -layout text of its PDF page (the lines of that row); verdicts are in data/hand_check.csv. The reviewer is an AI model (Claude), not a person.",
+  "selection": {
+   "flagged_rule": "result Fail, score below 70, over 30 demerits, closure / re-open / closed-for-business wording",
+   "flagged_rows": 239,
+   "random_share_of_other_rows": 0.1,
+   "random_seed": 20260928,
+   "random_rows": 299
+  },
+  "verdicts": {
+   "match": 538
+  },
+  "rows_selected_without_verdict": 0,
+  "verdicts_for_rows_that_changed_since_check": [],
+  "fingerprints": {
+   "reviewed_cells": "the reviewer read all five printed cells (name, type, address, score/purpose, pass/fail) against the PDF text; at review time only name, score/purpose and result were fingerprinted",
+   "rows_with_three_cell_fingerprint": 538,
+   "rows_with_five_cell_fingerprint": 538,
+   "five_cell_fingerprint_recorded": [
+    "2026-09-28, after the review, from the rows as then built; type and address were checked by the automated PDFium cell check, not re-read"
+   ]
+  },
+  "mismatches": []
+ },
+ "privacy": {
+  "addresses_withheld": 149,
+  "rule": "addresses of mobile food units, addresses in another city, and addresses of temporary-event vendors that are not a shared venue (3+ vendors) or a fixed business location are withheld (parse.sanitized)",
+  "email_or_phone_left_in_outputs": 0,
+  "permit_fields_dropped": "holder first/middle/last names, applicant-written description, tax id",
+  "permit_company_name": "withheld ([withheld]) when the permit has a DBA, and when a permit without a DBA has a company name that could be a person's name (fetch.could_be_person); an opaque CompanyKey is kept for grouping",
+  "permit_company_names_withheld": 339,
+  "permit_test_records_dropped": 3,
+  "email_or_phone_in_narrative_events": 0
+ }
+}
