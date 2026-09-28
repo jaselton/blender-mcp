@@ -1,0 +1,999 @@
+{
+ "generated_at": "2026-09-28T02:55:27Z",
+ "integrity": {
+  "files_checked": 17,
+  "sha256_mismatches": [],
+  "captures": [
+   {
+    "timestamp": "20240513021424",
+    "sha256_ok": true,
+    "digest_matches_cdx": true
+   },
+   {
+    "timestamp": "20240612124719",
+    "sha256_ok": true,
+    "digest_matches_cdx": true
+   },
+   {
+    "timestamp": "20251017180715",
+    "sha256_ok": true,
+    "digest_matches_cdx": true
+   }
+  ]
+ },
+ "sources": {
+  "wayback_captures": [
+   {
+    "timestamp": "20240513021424",
+    "captured_at_utc": "2024-05-13T02:14:24Z",
+    "original_url": "http://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+    "wayback_url": "https://web.archive.org/web/20240513021424id_/http://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+    "export_title": "City of Richardson Health Department Restaurant Scores",
+    "export_created": "2024-05-12",
+    "establishment_blocks": 750,
+    "name_address_blocks": 781,
+    "score_rows": 3946,
+    "unique_report_keys": 3942,
+    "duplicate_keys": {
+     "10592~~12/15/2023": 2,
+     "10469~~10/26/2021": 2,
+     "1638~99~03/07/2024": 2,
+     "1023~~01/22/2024": 2
+    },
+    "permits": 767,
+    "rows_with_blank_permit": 0,
+    "names": 750,
+    "scored_rows": 3453,
+    "unscored_rows": 493,
+    "rows_with_unusable_date": [],
+    "rows_dated_after_export": [],
+    "rows_whose_key_differs_from_fields": 0,
+    "earliest_date": "2021-05-12",
+    "latest_date": "2024-05-10",
+    "window_days_before_export": 1096
+   },
+   {
+    "timestamp": "20240612124719",
+    "captured_at_utc": "2024-06-12T12:47:19Z",
+    "original_url": "https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+    "wayback_url": "https://web.archive.org/web/20240612124719id_/https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+    "export_title": "City of Richardson Health Department Restaurant Scores",
+    "export_created": "2024-06-12",
+    "establishment_blocks": 748,
+    "name_address_blocks": 776,
+    "score_rows": 3961,
+    "unique_report_keys": 3957,
+    "duplicate_keys": {
+     "10592~~12/15/2023": 2,
+     "10469~~10/26/2021": 2,
+     "1638~99~03/07/2024": 2,
+     "1023~~01/22/2024": 2
+    },
+    "permits": 764,
+    "rows_with_blank_permit": 0,
+    "names": 748,
+    "scored_rows": 3457,
+    "unscored_rows": 504,
+    "rows_with_unusable_date": [],
+    "rows_dated_after_export": [],
+    "rows_whose_key_differs_from_fields": 0,
+    "earliest_date": "2021-06-15",
+    "latest_date": "2024-06-11",
+    "window_days_before_export": 1093
+   },
+   {
+    "timestamp": "20251017180715",
+    "captured_at_utc": "2025-10-17T18:07:15Z",
+    "original_url": "https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+    "wayback_url": "https://web.archive.org/web/20251017180715id_/https://discovery.cor.gov/public/health/healthtrak.nsf/CORScores.json",
+    "export_title": "City of Richardson Health Department Restaurant Scores",
+    "export_created": "2025-10-17",
+    "establishment_blocks": 751,
+    "name_address_blocks": 785,
+    "score_rows": 3732,
+    "unique_report_keys": 3729,
+    "duplicate_keys": {
+     "1638~99~03/07/2024": 2,
+     "11852~96~03/31/2025": 2,
+     "1023~~01/22/2024": 2
+    },
+    "permits": 767,
+    "rows_with_blank_permit": 0,
+    "names": 751,
+    "scored_rows": 3431,
+    "unscored_rows": 301,
+    "rows_with_unusable_date": [
+     {
+      "key": "13146~100~",
+      "date_as_published": "",
+      "name": "Desi Brothers"
+     },
+     {
+      "key": "11098~100~08/04/202",
+      "date_as_published": "08/04/202",
+      "name": "I Fratelli Pizza"
+     }
+    ],
+    "rows_dated_after_export": [
+     {
+      "key": "10758~97~12/01/2025",
+      "date": "2025-12-01",
+      "name": "American Food & Vending @ Qorvo Cafeteria"
+     }
+    ],
+    "rows_whose_key_differs_from_fields": 0,
+    "earliest_date": "2022-10-15",
+    "latest_date": "2025-12-01",
+    "window_days_before_export": 1098
+   }
+  ],
+  "cdx_queries": [
+   {
+    "name": "corscores_any_scheme",
+    "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores.json",
+    "rows": 3,
+    "fetched_at": "2026-09-28T02:26:52Z"
+   },
+   {
+    "name": "corscores_http",
+    "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=http%3A%2F%2Fdiscovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores.json",
+    "rows": 3,
+    "fetched_at": "2026-09-28T02:27:33Z"
+   },
+   {
+    "name": "corscores_https",
+    "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=https%3A%2F%2Fdiscovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores.json",
+    "rows": 3,
+    "fetched_at": "2026-09-28T02:28:31Z"
+   },
+   {
+    "name": "corscores_prefix",
+    "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FCORScores&matchType=prefix",
+    "rows": 3,
+    "fetched_at": "2026-09-28T02:28:32Z"
+   },
+   {
+    "name": "scores_page",
+    "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FwebScores.html",
+    "rows": 7,
+    "fetched_at": "2026-09-28T02:29:00Z"
+   },
+   {
+    "name": "webscores_prefix",
+    "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2Fwebscores&matchType=prefix&limit=20000&filter=%21original%3A.%2A%5BRr%5Deadonly%5BAa%5Dll.%2A",
+    "rows": 274,
+    "fetched_at": "2026-09-28T02:29:07Z"
+   },
+   {
+    "name": "report_pages_prefix",
+    "url": "https://web.archive.org/cdx/search/cdx?output=json&fl=urlkey%2Ctimestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength&url=discovery.cor.gov%2Fpublic%2Fhealth%2Fhealthtrak.nsf%2FwebScoresForReadonlyAll&matchType=prefix&limit=20000",
+    "rows": 7,
+    "fetched_at": "2026-09-28T02:30:01Z"
+   }
+  ],
+  "cdx_captures_not_downloaded": [],
+  "socrata": {
+   "dataset": "yf9v-pthu",
+   "dataset_page": "https://lives.data.socrata.com/d/yf9v-pthu",
+   "api": "https://lives.data.socrata.com/resource/yf9v-pthu.json",
+   "fields_published": [
+    "business_id",
+    "business_name",
+    "business_address",
+    "business_city",
+    "business_state",
+    "business_postal_code",
+    "business_latitude",
+    "business_longitude",
+    "business_phone_number",
+    "inspection_id",
+    "inspection_date",
+    "inspection_score",
+    "business_location",
+    ":@computed_region_s9ah_rd6f"
+   ],
+   "field_types": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "number",
+    "number",
+    "number",
+    "text",
+    "floating_timestamp",
+    "number",
+    "location",
+    "number"
+   ],
+   "fields_not_downloaded": [
+    "business_phone_number",
+    "business_location",
+    ":@computed_region_s9ah_rd6f"
+   ],
+   "last_modified": "Tue, 23 Apr 2019 04:37:17 GMT",
+   "api_count": 2167,
+   "rows_saved": 2167,
+   "contact_strings_removed": 0,
+   "file": "socrata/yf9v-pthu.json",
+   "sha256": "411d97bb3b8ddfd650511c9331b5fa424bda8db2b461cd1f4f18faa0337ce834",
+   "feed_info": {
+    "dataset": "tqfg-ya7z",
+    "url": "https://lives.data.socrata.com/resource/tqfg-ya7z.json?%24select=feed_version%2Cmunicipality_name%2Cmunicipality_url%2Cscoring_method",
+    "rows": 1,
+    "columns_left_out": [
+     "contact_email"
+    ],
+    "contact_strings_removed": 0,
+    "file": "socrata/tqfg-ya7z.json",
+    "sha256": "b779ae5f3ce90d692abacef7606517ca4d37a858142b9f93da39e9b2d9340a5c",
+    "fetched_at": "2026-09-28T02:29:51Z"
+   },
+   "note": "The city's LIVES feed is one flat table (business fields repeated on every inspection row). It has no violations table and no violation columns.",
+   "rows": 2167,
+   "distinct_inspection_ids": 2167,
+   "businesses": 452,
+   "earliest_date": "2015-11-10",
+   "latest_date": "2018-11-06",
+   "constructed_keys_shared_by_more_than_one_row": 2,
+   "note_on_shared_keys": "LIVES rows are kept one per inspection_id, so a constructed key shared by two inspections appears on two rows (rows_with_this_key = 2)."
+  },
+  "weekly_listings_in_gap": {
+   "gap_bounds_exclusive": [
+    "20181106",
+    "20210512"
+   ],
+   "captures": [
+    {
+     "timestamp": "20190504095141",
+     "wayback_url": "https://web.archive.org/web/20190504095141id_/https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+     "digest_matches_cdx": true,
+     "week_ending_as_published": "04/27/2019",
+     "rows": 34,
+     "report_links_on_page": 34,
+     "unique_report_keys": 33,
+     "duplicate_keys": {
+      "11430~85~04/24/2019": 2
+     },
+     "score_cell_equals_score_in_key": 34,
+     "earliest_date": "2019-04-22",
+     "latest_date": "2019-04-26"
+    },
+    {
+     "timestamp": "20190630073245",
+     "wayback_url": "https://web.archive.org/web/20190630073245id_/https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+     "digest_matches_cdx": true,
+     "week_ending_as_published": "06/29/2019",
+     "rows": 14,
+     "report_links_on_page": 14,
+     "unique_report_keys": 14,
+     "duplicate_keys": {},
+     "score_cell_equals_score_in_key": 14,
+     "earliest_date": "2019-06-24",
+     "latest_date": "2019-06-27"
+    }
+   ]
+  }
+ },
+ "union": {
+  "report_keys_across_captures": 5808,
+  "rekeyed_keys_superseded": 1,
+  "wayback_inspections_counted": 5807,
+  "socrata_inspections": 2167,
+  "weekly_listing_inspections": 47,
+  "weekly_listing_keys_already_in_other_sources": [],
+  "inspections_counted_all_sources": 8021,
+  "rows_in_inspections_csv": 8022,
+  "presence_patterns": {
+   "100": 95,
+   "110": 1971,
+   "111": 1876,
+   "011": 97,
+   "010": 13,
+   "001": 1756
+  },
+  "later_status": {
+   "aged_out": 1730,
+   "permit_not_listed": 336,
+   "in_latest_capture": 3729,
+   "vanished": 12,
+   "rekeyed": 1
+  },
+  "first_seen_status": {
+   "in_first_capture": 3942,
+   "rekey_target": 1,
+   "new": 1863,
+   "undated": 2
+  },
+  "keys_listed_twice_in_a_capture": 5,
+  "date_flags": {
+   "dated_after_export": 1,
+   "invalid_date": 1,
+   "blank_date": 1
+  },
+  "establishments": 1087,
+  "key_overlap_socrata_vs_wayback": 0,
+  "note": "'Counted' excludes the old key of every re-keyed record, whose successor key is also in the table, so each inspection is counted once."
+ },
+ "counts_per_source_and_year": {
+  "all_sources": {
+   "2015": 133,
+   "2016": 596,
+   "2017": 675,
+   "2018": 763,
+   "2019": 47,
+   "2021": 718,
+   "2022": 1293,
+   "2023": 1310,
+   "2024": 1349,
+   "2025": 1135,
+   "no date": 2
+  },
+  "wayback_union": {
+   "2021": 718,
+   "2022": 1293,
+   "2023": 1310,
+   "2024": 1349,
+   "2025": 1135,
+   "no date": 2
+  },
+  "socrata": {
+   "2015": 133,
+   "2016": 596,
+   "2017": 675,
+   "2018": 763
+  },
+  "weekly_listings": {
+   "2019": 47
+  },
+  "per_capture": {
+   "20240513021424": {
+    "2021": 719,
+    "2022": 1293,
+    "2023": 1311,
+    "2024": 623
+   },
+   "20240612124719": {
+    "2021": 664,
+    "2022": 1278,
+    "2023": 1292,
+    "2024": 727
+   },
+   "20251017180715": {
+    "2022": 222,
+    "2023": 1129,
+    "2024": 1243,
+    "2025": 1136,
+    "no date": 2
+   }
+  }
+ },
+ "capture_overlaps": [
+  {
+   "a": "20240513021424",
+   "b": "20240612124719",
+   "keys_a": 3942,
+   "keys_b": 3957,
+   "both": 3847,
+   "only_a": 95,
+   "only_b": 110,
+   "jaccard": 0.9494,
+   "shared_date_range": [
+    "2021-06-15",
+    "2024-05-12"
+   ],
+   "in_shared_range": {
+    "a": 3894,
+    "b": 3848,
+    "both": 3847,
+    "only_a": 47,
+    "only_b": 1
+   }
+  },
+  {
+   "a": "20240513021424",
+   "b": "20251017180715",
+   "keys_a": 3942,
+   "keys_b": 3729,
+   "both": 1876,
+   "only_a": 2066,
+   "only_b": 1853,
+   "jaccard": 0.3237,
+   "shared_date_range": [
+    "2022-10-15",
+    "2024-05-12"
+   ],
+   "in_shared_range": {
+    "a": 2194,
+    "b": 1877,
+    "both": 1876,
+    "only_a": 318,
+    "only_b": 1
+   }
+  },
+  {
+   "a": "20240612124719",
+   "b": "20251017180715",
+   "keys_a": 3957,
+   "keys_b": 3729,
+   "both": 1973,
+   "only_a": 1984,
+   "only_b": 1756,
+   "jaccard": 0.3454,
+   "shared_date_range": [
+    "2022-10-15",
+    "2024-06-12"
+   ],
+   "in_shared_range": {
+    "a": 2275,
+    "b": 1988,
+    "both": 1973,
+    "only_a": 302,
+    "only_b": 15
+   }
+  }
+ ],
+ "capture_transitions": [
+  {
+   "from": "20240513021424",
+   "to": "20240612124719",
+   "keys_from": 3942,
+   "keys_to": 3957,
+   "window_start_to": "2021-06-15",
+   "keys_gone": 95,
+   "gone_by_class": {
+    "aged_out": 48,
+    "permit_not_listed": 46,
+    "rekeyed": 1
+   },
+   "keys_new": 110,
+   "new_by_class": {
+    "new": 109,
+    "rekey_target": 1
+   },
+   "backfilled_days_before_previous_export": null,
+   "rekeyed": [
+    {
+     "old_key": "12312~88~03/20/2024",
+     "new_key": "12311~88~03/20/2024",
+     "change": "permit",
+     "old_name": "ZDAR Market",
+     "new_name": "ZDAR Deli",
+     "old_address": "214 E Spring Valley Rd",
+     "new_address": "214 E Spring Valley Rd",
+     "last_capture_with_old_key": "20240513021424",
+     "first_capture_with_new_key": "20240612124719"
+    }
+   ],
+   "vanished": [],
+   "vanished_by_permit": [],
+   "permits_no_longer_listed": 9,
+   "permits_newly_listed": 6
+  },
+  {
+   "from": "20240612124719",
+   "to": "20251017180715",
+   "keys_from": 3957,
+   "keys_to": 3729,
+   "window_start_to": "2022-10-15",
+   "keys_gone": 1984,
+   "gone_by_class": {
+    "aged_out": 1682,
+    "permit_not_listed": 290,
+    "vanished": 12
+   },
+   "keys_new": 1756,
+   "new_by_class": {
+    "new": 1754,
+    "undated": 2
+   },
+   "backfilled_days_before_previous_export": null,
+   "rekeyed": [],
+   "vanished": [
+    {
+     "key": "10592~64~10/20/2022",
+     "name": "Royal Sichuan",
+     "address": "400 N Greenville Ave 16a",
+     "date": "2022-10-20",
+     "score": 64
+    },
+    {
+     "key": "10592~74~06/16/2023",
+     "name": "Royal Sichuan",
+     "address": "400 N Greenville Ave 16a",
+     "date": "2023-06-16",
+     "score": 74
+    },
+    {
+     "key": "10592~84~04/16/2024",
+     "name": "Royal Sichuan",
+     "address": "400 N Greenville Ave 16a",
+     "date": "2024-04-16",
+     "score": 84
+    },
+    {
+     "key": "10592~89~12/12/2023",
+     "name": "Royal Sichuan",
+     "address": "400 N Greenville Ave 16a",
+     "date": "2023-12-12",
+     "score": 89
+    },
+    {
+     "key": "10592~90~12/04/2023",
+     "name": "Royal Sichuan",
+     "address": "400 N Greenville Ave 16a",
+     "date": "2023-12-04",
+     "score": 90
+    },
+    {
+     "key": "10592~~12/15/2023",
+     "name": "Royal Sichuan",
+     "address": "400 N Greenville Ave 16a",
+     "date": "2023-12-15",
+     "score": null
+    },
+    {
+     "key": "11004~88~11/28/2022",
+     "name": "Papa Murphy's Take 'N Bake Pizza",
+     "address": "3501 Custer Pkwy 111",
+     "date": "2022-11-28",
+     "score": 88
+    },
+    {
+     "key": "11004~91~06/02/2023",
+     "name": "Papa Murphy's Take 'N Bake Pizza",
+     "address": "3501 Custer Pkwy 111",
+     "date": "2023-06-02",
+     "score": 91
+    },
+    {
+     "key": "11004~95~12/07/2023",
+     "name": "Papa Murphy's Take 'N Bake Pizza",
+     "address": "3501 Custer Pkwy 111",
+     "date": "2023-12-07",
+     "score": 95
+    },
+    {
+     "key": "11761~82~04/19/2024",
+     "name": "Taqueria American Grill",
+     "address": "100 S Greenville Ave",
+     "date": "2024-04-19",
+     "score": 82
+    },
+    {
+     "key": "11761~85~01/05/2023",
+     "name": "Taqueria American Grill",
+     "address": "100 S Greenville Ave",
+     "date": "2023-01-05",
+     "score": 85
+    },
+    {
+     "key": "11761~86~10/23/2023",
+     "name": "Taqueria American Grill",
+     "address": "100 S Greenville Ave",
+     "date": "2023-10-23",
+     "score": 86
+    }
+   ],
+   "vanished_by_permit": [
+    {
+     "permit": "10592",
+     "name": "Royal Sichuan",
+     "records_vanished": 6,
+     "vanished_dates": [
+      "2022-10-20",
+      "2024-04-16"
+     ],
+     "records_of_permit_in_later_capture": 2,
+     "later_capture_dates": [
+      "2025-04-30",
+      "2025-09-23"
+     ],
+     "pattern": "all in-window history before the earlier export was dropped"
+    },
+    {
+     "permit": "11004",
+     "name": "Papa Murphy's Take 'N Bake Pizza",
+     "records_vanished": 3,
+     "vanished_dates": [
+      "2022-11-28",
+      "2023-12-07"
+     ],
+     "records_of_permit_in_later_capture": 2,
+     "later_capture_dates": [
+      "2025-02-07",
+      "2025-08-20"
+     ],
+     "pattern": "all in-window history before the earlier export was dropped"
+    },
+    {
+     "permit": "11761",
+     "name": "Taqueria American Grill",
+     "records_vanished": 3,
+     "vanished_dates": [
+      "2023-01-05",
+      "2024-04-19"
+     ],
+     "records_of_permit_in_later_capture": 1,
+     "later_capture_dates": [
+      "2025-10-02",
+      "2025-10-02"
+     ],
+     "pattern": "all in-window history before the earlier export was dropped"
+    }
+   ],
+   "permits_no_longer_listed": 110,
+   "permits_newly_listed": 113
+  }
+ ],
+ "score_distribution": {
+  "all_sources": {
+   "rows": 8021,
+   "scored": 7429,
+   "unscored": 592,
+   "min": 56,
+   "max": 100,
+   "mean": 91.96,
+   "median": 94,
+   "city_bands": {
+    "90-100 excellent": 5269,
+    "80-89 good": 1745,
+    "70-79 acceptable": 377,
+    "60-69 marginal": 36,
+    "below 60": 2,
+    "unscored": 592
+   },
+   "five_point_bins": {
+    "55-59": 2,
+    "60-64": 7,
+    "65-69": 29,
+    "70-74": 126,
+    "75-79": 251,
+    "80-84": 672,
+    "85-89": 1073,
+    "90-94": 2018,
+    "95-99": 2460,
+    "100": 791
+   }
+  },
+  "wayback_union": {
+   "rows": 5807,
+   "scored": 5250,
+   "unscored": 557,
+   "min": 58,
+   "max": 100,
+   "mean": 91.82,
+   "median": 93.0,
+   "city_bands": {
+    "90-100 excellent": 3705,
+    "80-89 good": 1223,
+    "70-79 acceptable": 289,
+    "60-69 marginal": 32,
+    "below 60": 1,
+    "unscored": 557
+   },
+   "five_point_bins": {
+    "55-59": 1,
+    "60-64": 6,
+    "65-69": 26,
+    "70-74": 99,
+    "75-79": 190,
+    "80-84": 475,
+    "85-89": 748,
+    "90-94": 1452,
+    "95-99": 1658,
+    "100": 595
+   }
+  },
+  "socrata": {
+   "rows": 2167,
+   "scored": 2135,
+   "unscored": 32,
+   "min": 56,
+   "max": 100,
+   "mean": 92.24,
+   "median": 94,
+   "city_bands": {
+    "90-100 excellent": 1526,
+    "80-89 good": 516,
+    "70-79 acceptable": 88,
+    "60-69 marginal": 4,
+    "below 60": 1,
+    "unscored": 32
+   },
+   "five_point_bins": {
+    "55-59": 1,
+    "60-64": 1,
+    "65-69": 3,
+    "70-74": 27,
+    "75-79": 61,
+    "80-84": 196,
+    "85-89": 320,
+    "90-94": 560,
+    "95-99": 780,
+    "100": 186
+   }
+  },
+  "weekly_listings": {
+   "rows": 47,
+   "scored": 44,
+   "unscored": 3,
+   "min": 83,
+   "max": 100,
+   "mean": 95.68,
+   "median": 97.0,
+   "city_bands": {
+    "90-100 excellent": 38,
+    "80-89 good": 6,
+    "70-79 acceptable": 0,
+    "60-69 marginal": 0,
+    "below 60": 0,
+    "unscored": 3
+   },
+   "five_point_bins": {
+    "80-84": 1,
+    "85-89": 5,
+    "90-94": 6,
+    "95-99": 22,
+    "100": 10
+   }
+  }
+ },
+ "lives_permits_vs_wayback_permits": {
+  "lives_businesses": 452,
+  "also_in_wayback_captures": 260,
+  "name_first_5_alnum_chars_agree": 251
+ },
+ "weekly_listing_permits_vs_other_sources": {
+  "listing_permits": 46,
+  "also_in_exports": 28,
+  "also_in_lives": 20,
+  "rows_at_permits_seen_elsewhere": 38,
+  "name_first_5_alnum_chars_agree": 38
+ },
+ "gaps": {
+  "socrata_last_date": "2018-11-06",
+  "wayback_first_date": "2021-05-12",
+  "days_between_lives_end_and_export_start": 917,
+  "weekly_listing_inspections_inside": 47,
+  "weekly_listing_dates": [
+   "2019-04-22",
+   "2019-06-27"
+  ],
+  "stretches_over_a_month_with_no_records": [
+   {
+    "after": "2018-11-06",
+    "before": "2019-04-22",
+    "days_with_no_records": 166
+   },
+   {
+    "after": "2019-04-26",
+    "before": "2019-06-24",
+    "days_with_no_records": 58
+   },
+   {
+    "after": "2019-06-27",
+    "before": "2021-05-12",
+    "days_with_no_records": 684
+   }
+  ],
+  "statement": "The LIVES feed ends on 2018-11-06 and the oldest archived city export (captured 2024-05-13) starts on 2021-05-12, about three years before its capture: 917 days apart. Inside that span the only public scores found are 47 inspections from 2 archived weekly listings (week ending 04/27/2019, week ending 06/29/2019). 166 days with no records between 2018-11-06 and 2019-04-22; 58 days with no records between 2019-04-26 and 2019-06-24; 684 days with no records between 2019-06-27 and 2021-05-12.",
+  "empty_month_runs_up_to_last_export": [
+   {
+    "from": "2018-12",
+    "to": "2019-03",
+    "months": 4
+   },
+   {
+    "from": "2019-05",
+    "to": "2019-05",
+    "months": 1
+   },
+   {
+    "from": "2019-07",
+    "to": "2021-04",
+    "months": 22
+   }
+  ],
+  "records_dated_after_last_export": 1,
+  "after_last_capture": "The newest capture is 20251017180715 (export created 2025-10-17). Later inspections exist only in the city's live app, which this project does not access.",
+  "permits_only_listed_while_active": "Each export lists only the permits it currently carries. Inspections of permits dropped before the first capture, and inspections of dropped permits dated between captures, are missing.",
+  "item_level_violations": "Item-level details (the 47-item form with demerits, inspector remarks, follow-up notes) exist only on the city's own HealthTrak report pages (discovery.cor.gov), whose robots.txt disallows all automated access. This project does not scrape them. The LIVES feed carries scores only.",
+  "wayback_report_page_captures": {
+   "captures": 7,
+   "by_status": {
+    "404": 7
+   }
+  },
+  "public_information_request": "https://richardsontx.govqa.us/WEBAPP/_rs/supporthome.aspx"
+ },
+ "scoring_text": {
+  "distinct_scale_paragraphs": {
+   "Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.": 7
+  },
+  "weekly_listings_2019_same_paragraph": [
+   {
+    "timestamp": "20190504095141",
+    "same_as_scores_page": true
+   },
+   {
+    "timestamp": "20190630073245",
+    "same_as_scores_page": true
+   }
+  ],
+  "captures": [
+   {
+    "timestamp": "20240513005815",
+    "wayback_url": "https://web.archive.org/web/20240513005815id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+    "digest_matches_cdx": true,
+    "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 05/11/2024. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action."
+   },
+   {
+    "timestamp": "20250327120852",
+    "wayback_url": "https://web.archive.org/web/20250327120852id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+    "digest_matches_cdx": true,
+    "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 03/22/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action."
+   },
+   {
+    "timestamp": "20250327183145",
+    "wayback_url": "https://web.archive.org/web/20250327183145id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+    "digest_matches_cdx": true,
+    "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 03/22/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action."
+   },
+   {
+    "timestamp": "20250327225304",
+    "wayback_url": "https://web.archive.org/web/20250327225304id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+    "digest_matches_cdx": true,
+    "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 03/22/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action."
+   },
+   {
+    "timestamp": "20251019093022",
+    "wayback_url": "https://web.archive.org/web/20251019093022id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+    "digest_matches_cdx": true,
+    "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 10/18/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action."
+   },
+   {
+    "timestamp": "20251022040352",
+    "wayback_url": "https://web.archive.org/web/20251022040352id_/https://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+    "digest_matches_cdx": true,
+    "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 10/18/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action."
+   },
+   {
+    "timestamp": "20260813084931",
+    "wayback_url": "https://web.archive.org/web/20260813084931id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+    "digest_matches_cdx": true,
+    "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 08/08/2026. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action."
+   }
+  ]
+ },
+ "ordinance": {
+  "section": "Sec. 10-126. - Rules adopted; compliance procedures.",
+  "library_url": "https://library.municode.com/tx/richardson/codes/code_of_ordinances?nodeId=PTIICOOR_CH10HEHUSE_ARTVFOSESA_S10-126RUADCOPR",
+  "code_version": "Supplement 35 Update 2",
+  "code_banner": "CODE OF ORDINANCES City of RICHARDSON, TEXAS Codified through Ordinance No. 4590, enacted June 15, 2026. (Supp. No. 35, Update 2)",
+  "fetched_at": "2026-09-28T02:29:53Z",
+  "mentions_score_or_numeric_threshold": false,
+  "suspension_subsection_present": true,
+  "immediate_cessation_phrase": true,
+  "no_resumption_until_reinspection_phrase": true
+ },
+ "wayback_leads_not_mined": {
+  "webscores_pages_by_path_year_status": {
+   "/public/health/healthtrak.nsf/WebScores 2003 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2004 status 200": 7,
+   "/public/health/healthtrak.nsf/WebScores 2013 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2014 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2015 status 200": 2,
+   "/public/health/healthtrak.nsf/WebScores 2016 status 200": 2,
+   "/public/health/healthtrak.nsf/WebScores 2017 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2018 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2018 status 302": 1,
+   "/public/health/healthtrak.nsf/WebScores 2019 status -": 1,
+   "/public/health/healthtrak.nsf/WebScores 2019 status 200": 2,
+   "/public/health/healthtrak.nsf/WebScores 2019 status 302": 2,
+   "/public/health/healthtrak.nsf/WebScores 2019 status 400": 1,
+   "/public/health/healthtrak.nsf/WebScores 2021 status 200": 2,
+   "/public/health/healthtrak.nsf/WebScores 2021 status 302": 1,
+   "/public/health/healthtrak.nsf/WebScores 2022 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2023 status -": 2,
+   "/public/health/healthtrak.nsf/WebScores 2023 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2024 status 200": 4,
+   "/public/health/healthtrak.nsf/WebScores 2025 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScores 2026 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScoresByDay.html 2025 status 200": 3,
+   "/public/health/healthtrak.nsf/WebScoresByWeek 2004 status 200": 158,
+   "/public/health/healthtrak.nsf/WebScoresByWeek 2016 status 200": 1,
+   "/public/health/healthtrak.nsf/WebScoresByWeek 2017 status 200": 69,
+   "/public/health/healthtrak.nsf/webScores.html 2024 status 200": 1,
+   "/public/health/healthtrak.nsf/webScores.html 2025 status 200": 5,
+   "/public/health/healthtrak.nsf/webScores.html 2026 status 200": 1
+  },
+  "captures_dated_inside_the_gap": [
+   {
+    "timestamp": "20190504095139",
+    "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+    "statuscode": "302",
+    "downloaded": false
+   },
+   {
+    "timestamp": "20190504095141",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+    "statuscode": "200",
+    "downloaded": true
+   },
+   {
+    "timestamp": "20190504095154",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openviewVisionStyles.css",
+    "statuscode": "400",
+    "downloaded": false
+   },
+   {
+    "timestamp": "20190607203821",
+    "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+    "statuscode": "302",
+    "downloaded": false
+   },
+   {
+    "timestamp": "20190630073245",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview",
+    "statuscode": "200",
+    "downloaded": true
+   },
+   {
+    "timestamp": "20190916023844",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openviewVisionStyles.css",
+    "statuscode": "-",
+    "downloaded": false
+   }
+  ],
+  "weekly_listing_captures_since_2018_outside_the_gap_not_downloaded": [
+   {
+    "timestamp": "20180823070846",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   },
+   {
+    "timestamp": "20211227064322",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   },
+   {
+    "timestamp": "20211227064557",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores"
+   },
+   {
+    "timestamp": "20220512133716",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   },
+   {
+    "timestamp": "20230326071040",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   },
+   {
+    "timestamp": "20240612101656",
+    "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   },
+   {
+    "timestamp": "20240612122651",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores"
+   },
+   {
+    "timestamp": "20240613162722",
+    "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores"
+   },
+   {
+    "timestamp": "20240615032053",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   },
+   {
+    "timestamp": "20250420101627",
+    "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   },
+   {
+    "timestamp": "20260411234331",
+    "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/WebScores?openview"
+   }
+  ],
+  "note": "The in-gap weekly listings marked downloaded are in inspections.csv (source wayback_listing:<ts>). The other weekly-listing captures each show one week that the exports also cover, except for permits an export no longer lists, and the April 2026 one, which is after the newest export; they were not downloaded."
+ }
+}

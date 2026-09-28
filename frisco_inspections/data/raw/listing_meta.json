@@ -1,0 +1,16 @@
+{
+  "scraped_at": "2026-09-26T01:56:13+00:00",
+  "range": [
+    "2025-01-01",
+    "2026-09-26"
+  ],
+  "years_with_data": [
+    2025,
+    2026
+  ],
+  "rows": 3160,
+  "daily_pass_rows": 3160,
+  "weekly_pass_rows": 3152,
+  "weekly_rows_hidden_by_latest_per_establishment_rule": 8,
+  "passes_match": true
+}

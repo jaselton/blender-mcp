@@ -1,0 +1,1130 @@
+{
+ "queries": [
+  [
+   "month_report",
+   "original:.*[Mm][Oo][Nn][Tt][Hh].*[Rr][Ee][Pp][Oo][Rr][Tt].*"
+  ],
+  [
+   "monthy_typo",
+   "original:.*[Mm][Oo][Nn][Tt][Hh][Yy].*"
+  ],
+  [
+   "development_services",
+   "original:.*[Dd][Ee][Vv][Ee][Ll][Oo][Pp][Mm][Ee][Nn][Tt]-[Ss][Ee][Rr][Vv][Ii][Cc][Ee][Ss].*"
+  ]
+ ],
+ "captures": 478,
+ "ds_files": [
+  {
+   "timestamp": "20201030205321",
+   "original": "https://www.prospertx.gov/wp-content/uploads/2020/04/Development-Services-Monthly-Report-March-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "1808424",
+   "digest": "74TVGLPODXX4DQAUTQC2BLMDSWTAIW5K",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-March-2020.pdf",
+   "name_month": "2020-03",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20201030205321",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20201031112459",
+   "original": "https://www.prospertx.gov/wp-content/uploads/2020/05/Development-Services-Monthly-Report-April-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3743291",
+   "digest": "KAVVATZ45VBWNIIXHG22V7URDAMNJVNE",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-April-2020.pdf",
+   "name_month": "2020-04",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20201031112459",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20220121020848",
+   "original": "https://www.prospertx.gov/wp-content/uploads/2020/07/Development-Services-Monthly-Report-June-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3748160",
+   "digest": "IZ7U2EC2LEYZSULLE6DO3VTNSVN3XMJV",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-June-2020.pdf",
+   "name_month": "2020-06",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208203554",
+     "digest": "NPD6G6EQ3736DYRDCWJIVR7T44FYFKWR",
+     "length": "1030488"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20220121014802",
+   "original": "https://www.prospertx.gov/wp-content/uploads/2020/08/Development-Services-Monthly-Report-July-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2207002",
+   "digest": "PREFZA3QLQLIGI2MGIKQFTXPNRCRDNBB",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-July-2020.pdf",
+   "name_month": "2020-07",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208205445",
+     "digest": "JTUU5FHJD4PFFGG4GIWQJ5BORWVFSQ26",
+     "length": "956047"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20220121021915",
+   "original": "https://www.prospertx.gov/wp-content/uploads/2020/09/Development-Services-Monthly-Report-August-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2875555",
+   "digest": "ES23VHACMI36YYWLVTZ4RHAUDE4EENJM",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-August-2020.pdf",
+   "name_month": "2020-08",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208185132",
+     "digest": "XTA5QAGW6IROOU72UIBZSCDPJSFYDTJ5",
+     "length": "1025708"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20161228112403",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Development-and-Community-Services-Monthly-Staff-Report-%E2%80%93-October-2015.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "163024",
+   "digest": "GXH3LNSHYC4SXKLHFBNQZXPJBU7NNVBF",
+   "query": "month_report",
+   "file_name": "Development-and-Community-Services-Monthly-Staff-Report-%E2%80%93-October-2015.pdf",
+   "name_month": "2015-10",
+   "alternate_captures": [
+    {
+     "timestamp": "20170211014616",
+     "digest": "GXH3LNSHYC4SXKLHFBNQZXPJBU7NNVBF",
+     "length": "163021"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161228112403",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161225012237",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Development-Services-June-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "6099378",
+   "digest": "OJVD7U3YAZ2HQ42C74RQNIANBPSN64ER",
+   "query": "development_services",
+   "file_name": "Development-Services-June-2016.pdf",
+   "name_month": "2016-06",
+   "alternate_captures": [
+    {
+     "timestamp": "20170113205755",
+     "digest": "OJVD7U3YAZ2HQ42C74RQNIANBPSN64ER",
+     "length": "6099375"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161225012237",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20220121054037",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-April-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2615356",
+   "digest": "IKYKQ2URMCIBZXQZEV6RF5VWUCKOXPXZ",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-April-2021.pdf",
+   "name_month": "2021-04",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208184941",
+     "digest": "64DB23JWRUVFWKNXSP7H4WS2VSECR7Z3",
+     "length": "948702"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20221208204124",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-April-2022.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "981729",
+   "digest": "ZNFC32U74RP3CXSFJY2INAIQDA7MUI7U",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-April-2022.pdf",
+   "name_month": "2022-04",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20170113205724",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-August-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "5299186",
+   "digest": "JWWBI4NUM2ZM5OBVSTV24P7PKMGZS5FA",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-August-2016.pdf",
+   "name_month": "2016-08",
+   "alternate_captures": [
+    {
+     "timestamp": "20170124223346",
+     "digest": "JWWBI4NUM2ZM5OBVSTV24P7PKMGZS5FA",
+     "length": "5299180"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20170113205724",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20201030235521",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-August-2019-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3468924",
+   "digest": "R6BXN4THB6N2KRZRYAKQCPTZSHWN37LO",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-August-2019-1.pdf",
+   "name_month": "2019-08",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20201030235521",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20220121042341",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-August-2021-Updated-9.15.21.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3481073",
+   "digest": "5LNUTVWFLBP3WNU2UDFOREA4W37QCOY2",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-August-2021-Updated-9.15.21.pdf",
+   "name_month": "2021-08",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208184845",
+     "digest": "N6ZIVGE22HSXC46SXJBXWGJGLDJFEIVT",
+     "length": "1017609"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20221208201045",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-August-2022.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "975128",
+   "digest": "4IZDKTLNGESD574XEXY2OJLH5LL4CVTC",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-August-2022.pdf",
+   "name_month": "2022-08",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20201030235442",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-December-2019.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3065066",
+   "digest": "WZRXUXBM6D74QVECGLLCJR234ZQJHJ5F",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-December-2019.pdf",
+   "name_month": "2019-12",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20201030235442",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20220121013710",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-December-2020-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3520757",
+   "digest": "DUDMCDDHUJPO77ICGBYMPJDHCTH5LGQX",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-December-2020-1.pdf",
+   "name_month": "2020-12",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208202740",
+     "digest": "WU4BSMCLG47B4CQFONJ6Y3IWJJSVO4CB",
+     "length": "1029350"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20210124092115",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-December-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "1029361",
+   "digest": "WU4BSMCLG47B4CQFONJ6Y3IWJJSVO4CB",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-December-2020.pdf",
+   "name_month": "2020-12",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20220121015807",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-December-2021-Updated.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3282747",
+   "digest": "4WIWMR4DLQPPJ3RQMZSV43A7S3T4N6IA",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-December-2021-Updated.pdf",
+   "name_month": "2021-12",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208193221",
+     "digest": "3WEABZDYTVT6QMOWP7S4EZ4TDYXG3CHS",
+     "length": "1017012"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20201030221858",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-February-2019.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "4160299",
+   "digest": "ERT5YMPLKTDKYGEYENZJ23A2XPZS7M44",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-February-2019.pdf",
+   "name_month": "2019-02",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20201030221858",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20210316140245",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-February-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "1829850",
+   "digest": "HSFWUKXVXU6X47745PPVHMB4WC3BOMGN",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-February-2021.pdf",
+   "name_month": "2021-02",
+   "alternate_captures": [
+    {
+     "timestamp": "20220122012331",
+     "digest": "HSFWUKXVXU6X47745PPVHMB4WC3BOMGN",
+     "length": "1829879"
+    },
+    {
+     "timestamp": "20221208184004",
+     "digest": "KYW4PPVKHICYZFKLFILH3WPP45YS7BAI",
+     "length": "964022"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20221208203756",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-February-2022.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "956993",
+   "digest": "USJEBLN3WFGRQ3YNIA7PFKKJYLWUA4HK",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-February-2022.pdf",
+   "name_month": "2022-02",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20220121015709",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-January-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3393261",
+   "digest": "VSC6DV5X3H4VW23DFTZ4TEFGXVNVWY3O",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-January-2021.pdf",
+   "name_month": "2021-01",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208203414",
+     "digest": "CYQUVBQ3GETVDQGNX6FVQPC6CN4UCB3T",
+     "length": "1024872"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20221208201942",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-January-2022.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "940524",
+   "digest": "BK5NEYQH62HHUWTUEOSDCTGVBXXDIHIZ",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-January-2022.pdf",
+   "name_month": "2022-01",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20210813213623",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-July-2021-Updated.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2181588",
+   "digest": "L2KTKQ4T2SCHDVQZSYTW7XMFH62HRYCC",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-July-2021-Updated.pdf",
+   "name_month": "2021-07",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208192255",
+     "digest": "ZPEJKF2AIJTCRSAUQVNISJ2NI4RAPZON",
+     "length": "980723"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20221208194512",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-July-2022.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "994612",
+   "digest": "4YCRRTYFOTC5UVTOS3UUG34MFOARCIFA",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-July-2022.pdf",
+   "name_month": "2022-07",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20201030205337",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-June-2019-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3449503",
+   "digest": "OXRC4KGS3DARS42KPYMJY5YFLOH74Z64",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-June-2019-1.pdf",
+   "name_month": "2019-06",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20201030205337",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20220121014916",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-June-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2840036",
+   "digest": "TH24RQNJNP54AEXWBXZSTUKNHTGEPLRO",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-June-2021.pdf",
+   "name_month": "2021-06",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208194150",
+     "digest": "SA5JWHZWIFRPND7NSDWK7ZXTXO2GXFF5",
+     "length": "1024242"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20221208200829",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-June-2022.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "993112",
+   "digest": "PE3YRZTEXDQM2WE2U43R4OQKH6IITWCJ",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-June-2022.pdf",
+   "name_month": "2022-06",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20220121031140",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-March-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "1426957",
+   "digest": "FKPTVH7YIIDIDST5TBLBMB4U4RHZREMV",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-March-2021.pdf",
+   "name_month": "2021-03",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208184657",
+     "digest": "NMIV7C73UKM7A4RCC2I2PEJWSQRFYJPI",
+     "length": "938862"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20220121013244",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-May-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2876114",
+   "digest": "GIDOKE5JMORHUYNZOIZ4UO2OSEPL2ZAA",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-May-2021.pdf",
+   "name_month": "2021-05",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208191320",
+     "digest": "3SRI2D7HPZY5RNIKPCKJPN7DOW7BWX33",
+     "length": "986585"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20221208185839",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-May-2022.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "1000243",
+   "digest": "FCOPAU634LEZLHKQBOND56PW3ZTMGGL4",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-May-2022.pdf",
+   "name_month": "2022-05",
+   "alternate_captures": [],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": false
+  },
+  {
+   "timestamp": "20220121013632",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-November-2020-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3303254",
+   "digest": "KHKL53Y3MSI37UGMX44YCVR7CTSH5F3D",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-November-2020-1.pdf",
+   "name_month": "2020-11",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208194552",
+     "digest": "EFTV2T5XEQUU5B3UZHR4B33NPEJLLAF5",
+     "length": "1030628"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20220121014608",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-November-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3262454",
+   "digest": "RRR2AID7EBPTTHYPIWE4IOSJJS46IFVJ",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-November-2021.pdf",
+   "name_month": "2021-11",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208191014",
+     "digest": "7UMYAC3XUEJDA4K23BOLYGL6DO6LICF7",
+     "length": "1020452"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20201130110813",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-October-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "1028336",
+   "digest": "JSHVHINVZJV3ITRZAECD3Q4GT2PVYMJJ",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-October-2020.pdf",
+   "name_month": "2020-10",
+   "alternate_captures": [
+    {
+     "timestamp": "20220121021442",
+     "digest": "EA4QJSZKASQ6OIN2KA2MVOX3WDCNQUFI",
+     "length": "3218864"
+    },
+    {
+     "timestamp": "20221208194709",
+     "digest": "JSHVHINVZJV3ITRZAECD3Q4GT2PVYMJJ",
+     "length": "1028350"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20220121020258",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-October-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2123820",
+   "digest": "CYMGYZ2RVNVU4QVANZKBC5XGZ34WSNKD",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-October-2021.pdf",
+   "name_month": "2021-10",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208193831",
+     "digest": "T2BNXBPHKM47TE6VKBFSBLKCTSOZCSJ5",
+     "length": "956171"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20220121014137",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-September-2020.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "2782830",
+   "digest": "MIWUHRXCWQUC4PZPQB7QG3IXIFM35OEM",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-September-2020.pdf",
+   "name_month": "2020-09",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208194432",
+     "digest": "DDZSALB3HY6CLJ6EVGZNSZI2D7EUENKW",
+     "length": "1026923"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20220121015817",
+   "original": "https://www.prospertx.gov/wp-content/uploads/Development-Services-Monthly-Report-September-2021.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3380839",
+   "digest": "7QE2GTDRH4PHSQQEZGFEUJEAGVG6TDQE",
+   "query": "month_report",
+   "file_name": "Development-Services-Monthly-Report-September-2021.pdf",
+   "name_month": "2021-09",
+   "alternate_captures": [
+    {
+     "timestamp": "20221208200205",
+     "digest": "ZGPUXKIL6Q4OKHPOXFMLK6O2LUPTWIS3",
+     "length": "983029"
+    }
+   ],
+   "decision": "skip: month is in the Archive Center",
+   "a_capture_is_identical_to_archive_center_pdf": true
+  },
+  {
+   "timestamp": "20161228105727",
+   "original": "http://www.prospertx.gov/wp-content/uploads/DSC-Monthly-Staff-Report-%E2%80%93-August-2015.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "241827",
+   "digest": "VQDQBRYDW5WKJBIVYD3ZOQZRBJ6IM4NV",
+   "query": "month_report",
+   "file_name": "DSC-Monthly-Staff-Report-%E2%80%93-August-2015.pdf",
+   "name_month": "2015-08",
+   "alternate_captures": [
+    {
+     "timestamp": "20170209175645",
+     "digest": "VQDQBRYDW5WKJBIVYD3ZOQZRBJ6IM4NV",
+     "length": "241825"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161228105727",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161225015947",
+   "original": "http://www.prospertx.gov/wp-content/uploads/DSC-Monthly-Staff-Report-December-2015-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "164126",
+   "digest": "X75QQRQCADAEQG6VNA4YPAHKM6AZA3UJ",
+   "query": "month_report",
+   "file_name": "DSC-Monthly-Staff-Report-December-2015-1.pdf",
+   "name_month": "2015-12",
+   "alternate_captures": [
+    {
+     "timestamp": "20170201133235",
+     "digest": "X75QQRQCADAEQG6VNA4YPAHKM6AZA3UJ",
+     "length": "164124"
+    },
+    {
+     "timestamp": "20220518192242",
+     "digest": "X75QQRQCADAEQG6VNA4YPAHKM6AZA3UJ",
+     "length": "164448"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161225015947",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170124220234",
+   "original": "http://www.prospertx.gov/wp-content/uploads/DSC-Monthly-Staff-Report-July-20151.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "168403",
+   "digest": "BEFIA6JOUDCVFBYKIMZDLXYR5ZTCC5AS",
+   "query": "month_report",
+   "file_name": "DSC-Monthly-Staff-Report-July-20151.pdf",
+   "name_month": "2015-07",
+   "alternate_captures": [
+    {
+     "timestamp": "20170204072515",
+     "digest": "BEFIA6JOUDCVFBYKIMZDLXYR5ZTCC5AS",
+     "length": "168410"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20170124220234",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170124221200",
+   "original": "http://www.prospertx.gov/wp-content/uploads/DSC-Monthly-Staff-Report-November-2015.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "164002",
+   "digest": "ZXIPC4CAYNWZIP2C7HZY6MCBOETU35Q4",
+   "query": "month_report",
+   "file_name": "DSC-Monthly-Staff-Report-November-2015.pdf",
+   "name_month": "2015-11",
+   "alternate_captures": [
+    {
+     "timestamp": "20170209174922",
+     "digest": "ZXIPC4CAYNWZIP2C7HZY6MCBOETU35Q4",
+     "length": "164008"
+    },
+    {
+     "timestamp": "20220819000406",
+     "digest": "ZXIPC4CAYNWZIP2C7HZY6MCBOETU35Q4",
+     "length": "164333"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20170124221200",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170124221453",
+   "original": "http://www.prospertx.gov/wp-content/uploads/DSC-Monthly-Staff-Report-September-2015.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "242322",
+   "digest": "U33UOENLCNQDW25OK3DB3XCRJVYYY5LE",
+   "query": "month_report",
+   "file_name": "DSC-Monthly-Staff-Report-September-2015.pdf",
+   "name_month": "2015-09",
+   "alternate_captures": [
+    {
+     "timestamp": "20170209175320",
+     "digest": "U33UOENLCNQDW25OK3DB3XCRJVYYY5LE",
+     "length": "242324"
+    },
+    {
+     "timestamp": "20191022035516",
+     "digest": "U33UOENLCNQDW25OK3DB3XCRJVYYY5LE",
+     "length": "242651"
+    },
+    {
+     "timestamp": "20220518191619",
+     "digest": "U33UOENLCNQDW25OK3DB3XCRJVYYY5LE",
+     "length": "242620"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20170124221453",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161225015350",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-April-2016-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "5988423",
+   "digest": "4BBEQWJHM5G5KOYE2TYHDBGN67WL753M",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-April-2016-1.pdf",
+   "name_month": "2016-04",
+   "alternate_captures": [
+    {
+     "timestamp": "20170113205928",
+     "digest": "4BBEQWJHM5G5KOYE2TYHDBGN67WL753M",
+     "length": "5988413"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161225015350",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170124221100",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-April-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "5988372",
+   "digest": "V5TZOSEXW7XGY4QTGED27KF6HDKON3DD",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-April-2016.pdf",
+   "name_month": "2016-04",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170124221100",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170828053341",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-April-2017.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "9504481",
+   "digest": "XJNIPEAHJXLUEHA24WZ6OWCI6VXCWHOU",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-April-2017.pdf",
+   "name_month": "2017-04",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170828053341",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170828055511",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-December-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3471671",
+   "digest": "72PD7WZLDFVTV7NOTIBWKDVDSKIFVDNE",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-December-2016.pdf",
+   "name_month": "2016-12",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170828055511",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161228104852",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-February-2016-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "4806659",
+   "digest": "MKNHHUYNKKVF6OSEHYRBMBCZZBO6LFSU",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-February-2016-1.pdf",
+   "name_month": "2016-02",
+   "alternate_captures": [
+    {
+     "timestamp": "20170113205959",
+     "digest": "MKNHHUYNKKVF6OSEHYRBMBCZZBO6LFSU",
+     "length": "4806658"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161228104852",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170828071531",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-February-2017-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "4234745",
+   "digest": "AXXSCPKRRDNYDT7YP3ZPQJWPSAGNTSOE",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-February-2017-1.pdf",
+   "name_month": "2017-02",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170828071531",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170113210008",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-January-2016-Reduced.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "1585347",
+   "digest": "B4K2AQMOQZPORTRKSCAPTWRCA34FRCCE",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-January-2016-Reduced.pdf",
+   "name_month": "2016-01",
+   "alternate_captures": [
+    {
+     "timestamp": "20170124223414",
+     "digest": "B4K2AQMOQZPORTRKSCAPTWRCA34FRCCE",
+     "length": "1585554"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20170113210008",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170828071615",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-January-2017.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3839172",
+   "digest": "BWRW6JCVRWJN3MQJ2DWABK76RN3AGOW7",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-January-2017.pdf",
+   "name_month": "2017-01",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170828071615",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170113205744",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-July-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "7311583",
+   "digest": "ANXZPBXKPM3UCAX66UAQD354QZZ6VK6L",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-July-2016.pdf",
+   "name_month": "2016-07",
+   "alternate_captures": [
+    {
+     "timestamp": "20170124220507",
+     "digest": "ANXZPBXKPM3UCAX66UAQD354QZZ6VK6L",
+     "length": "7311806"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20170113205744",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161228103804",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-March-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "5239166",
+   "digest": "K3FYXCK4UWYQSRF4OWRWDXIZTZVVS3CR",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-March-2016.pdf",
+   "name_month": "2016-03",
+   "alternate_captures": [
+    {
+     "timestamp": "20170113205943",
+     "digest": "K3FYXCK4UWYQSRF4OWRWDXIZTZVVS3CR",
+     "length": "5239164"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161228103804",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170828082725",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-March-2017.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "4288832",
+   "digest": "B3Y6RFLA72AEK4QSHB5K6PEYGHL5RHU4",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-March-2017.pdf",
+   "name_month": "2017-03",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170828082725",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161228102628",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-May-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "5564740",
+   "digest": "DGZBWQVSJQWAQ6WH6V4MVXH3UR5TKKYH",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-May-2016.pdf",
+   "name_month": "2016-05",
+   "alternate_captures": [
+    {
+     "timestamp": "20170113205915",
+     "digest": "DGZBWQVSJQWAQ6WH6V4MVXH3UR5TKKYH",
+     "length": "5564744"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161228102628",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170113205511",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-November-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "3504555",
+   "digest": "DUWIUUJ7IODJUPQFSIKAOUWMRWBXR6B6",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-November-2016.pdf",
+   "name_month": "2016-11",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170113205511",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20170113205541",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-October-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "6714252",
+   "digest": "V2T75DMRK7Z2X6WNNUFF25BQENEF6EQJ",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-October-2016.pdf",
+   "name_month": "2016-10",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20170113205541",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161228104225",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-September-1.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "886851",
+   "digest": "H56OZFJTVP5M6DU47P3S4QXWY2377LYL",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-September-1.pdf",
+   "name_month": null,
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20161228104225",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20161225020657",
+   "original": "http://www.prospertx.gov/wp-content/uploads/Monthly-Development-Report-September-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "7124587",
+   "digest": "26KGIF5LOAF22DZCXETBZSO3FUM666V2",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-September-2016.pdf",
+   "name_month": "2016-09",
+   "alternate_captures": [
+    {
+     "timestamp": "20170113205559",
+     "digest": "26KGIF5LOAF22DZCXETBZSO3FUM666V2",
+     "length": "7124597"
+    }
+   ],
+   "decision": "download",
+   "capture_used": "20161225020657",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20160910062539",
+   "original": "http://www.prospertx.gov:80/wp-content/uploads/Development-Services-June-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "6099245",
+   "digest": "OJVD7U3YAZ2HQ42C74RQNIANBPSN64ER",
+   "query": "development_services",
+   "file_name": "Development-Services-June-2016.pdf",
+   "name_month": "2016-06",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20160910062539",
+   "captures_rejected": []
+  },
+  {
+   "timestamp": "20160615232257",
+   "original": "http://www.prospertx.gov:80/wp-content/uploads/Monthly-Development-Report-April-2016.pdf",
+   "statuscode": "200",
+   "mimetype": "application/pdf",
+   "length": "5988180",
+   "digest": "V5TZOSEXW7XGY4QTGED27KF6HDKON3DD",
+   "query": "month_report",
+   "file_name": "Monthly-Development-Report-April-2016.pdf",
+   "name_month": "2016-04",
+   "alternate_captures": [],
+   "decision": "download",
+   "capture_used": "20160615232257",
+   "captures_rejected": []
+  }
+ ],
+ "not_downloaded_monthly_report_files": {
+  "pattern": "^monthly-report-(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)-20\\d\\d(-\\d)?\\.pdf$",
+  "files": 53,
+  "years_in_names": [
+   2018,
+   2022
+  ],
+  "cdx_length_bytes_min_max": [
+   121863,
+   316327
+  ],
+  "ds_report_files_same_years": 33,
+  "ds_report_cdx_length_bytes_min_max_same_years": [
+   940524,
+   4160299
+  ],
+  "all_smaller_than_every_ds_file_of_same_years": true,
+  "classification": "inference, not verified file by file: Fire Department monthly reports, not downloaded. Basis: the one opened in the recon (June 2018) is a Fire Chief activity report, and these files are much smaller than the Development Services reports of the same years"
+ }
+}

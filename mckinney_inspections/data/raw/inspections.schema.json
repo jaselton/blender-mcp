@@ -1,0 +1,521 @@
+{
+ "name": "Food Inspections",
+ "type": "Feature Layer",
+ "description": "",
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "inspection_number",
+   "type": "esriFieldTypeString",
+   "alias": "inspection_number",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "requested_date",
+   "type": "esriFieldTypeDate",
+   "alias": "requested_date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "actual_start_date",
+   "type": "esriFieldTypeDate",
+   "alias": "actual_start_date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "actual_end_date",
+   "type": "esriFieldTypeDate",
+   "alias": "actual_end_date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "link_number",
+   "type": "esriFieldTypeString",
+   "alias": "link_number",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "link_type",
+   "type": "esriFieldTypeString",
+   "alias": "link_type",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "permitted_name",
+   "type": "esriFieldTypeString",
+   "alias": "permitted_name",
+   "length": 1073741822,
+   "domain": null
+  },
+  {
+   "name": "date_entered",
+   "type": "esriFieldTypeDate",
+   "alias": "date_entered",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "comments",
+   "type": "esriFieldTypeString",
+   "alias": "comments",
+   "length": 1073741822,
+   "domain": null
+  },
+  {
+   "name": "status",
+   "type": "esriFieldTypeString",
+   "alias": "status",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "inspection_type",
+   "type": "esriFieldTypeString",
+   "alias": "inspection_type",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "inspector_name",
+   "type": "esriFieldTypeString",
+   "alias": "inspector_name",
+   "length": 62,
+   "domain": null
+  },
+  {
+   "name": "main_address",
+   "type": "esriFieldTypeString",
+   "alias": "main_address",
+   "length": 736,
+   "domain": null
+  },
+  {
+   "name": "main_address2",
+   "type": "esriFieldTypeString",
+   "alias": "main_address2",
+   "length": 736,
+   "domain": null
+  },
+  {
+   "name": "main_parcel_no",
+   "type": "esriFieldTypeString",
+   "alias": "main_parcel_no",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "temp_cooling_time",
+   "type": "esriFieldTypeInteger",
+   "alias": "temp_cooling_time",
+   "domain": null
+  },
+  {
+   "name": "temp_cold_holding",
+   "type": "esriFieldTypeInteger",
+   "alias": "temp_cold_holding",
+   "domain": null
+  },
+  {
+   "name": "temp_hot_holding",
+   "type": "esriFieldTypeInteger",
+   "alias": "temp_hot_holding",
+   "domain": null
+  },
+  {
+   "name": "temp_cooking_time",
+   "type": "esriFieldTypeInteger",
+   "alias": "temp_cooking_time",
+   "domain": null
+  },
+  {
+   "name": "reheating_procedure",
+   "type": "esriFieldTypeInteger",
+   "alias": "reheating_procedure",
+   "domain": null
+  },
+  {
+   "name": "time_as_health_control",
+   "type": "esriFieldTypeInteger",
+   "alias": "time_as_health_control",
+   "domain": null
+  },
+  {
+   "name": "approved_source",
+   "type": "esriFieldTypeInteger",
+   "alias": "approved_source",
+   "domain": null
+  },
+  {
+   "name": "food_received_at_temp",
+   "type": "esriFieldTypeInteger",
+   "alias": "food_received_at_temp",
+   "domain": null
+  },
+  {
+   "name": "food_separated_protected",
+   "type": "esriFieldTypeInteger",
+   "alias": "food_separated_protected",
+   "domain": null
+  },
+  {
+   "name": "food_surfaces_returnables",
+   "type": "esriFieldTypeInteger",
+   "alias": "food_surfaces_returnables",
+   "domain": null
+  },
+  {
+   "name": "condition_of",
+   "type": "esriFieldTypeInteger",
+   "alias": "condition_of",
+   "domain": null
+  },
+  {
+   "name": "knowledge_and_reporting",
+   "type": "esriFieldTypeInteger",
+   "alias": "knowledge_and_reporting",
+   "domain": null
+  },
+  {
+   "name": "proper_restriction_exclusion",
+   "type": "esriFieldTypeInteger",
+   "alias": "proper_restriction_exclusion",
+   "domain": null
+  },
+  {
+   "name": "hands_clean_washed",
+   "type": "esriFieldTypeInteger",
+   "alias": "hands_clean_washed",
+   "domain": null
+  },
+  {
+   "name": "no_bare_hands",
+   "type": "esriFieldTypeInteger",
+   "alias": "no_bare_hands",
+   "domain": null
+  },
+  {
+   "name": "pastuerized_foods",
+   "type": "esriFieldTypeInteger",
+   "alias": "pastuerized_foods",
+   "domain": null
+  },
+  {
+   "name": "food_additives",
+   "type": "esriFieldTypeInteger",
+   "alias": "food_additives",
+   "domain": null
+  },
+  {
+   "name": "toxic_substances",
+   "type": "esriFieldTypeInteger",
+   "alias": "toxic_substances",
+   "domain": null
+  },
+  {
+   "name": "approved_water_source",
+   "type": "esriFieldTypeInteger",
+   "alias": "approved_water_source",
+   "domain": null
+  },
+  {
+   "name": "approved_sewage",
+   "type": "esriFieldTypeInteger",
+   "alias": "approved_sewage",
+   "domain": null
+  },
+  {
+   "name": "certified_food_manager",
+   "type": "esriFieldTypeInteger",
+   "alias": "certified_food_manager",
+   "domain": null
+  },
+  {
+   "name": "food_handler_cards",
+   "type": "esriFieldTypeInteger",
+   "alias": "food_handler_cards",
+   "domain": null
+  },
+  {
+   "name": "available_hot_cold_water",
+   "type": "esriFieldTypeInteger",
+   "alias": "available_hot_cold_water",
+   "domain": null
+  },
+  {
+   "name": "available_records",
+   "type": "esriFieldTypeInteger",
+   "alias": "available_records",
+   "domain": null
+  },
+  {
+   "name": "compliance_with_variance",
+   "type": "esriFieldTypeInteger",
+   "alias": "compliance_with_variance",
+   "domain": null
+  },
+  {
+   "name": "consumer_advisories",
+   "type": "esriFieldTypeInteger",
+   "alias": "consumer_advisories",
+   "domain": null
+  },
+  {
+   "name": "proper_cooling_method",
+   "type": "esriFieldTypeInteger",
+   "alias": "proper_cooling_method",
+   "domain": null
+  },
+  {
+   "name": "proper_date_marking",
+   "type": "esriFieldTypeInteger",
+   "alias": "proper_date_marking",
+   "domain": null
+  },
+  {
+   "name": "thermometers_accurate",
+   "type": "esriFieldTypeInteger",
+   "alias": "thermometers_accurate",
+   "domain": null
+  },
+  {
+   "name": "food_establishment_permit",
+   "type": "esriFieldTypeInteger",
+   "alias": "food_establishment_permit",
+   "domain": null
+  },
+  {
+   "name": "handwashing_facilities",
+   "type": "esriFieldTypeInteger",
+   "alias": "handwashing_facilities",
+   "domain": null
+  },
+  {
+   "name": "cleanable_surfaces",
+   "type": "esriFieldTypeInteger",
+   "alias": "cleanable_surfaces",
+   "domain": null
+  },
+  {
+   "name": "warewashing_facilities",
+   "type": "esriFieldTypeInteger",
+   "alias": "warewashing_facilities",
+   "domain": null
+  },
+  {
+   "name": "no_insect_contamination",
+   "type": "esriFieldTypeInteger",
+   "alias": "no_insect_contamination",
+   "domain": null
+  },
+  {
+   "name": "personal_cleanliness",
+   "type": "esriFieldTypeInteger",
+   "alias": "personal_cleanliness",
+   "domain": null
+  },
+  {
+   "name": "wiping_cloths",
+   "type": "esriFieldTypeInteger",
+   "alias": "wiping_cloths",
+   "domain": null
+  },
+  {
+   "name": "environmental_contamination",
+   "type": "esriFieldTypeInteger",
+   "alias": "environmental_contamination",
+   "domain": null
+  },
+  {
+   "name": "approved_thawing",
+   "type": "esriFieldTypeInteger",
+   "alias": "approved_thawing",
+   "domain": null
+  },
+  {
+   "name": "utensils_and_linens",
+   "type": "esriFieldTypeInteger",
+   "alias": "utensils_and_linens",
+   "domain": null
+  },
+  {
+   "name": "single_service_use",
+   "type": "esriFieldTypeInteger",
+   "alias": "single_service_use",
+   "domain": null
+  },
+  {
+   "name": "original_container_labeling",
+   "type": "esriFieldTypeInteger",
+   "alias": "original_container_labeling",
+   "domain": null
+  },
+  {
+   "name": "nonfood_surfaces_clean",
+   "type": "esriFieldTypeInteger",
+   "alias": "nonfood_surfaces_clean",
+   "domain": null
+  },
+  {
+   "name": "adequate_ventilation_lighting",
+   "type": "esriFieldTypeInteger",
+   "alias": "adequate_ventilation_lighting",
+   "domain": null
+  },
+  {
+   "name": "garbage_and_refuse",
+   "type": "esriFieldTypeInteger",
+   "alias": "garbage_and_refuse",
+   "domain": null
+  },
+  {
+   "name": "physical_facilities_maintained",
+   "type": "esriFieldTypeInteger",
+   "alias": "physical_facilities_maintained",
+   "domain": null
+  },
+  {
+   "name": "toilet_facilities",
+   "type": "esriFieldTypeInteger",
+   "alias": "toilet_facilities",
+   "domain": null
+  },
+  {
+   "name": "other_violations",
+   "type": "esriFieldTypeInteger",
+   "alias": "other_violations",
+   "domain": null
+  },
+  {
+   "name": "total_score",
+   "type": "esriFieldTypeInteger",
+   "alias": "total_score",
+   "domain": null
+  },
+  {
+   "name": "purpose_of_inspection",
+   "type": "esriFieldTypeString",
+   "alias": "purpose_of_inspection",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "bare_hand_approved",
+   "type": "esriFieldTypeString",
+   "alias": "bare_hand_approved",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "custom_comments",
+   "type": "esriFieldTypeString",
+   "alias": "custom_comments",
+   "length": 1073741822,
+   "domain": null
+  },
+  {
+   "name": "sanitized_ppm",
+   "type": "esriFieldTypeString",
+   "alias": "sanitized_ppm",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "attach_guid",
+   "type": "esriFieldTypeString",
+   "alias": "attach_guid",
+   "length": 36,
+   "domain": null
+  },
+  {
+   "name": "attach_filename",
+   "type": "esriFieldTypeString",
+   "alias": "attach_filename",
+   "length": 260,
+   "domain": null
+  },
+  {
+   "name": "attach_filepath",
+   "type": "esriFieldTypeString",
+   "alias": "attach_filepath",
+   "length": 1073741822,
+   "domain": null
+  },
+  {
+   "name": "attach_fullpath",
+   "type": "esriFieldTypeString",
+   "alias": "attach_fullpath",
+   "length": 1073741822,
+   "domain": null
+  },
+  {
+   "name": "POINT_X",
+   "type": "esriFieldTypeString",
+   "alias": "POINT_X",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "POINT_Y",
+   "type": "esriFieldTypeString",
+   "alias": "POINT_Y",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  }
+ ],
+ "relationships": [
+  {
+   "id": 1,
+   "name": "SDE.HealthFoodPermits",
+   "relatedTableId": 0,
+   "role": "esriRelRoleDestination",
+   "keyField": "link_number",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  },
+  {
+   "id": 3,
+   "name": "SDE.HealthFoodPermits",
+   "relatedTableId": 1,
+   "role": "esriRelRoleDestination",
+   "keyField": "link_number",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  },
+  {
+   "id": 5,
+   "name": "SDE.HealthFoodPermits",
+   "relatedTableId": 2,
+   "role": "esriRelRoleDestination",
+   "keyField": "link_number",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  },
+  {
+   "id": 7,
+   "name": "SDE.HealthFoodPermits",
+   "relatedTableId": 3,
+   "role": "esriRelRoleDestination",
+   "keyField": "link_number",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  }
+ ],
+ "maxRecordCount": 2000
+}

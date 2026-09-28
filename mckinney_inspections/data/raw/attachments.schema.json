@@ -1,0 +1,47 @@
+{
+ "name": "Attachments",
+ "type": "Table",
+ "description": null,
+ "fields": [
+  {
+   "name": "ATTACHMENTID",
+   "type": "esriFieldTypeOID",
+   "alias": "ATTACHMENTID",
+   "domain": null
+  },
+  {
+   "name": "REL_OBJECTID",
+   "type": "esriFieldTypeInteger",
+   "alias": "REL_OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "CONTENT_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "CONTENT_TYPE",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "ATT_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "ATT_NAME",
+   "length": 250,
+   "domain": null
+  },
+  {
+   "name": "DATA_SIZE",
+   "type": "esriFieldTypeInteger",
+   "alias": "DATA_SIZE",
+   "domain": null
+  },
+  {
+   "name": "DATA",
+   "type": "esriFieldTypeBlob",
+   "alias": "DATA",
+   "domain": null
+  }
+ ],
+ "relationships": [],
+ "maxRecordCount": 2000
+}

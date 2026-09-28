@@ -1,0 +1,96 @@
+{
+ "note": "Only the paragraph describing the score scale is kept. The full pages carry city contact e-mails and phone numbers, which this project does not store; sha256 is of the full capture as downloaded.",
+ "captures": [
+  {
+   "timestamp": "20240513005815",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "wayback_url": "https://web.archive.org/web/20240513005815id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "http_status": 200,
+   "bytes": 10706,
+   "sha256": "4a46077ba15c400be10819ab6899822ff298d331a617b0423abaead5770463eb",
+   "cdx_digest": "4O6J4LK5UQUZCRQYB4BMEEREW3GQZ7WP",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 0,
+   "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 05/11/2024. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "contacts_scrubbed_from_paragraph": 0
+  },
+  {
+   "timestamp": "20250327120852",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "wayback_url": "https://web.archive.org/web/20250327120852id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "http_status": 200,
+   "bytes": 10706,
+   "sha256": "98bdd610f35d162e595835fa557b38c48222658ce5df87b01143bfb88e8c8b83",
+   "cdx_digest": "RBT7MXJ233CQ7V23LGOBXOTS5LC35OCP",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 0,
+   "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 03/22/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "contacts_scrubbed_from_paragraph": 0
+  },
+  {
+   "timestamp": "20250327183145",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "wayback_url": "https://web.archive.org/web/20250327183145id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "http_status": 200,
+   "bytes": 10706,
+   "sha256": "98bdd610f35d162e595835fa557b38c48222658ce5df87b01143bfb88e8c8b83",
+   "cdx_digest": "RBT7MXJ233CQ7V23LGOBXOTS5LC35OCP",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 0,
+   "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 03/22/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "contacts_scrubbed_from_paragraph": 0
+  },
+  {
+   "timestamp": "20250327225304",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "wayback_url": "https://web.archive.org/web/20250327225304id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "http_status": 200,
+   "bytes": 10706,
+   "sha256": "98bdd610f35d162e595835fa557b38c48222658ce5df87b01143bfb88e8c8b83",
+   "cdx_digest": "RBT7MXJ233CQ7V23LGOBXOTS5LC35OCP",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 0,
+   "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 03/22/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "contacts_scrubbed_from_paragraph": 0
+  },
+  {
+   "timestamp": "20251019093022",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "wayback_url": "https://web.archive.org/web/20251019093022id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "http_status": 200,
+   "bytes": 10706,
+   "sha256": "d172aa71d4c6f82ecdf49b9af1eab93f61ad8be0c5d12f5c34de28fbfa66908b",
+   "cdx_digest": "SCIBIC5YMFGSMBRXKV4ZWQ4OYE76M5QS",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 0,
+   "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 10/18/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "contacts_scrubbed_from_paragraph": 0
+  },
+  {
+   "timestamp": "20251022040352",
+   "original": "https://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "wayback_url": "https://web.archive.org/web/20251022040352id_/https://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "http_status": 200,
+   "bytes": 10706,
+   "sha256": "d172aa71d4c6f82ecdf49b9af1eab93f61ad8be0c5d12f5c34de28fbfa66908b",
+   "cdx_digest": "SCIBIC5YMFGSMBRXKV4ZWQ4OYE76M5QS",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 0,
+   "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 10/18/2025. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "contacts_scrubbed_from_paragraph": 0
+  },
+  {
+   "timestamp": "20260813084931",
+   "original": "http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "wayback_url": "https://web.archive.org/web/20260813084931id_/http://discovery.cor.gov/public/health/healthtrak.nsf/webScores.html",
+   "http_status": 200,
+   "bytes": 11299,
+   "sha256": "768c97adf031665668c6a55dfc15284d0974a827db437ba34c1e688d522fd27d",
+   "cdx_digest": "HRZ4TDTZO4GBEWZDIOCHIHSYS6NAIOF3",
+   "digest_matches_cdx": true,
+   "contacts_in_full_page_not_stored": 7,
+   "scale_paragraph": "The following is the list of food establishment inspection scores for the week ending 08/08/2026. Scores are based on a scale of zero to 100. A score of 90 to 100 is excellent; 80 to 89 is good; 70 to 79 is acceptable; and 60 to 69 is marginal. A score below 60 may be grounds for the closing of an establishment or other enforcement action.",
+   "contacts_scrubbed_from_paragraph": 0
+  }
+ ]
+}

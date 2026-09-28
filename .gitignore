@@ -14,3 +14,7 @@ wheels/
 
 # Local config secrets
 src/blender_mcp/config.py
+
+# Allen: the raw portal rows and city PDFs keep full addresses that the
+# published CSVs withhold, so only the CSVs and validation.json are committed.
+allen_inspections/data/raw/

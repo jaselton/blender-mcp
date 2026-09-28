@@ -1,0 +1,141 @@
+{
+ "name": "Food Permits",
+ "type": "Feature Layer",
+ "description": "",
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "last_inspection",
+   "type": "esriFieldTypeDate",
+   "alias": "last_inspection",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "next_inspection",
+   "type": "esriFieldTypeDate",
+   "alias": "next_inspection",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "inspection_cycle",
+   "type": "esriFieldTypeString",
+   "alias": "inspection_cycle",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "link_number",
+   "type": "esriFieldTypeString",
+   "alias": "link_number",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "WORK_CLASS",
+   "type": "esriFieldTypeString",
+   "alias": "WORK_CLASS",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "PERMIT_STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "PERMIT_STATUS",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "ADDRESS_LINE1",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRESS_LINE1",
+   "length": 736,
+   "domain": null
+  },
+  {
+   "name": "PARCELNUMBER",
+   "type": "esriFieldTypeString",
+   "alias": "PARCELNUMBER",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "expiration_date",
+   "type": "esriFieldTypeDate",
+   "alias": "expiration_date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "description",
+   "type": "esriFieldTypeString",
+   "alias": "description",
+   "length": 1073741822,
+   "domain": null
+  },
+  {
+   "name": "avg_score",
+   "type": "esriFieldTypeString",
+   "alias": "avg_score",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "trend",
+   "type": "esriFieldTypeString",
+   "alias": "trend",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "inspections",
+   "type": "esriFieldTypeInteger",
+   "alias": "inspections",
+   "domain": null
+  },
+  {
+   "name": "critical_violations",
+   "type": "esriFieldTypeInteger",
+   "alias": "critical_violations",
+   "domain": null
+  },
+  {
+   "name": "POINT_X",
+   "type": "esriFieldTypeString",
+   "alias": "POINT_X",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "POINT_Y",
+   "type": "esriFieldTypeString",
+   "alias": "POINT_Y",
+   "length": 20,
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  }
+ ],
+ "relationships": [
+  {
+   "id": 1,
+   "name": "SDE.HealthFoodSafety",
+   "relatedTableId": 4,
+   "role": "esriRelRoleOrigin",
+   "keyField": "link_number",
+   "cardinality": "esriRelCardinalityOneToMany",
+   "composite": false
+  }
+ ],
+ "maxRecordCount": 2000
+}

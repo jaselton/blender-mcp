@@ -1,0 +1,68 @@
+{
+ "note": "CDX listing of archived HealthTrak inspection-report pages (webScoresForReadonlyAll/...); none were downloaded.",
+ "captures": [
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresforreadonlyall/11348",
+   "timestamp": "20201112041634",
+   "original": "https://discovery.cor.gov/Public/health/HealthTrak.nsf/webScoresForReadonlyAll/11348",
+   "mimetype": "text/html",
+   "statuscode": "404",
+   "digest": "Q3WTW5ITZ6JNICTGGRJMGKHZVM2NJ37F",
+   "length": "412"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresforreadonlyall/11805~80~06/14/2024?opendocument=",
+   "timestamp": "20241129202940",
+   "original": "http://discovery.cor.gov/Public/health/HealthTrak.nsf/webScoresForReadonlyAll/11805~80~06/14/2024?OpenDocument=",
+   "mimetype": "text/html",
+   "statuscode": "404",
+   "digest": "Q3WTW5ITZ6JNICTGGRJMGKHZVM2NJ37F",
+   "length": "763"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresforreadonlyall/11805~80~06/14/2024?opendocument=",
+   "timestamp": "20250330041813",
+   "original": "http://discovery.cor.gov/Public/health/HealthTrak.nsf/webScoresForReadonlyAll/11805~80~06/14/2024?OpenDocument=",
+   "mimetype": "text/html",
+   "statuscode": "404",
+   "digest": "O2NJQ5RAW7KCZPUOMKVF7ZJT25LK6HTF",
+   "length": "764"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresforreadonlyall/11348~91~06/19/2018?opendocument",
+   "timestamp": "20250818124020",
+   "original": "https://discovery.cor.gov/Public/health/HealthTrak.nsf/webScoresForReadonlyAll/11348~91~06/19/2018?OpenDocument",
+   "mimetype": "text/html",
+   "statuscode": "404",
+   "digest": "O2NJQ5RAW7KCZPUOMKVF7ZJT25LK6HTF",
+   "length": "492"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresforreadonlyall/11348~91~06/19/2018?opendocument",
+   "timestamp": "20250824221749",
+   "original": "https://discovery.cor.gov/Public/health/HealthTrak.nsf/webScoresForReadonlyAll/11348~91~06/19/2018?OpenDocument",
+   "mimetype": "text/html",
+   "statuscode": "404",
+   "digest": "O2NJQ5RAW7KCZPUOMKVF7ZJT25LK6HTF",
+   "length": "494"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresforreadonlyall/11348~95~12/09/2019?opendocument",
+   "timestamp": "20250827081525",
+   "original": "https://discovery.cor.gov/Public/health/HealthTrak.nsf/webScoresForReadonlyAll/11348~95~12/09/2019?OpenDocument",
+   "mimetype": "text/html",
+   "statuscode": "404",
+   "digest": "O2NJQ5RAW7KCZPUOMKVF7ZJT25LK6HTF",
+   "length": "495"
+  },
+  {
+   "urlkey": "gov,cor,discovery)/public/health/healthtrak.nsf/webscoresforreadonlyall/11348~95~12/09/2019?opendocument",
+   "timestamp": "20250827113514",
+   "original": "https://discovery.cor.gov/Public/health/HealthTrak.nsf/webScoresForReadonlyAll/11348~95~12/09/2019?OpenDocument",
+   "mimetype": "text/html",
+   "statuscode": "404",
+   "digest": "O2NJQ5RAW7KCZPUOMKVF7ZJT25LK6HTF",
+   "length": "500"
+  }
+ ]
+}

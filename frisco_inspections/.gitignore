@@ -1,0 +1,4 @@
+.cache/
+__pycache__/
+*.tmp
+data/raw/inspections_parsed.jsonl
